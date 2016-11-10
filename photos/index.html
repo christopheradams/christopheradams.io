@@ -1,0 +1,15 @@
+---
+layout: article
+---
+
+<h1>Photos</h1>
+
+{% for photo in site.categories.photos %}
+<p>
+  <a href="{{ photo.url | prepend: site.baseurl }}">
+    {{ photo.title }},
+    {{ photo.date | date_to_string }},
+    {{ photo.location }}
+  </a>
+</p>
+{% endfor %}
