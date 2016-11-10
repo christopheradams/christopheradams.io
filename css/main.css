@@ -15,7 +15,7 @@
 	font-family: monospace;
 }
 [data-rmd] pre, [data-rmd-test] pre {
-	font-family: Courier, "Courier New", monospace;
+	font-family: monospace;
 }
 
 /* Avoid losing space to display code examples on small screens */
