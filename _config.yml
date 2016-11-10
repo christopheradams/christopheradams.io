@@ -2,4 +2,6 @@ title: christopheradams.github.io
 description: "Christopher Adams"
 exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock]
 
+permalink: /:categories/:year/:month/:title/
+
 github_username: christopheradams
