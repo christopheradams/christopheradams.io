@@ -4,5 +4,10 @@
     <a href="{{ site.baseurl }}">
       home
     </a>
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}" title="Github">
+      Github
+    </a>
+    {% endif %}
   </nav>
 </header>
