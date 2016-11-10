@@ -1,9 +1,10 @@
 <header class="site-header">
   <nav data-rmd>
-    <span class="site-title"}">{{ site.title }}</span>
-    <a href="{{ site.url }}">
-      home
-    </a>
+    <span class="site-title">
+      <a href="{{ site.url }}">
+        {{ site.title }}
+      </a>
+    </span>
     {% if site.github_username %}
     <a href="https://github.com/{{ site.github_username }}" title="Github">
       Github
