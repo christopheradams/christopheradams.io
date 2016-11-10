@@ -6,7 +6,7 @@ layout: article
 
 {% for photo in site.categories.photos %}
 <p>
-  <a href="{{ photo.url | prepend: site.baseurl }}">
+  <a href="{{ photo.url | prepend: site.url }}">
     {{ photo.title }},
     {{ photo.date | date_to_string }},
     {{ photo.location }}
