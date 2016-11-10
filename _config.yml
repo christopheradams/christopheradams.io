@@ -1,7 +1,11 @@
 title: christopheradams.github.io
 description: "Christopher Adams"
+author: "Christopher Adams"
 exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock]
 
 permalink: /:categories/:year/:month/:title/
 
 github_username: christopheradams
+
+license: "CC-by"
+license_url: https://creativecommons.org/licenses/by/4.0/
