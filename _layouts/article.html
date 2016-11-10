@@ -3,4 +3,15 @@ layout: default
 ---
 <article data-rmd="h1-underline h2-underline">
   {{ content }}
+
+  <a href="{{ page.url | prepend: site.baseurl }}">
+    permalink
+  </a>
+
+  {% for category in page.categories %}
+  <a href="/{{ category | prepend: site.baseurl }}">
+  {{ category }}
+  </a>
+  {% endfor %}
+
 </article>
