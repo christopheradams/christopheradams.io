@@ -1,0 +1,7 @@
+---
+layout: articles
+---
+
+{% for article in site.categories.articles %}
+{% include title.html post=article %}
+{% endfor %}
