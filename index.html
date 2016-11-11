@@ -1,13 +1,9 @@
 ---
 layout: article
 ---
-<h1>Index</h1>
+<h1>Homepage</h1>
 
-{% for category in site.categories %}
-<p>
-  <a href="{{ site.url }}/{{ category[0] }}">
-    {{ category[0] | capitalize }}
-  </a>
- ({{ category[1].size }})
-</p>
+{% for post in site.posts %}
+{% include title.html post=post %}
+{{ post.content }}
 {% endfor %}
