@@ -6,9 +6,11 @@
     {{ include.post.date | date_to_string }}{% if include.post.location %},
     {{ include.post.location }}{% endif %}
   </a>
+  {% if include.style != "index" %}
   {% for category in include.post.categories %}
   <a href="{{ site.url }}/{{ category }}">
   {{ category }}
   </a>
   {% endfor %}
+  {% endif %}
 </p>
