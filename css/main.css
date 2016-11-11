@@ -102,6 +102,7 @@ nav > span {
 	background: #EEF;
 }
 
+.site-title,
 .post-title {
   font-weight: bold
 }
