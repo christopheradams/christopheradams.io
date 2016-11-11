@@ -1,7 +1,8 @@
 ---
-layout: photos
+layout: page
+title: Photos
 ---
 
 {% for photo in site.categories.photos %}
-{% include title.html post=photo %}
+{% include title.html post=photo style="index" %}
 {% endfor %}

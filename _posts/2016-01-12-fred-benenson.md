@@ -1,5 +1,5 @@
 ---
-layout: photo
+layout: post
 title: "Fred Benenson"
 location: Tokyo
 category: photos

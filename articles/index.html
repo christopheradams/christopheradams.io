@@ -1,7 +1,8 @@
 ---
-layout: articles
+layout: page
+title: Articles
 ---
 
 {% for article in site.categories.articles %}
-{% include title.html post=article %}
+{% include title.html post=article style="index" %}
 {% endfor %}

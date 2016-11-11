@@ -102,6 +102,10 @@ nav > span {
 	background: #EEF;
 }
 
+.post-title {
+  font-weight: bold
+}
+
 p img {
   max-width: 100%;
   max-height: 660px;

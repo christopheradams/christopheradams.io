@@ -1,9 +1,9 @@
 ---
 layout: page
+title: Homepage
 ---
-<h1>Homepage</h1>
-
 {% for post in paginator.posts %}
+<h1>{{ post.title }}</h1>
 {% include title.html post=post %}
 {{ post.content }}
 <hr/>
