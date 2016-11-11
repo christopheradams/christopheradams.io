@@ -1,8 +1,6 @@
 <p>
   <a href="{{ include.post.url | prepend: site.url }}">
-    {% if include.style == "index" %}
     <span class="post-title">{{ include.post.title }}</span>,
-    {% endif %}
     {{ include.post.date | date_to_string }}{% if include.post.location %},
     {{ include.post.location }}{% endif %}
   </a>

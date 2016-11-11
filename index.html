@@ -2,7 +2,6 @@
 layout: page
 ---
 {% for post in paginator.posts %}
-<h1>{{ post.title }}</h1>
 {% include title.html post=post %}
 {{ post.content }}
 <hr/>
