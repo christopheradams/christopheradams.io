@@ -2,8 +2,11 @@ title: christopheradams.github.io
 description: "Christopher Adams"
 author: "Christopher Adams"
 exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock]
+gems: ["jekyll-paginate"]
 
 permalink: /:categories/:year/:month/:title/
+paginate_path: "/blog/page:num/"
+paginate: 10
 
 github_username: christopheradams
 

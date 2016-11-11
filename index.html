@@ -3,7 +3,9 @@ layout: page
 ---
 <h1>Homepage</h1>
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 {% include title.html post=post %}
 {{ post.content }}
+<hr/>
 {% endfor %}
+{% include pagination.html %}
