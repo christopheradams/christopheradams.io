@@ -1,0 +1,12 @@
+<p>
+  <a href="{{ include.post.url | prepend: site.url }}">
+    {{ include.post.title }},
+    {{ include.post.date | date_to_string }},
+    {{ include.post.location }}
+  </a>
+  {% for category in include.post.categories %}
+  <a href="{{ site.url }}/{{ category }}">
+  {{ category }}
+  </a>
+  {% endfor %}
+</p>
