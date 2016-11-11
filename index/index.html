@@ -1,0 +1,13 @@
+---
+layout: article
+---
+<h1>Index</h1>
+
+{% for category in site.categories %}
+<p>
+  <a href="{{ site.url }}/{{ category[0] }}">
+    {{ category[0] | capitalize }}
+  </a>
+ ({{ category[1].size }})
+</p>
+{% endfor %}
