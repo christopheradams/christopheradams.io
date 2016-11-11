@@ -86,14 +86,22 @@ a:focus, a:active {
 }
 
 nav {
-	margin: 0 0 4em;
-	text-align: right;
+  margin: 0 0 4em;
 }
-nav > span {
-	float: left;
+nav > * {
+  display: block;
+  padding-bottom: .4em;
 }
-@media (max-width: 450px) {
-	nav > * { display: block; padding-bottom: .4em; }
+@media (min-width: 450px) {
+  nav > * {
+    display: inline; }
+  nav {
+    margin: 0 0 4em;
+    text-align: right;
+  }
+  nav > span {
+    float: left;
+  }
 }
 
 .example {
