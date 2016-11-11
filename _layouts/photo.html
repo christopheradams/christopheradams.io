@@ -1,9 +1,4 @@
 ---
-layout: article
+layout: photos
 ---
-<h1>
-  {{ page.title }},
-  {{ page.date | date_to_string }},
-  {{ page.location }}
-</h1>
-{{ content }}
+{% include photo.html photo=page %}

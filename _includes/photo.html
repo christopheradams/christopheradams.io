@@ -1,0 +1,13 @@
+<p>
+  <a href="{{ include.photo.url | prepend: site.url }}">
+    {{ include.photo.title }},
+    {{ include.photo.date | date_to_string }},
+    {{ include.photo.location }}
+  </a>
+  {% for category in include.photo.categories %}
+  <a href="{{ site.url }}/{{ category }}">
+  {{ category }}
+  </a>
+  {% endfor %}
+</p>
+{{ include.photo.content }}
