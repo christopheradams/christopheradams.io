@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fred Benenson"
-location: Tokyo
+location: New York
 category: photos
 link: https://www.flickr.com/photos/christopheradams/29334522065/
 ---
