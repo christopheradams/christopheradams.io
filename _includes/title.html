@@ -12,5 +12,10 @@
   {{ category }}
   </a>
   {% endfor %}
+  {% if include.post.link %}
+  <a href="{{ include.post.link }}">
+    link
+  </a>
+  {% endif %}
   {% endif %}
 </p>

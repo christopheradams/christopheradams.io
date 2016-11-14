@@ -3,6 +3,7 @@ layout: post
 title: "Fred Benenson"
 location: Tokyo
 category: photos
+link: https://www.flickr.com/photos/christopheradams/29334522065/
 ---
 
 ![Fred Benenson](https://c1.staticflickr.com/9/8244/29334522065_df485582fa_b.jpg)
