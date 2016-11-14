@@ -92,7 +92,7 @@ nav > * {
   display: block;
   padding-bottom: .4em;
 }
-@media (min-width: 450px) {
+@media (min-width: 700px) {
   nav > * {
     display: inline; }
   nav {
