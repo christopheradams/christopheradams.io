@@ -14,4 +14,7 @@
   <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  {% if paginator.previous_page %}<link rel="prev" href="{{ paginator.previous_page_path }}" />{% endif %}
+  {% if paginator.next_page %}<link rel="next" href="{{ paginator.next_page_path }}" />{% endif %}
 </head>
