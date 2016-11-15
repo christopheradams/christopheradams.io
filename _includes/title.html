@@ -18,6 +18,11 @@
   </a>
   {% endif %}
   {% endif %}
+  {% if include.style == "index" %}
+  {% if include.post.description %}
+  {{ include.post.description }}
+  {% endif %}
+  {% endif %}
   {% if include.post.author %}
   by
   {{ include.post.author }}

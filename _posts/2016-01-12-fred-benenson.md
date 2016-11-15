@@ -5,7 +5,7 @@ location: New York
 category: photos
 link: https://www.flickr.com/photos/christopheradams/29334522065/
 image: https://c1.staticflickr.com/9/8244/29334522065_df485582fa_b.jpg
-description: "Kickstarter"
+description: "At Kickstarter HQ"
 ---
 
 ![Fred Benenson](https://c1.staticflickr.com/9/8244/29334522065_df485582fa_b.jpg)
