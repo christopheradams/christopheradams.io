@@ -4,7 +4,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ site.description }}">
+  {% assign page_desc = page.description | default: page.title %}
+  {% if page.location %}
+  {% assign page_year = page.date | date: "%Y" %}
+  {% else %}
+  {% assign page_year = "now" | date: "%Y" %}
+  {% endif %}
+  {% if page.location %}
+  {% capture page_details %}{{ page.location }}, {{ page_year }}{% endcapture %}
+  {% else %}
+  {% assign page_details = page_year %}
+  {% endif %}
+  {% capture description %}{{ page_desc }} ({{ page_details }}){% endcapture %}
+  <meta name="description" content="{{ description }}">
+
+  {% if page.image %}<meta property="og:image" content="{{ page.image }}"/>{% endif %}
+  <meta property="og:title" content="{{ page.title }}"/>
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
+  <meta property="og:description" content="{{ description }}">
 
   {% feed_meta %}
 

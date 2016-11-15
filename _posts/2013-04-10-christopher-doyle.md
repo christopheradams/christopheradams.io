@@ -4,6 +4,8 @@ title: "Christopher Doyle"
 location: Beijing
 category: photos
 link: https://www.flickr.com/photos/christopheradams/8699512236/
+image: https://c1.staticflickr.com/9/8400/8699512236_5f156fbe73_b.jpg
+description: Cinematographer
 ---
 
 ![Christopher Doyle](https://c1.staticflickr.com/9/8400/8699512236_5f156fbe73_b.jpg)
