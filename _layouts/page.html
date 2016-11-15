@@ -18,8 +18,10 @@ layout: default
     source
   </a>
 
+  {% if site.license %}
   <a href="{{ site.license_url }}">
-    {{ site.license }}
+    license
   </a>
+  {% endif %}
 
 </article>
