@@ -18,4 +18,8 @@
   </a>
   {% endif %}
   {% endif %}
+  {% if include.post.author %}
+  by
+  {{ include.post.author }}
+  {% endif %}
 </p>
