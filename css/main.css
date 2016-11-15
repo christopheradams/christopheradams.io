@@ -119,3 +119,8 @@ p img {
   max-width: 100%;
   max-height: 660px;
 }
+
+p.attribution {
+  text-align: right;
+}
+
