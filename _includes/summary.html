@@ -1,0 +1,18 @@
+<p>
+  <a href="{{ include.post.url | prepend: site.url }}">
+    <span class="post-title">{{ include.post.title }}</span>
+  </a>
+  {% if include.post.description %}
+  <span class="description">
+  {{ include.post.description }}
+  </span>
+  (<span class="details">
+    {{ include.post.date | date_to_string }}{% if include.post.location %},
+    {{ include.post.location }}{% endif %}
+  </span>)
+  {% endif %}
+  {% if include.post.author %}
+  by
+  {{ include.post.author }}
+  {% endif %}
+</p>

@@ -3,8 +3,7 @@ layout: page
 title: Home
 ---
 {% for post in paginator.posts %}
-{% include title.html post=post %}
-{{ post.content }}
+{% include post.html post=post %}
 <hr/>
 {% endfor %}
 {% include pagination.html %}

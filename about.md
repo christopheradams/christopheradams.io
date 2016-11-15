@@ -4,7 +4,7 @@ title: About
 ---
 
 {% for post in site.categories.about %}
-{% include title.html post=post %}
+{% include summary.html post=post %}
 {{ post.content }}
 * * *
 {% endfor %}

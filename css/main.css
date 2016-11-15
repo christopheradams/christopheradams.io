@@ -110,6 +110,7 @@ nav > * {
   background: #EEF;
 }
 
+.description,
 .site-title,
 .post-title {
   font-weight: bold
