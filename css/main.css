@@ -92,6 +92,8 @@ nav > * {
   display: inline;
   padding-bottom: .4em;
 }
+nav a::before { margin-right: 0.66em }
+nav a::after { margin-left: 0.66em }
 @media (min-width: 700px) {
   nav {
     margin: 0 0 4em;
