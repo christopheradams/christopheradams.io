@@ -89,12 +89,10 @@ nav {
   margin: 0 0 4em;
 }
 nav > * {
-  display: block;
+  display: inline;
   padding-bottom: .4em;
 }
 @media (min-width: 700px) {
-  nav > * {
-    display: inline; }
   nav {
     margin: 0 0 4em;
     text-align: right;
