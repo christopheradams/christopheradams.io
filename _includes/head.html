@@ -23,6 +23,12 @@
   <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
   <meta property="og:description" content="{{ description }}">
 
+  <meta name="twitter:card" content="summary_large_image">
+  {% if page.image %}<meta property="twitter:image" content="{{ page.image }}"/>{% endif %}
+  <meta property="twitter:title" content="{{ page.title }}"/>
+  <meta property="twitter:description" content="{{ description }}">
+  <meta property="twitter:site" content="{{ site.twitter_username }}"/>
+
   {% feed_meta %}
 
   <link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.url }}" />
