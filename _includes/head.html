@@ -18,13 +18,18 @@
   {% capture description %}{{ page_desc }} ({{ page_details }}){% endcapture %}
   <meta name="description" content="{{ description }}">
 
-  {% if page.image %}<meta property="og:image" content="{{ page.image }}"/>{% endif %}
+  {% if page.image %}
+  {% assign page_image = page.image %}
+  {% else %}
+  {% assign page_image = "/img/christopher_pxlpeep_med.png" | prepend: site.url %}
+  {% endif %}
+  <meta property="og:image" content="{{ page_image }}"/>
   <meta property="og:title" content="{{ page.title }}"/>
   <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
   <meta property="og:description" content="{{ description }}">
 
   <meta name="twitter:card" content="summary_large_image">
-  {% if page.image %}<meta property="twitter:image" content="{{ page.image }}"/>{% endif %}
+  <meta property="twitter:image" content="{{ page_image }}"/>
   <meta property="twitter:title" content="{{ page.title }}"/>
   <meta property="twitter:description" content="{{ description }}">
   <meta property="twitter:site" content="{{ site.twitter_username }}"/>
