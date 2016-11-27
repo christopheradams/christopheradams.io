@@ -133,3 +133,11 @@ p.attribution {
 [data-rmd] h6 {
   font-weight: bold;
 }
+
+blockquote {
+  font-style: italic;
+}
+
+blockquote a {
+  font-style: normal;
+}
