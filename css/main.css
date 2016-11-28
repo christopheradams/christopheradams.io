@@ -125,3 +125,11 @@ p.attribution {
   text-align: right;
 }
 
+[data-rmd] h1,
+[data-rmd] h2,
+[data-rmd] h3,
+[data-rmd] h4,
+[data-rmd] h5,
+[data-rmd] h6 {
+  font-weight: bold;
+}
