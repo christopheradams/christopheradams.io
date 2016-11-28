@@ -146,3 +146,7 @@ blockquote a {
   font-style: italic;
 }
 
+[data-rmd] strong {
+  font-weight: bold;
+}
+
