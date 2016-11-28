@@ -141,3 +141,8 @@ blockquote {
 blockquote a {
   font-style: normal;
 }
+
+[data-rmd] em {
+  font-style: italic;
+}
+
