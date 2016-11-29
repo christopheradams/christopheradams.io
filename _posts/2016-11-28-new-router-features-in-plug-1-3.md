@@ -14,9 +14,22 @@ popular [Phoenix Framework][Phoenix], it also tends to get over-shadowed.  And
 yet, Plug is very capable on its own, and has a couple of new features that are
 helping it to pull even.
 
-Some background: the Plug module "specification" has only two functions:
-`call/2`, which takes a connection struct and set of options, and returns the
-connection; and `init/1`, which takes a set of options and initializes it.
+Here is an example of a module that satisfies the Plug spec. It only needs to
+export two functions: `init/1` and `call/2`.
+
+```elixir
+defmodule HelloPlug do
+  import Plug.Conn
+
+  def init(opts) do
+    opts
+  end
+
+  def call(conn, _opts) do
+    send_resp(conn, 200, "hello")
+  end
+end
+```
 
 ### Routers
 
@@ -57,9 +70,15 @@ end
 Underneath, both Plug and Phoenix's routers implement the Plug module
 specification. However, in the case of Phoenix, an extra bit of cleverness lurks
 behind its [MVC][MVC] facade: Controllers are Plugs! In fact, the router macros
-will accept *any* Plug module. This means that you are not limited to defining
-your resources using the strict Controller pattern.
+will accept *any* Plug module.
+We could, for example, change the route to:
 
+```elixir
+get "/hello", HelloPlug, [an_option: :a_value]
+```
+
+This means that in Phoenix you are not limited to defining your resources using
+the built-in Controller pattern.
 Plug's Router has been deprived of this feature, until now. Starting in v1.3.0,
 you can dispatch requests directly to a Plug module:
 
