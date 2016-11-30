@@ -2,7 +2,7 @@
 layout: post
 title: "What happens when you blog as a coder?"
 category: articles
-description: "Why I use static site generators"
+description: "The spark of static site generators"
 location: Taipei
 ---
 
