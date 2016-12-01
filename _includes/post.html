@@ -25,6 +25,11 @@
   <a href="{{ site.url }}/{{ include.post.category }}">
   {{ include.post.category }}
   </a>
+  {% for tag in include/post/tags %}
+  <a href="/indexes/#{{ tag | slugify | }}">
+    {{ tag }}
+  </a>
+  {% endfor %}
   {% if include.post.link %}
   <a href="{{ include.post.link }}">
     link
