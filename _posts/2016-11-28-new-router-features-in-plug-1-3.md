@@ -104,7 +104,7 @@ Router, the resulting connection struct will have a `conn.path_params` map that
 holds any dynamic path values. These will also be saved in `conn.params`,
 similar to what you see in Phoenix.
 
-The [Plug Router docs](plug-router-docs) have all the details.
+The [Plug Router docs][plug-router-docs] have all the details.
 
 **P.S.** The reason I decided to blog about these new Plug features is because I
 wrote them!
