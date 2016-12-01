@@ -150,3 +150,7 @@ blockquote a {
   font-weight: bold;
 }
 
+[data-rmd] :not(pre) > code {
+  font-weight: bold;
+}
+
