@@ -99,10 +99,19 @@ likely for us to build Controller-like patterns directly on top of Plug Router.
 
 ### Path Params
 
-One final minor, but crucial new feature is that for all match macros in Plug's
-Router, the resulting connection struct will have a `conn.path_params` map that
-holds any dynamic path values. These will also be saved in `conn.params`,
-similar to what you see in Phoenix.
+Plug Router's routes have always supported dynamic path segments, such as:
+
+```elixir
+get "/hello/:name" do
+  send_resp(conn, 200, "hello #{name}")
+end
+```
+
+The `:name` parameter can be used directly as a variable in the function body
+passed to the match macro. In order to make these values available generally in
+the connection, Plug 1.3 has added a `conn.path_params` map to hold them. They
+will also be saved in `conn.params`, a behavior which will be familiar to
+Phoenix users.
 
 The [Plug Router docs][plug-router-docs] have all the details.
 
