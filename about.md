@@ -13,6 +13,10 @@ Christopher Adams is a writer, publisher, and software developer.  He works on
 free software and free culture, and specializes in photography and web
 technologies.
 
+[{{ site.email }}]({{ site.email | prepend: "mailto:" }})
+[{{ site.github_username | prepend: "github.com/" }}]({{ site.github_username | prepend: "https://github.com/" }})
+[{{ site.twitter_username | prepend: "twitter.com/" }}]({{ site.twitter_username | prepend: "https://twitter.com/" }})
+
 ## Colophon
 
 This website is written in [Emacs](https://www.gnu.org/software/emacs/),

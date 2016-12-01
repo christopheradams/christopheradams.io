@@ -8,6 +8,7 @@ permalink: /:categories/:year/:month/:title/
 paginate_path: "/blog/page:num/"
 paginate: 10
 
+email: email@christopheradams.io
 github_username: christopheradams
 twitter_username: christopheradam
 
