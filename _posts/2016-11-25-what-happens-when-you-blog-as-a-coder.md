@@ -28,6 +28,7 @@ renaissance of static websites look like little more than a novelty.
 
 (This graph charts the Google search interest in "static site generator" since
 2008.)
+[source]({{ "posts/what-happens-when-you-blog-as-a-coder" | prepend: site.source_url}})
 
 There are very real, practical advantages to making websites static,
 specifically in terms of increased performance, security, and ease of deployment
