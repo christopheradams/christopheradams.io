@@ -78,10 +78,8 @@ We could, for example, change the route to:
 get "/hello", HelloPlug, [an_option: :a_value]
 ```
 
-This means that in Phoenix you are not limited to defining your resources using
-the built-in Controller pattern.
-Plug's Router has been deprived of this feature, until now. Starting in v1.3.0,
-you can dispatch requests directly to a Plug module:
+Plug's Router has been deprived of a feature like this, until now.
+Starting in v1.3.0, you can dispatch requests directly to a Plug module:
 
 ```elixir
 get "/hello", to: HelloPlug, init_opts: [an_option: :a_value]
@@ -97,6 +95,8 @@ end
 
 While a seemingly small change, this feature will make it both easier and more
 likely for us to build Controller-like patterns directly on top of Plug Router.
+With it you can factor out the code that handles each route into separate
+modules, rather than filling up your router with function bodies.
 
 ### Path Params
 
