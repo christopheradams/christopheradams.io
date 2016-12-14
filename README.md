@@ -9,3 +9,7 @@ cd christopheradams.github.io
 bundle install
 bundle exec jekyll build
 ```
+
+## Screenshot
+
+![Screenshot](/img/screenshot.png?raw=true)
