@@ -125,6 +125,11 @@ p.attribution {
   text-align: right;
 }
 
+.byline {
+  color: #205080;
+  opacity: .6;
+}
+
 [data-rmd] h1,
 [data-rmd] h2,
 [data-rmd] h3,
