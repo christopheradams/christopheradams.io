@@ -1,4 +1,8 @@
-# christopheradams.github.io
+# [christopheradams.io](https://christopheradams.io)
+
+## About
+
+A website of articles and photographs by Christopher Adams. Built with [Jekyll].
 
 ## Instructions
 
@@ -13,3 +17,6 @@ bundle exec jekyll build
 ## Screenshot
 
 ![Screenshot](/img/screenshot.png?raw=true)
+
+
+[Jekyll]: http://jekyllrb.com/
