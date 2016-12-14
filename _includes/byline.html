@@ -7,7 +7,13 @@
     {{ include.post.date | date_to_string }}{% if include.post.location %},
     {{ include.post.location }}{% endif %}
   </span>)
-  {% if include.post.author %}
-  by
-  {{ include.post.author }}
+  {% if include.post.author or include.authors %}
+  <span class="byline">
+    by
+    {% if include.post.author %}
+      {{ include.post.author }}
+    {% else %}
+      {{ site.author }}
+    {% endif %}
+  </span>
   {% endif %}
