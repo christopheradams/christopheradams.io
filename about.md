@@ -13,6 +13,8 @@ Christopher Adams is a writer, publisher, and software developer.  He works on
 free software and free culture, and specializes in photography and web
 technologies.
 
+> I'm open to working with you and building great things. Please get in touch! -- C.A.
+
 [{{ site.email }}]({{ site.email | prepend: "mailto:" }})
 [{{ site.github_username | prepend: "github.com/" }}]({{ site.github_username | prepend: "https://github.com/" }})
 [{{ site.twitter_username | prepend: "twitter.com/" }}]({{ site.twitter_username | prepend: "https://twitter.com/" }})
