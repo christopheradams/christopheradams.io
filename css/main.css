@@ -26,6 +26,7 @@
   [data-rmd] pre,
   [data-rmd-test] pre {
     margin-left: 0 !important;
+    overflow-x: scroll;
   }
 }
 
