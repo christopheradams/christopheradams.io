@@ -159,6 +159,13 @@ blockquote a {
   font-weight: bold;
 }
 
+[data-rmd] em::before,
+[data-rmd] em::after,
+[data-rmd] strong::before,
+[data-rmd] strong::after {
+  content: "";
+}
+
 [data-rmd] :not(pre) > code {
   font-weight: bold;
 }
