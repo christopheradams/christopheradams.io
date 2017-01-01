@@ -6,8 +6,8 @@ tags: programming
 location: Taipei
 ---
 
-*Plug v1.3.0 has just been released. Read on for a couple of interesting new
-features.*
+> Plug v1.3.0 has just been released. Read on for a couple of interesting new
+> features.
 
 [Plug][Plug] is a simple specification and powerful library for writing
 composable web modules in [Elixir][Elixir]. While it underpins the
