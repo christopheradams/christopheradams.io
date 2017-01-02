@@ -23,12 +23,11 @@ When working in Elixir, [Plug] suffices for the piecemeal approach.
 Nevertheless, it's always tempting to use the more
 capable [Phoenix Framework][Phoenix] for web development.
 
-Although it is easy to generate a Phoenix project without Models or a database
-repository, or else encapsulate them in a separate [OTP] application from your
-web app;
-and although you can avoid Views by sending responses directly using Plug;
-I didn't think that escape from Phoenix's Controllers was possible (without
-completely replacing the Router);
+Although I can generate a Phoenix project without Models, or else encapsulate
+them in a separate [OTP] application from my web app;
+and although I can avoid Views by sending responses directly using Plug;
+I didn't think I could escape from Phoenix's Controllers (without completely
+replacing the Router);
 that is, until [Chris McCord] gave me an insight that showed the way.
 
 ## Spelling W-E-B with M-V-C
@@ -70,17 +69,14 @@ But do they have to?
 
 ## The Controller Pattern
 
-Both [Plug] and [Phoenix] Routers accept *any* Plug module in a `match` macro.
-This means that a Controller *can* be used in a Plug route, and conversely that
-a Phoenix route *does not* require a Controller (instead, any Plug that sets a
-response will do).
+The `match` macros in [Phoenix] Router are not limited to using a Phoenix
+Controller.
+Instead, they will accept any module that follows the [Plug] specification.
 
 ```elixir
 match :get, "/plug", SomePlug, []
 ```
 
-I knew for a fact going in that a Phoenix route can take any Plug.
-I liked this feature enough that I helped add it to the Router for [Plug 1.3].
 So, if a Phoenix route does not require a Controller, does that mean we can drop
 the last letter of **MVC**?
 
