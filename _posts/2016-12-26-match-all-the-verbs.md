@@ -98,7 +98,6 @@ I argue that the real Controller pattern in Web MVC matches a **verb** and
 **path**, and executes a **module/function** in the context of a **request**.
 
 For most [CRUD] apps, the Controller pattern suffices.
-It might even seem simple.
 But it does not work for resource designs such as:
 
 1. An echo server that replies to all requests for a path (for any HTTP method)
