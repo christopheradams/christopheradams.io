@@ -105,14 +105,6 @@ But it does not work for resource designs such as:
 1. A REST-based framework where the HTTP methods supported by each resource are
    encoded in the connected Plug, and not the Router; *e.g.*, [PlugRest]
 
-The Controller pattern forces you to divide a resource (as identified by a URL
-path) into multiple routes, split HTTP method logic between the Router and
-Controller, and re-implement core resource behavior (like "Not Found") in each
-action function.
-It does not allow a 1:1 mapping between Routes and Resource implementations.
-
-*But Phoenix does.*
-
 ## Breaking the Pattern
 
 I brought up method-agnostic Phoenix routes again in [a closed issue][977] on
