@@ -3,10 +3,8 @@
   {{ include.post.description }}
   </span>
   {% endif %}
-  (<span class="details">
-    {{ include.post.date | date_to_string }}{% if include.post.location %},
-    {{ include.post.location }}{% endif %}
-  </span>)
+  <span class="details">{{ include.post.date | date_to_string }}{% if include.post.location %},
+    {{ include.post.location }}{% endif %}</span>
   {% if include.post.author or include.authors %}
   <span class="byline">
     by

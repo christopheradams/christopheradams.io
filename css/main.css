@@ -129,6 +129,22 @@ p.attribution {
   text-align: right;
 }
 
+[data-rmd] .details::before,
+[data-rmd] .details::after {
+  color: #202020;
+  opacity: 1;
+}
+
+[data-rmd] .details::before {
+  margin-right: 0.6em;
+  content: "(";
+}
+
+[data-rmd] .details::after {
+  margin-left: 0.6em;
+  content: ")";
+}
+
 .byline {
   color: #205080;
   opacity: .6;
