@@ -11,37 +11,35 @@ location: Hanoi
 > Views, or even Controllers.
 
 I've never been an adherent of the [MVC] pattern in web applications, even
-though it has been a productive structure for full-featured server-side
-software.
-Often I prefer to use [Webmachine] or an equivalent program in Erlang, Ruby, or
-Clojure.
-Other times I don't need an HTML template engine or a database wrapper.
-Overall, I prefer to build up a web app piece by piece, instead of committing
+though it has been a productive concept for full-featured server-side software.
+I might use [Webmachine] or an equivalent program in Erlang, Ruby, or Clojure;
+or I might not require an HTML template engine or a database wrapper.
+I often prefer building up a web app piece by piece, instead of committing
 up-front to an opinionated framework.
 
 When working in Elixir, [Plug] suffices for the piecemeal approach.
-Nevertheless, it's always tempting to use the more
-capable [Phoenix Framework][Phoenix] for web development.
+Nevertheless, it is tempting to use [Phoenix Framework][Phoenix], which adds
+many features without sacrificing flexibility or performance.
 
 Although I can generate a Phoenix project without Models, or else encapsulate
 them in a separate [OTP] application from my web app;
 and although I can avoid Views by sending responses directly using Plug;
 I didn't think I could escape from Phoenix's Controllers (without completely
-replacing the Router);
-that is, until [Chris McCord] gave me an insight that showed the way.
+replacing the Router).
+Soon I would find a way.
 
 ## Spelling W-E-B with M-V-C
 
 Model–View–Controller (MVC) is a software design pattern that developed out of
 early (desktop) graphical user interfaces but was later adapted to describe web
-application frameworks, such as Ruby on Rails and, more recently, [Phoenix].
+application frameworks, such as [Ruby on Rails] and, more recently, [Phoenix].
 
 For server-side web software, [MVC] denotes the components that manage data
 (*Models*), media representations (*Views*), and HTTP request/response behavior
 (*Controllers*).
 Nevertheless, the MVC pattern does not name its central component, the
-**Router**, which is responsible for dispatching each request to a corresponding
-"code path" that partly implements the resource.
+**Router**, which dispatches each request to the code that will handle the
+response.
 
 Take a basic request line such as:
 
@@ -64,14 +62,15 @@ match :get, "/some", SomeController, :index
 
 Here, the arguments comprise an HTTP verb, a URL path, a Controller, and an
 action function.
-These four terms together define a "route" in Phoenix.
+These four terms together determine a "route" in Phoenix.
 But do they have to?
 
 ## The Controller Pattern
 
 The `match` macros in [Phoenix] Router are not limited to using a Phoenix
 Controller.
-Instead, they will accept any module that follows the [Plug] specification.
+Instead, the routes will accept any module that follows the [Plug]
+specification.
 
 ```elixir
 match :get, "/plug", SomePlug, []
@@ -80,35 +79,35 @@ match :get, "/plug", SomePlug, []
 So, if a Phoenix route does not require a Controller, does that mean we can drop
 the last letter of **MVC**?
 
-*Not necessarily, and here's why.*
+*Not necessarily.*
 
 Because the role of the Router is often elided when we talk about Web MVC, it's
 easy to miss its significance.
 The Controller part of MVC is not just a `Controller` module that includes one
 or more action functions.
 Rather, it is a particular contract, enforced by the Router, for matching a
-request with the code that will generate a response.
-We can see this contract in the API for Phoenix's `match` macro:
+request with the code that will handle the response.
+We have already seen this contract in the API for Phoenix's `match` macro:
 
 ```elixir
 # Generates a route match based on an arbitrary HTTP method
 match(verb, path, plug, plug_opts, options \\ [])
 ```
 
-I argue that the real Controller Pattern is matching a **verb** and **path**, and
-executing a **module/function** in the context of a **request**.
+I argue that the real Controller pattern in Web MVC matches a **verb** and
+**path**, and executes a **module/function** in the context of a **request**.
 
-For most [CRUD] apps, the Controller Pattern suffices.
-It might even seem easy.
-But it is not ideal for every scenario, including but not limited to:
+For most [CRUD] apps, the Controller pattern suffices.
+It might even seem simple.
+But it does not work for resource designs such as:
 
 1. An echo server that replies to all requests for a path (for any HTTP method)
-1. A REST-based framework where the HTTP methods supported for each resource are
+1. A REST-based framework where the HTTP methods supported by each resource are
    encoded in the connected Plug, and not the Router; *e.g.*, [PlugRest]
 
-The Controller Pattern forces you to divide a resource (as identified by a URL
+The Controller pattern forces you to divide a resource (as identified by a URL
 path) into multiple routes, split HTTP method logic between the Router and
-Controllers, and re-implement core resource behavior (like "Not Found") in each
+Controller, and re-implement core resource behavior (like "Not Found") in each
 action function.
 It does not allow a 1:1 mapping between Routes and Resource implementations.
 
@@ -118,7 +117,7 @@ It does not allow a 1:1 mapping between Routes and Resource implementations.
 
 I brought up method-agnostic Phoenix routes again in [a closed issue][977] on
 the GitHub project page.
-After some discussion, Chris McCord offered that Phoenix already supports this
+After some discussion, [Chris McCord] offered that Phoenix already supports this
 behavior by way of a catch-all verb:
 
 ```elixir
@@ -137,7 +136,7 @@ I was curious about the initial reluctance to fully support a catch-all `match`
 macro in Phoenix Router, and how it could be "abused" or "introduce bad
 behaviors".
 I have a hunch it stems from a decision in Rails to [deprecate "match"][5964]
-without a specified method (resolved in [this commit][56cdc81]).
+without an explicit method (resolved in [this commit][56cdc81]).
 
 Rails warns about the danger of unintentionally putting "state-changing" code
 that manipulates resources on `GET`-accessible routes.
@@ -148,10 +147,12 @@ method in your router without specifying an HTTP method."
 > You always know which HTTP Verb is used for specific "controller#action"! **If
 > you don't - you are doing it wrong.**
 
-This assumes, of course, that we are always and forever using the Controller Pattern.
+This assumes, of course, that we are using the Controller pattern.
+This may be a fair assumption for Rails, but it shouldn't be for Phoenix.
 
-Nevertheless, it's still possible to match all HTTP methods in a Rails route using an
-explicit `via: :all` option. Fortunately, Phoenix offers us the same escape hatch.
+It's still possible to match all HTTP methods in a Rails route using an explicit
+`via: :all` option.
+Fortunately, Phoenix offers us the same escape hatch.
 
 ## Game, Set, Match
 
@@ -174,4 +175,5 @@ structuring web applications is just one more thing to recommend the framework.
 [Plug]: http://hexdocs.pm/plug/
 [REST]: https://en.wikipedia.org/wiki/Representational_state_transfer
 [Rails match]: http://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Base.html#method-i-match
+[Ruby on Rails]: http://rubyonrails.org/
 [Webmachine]: https://github.com/webmachine/webmachine
