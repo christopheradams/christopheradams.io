@@ -7,7 +7,7 @@ A website of articles and photographs by Christopher Adams. Built with [Jekyll].
 ## Instructions
 
 ```sh
-gem install jekyll bundler
+gem install bundler
 git clone git@github.com:christopheradams/christopheradams.github.io.git
 cd christopheradams.github.io
 bundle install
