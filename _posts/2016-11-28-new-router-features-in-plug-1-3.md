@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "New Router features in Plug 1.3"
 category: articles
 tags: programming

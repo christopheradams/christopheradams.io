@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Philipp Schmidt"
 location: Cambridge, MA
 category: photos

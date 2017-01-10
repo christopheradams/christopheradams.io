@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Jailing Bassel"
 category: articles
 tags: freebassel

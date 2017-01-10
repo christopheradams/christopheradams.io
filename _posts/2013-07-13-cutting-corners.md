@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Cutting Corners"
 location: Beijing
 category: photos

@@ -10,6 +10,14 @@ permalink: /:categories/:year/:month/:title/
 paginate_path: "/blog/page:num/"
 paginate: 10
 
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /:categories/:year/:month/:title/
+
 email: email@christopheradams.io
 github_username: christopheradams
 twitter_username: christopheradam

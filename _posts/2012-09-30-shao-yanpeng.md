@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Shao Yanpeng"
 location: Beijing
 category: photos

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Christopher Adams"
 location: Linz
 category: about

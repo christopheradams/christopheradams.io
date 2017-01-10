@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Christopher Doyle"
 location: Beijing
 category: photos

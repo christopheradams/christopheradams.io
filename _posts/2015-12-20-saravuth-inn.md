@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Saravuth Inn"
 location: New York
 category: photos

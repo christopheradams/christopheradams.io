@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Weak Soundsystem"
 location: Beijing
 category: photos

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Fred Benenson"
 location: New York
 category: photos

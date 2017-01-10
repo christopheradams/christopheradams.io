@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Go to the Source"
 description: "Linking each webpage to its code"
 category: articles
