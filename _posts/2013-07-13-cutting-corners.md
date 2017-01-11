@@ -5,7 +5,7 @@ category: photos
 tag: art
 link: https://www.flickr.com/photos/christopheradams/10684679515/
 image: https://c1.staticflickr.com/3/2831/10684679515_7cae502c6a_b.jpg
-description: "Ai Weiwei Studio, Caochangdi"
+excerpt: "Ai Weiwei Studio, Caochangdi"
 tags: photo
 ---
 

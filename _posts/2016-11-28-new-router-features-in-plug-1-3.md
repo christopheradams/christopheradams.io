@@ -1,5 +1,6 @@
 ---
 title: "New Router features in Plug 1.3"
+excerpt: "Calling All Plugs"
 category: articles
 tags: programming
 location: Taipei

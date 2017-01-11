@@ -2,7 +2,7 @@
 title: "Jailing Bassel"
 category: articles
 tags: freebassel
-description: "Activists in Syria"
+excerpt: "Activists in Syria"
 image: https://c1.staticflickr.com/5/4018/4670781482_d072301ef0_b.jpg
 ---
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">every so called activist in <a href="https://twitter.com/hashtag/Syria?src=hash">#Syria</a> who was jailed for a month or two is now trying to make a hero of him self. I&#39;m sick of that <a href="https://twitter.com/hashtag/Syria?src=hash">#Syria</a></p>&mdash; Bassel Safadi (@basselsafadi) <a href="https://twitter.com/basselsafadi/status/164354870567116800">January 31, 2012</a></blockquote>

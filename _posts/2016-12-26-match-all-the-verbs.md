@@ -1,6 +1,6 @@
 ---
 title: "Match All the Verbs"
-description: "Phoenix is not your App. Is it even MVC?"
+excerpt: "Phoenix is not your App. Is it even MVC?"
 category: articles
 tags: programming
 location: Hanoi

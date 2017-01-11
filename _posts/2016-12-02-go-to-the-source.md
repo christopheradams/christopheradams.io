@@ -1,6 +1,6 @@
 ---
 title: "Go to the Source"
-description: "Linking each webpage to its code"
+excerpt: "Linking each webpage to its code"
 category: articles
 tags: programming
 location: Taipei

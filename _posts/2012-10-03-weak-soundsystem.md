@@ -5,7 +5,7 @@ category: photos
 tags: art
 link: https://www.flickr.com/photos/christopheradams/sets/72157631878910877/
 image: https://c1.staticflickr.com/9/8324/8126876501_2c948b2f50_b.jpg
-description: "Beijing Design Week 2012"
+excerpt: "Beijing Design Week 2012"
 ---
 
 ![M.A.D. by Night](https://c1.staticflickr.com/9/8324/8126876501_2c948b2f50_b.jpg)

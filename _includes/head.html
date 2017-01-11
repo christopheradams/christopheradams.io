@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  {% assign page_desc = page.description | default: page.title %}
+  {% assign page_desc = page.excerpt | default: page.title %}
   {% if page.location %}
   {% assign page_year = page.date | date: "%Y" %}
   {% else %}

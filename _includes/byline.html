@@ -1,6 +1,6 @@
-  {% if include.post.description %}
+  {% if include.post.excerpt %}
   <span class="description">
-  {{ include.post.description }}
+  {{ include.post.excerpt }}
   </span>
   {% endif %}
   <span class="details">{{ include.post.date | date_to_string }}{% if include.post.location %},
