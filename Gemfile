@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem "github-pages", '104'
+gem 'github-pages', group: :jekyll_plugins
 gem "jekyll-paginate"
