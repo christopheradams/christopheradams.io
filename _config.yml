@@ -2,7 +2,7 @@ title: christopheradams.io
 description: "Christopher Adams"
 author: "Christopher Adams"
 exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock, CNAME]
-gems: ["jekyll-paginate", "jekyll-feed"]
+plugins: ["jekyll-paginate", "jekyll-feed"]
 
 url: https://christopheradams.io
 
