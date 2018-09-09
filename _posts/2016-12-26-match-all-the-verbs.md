@@ -160,7 +160,6 @@ structuring web applications is just one more thing to recommend the framework.
 [Match in Rails and CSRF]: http://homakov.blogspot.com/2012/04/whitelist-your-routes-match-is-evil.html
 [OTP]: https://en.wikipedia.org/wiki/Open_Telecom_Platform
 [Phoenix]: http://www.phoenixframework.org/
-[Plug 1.3]: {% post_url 2016-11-28-new-router-features-in-plug-1-3 | prepend: site.url %}
 [PlugRest]: https://github.com/christopheradams/plug_rest
 [Plug]: http://hexdocs.pm/plug/
 [REST]: https://en.wikipedia.org/wiki/Representational_state_transfer
