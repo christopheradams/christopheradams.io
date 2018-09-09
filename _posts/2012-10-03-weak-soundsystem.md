@@ -8,7 +8,7 @@ image: https://c1.staticflickr.com/9/8324/8126876501_2c948b2f50_b.jpg
 excerpt: "Beijing Design Week 2012"
 ---
 
-![M.A.D. by Night](https://c1.staticflickr.com/9/8324/8126876501_2c948b2f50_b.jpg)
+![M.A.D. by Night]({{ page.image }})
 
 (Fuji Neopan 400, Nokton 35mm f/1.2 II, Leica M6)
 

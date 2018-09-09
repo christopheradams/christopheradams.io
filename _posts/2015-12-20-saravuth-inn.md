@@ -8,7 +8,7 @@ image: https://c2.staticflickr.com/8/7167/27357650411_d68053edf5_b.jpg
 excerpt: "Odysseus' Gambit"
 ---
 
-![Saravuth Inn](https://c2.staticflickr.com/8/7167/27357650411_d68053edf5_b.jpg)
+![{{ page.title }}]({{ page.image }})
 
 Saravuth Inn is originally from Cambodia. You can often find him playing chess
 in Union Square. The man is a scholar but has had a very trying life, and was the
