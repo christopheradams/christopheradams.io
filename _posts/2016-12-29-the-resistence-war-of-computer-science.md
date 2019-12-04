@@ -7,6 +7,8 @@ location: Hanoi
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Hano%C3%AFLePetitLacVers1900.jpg/640px-Hano%C3%AFLePetitLacVers1900.jpg
 ---
 
+<span class="byline">*Hoàn Kiếm Lake* (c. 1900), [Wikipedia][Hoan Kiem Lake].</span>
+
 > If the [hardest thing in Computer Science][TwoHardThings] is naming things,
 > then a corollary rule is that misnaming things must be the easiest.
 
@@ -19,10 +21,6 @@ relational databases) and the hazards of translating between them.
 The thrust of the metaphor is that the **O/R-M** problem, like the Vietnam War,
 is a quagmire that might have started as planned but quickly got bogged down in
 complications with no solution and no exit strategy in sight.
-
-![Vue du Petit Lac de hanoi](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Hano%C3%AFLePetitLacVers1900.jpg/1200px-Hano%C3%AFLePetitLacVers1900.jpg)
-
-<span class="byline">*Hoàn Kiếm Lake* (c. 1900), [Wikipedia][Hoan Kiem Lake].</span>
 
 It's rueful to think on this problem from Hanoi, where the real Vietnam War was
 experienced from the opposing side, and known by another name entirely, as

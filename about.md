@@ -5,6 +5,11 @@ title: About
 
 {% for post in site.categories.about %}
 {% include summary.html post=post %}
+{% if post.image %}
+<p>
+  <img src="{{ post.image }}" alt="{{ post.title }}" />
+</p>
+{% endif %}
 {{ post.content }}
 * * *
 {% endfor %}

@@ -6,6 +6,11 @@
 <p>
   {% include byline.html post=include.post authors=true %}
 </p>
+{% if include.post.image %}
+<p>
+  <img src="{{ include.post.image }}" alt="{{ include.post.title }}" />
+</p>
+{% endif %}
 {{ include.post.content }}
 <p>
   <a href="{{ site.url }}/{{ include.post.category }}">

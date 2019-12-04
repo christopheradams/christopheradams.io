@@ -8,7 +8,5 @@ image: https://live.staticflickr.com/65535/47957382446_2da14a7796_b.jpg
 excerpt: Mi Montaña
 ---
 
-![{{ page.title }}]({{ page.image }})
-
 Mexican artist Raúl Gasque near Yangmingshan.  
 (Summicron-M 50mm f/2, Leica M6, Ektar 100)

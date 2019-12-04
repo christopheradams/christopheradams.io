@@ -8,8 +8,6 @@ image: https://c2.staticflickr.com/8/7167/27357650411_d68053edf5_b.jpg
 excerpt: "Odysseus' Gambit"
 ---
 
-![{{ page.title }}]({{ page.image }})
-
 Saravuth Inn is originally from Cambodia. You can often find him playing chess
 in Union Square. The man is a scholar but has had a very trying life, and was the
 subject of a documentary titled *Odysseus' Gambit*. We shared a smoke and a game
