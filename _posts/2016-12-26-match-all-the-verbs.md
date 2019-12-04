@@ -3,6 +3,7 @@ title: "Match All the Verbs"
 excerpt: "Phoenix is not your App. Is it even MVC?"
 category: articles
 tags: programming
+image: https://live.staticflickr.com/833/43414845681_4af48e97c1_b.jpg
 location: Hanoi
 ---
 

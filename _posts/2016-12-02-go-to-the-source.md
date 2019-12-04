@@ -3,6 +3,7 @@ title: "Go to the Source"
 excerpt: "Linking each webpage to its code"
 category: articles
 tags: programming
+image: https://live.staticflickr.com/8504/8271297507_bb012a33ac_b.jpg
 location: Taipei
 ---
 

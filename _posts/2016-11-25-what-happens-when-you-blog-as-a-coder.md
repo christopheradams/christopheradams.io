@@ -2,6 +2,7 @@
 title: "What happens when you blog as a coder?"
 category: articles
 tags: programming
+image: https://live.staticflickr.com/8211/8271084033_34876f8712_b.jpg
 excerpt: "The spark of static site generators"
 location: Taipei
 ---
