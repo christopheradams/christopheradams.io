@@ -3,8 +3,8 @@ title: Raúl Gasque
 location: Taipei
 category: photos
 tags: portrait
-link: https://www.flickr.com/photos/christopheradams/47957382446
-image: https://live.staticflickr.com/65535/47957382446_2da14a7796_b.jpg
+link: https://www.flickr.com/photos/christopheradams/47957382446/
+image: https://live.staticflickr.com/65535/47957382446_3393829378_k.jpg
 excerpt: Mi Montaña
 ---
 

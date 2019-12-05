@@ -4,7 +4,7 @@ location: Toronto
 category: photos
 tags: portrait
 link: https://www.flickr.com/photos/christopheradams/41943589411/
-image: https://c1.staticflickr.com/1/864/41943589411_b501d553e4_b.jpg
+image: https://live.staticflickr.com/864/41943589411_9733118b6d_k.jpg
 excerpt: Reviving Democracy
 ---
 

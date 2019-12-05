@@ -4,7 +4,7 @@ location: Beijing
 category: photos
 tags: portrait
 link: https://www.flickr.com/photos/christopheradams/8699512236/
-image: https://c1.staticflickr.com/9/8400/8699512236_5f156fbe73_b.jpg
+image: https://live.staticflickr.com/8400/8699512236_ae449847b2_k_d.jpg
 excerpt: "The Cinematographer"
 ---
 
