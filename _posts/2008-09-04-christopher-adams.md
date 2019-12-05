@@ -10,3 +10,5 @@ license: CC-by
 license_url: https://creativecommons.org/licenses/by/2.0/
 excerpt: Ars Electronica
 ---
+
+Photo by {{ page.author }}

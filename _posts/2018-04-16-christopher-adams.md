@@ -8,3 +8,5 @@ image: https://c1.staticflickr.com/1/976/27074812707_39402262b0_b.jpg
 author: Razan Hadid
 excerpt: Creative Commons Global Summit
 ---
+
+Photo by {{ page.author }}
