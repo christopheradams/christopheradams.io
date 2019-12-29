@@ -1,0 +1,42 @@
+{
+  "name": "christopheradams.io",
+  "version": "0.0.1",
+  "description": "Articles and Photographs by Christopher Adams",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopheradams/christopheradams.io.git"
+  },
+  "keywords": [
+    "blog",
+    "jekyll"
+  ],
+  "author": "Christopher Adams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christopheradams/christopheradams.io/issues"
+  },
+  "homepage": "https://github.com/christopheradams/christopheradams.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "pygments-rouge-css": "^0.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.1.1",
+    "webpack": "^4.41.4"
+  }
+}
