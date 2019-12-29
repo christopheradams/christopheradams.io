@@ -1,8 +1,6 @@
 title: christopheradams.io
 description: "Christopher Adams"
 author: "Christopher Adams"
-exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock, CNAME]
-plugins: ["jekyll-paginate", "jekyll-feed"]
 
 url: https://christopheradams.io
 
@@ -27,3 +25,11 @@ source_url: "https://github.com/christopheradams/christopheradams.io/blob/master
 
 license: "CC-by"
 license_url: https://creativecommons.org/licenses/by/4.0/
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+exclude:
+  - LICENSE
+  - README.md
