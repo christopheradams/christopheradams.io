@@ -1,0 +1,25 @@
+---
+layout: post
+---
+
+{% assign category = page.title | downcase %}
+
+<div class="list-group list-group-flush">
+{% assign category_posts = site.categories[category] | sort: "title" %}
+{% for page in category_posts %}
+  <a href="{{ page.url }}" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{ page.title }}</h5>
+    </div>
+    <p class="text-muted">
+      <small>
+        {{ page.excerpt }}
+        <span>
+          — {% if page.location %}{{ page.location }},{% endif %}
+          {{ page.date | date: "%B %Y" }}
+        </span>
+      </small>
+    </p>
+  </a>
+{% endfor %}
+</div>

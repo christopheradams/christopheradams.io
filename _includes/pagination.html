@@ -1,9 +1,22 @@
-<div class="pagination">
+<nav aria-label="Pagination">
+  <ul class="pagination justify-content-center">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    <li class="page-item"><a href="{{ paginator.previous_page_path }}" class="page-link">Previous</a></li>
+  {% else %}
+   <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
   {% endif %}
-  <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+   <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">{{ paginator.page }} of {{ paginator.total_pages }}</a>
+    </li>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    <li class="page-item"><a href="{{ paginator.next_page_path }}" class="page-link">Next</a></li>
+  {% else %}
+   <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Next</a>
+    </li>
   {% endif %}
+  </ul>
 </div>
+</nav>

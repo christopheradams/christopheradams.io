@@ -2,4 +2,118 @@
 layout: page
 ---
 
-{% include post.html post=page %}
+<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="row">
+    <div class="col-12 px-0 border-bottom">
+      <section class="jumbotron text-center bg-white">
+        <div class="container">
+          <h1 class="post-title jumbotron-heading" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
+          <div class="post-dateline">
+            <time class="" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
+            {% if page.location %}
+            <span class="page-location">
+              {{ page.location }}
+            </span>
+            {% endif %}
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  {% if page.image %}
+  <div class="row">
+    <div class="col-12 px-0 border-bottom">
+      <section class="text-center my-5">
+        <img class="img-fluid" src="{{ page.image }}">
+      </section>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="post-body" itemprop="articleBody">
+    <div class="py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 border-bottom">
+          <div class="post-content">
+            {{ content }}
+            {% if page.link %}
+            <p>
+              Source:
+              <a href="{{ page.link }}">
+                {% assign links = page.link | split: "/" %}
+                {{ links[2] }}
+              </a>
+            </p>
+            {% endif %}
+          </div>
+
+          <div class="my-5">
+            {% include share.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pb-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="post-details">
+            <p class="mb-0">
+              {% for author in page.author %}
+              {% assign authorDetails = site.author | where: "name", author %}
+              <strong>
+                {% if forloop.first == true %} Posted by {% else %} &amp; {% endif %}
+                {% if authorDetails[0]["url"] %}<a href="{{ authorDetails[0]['url'] }}" title="More By {{ author }}">{% endif %}{{ author }}{% if authorDetails[0]["url"] %}</a>{% endif %}
+              </strong>
+              {% else %}
+              <strong>About</strong>
+              {% endfor %}
+            </p>
+            {% for author in page.author %}
+            {% assign authorDetails = site.author | where: "name", author %}
+            <p class="post-bio">{{ authorDetails[0]["bio"] }}</p>
+            {% endfor %}
+          </div>
+          <div class="post-details">
+            <p>
+              <small>
+                <a href="{{ page.path | prepend: site.source_url}}">
+                  Read the source code for this page.
+                </a>
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if page.collection == "posts" %}
+  <div class="row d-none d-md-block">
+    <div class="col-12 px-0">
+      <div class="jumbotron bg-light mb-0 py-1">
+        <div class="row text-center py-5">
+          <div class="col">
+            <h2>Related</h2>
+          </div>
+        </div>
+        <div class="row">
+          {% for post in site.related_posts limit: 3 %}
+          <div class="col">
+            <div class="post-card card text-center border-light bg-light mb-4">
+              <img class="card-img-top" alt="{{ post.title }}" src="{{ post.image }}">
+              <div class="card-body">
+                <span class="card-title">
+                  <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a>
+                </span>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</article>

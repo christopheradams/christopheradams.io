@@ -1,0 +1,9 @@
+<div class="footer-tags d-flex flex-row justify-content-center">
+
+  {% for category in site.category %}
+  <div class="p-2">
+    <a class="footer-link" href="{{ category.url }}">{{ category.title | capitalize }}</a>
+  </div>
+  {% endfor %}
+
+</div>

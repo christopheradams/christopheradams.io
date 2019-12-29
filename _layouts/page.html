@@ -1,31 +1,6 @@
 ---
 layout: default
 ---
-<article data-rmd="h1-underline h2-underline">
-  {% if page.layout != "post" and page.title %}
-  <div data-rmd="h1-underline">
-    <h1>
-      {{ page.title }}
-    </h1>
-  </div>
-  {% endif %}
-
-  {{ content }}
-
-  <hr/>
-
-  <a href="{{ page.url | prepend: site.url }}">
-    self
-  </a>
-
-  <a href="{{ page.path | prepend: site.source_url}}">
-    source
-  </a>
-
-  {% if site.license %}
-  <a href="{{ site.license_url }}">
-    license
-  </a>
-  {% endif %}
-
-</article>
+<div class="container-fluid">
+  {{ content}}
+</div>
