@@ -1,13 +1,40 @@
+name: Christopher Adams
 title: christopheradams.io
-description: "Christopher Adams"
-author: "Christopher Adams"
+description: >
+  Articles and Photographs by Christopher Adams.
+email: email@christopheradams.io
+twitter_username: christopheradam
+github_username: christopheradams
+default_img: /assets/img/christopher_pxlpeep_med.png
 
 url: https://christopheradams.io
+baseurl: ""
 
-permalink: /:categories/:year/:month/:title/
-paginate_path: "/blog/page:num/"
-paginate: 10
+source_url: "https://github.com/christopheradams/christopheradams.io/blob/master/"
 
+social:
+  - name: twitter
+    url: https://twitter.com/christopheradam
+  - name: instagram
+    url: https://www.instagram.com/christopherleeadams/
+  - name: github
+    url: https://github.com/christopheradams
+  - name: flickr
+    url: https://www.flickr.com/photos/christopheradams/
+
+# Author settings
+author:
+  - name: Christopher Adams
+    bio: >
+      Christopher Adams is a writer, publisher, and software developer. He works
+      on free software and free culture, and specializes in photography and web
+      technologies.
+    url: https://christopheradams.io
+
+# Pagination settings
+collections:
+  category:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -15,13 +42,16 @@ defaults:
     values:
       layout: post
       permalink: /:categories/:year/:month/:title/
-
-email: email@christopheradams.io
-github_username: christopheradams
-twitter_username: christopheradam
-flickr_username: christopheradams
-
-source_url: "https://github.com/christopheradams/christopheradams.io/blob/master/"
+      author: Christopher Adams
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: category
+      permalink: /:title/
+      author: Christopher Adams
+paginate: 9
+paginate_path: "/page/:num/"
 
 license: "CC-by"
 license_url: https://creativecommons.org/licenses/by/4.0/
