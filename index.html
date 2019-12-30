@@ -3,21 +3,6 @@ layout: page
 title: "Home"
 ---
 
-<div class="card-columns mt-5">
-  {% for post in paginator.posts %}
-  <div class="post-card card border-white mb-4">
-    <img class="card-img-top" alt="{{ post.title }}" src="{{ post.image }}">
-    <div class="card-body">
-      <span class="card-title">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a>
-        &mdash;
-        <span itemprop="description">
-          {{ post.content | strip_html | truncatewords: 35, "" }}
-        </span>
-      </span>
-    </div>
-  </div>
-  {% endfor %}
-</div>
+{% include cards.html posts=paginator.posts %}
 
 {% include pagination.html %}
