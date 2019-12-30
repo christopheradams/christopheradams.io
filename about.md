@@ -3,16 +3,8 @@ layout: post
 title: About
 ---
 
-<figure class="figure">
-<img src="https://live.staticflickr.com/3094/2829609654_800aede242_k.jpg" class="figure-img img-fluid" alt="Christopher Adams by Joi Ito">
-<figcaption class="figure-caption text-right">
-<p>
-<a href="https://www.flickr.com/photos/joi/2829609654/">
-  CC-by Joi Ito
-</a>
-</p>
-</figcaption>
-</figure>
+{% assign about_posts = site.posts | where: "category", "about" %}
+{% include cards.html posts=about_posts %}
 
 {% assign author = site.author | first %}
 {{ author.bio }}
