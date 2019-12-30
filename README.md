@@ -4,14 +4,20 @@
 
 A website of articles and photographs by Christopher Adams. Built with [Jekyll].
 
-## Instructions
+## Requirements
 
 ```sh
 gem install bundler
-git clone git@github.com:christopheradams/christopheradams.github.io.git
-cd christopheradams.github.io
+npm install --global webpack
+```
+
+## Instructions
+
+```sh
 bundle install
-bundle exec jekyll build
+npm install
+webpack
+bundle exec jekyll build --lsi
 ```
 
 ## Screenshot
