@@ -63,4 +63,5 @@ exclude:
   - README.md
   - package-lock.json
   - package.json
+  - screenshot.png
   - webpack.config.js

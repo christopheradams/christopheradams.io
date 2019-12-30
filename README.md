@@ -26,7 +26,7 @@ bundle exec jekyll build --lsi
 
 ## Screenshot
 
-![Screenshot](/img/screenshot.png?raw=true)
+![Screenshot](/assets/img/screenshot.png?raw=true)
 
 [Barber]: http://barber.samesies.io/
 [Bootstrap]: https://getbootstrap.com/
