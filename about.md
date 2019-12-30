@@ -17,9 +17,14 @@ title: About
 {% assign author = site.author | first %}
 {{ author.bio }}
 
-[{{ site.email }}]({{ site.email | prepend: "mailto:" }})
-[{{ site.github_username | prepend: "github.com/" }}]({{ site.github_username | prepend: "https://github.com/" }})
-[{{ site.twitter_username | prepend: "twitter.com/" }}]({{ site.twitter_username | prepend: "https://twitter.com/" }})
+## Contact
+
+{% assign twitter_user = site.social | where: "name", "twitter" | first %}
+{% assign github_user = site.social | where: "name", "github" | first %}
+
+* [{{ site.email }}]({{ site.email | prepend: "mailto:" }})
+* [{{ github_user.url | remove_first: "https://" }}]({{ github_user.url }})
+* [{{ twitter_user.url | remove_first: "https://" }}]({{ twitter_user.url }})
 
 ## Colophon
 
