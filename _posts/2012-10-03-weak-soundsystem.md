@@ -5,7 +5,7 @@ category: photos
 tags: art
 link: https://www.flickr.com/photos/christopheradams/sets/72157631878910877/
 image: https://live.staticflickr.com/8324/8126876501_dd46191c8a_k.jpg
-excerpt: "Beijing Design Week 2012"
+excerpt: "Beijing Design Week"
 ---
 
 (Fuji Neopan 400, Nokton 35mm f/1.2 II, Leica M6)
