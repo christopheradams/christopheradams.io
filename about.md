@@ -14,9 +14,8 @@ title: About
 </figcaption>
 </figure>
 
-Christopher Adams is a writer, publisher, and software developer.  He works on
-free software and free culture, and specializes in photography and web
-technologies.
+{% assign author = site.author | first %}
+{{ author.bio }}
 
 [{{ site.email }}]({{ site.email | prepend: "mailto:" }})
 [{{ site.github_username | prepend: "github.com/" }}]({{ site.github_username | prepend: "https://github.com/" }})
