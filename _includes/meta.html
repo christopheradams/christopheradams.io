@@ -11,12 +11,11 @@
 <meta property="og:description" content="{{ description }}">
 <meta property="og:image" content="{{ image }}">
 
+{% assign twitter_user = site.social | where: "name", "twitter" | first -%}
 <meta name="twitter:url" content="{{ page.url | absolute_url }}">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:site" content="{{ site.title }}">
 <meta name="twitter:description" content="{{ description }}">
-{% if site.twitter_username %}
-  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
-{% endif %}
+{% if twitter_user %}<meta name="twitter:creator" content="@{{ twitter_user.url | split: "/" | last }}">{% endif %}
 <meta property="twitter:image" content="{{ image }}">
