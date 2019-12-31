@@ -11,9 +11,9 @@ location: Taipei
 > What would happen if I approached blogging from a software development
 > perspective?
 
-<p class="attribution">
-—Tom Preston-Werner
-</p>
+<footer class="blockquote-footer">
+  <cite>Tom Preston-Werner</cite>
+</footer>
 
 ### The Dynamic, Static Web
 
