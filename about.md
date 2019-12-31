@@ -1,6 +1,7 @@
 ---
 layout: post
 title: About
+permalink: /about/
 ---
 
 {% assign about_posts = site.posts | where: "category", "about" %}
