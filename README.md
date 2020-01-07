@@ -12,7 +12,6 @@ The previous theme used [Remarkdown]. See the `remarkdown` branch.
 
 ```sh
 gem install bundler
-npm install --global webpack
 ```
 
 ## Instructions
@@ -20,7 +19,7 @@ npm install --global webpack
 ```sh
 bundle install
 npm install
-webpack
+npm run build
 bundle exec jekyll build --lsi
 ```
 
