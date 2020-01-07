@@ -59,6 +59,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 exclude:
+  - CNAME
   - LICENSE
   - README.md
   - package-lock.json
