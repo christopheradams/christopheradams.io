@@ -9,4 +9,4 @@ excerpt: Mi Montaña
 ---
 
 Mexican artist Raúl Gasque near Yangmingshan.  
-(Summicron-M 50mm f/2, Leica M6, Ektar 100)
+(Summicron-M 50mm f/2, Leica M6, Ektachrome 100)
