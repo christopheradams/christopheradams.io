@@ -7,7 +7,7 @@ layout: page
     <div class="col-12 px-0 border-bottom">
       <section class="jumbotron text-center bg-white">
         <div class="container">
-          <h1 class="post-title jumbotron-heading" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
+          <h1 class="post-title jumbotron-heading display-3" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
           <div class="post-dateline">
             <time class="" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
             {% if page.location %}
