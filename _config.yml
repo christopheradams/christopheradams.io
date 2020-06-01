@@ -65,4 +65,5 @@ exclude:
   - package-lock.json
   - package.json
   - screenshot.png
-  - webpack.config.js
+  - webpack.dev.js
+  - webpack.common.js
