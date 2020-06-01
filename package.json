@@ -4,7 +4,7 @@
   "description": "Articles and Photographs by Christopher Adams",
   "private": true,
   "scripts": {
-    "build": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --config webpack.dev.js --watch"
   },

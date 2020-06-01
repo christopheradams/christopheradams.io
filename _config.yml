@@ -66,4 +66,5 @@ exclude:
   - package.json
   - screenshot.png
   - webpack.dev.js
+  - webpack.prod.js
   - webpack.common.js
