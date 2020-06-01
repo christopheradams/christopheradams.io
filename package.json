@@ -4,7 +4,7 @@
   "description": "Articles and Photographs by Christopher Adams",
   "private": true,
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js && bundle exec jekyll build --lsi",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --config webpack.dev.js --watch"
   },

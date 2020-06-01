@@ -19,8 +19,19 @@ gem install bundler
 ```sh
 bundle install
 npm install
+```
+
+### Development
+
+```sh
+npm run watch
+bundle exec jekyll serve --livereload
+```
+
+### Production
+
+```sh
 npm run build
-bundle exec jekyll build --lsi
 ```
 
 ## Screenshot
