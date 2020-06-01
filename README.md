@@ -31,6 +31,7 @@ npm run watch
 
 ```sh
 npm run build
+npm run deploy root@cxadams.com:/srv/www/christopheradams.io
 ```
 
 ## Screenshot

@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.prod.js && bundle exec jekyll build --lsi",
+    "deploy": "rsync -avz --delete _site/ $1",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --config webpack.dev.js --watch | bundle exec jekyll serve --livereload"
   },
