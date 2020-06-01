@@ -8,4 +8,8 @@ image: https://live.staticflickr.com/8024/28711451844_35f72173d9_k.jpg
 excerpt: "MIT Media Lab"
 ---
 
-(Ilford HP5 Plus 400, Nokton 35mm f/1.2 II, Leica M6)
+Philipp Schmidt is a co-founder of [Peer 2 Peer University] and Director of
+Learning Innovation at the MIT Media Lab. (Ilford HP5 Plus 400, Nokton 35mm
+f/1.2 II, Leica M6)
+
+[Peer 2 Peer University]: http://p2pu.org/

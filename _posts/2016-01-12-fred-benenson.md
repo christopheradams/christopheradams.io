@@ -8,6 +8,6 @@ image: https://live.staticflickr.com/8244/29334522065_4fa6b186b2_k.jpg
 excerpt: "At Kickstarter HQ"
 ---
 
-Fred Benenson was employee №2 at Kickstarter and is now at Y Combinator. Fred is
-a long-time friend, copyright activist, and emoji expert. (Ilford HP5 Plus 400,
-Nokton 35mm f/1.2 II, Leica M6)
+Fred Benenson was employee №2 at Kickstarter before moving on to Y Combinator.
+Fred is a long-time friend, copyright activist, and emoji expert. (Ilford HP5
+Plus 400, Nokton 35mm f/1.2 II, Leica M6)
