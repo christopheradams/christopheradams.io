@@ -7,7 +7,7 @@
         <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a>
         &mdash;
         <span itemprop="description">
-          {{ post.content | strip_html | truncatewords: 35, "" }}
+          {{ post.content | strip_html | truncatewords: 35 }}
         </span>
       </span>
     </div>
