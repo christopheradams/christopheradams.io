@@ -25,7 +25,6 @@ npm install
 
 ```sh
 npm run watch
-bundle exec jekyll serve --livereload
 ```
 
 ### Production
