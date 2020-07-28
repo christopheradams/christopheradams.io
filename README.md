@@ -10,6 +10,10 @@ The previous theme used [Remarkdown]. See the `remarkdown` branch.
 
 ## Requirements
 
+* Ruby
+* Node.js
+* IPFS
+
 ```sh
 gem install bundler
 ```
@@ -19,6 +23,12 @@ gem install bundler
 ```sh
 bundle install
 npm install
+```
+
+### Photos
+
+```
+ipfs get --output assets/media QmR81MgMQVyHysobRAfKRZ1QQhTRpJEctxSzqX7SHP3Xv6
 ```
 
 ### Development
