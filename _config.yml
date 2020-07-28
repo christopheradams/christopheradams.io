@@ -60,6 +60,8 @@ responsive_image:
     - width: 480
     - width: 800
     - width: 1080
+  extra_images:
+    - assets/media/*.{jpeg,jpg}
 
 license: "CC-by"
 license_url: https://creativecommons.org/licenses/by/4.0/
