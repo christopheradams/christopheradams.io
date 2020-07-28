@@ -4,7 +4,7 @@ location: Beijing
 category: photos
 tags: portrait
 link: https://www.flickr.com/photos/christopheradams/8122265571/
-image: https://live.staticflickr.com/8191/8122265571_bc2700623d_k.jpg
+image: /assets/media/8122265571_4b66c3acb8_o.jpg
 excerpt: "AKA Dead J"
 ---
 

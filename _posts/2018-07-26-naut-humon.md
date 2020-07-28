@@ -4,7 +4,7 @@ location: San Francisco
 category: photos
 tags: portrait
 link: https://www.flickr.com/photos/christopheradams/43824763384/
-image: https://live.staticflickr.com/1864/43824763384_2de34e9632_k.jpg
+image: /assets/media/43824763384_27e6d56cb9_o.jpg
 excerpt: Gray Area
 ---
 

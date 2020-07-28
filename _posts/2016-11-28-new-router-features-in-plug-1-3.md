@@ -3,7 +3,7 @@ title: "New Router features in Plug 1.3"
 excerpt: "Calling All Plugs"
 category: articles
 tags: programming
-image: https://live.staticflickr.com/1844/44394644182_5331a43e3b_k.jpg
+image: /assets/media/44394644182_b9e6b3d191_o.jpg
 link: https://www.flickr.com/photos/christopheradams/44394644182/
 location: Taipei
 ---

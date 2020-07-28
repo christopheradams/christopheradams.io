@@ -4,7 +4,7 @@ location: Linz
 category: about
 tags: portrait
 link: https://www.flickr.com/photos/joi/2829609654/
-image: https://live.staticflickr.com/3094/2829609654_800aede242_k.jpg
+image: /assets/media/2829609654_29c542c67a_o.jpg
 license: CC-by
 license_url: https://creativecommons.org/licenses/by/2.0/
 excerpt: Ars Electronica

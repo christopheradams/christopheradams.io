@@ -4,7 +4,7 @@ location: Beijing
 category: photos
 tags: art
 link: https://www.flickr.com/photos/christopheradams/sets/72157631878910877/
-image: https://live.staticflickr.com/8324/8126876501_dd46191c8a_k.jpg
+image: /assets/media/8126876501_79765fd166_o.jpg
 excerpt: "Beijing Design Week"
 ---
 
@@ -21,6 +21,6 @@ climatic elements of Caochangdi.
 
 I was there to capture the destruction on film.
 
-![Weak Soundsystem](https://live.staticflickr.com/8048/8111359498_b7d4360145_k.jpg)
+![Weak Soundsystem](/assets/media/8111359498_36cf5b4ef5_o.jpg)
 
 (Fuji Neopan 100 Acros, 75mm Heliar Classic f/1.8, Bessa R2M)
