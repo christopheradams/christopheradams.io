@@ -9,7 +9,7 @@
     {% endresponsive_image_block %}
     <div class="card-body">
       <span class="card-title">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a>
+        <a href="{{ post.url }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a>
         &mdash;
         <span itemprop="description">
           {{ post.content | strip_html | truncatewords: 35 }}

@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 
 <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-<link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}">
+<link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
 
 {% include meta.html %}
 {% feed_meta %}
