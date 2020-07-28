@@ -13,6 +13,7 @@ The previous theme used [Remarkdown]. See the `remarkdown` branch.
 * Ruby
 * Node.js
 * IPFS
+* ImageMagick and [RMagick](https://github.com/rmagick/rmagick)
 
 ```sh
 gem install bundler
