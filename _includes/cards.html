@@ -1,7 +1,12 @@
 <div class="card-columns mt-5">
   {% for post in include.posts %}
   <div class="post-card card border-white mb-4">
-    <img class="card-img-top" alt="{{ post.title }}" src="{{ post.image | relative_url }}">
+    {% responsive_image_block %}
+      path: {{ post.image }}
+      alt: {{ post.title }}
+      class: "card-img-top"
+      sizes: "(max-width: 512px) 480px, 800px"
+    {% endresponsive_image_block %}
     <div class="card-body">
       <span class="card-title">
         <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a>
