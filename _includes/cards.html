@@ -1,8 +1,9 @@
 <div class="card-columns mt-5">
   {% for post in include.posts %}
   <div class="post-card card border-white mb-4">
+    {% assign post_image = post.image.path | default: post.image %}
     {% responsive_image_block %}
-      path: {{ post.image }}
+      path: {{ post_image }}
       alt: {{ post.title }}
       class: "card-img-top"
       sizes: "(max-width: 512px) 480px, 800px"
