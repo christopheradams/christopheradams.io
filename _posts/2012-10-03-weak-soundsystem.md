@@ -21,6 +21,6 @@ climatic elements of Caochangdi.
 
 I was there to capture the destruction on film.
 
-![Weak Soundsystem](/assets/media/8111359498_36cf5b4ef5_o.jpg)
+![Weak Soundsystem](/assets/resized/800/8111359498_36cf5b4ef5_o.jpg)
 
 (Fuji Neopan 100 Acros, 75mm Heliar Classic f/1.8, Bessa R2M)
