@@ -4,5 +4,6 @@ _site
 .jekyll-metadata
 dist
 media
+resized
 vendor
 node_modules
