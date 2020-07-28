@@ -4,7 +4,7 @@ location: Seoul
 category: articles
 tags: freebassel
 excerpt: "Activists in Syria"
-image: /assets/media/6553833251_8d021171d0_o.jpg
+image: assets/media/6553833251_8d021171d0_o.jpg
 link: https://www.flickr.com/photos/christopheradams/6553833251/
 ---
 <blockquote class="blockquote" data-lang="en">

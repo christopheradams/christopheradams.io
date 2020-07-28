@@ -4,7 +4,7 @@ location: New York
 category: photos
 tags: portrait
 link: https://www.flickr.com/photos/christopheradams/27357650411/
-image: /assets/media/27357650411_5d0c3f7df9_o.jpg
+image: assets/media/27357650411_5d0c3f7df9_o.jpg
 excerpt: "Odysseus' Gambit"
 ---
 

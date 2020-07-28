@@ -25,7 +25,7 @@ layout: page
   <div class="row justify-content-center border-bottom">
     <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-5 px-0">
       <section class="text-center my-5">
-        <img class="img-fluid" src="{{ page.image }}">
+        <img class="img-fluid" src="{{ page.image | relative_url }}">
       </section>
     </div>
   </div>
@@ -102,7 +102,7 @@ layout: page
           {% for post in site.related_posts limit: 3 %}
           <div class="col">
             <div class="post-card card text-center border-light bg-light mb-4">
-              <img class="card-img-top" alt="{{ post.title }}" src="{{ post.image }}">
+              <img class="card-img-top" alt="{{ post.title }}" src="{{ post.image | relative_url }}">
               <div class="card-body">
                 <span class="card-title">
                   <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a>

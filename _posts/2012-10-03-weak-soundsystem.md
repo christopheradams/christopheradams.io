@@ -4,7 +4,7 @@ location: Beijing
 category: photos
 tags: art
 link: https://www.flickr.com/photos/christopheradams/sets/72157631878910877/
-image: /assets/media/8126876501_79765fd166_o.jpg
+image: assets/media/8126876501_79765fd166_o.jpg
 excerpt: "Beijing Design Week"
 ---
 
