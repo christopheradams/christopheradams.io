@@ -51,6 +51,16 @@ defaults:
 paginate: 9
 paginate_path: "/page/:num/"
 
+# Image settings
+responsive_image:
+  template: _includes/srcset-resized-fallback.html
+  base_path: assets/media
+  output_path_format: assets/resized/%{width}/%{dirname}/%{basename}
+  sizes:
+    - width: 480
+    - width: 800
+    - width: 1080
+
 license: "CC-by"
 license_url: https://creativecommons.org/licenses/by/4.0/
 
