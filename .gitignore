@@ -3,5 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 dist
+media
 vendor
 node_modules
