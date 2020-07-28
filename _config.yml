@@ -21,12 +21,8 @@ social:
 
 # Author settings
 author:
-  - name: Christopher Adams
-    bio: >
-      Christopher Adams is a writer, publisher, and software developer. He works
-      on free software and free culture, and specializes in photography and web
-      technologies.
-    url: https://christopheradams.io
+  name: Christopher Adams
+  uri: https://christopheradams.io
 
 # Pagination settings
 collections:
@@ -39,7 +35,7 @@ defaults:
     values:
       layout: post
       permalink: /:categories/:year/:month/:title/
-      author: Christopher Adams
+      author: christopheradams
   - scope:
       path: ""
       type: category
