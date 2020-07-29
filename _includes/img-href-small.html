@@ -1,0 +1,5 @@
+{%- for i in resized -%}
+    {%- if i.width == 480 -%}
+        /{{ i.path }}
+    {%- endif -%}
+{%- endfor -%}
