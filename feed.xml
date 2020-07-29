@@ -82,6 +82,12 @@
 
       {% assign post_image = post.image.path | default: post.image %}
       {% if post_image %}
+        {%- capture post_image -%}
+          {% responsive_image_block %}
+            path: {{ post_image }}
+            template: _includes/img-href-small.html
+            {% endresponsive_image_block %}
+          {%- endcapture -%}
         {% unless post_image contains "://" %}
           {% assign post_image = post_image | absolute_url %}
         {% endunless %}
