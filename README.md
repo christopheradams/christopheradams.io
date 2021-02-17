@@ -12,7 +12,7 @@ The previous theme used [Remarkdown]. See the `remarkdown` branch.
 
 * Ruby
 * Node.js
-* IPFS
+* rclone
 * ImageMagick and [RMagick](https://github.com/rmagick/rmagick)
 
 ```sh
@@ -28,8 +28,10 @@ npm install
 
 ### Photos
 
+Configure rclone with a a B2 Cloud Storage application key
+
 ```
-ipfs get --output assets/media QmR81MgMQVyHysobRAfKRZ1QQhTRpJEctxSzqX7SHP3Xv6
+rclone copyto $REMOTE:cxadams-website assets/media/
 ```
 
 ### Development
