@@ -50,7 +50,7 @@ paginate_path: "/page/:num/"
 responsive_image:
   template: _includes/srcset-resized-fallback.html
   base_path: assets/media
-  output_path_format: assets/resized/%{width}/%{dirname}/%{basename}
+  output_path_format: assets/resized/%{dirname}/%{filename}-%{width}.%{extension}
   sizes:
     - width: 480
     - width: 800
