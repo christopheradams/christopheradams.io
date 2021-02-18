@@ -4,7 +4,7 @@ location: Beijing
 category: photos
 tag: art
 link: https://www.flickr.com/photos/christopheradams/10684679515/
-image: assets/media/10684679515_653820a418_o.jpg
+image: assets/media/flickr/10684679515_653820a418_o.jpg
 excerpt: "Ai Weiwei Studio, Caochangdi"
 tags: photo
 ---

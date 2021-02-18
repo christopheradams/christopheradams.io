@@ -4,7 +4,7 @@ location: New York
 category: photos
 tags: portrait
 link: https://www.flickr.com/photos/christopheradams/29334522065/
-image: assets/media/29334522065_efacd7ba49_o.jpg
+image: assets/media/flickr/29334522065_efacd7ba49_o.jpg
 excerpt: "At Kickstarter HQ"
 ---
 

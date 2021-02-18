@@ -4,7 +4,7 @@ location: Taipei
 category: photos
 tags: portrait
 link: https://www.flickr.com/photos/christopheradams/47957382446/
-image: assets/media/47957382446_bb12eb1a3f_o.jpg
+image: assets/media/flickr/47957382446_bb12eb1a3f_o.jpg
 excerpt: Mi Montaña
 ---
 
