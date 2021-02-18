@@ -31,7 +31,7 @@ npm install
 Configure rclone with a a B2 Cloud Storage application key
 
 ```
-rclone copyto $REMOTE:cxadams-website assets/media/
+rclone copyto --transfers 32 $REMOTE:cxadams-website assets/media/
 ```
 
 ### Development
