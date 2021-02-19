@@ -4,7 +4,7 @@ location: Taipei
 category: photos
 tags: portrait
 link: https://www.flickr.com/photos/christopheradams/45821354671/
-image: https://live.staticflickr.com/4915/45821354671_b07269fb6f_k.jpg
+image: https://static.christopheradams.io/file/cxadams-website/flickr/45821354671_b07269fb6f_k.jpg
 excerpt: Opening
 ---
 
