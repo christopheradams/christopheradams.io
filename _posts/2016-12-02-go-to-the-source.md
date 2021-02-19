@@ -4,7 +4,6 @@ excerpt: "Linking each webpage to its code"
 category: articles
 tags: programming
 image: https://static.christopheradams.io/file/cxadams-website/flickr/8271297507_3736d4d718_k.jpg
-link: https://www.flickr.com/photos/christopheradams/8271297507
 location: Taipei
 ---
 

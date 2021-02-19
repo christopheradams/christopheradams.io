@@ -3,7 +3,6 @@ title: "Christopher Doyle"
 location: Beijing
 category: photos
 tags: portrait
-link: https://www.flickr.com/photos/christopheradams/8699512236/
 image: https://static.christopheradams.io/file/cxadams-website/flickr/8699512236_ae449847b2_k_d.jpg
 excerpt: "The Cinematographer"
 ---

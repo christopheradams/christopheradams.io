@@ -3,7 +3,6 @@ title: Lawrence Lessig
 location: Toronto
 category: photos
 tags: portrait
-link: https://www.flickr.com/photos/christopheradams/41943589411/
 image: https://static.christopheradams.io/file/cxadams-website/flickr/41943589411_9733118b6d_k.jpg
 excerpt: Reviving Democracy
 ---

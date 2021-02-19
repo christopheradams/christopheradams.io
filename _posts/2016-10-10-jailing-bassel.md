@@ -5,7 +5,6 @@ category: articles
 tags: freebassel
 excerpt: "Activists in Syria"
 image: https://static.christopheradams.io/file/cxadams-website/flickr/6553833251_3cc3bd1a9c_k.jpg
-link: https://www.flickr.com/photos/christopheradams/6553833251/
 ---
 <blockquote class="blockquote" data-lang="en">
   <p lang="en" dir="ltr" class="mb-0">

@@ -3,7 +3,6 @@ title: "Weak Soundsystem"
 location: Beijing
 category: photos
 tags: art
-link: https://www.flickr.com/photos/christopheradams/sets/72157631878910877/
 image: https://static.christopheradams.io/file/cxadams-website/flickr/8126876501_dd46191c8a_k.jpg
 excerpt: "Beijing Design Week"
 ---

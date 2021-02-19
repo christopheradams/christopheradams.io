@@ -3,7 +3,6 @@ title: Beat Streuli
 location: Taipei
 category: photos
 tags: portrait
-link: https://www.flickr.com/photos/christopheradams/45821354671/
 image: https://static.christopheradams.io/file/cxadams-website/flickr/45821354671_b07269fb6f_k.jpg
 excerpt: Opening
 ---

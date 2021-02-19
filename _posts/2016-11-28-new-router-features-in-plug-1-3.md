@@ -4,7 +4,6 @@ excerpt: "Calling All Plugs"
 category: articles
 tags: programming
 image: https://static.christopheradams.io/file/cxadams-website/flickr/44394644182_5331a43e3b_k.jpg
-link: https://www.flickr.com/photos/christopheradams/44394644182/
 location: Taipei
 ---
 
