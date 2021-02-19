@@ -71,7 +71,7 @@ PLATFORMS
 DEPENDENCIES
   classifier-reborn (~> 2.0)
   jekyll (~> 4.1.0)
-  jekyll-feed (~> 0.12)
+  jekyll-feed (~> 0.15)
   jekyll-paginate
   jekyll-sitemap
 
