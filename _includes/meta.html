@@ -1,6 +1,11 @@
 {%- assign title = page.title | default: site.title -%}
 {%- assign description = page.description | default: site.description | strip | escape -%}
-{%- assign image = page.image | default: site.default_img | absolute_url -%}
+
+{% assign image = page.image.path | default: page.image %}
+{%- assign image = image | default: site.default_img -%}
+{%- unless image contains "://" -%}
+  {%- assign image = image | absolute_url -%}
+{%- endunless -%}
 
 <meta name="description" content="{{ description }}">
 
