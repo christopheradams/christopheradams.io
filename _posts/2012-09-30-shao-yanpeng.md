@@ -8,5 +8,4 @@ image: https://static.christopheradams.io/file/cxadams-website/flickr/8122265571
 excerpt: "AKA Dead J"
 ---
 
-Shao is a producer and DJ from Beijing. (Kodak Portra 400, Nokton
-35mm f/1.2 II, Leica M6)
+Shao is a producer and DJ from Beijing.

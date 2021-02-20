@@ -8,4 +8,3 @@ excerpt: Opening
 ---
 
 Beat Streuli is a Swiss visual artist.
-(Summicron-M 50mm f/2, Leica M10)

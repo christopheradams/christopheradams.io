@@ -8,4 +8,3 @@ excerpt: Gray Area
 ---
 
 Naut Humon is the Founder and Artistic Director of Recombinant Media Labs.
-(Nokton 35mm f/1.2 II, Leica M10)

@@ -8,4 +8,3 @@ excerpt: Reviving Democracy
 ---
 
 Lawrence Lessig is the founder of Creative Commons and a professor at Harvard Law School.
-(Heliar 75mm f/1.8, Leica M10)

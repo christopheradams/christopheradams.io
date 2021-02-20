@@ -9,4 +9,4 @@ excerpt: "The Cinematographer"
 
 Christopher Doyle is a cinematographer, best known for his work with Wong
 Kar-wai, Gus Van Sant, and Zhang Yimou. Taken wide open over whiskies at East
-Hotel. (Fuji Neopan 400, Nokton 35mm f/1.2 II, Leica M6)
+Hotel.

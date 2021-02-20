@@ -8,5 +8,4 @@ excerpt: "Ai Weiwei Studio, Caochangdi"
 tags: photo
 ---
 
-Taken at Ai Weiwei's studio in Beijing. (Kodak Portra 400, Nokton 35mm f/1.2 II,
-Leica M6)
+Taken at Ai Weiwei's studio in Beijing.

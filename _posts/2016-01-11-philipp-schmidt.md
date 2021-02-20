@@ -9,7 +9,6 @@ excerpt: "MIT Media Lab"
 ---
 
 Philipp Schmidt is a co-founder of [Peer 2 Peer University] and Director of
-Learning Innovation at the MIT Media Lab. (Ilford HP5 Plus 400, Nokton 35mm
-f/1.2 II, Leica M6)
+Learning Innovation at the MIT Media Lab.
 
 [Peer 2 Peer University]: http://p2pu.org/
