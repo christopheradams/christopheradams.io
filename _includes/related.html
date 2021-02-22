@@ -1,0 +1,28 @@
+<div class="row d-none d-md-block">
+  <div class="col-12 px-0">
+    <div class="jumbotron bg-light mb-0 py-1">
+      <div class="row text-center py-5">
+        <div class="col">
+          <h2>Related</h2>
+        </div>
+      </div>
+      <div class="row">
+        {% for post in site.related_posts limit: 3 %}
+        <div class="col">
+          <div class="post-card card text-center border-light bg-light mb-4">
+            {% assign post_image = post.image.path | default: post.image %}
+            {% if post_image %}
+            <img class="card-img-top" alt="{{ post.title }}" src="{{ post.image }}">
+            {% endif %}
+            <div class="card-body">
+              <span class="card-title">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
