@@ -7,7 +7,8 @@
         </div>
       </div>
       <div class="row">
-        {% for post in site.related_posts limit: 3 %}
+        {% assign related = site.categories[page.category] | where_exp:"p", "p.id != page.id" | sample: 3 | limit: 3%}
+        {% for post in related %}
         <div class="col">
           <div class="post-card card text-center border-light bg-light mb-4">
             {% assign post_image = post.image.path | default: post.image %}
