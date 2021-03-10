@@ -2,13 +2,14 @@
 layout: post
 title: About
 permalink: /about/
+author: christopheradams
 ---
 
 {% assign about_posts = site.posts | where: "category", "about" %}
 {% include cards.html posts=about_posts %}
 
-{% assign author = site.author | first %}
-{{ author.bio }}
+{% assign authorDetails = site.data.authors[page.author] %}
+{{ authorDetails.bio }}
 
 ## Contact
 
