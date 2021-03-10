@@ -21,8 +21,10 @@ social:
     url: https://flickr.com/photos/christopheradams
 
 # Author settings
+# see _data/authors.yml
 author:
   name: Christopher Adams
+  email: email@christopheradams.io
   uri: https://christopheradams.io
 
 # Pagination settings
