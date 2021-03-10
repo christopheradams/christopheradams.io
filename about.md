@@ -14,8 +14,10 @@ permalink: /about/
 
 {% assign twitter_user = site.social | where: "name", "twitter" | first %}
 {% assign github_user = site.social | where: "name", "github" | first %}
+{% assign instagram_user = site.social | where: "name", "instagram" | first %}
 
 * [{{ site.email }}]({{ site.email | prepend: "mailto:" }})
+* [{{ instagram_user.url | remove_first: "https://" }}]({{ instagram_user.url }})
 * [{{ github_user.url | remove_first: "https://" }}]({{ github_user.url }})
 * [{{ twitter_user.url | remove_first: "https://" }}]({{ twitter_user.url }})
 
