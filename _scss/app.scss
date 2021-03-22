@@ -22,10 +22,6 @@ $container-max-widths: map-merge($container-max-widths, (xl: 1400px));
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/print";
 
-$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/brands';
-
 @import "~pygments-rouge-css/bw";
 
 @import "custom";
