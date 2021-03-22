@@ -52,6 +52,10 @@ paginate_path: "/page/:num/"
 license: "CC-by"
 license_url: https://creativecommons.org/licenses/by/4.0/
 
+sass:
+  sass_dir: _scss
+  style: compressed
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
