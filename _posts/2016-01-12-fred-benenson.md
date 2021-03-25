@@ -3,7 +3,7 @@ title: "Fred Benenson"
 location: New York
 category: photos
 tags: portrait
-image: https://static.christopheradams.io/file/cxadams-website/flickr/29334522065_4fa6b186b2_k.jpg
+image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8244/29334522065_4fa6b186b2_k.jpg
 excerpt: "At Kickstarter HQ"
 ---
 

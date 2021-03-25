@@ -3,7 +3,7 @@ title: "Saravuth Inn"
 location: New York
 category: photos
 tags: portrait
-image: https://static.christopheradams.io/file/cxadams-website/flickr/27357650411_e9b7614f5d_k.jpg
+image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/7167/27357650411_e9b7614f5d_k.jpg
 excerpt: "Odysseus' Gambit"
 ---
 

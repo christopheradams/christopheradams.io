@@ -3,7 +3,7 @@ title: Naut Humon
 location: San Francisco
 category: photos
 tags: portrait
-image: https://static.christopheradams.io/file/cxadams-website/flickr/43824763384_2de34e9632_k.jpg
+image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/1864/43824763384_2de34e9632_k.jpg
 excerpt: Gray Area
 ---
 

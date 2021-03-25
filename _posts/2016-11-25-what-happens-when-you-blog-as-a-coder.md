@@ -2,7 +2,7 @@
 title: "What happens when you blog as a coder?"
 category: articles
 tags: programming
-image: https://static.christopheradams.io/file/cxadams-website/flickr/8271084033_c56ced1cee_k.jpg
+image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8211/8271084033_c56ced1cee_k.jpg
 excerpt: "The spark of static site generators"
 location: Taipei
 ---

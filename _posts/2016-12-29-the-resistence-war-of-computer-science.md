@@ -4,7 +4,7 @@ category: articles
 tags: programming
 excerpt: Object Lessons of History
 location: Hanoi
-image: https://static.christopheradams.io/file/cxadams-website/wikimedia/Hano%C3%AFLePetitLacVers1900.jpg
+image: https://static.christopheradams.io/file/cxadams-website/medium/wikipedia/commons/c/c6/Hano%C3%AFLePetitLacVers1900.jpg
 ---
 
 <span class="byline">*Hoàn Kiếm Lake* (c. 1900), [Wikipedia][Hoan Kiem Lake].</span>

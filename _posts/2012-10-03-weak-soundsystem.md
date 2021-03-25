@@ -3,7 +3,7 @@ title: "Weak Soundsystem"
 location: Beijing
 category: photos
 tags: art
-image: https://static.christopheradams.io/file/cxadams-website/flickr/8126876501_dd46191c8a_k.jpg
+image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8324/8126876501_dd46191c8a_k.jpg
 excerpt: "Beijing Design Week"
 ---
 
@@ -18,4 +18,4 @@ climatic elements of Caochangdi.
 
 I was there to capture the destruction on film.
 
-![Weak Soundsystem](https://static.christopheradams.io/file/cxadams-website/flickr/8111359498_b7d4360145_k.jpg)
+![Weak Soundsystem](https://static.christopheradams.io/file/cxadams-website/medium/flickr/8048/8111359498_b7d4360145_k.jpg)
