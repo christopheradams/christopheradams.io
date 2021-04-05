@@ -1,4 +1,4 @@
-{%- assign title = page.title | default: site.title -%}
+{%- assign title = page.title | default: site.title | escape -%}
 {%- assign description = page.description | default: site.description | strip | escape -%}
 
 {% assign image = page.image.path | default: page.image %}
@@ -20,7 +20,7 @@
 <meta name="twitter:url" content="{{ page.url | absolute_url }}">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ title }}">
-<meta name="twitter:site" content="{{ site.title }}">
+<meta name="twitter:site" content="{{ site.title | escape }}">
 <meta name="twitter:description" content="{{ description }}">
 {% if twitter_user %}<meta name="twitter:creator" content="@{{ twitter_user.url | split: "/" | last }}">{% endif %}
 <meta property="twitter:image" content="{{ image }}">

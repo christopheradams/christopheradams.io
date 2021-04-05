@@ -1,7 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 
-<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}">
 
 {% include meta.html %}

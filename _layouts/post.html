@@ -12,7 +12,7 @@ layout: page
             <time class="" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
             {% if page.location %}
             <span class="page-location">
-              {{ page.location }}
+              {{ page.location | escape }}
             </span>
             {% endif %}
           </div>
@@ -27,7 +27,7 @@ layout: page
   <div class="row justify-content-center border-bottom">
     <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-5 px-0">
       <section class="text-center my-5">
-        <img class="img-fluid" alt="{{ image_title }}" src="{{ page_image }}">
+        <img class="img-fluid" alt="{{ image_title | escape }}" src="{{ page_image }}">
       </section>
     </div>
   </div>
@@ -66,7 +66,7 @@ layout: page
               {% assign authorDetails = site.data.authors[author] %}
               <strong>
                 {% if forloop.first == true %} Posted by {% else %} &amp; {% endif %}
-                {% if authorDetails.uri %}<a href="{{ authorDetails.uri }}" title="More By {{ authorDetails.name }}">{% endif %}{{ authorDetails.name }}{% if authorDetails.uri %}</a>{% endif %}
+                {% if authorDetails.uri %}<a href="{{ authorDetails.uri }}" title="More By {{ authorDetails.name | escape }}">{% endif %}{{ authorDetails.name | escape }}{% if authorDetails.uri %}</a>{% endif %}
               </strong>
               {% else %}
               <strong>About</strong>
@@ -74,7 +74,7 @@ layout: page
             </p>
             {% for author in page.author %}
             {% assign authorDetails = site.data.authors[author] %}
-            <p class="post-bio">{{ authorDetails.bio }}</p>
+            <p class="post-bio">{{ authorDetails.bio | escape }}</p>
             {% endfor %}
           </div>
           <div class="post-details">

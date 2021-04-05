@@ -1,6 +1,6 @@
 <header>
   <nav class="navbar navbar-expand navbar-light bg-white border-bottom">
-    <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">

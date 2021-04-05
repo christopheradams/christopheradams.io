@@ -9,13 +9,13 @@ layout: post
 {% for page in category_posts %}
   <a href="{{ page.url }}" class="list-group-item list-group-item-action">
     <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">{{ page.title }}</h5>
+      <h5 class="mb-1">{{ page.title | escape }}</h5>
     </div>
     <p class="text-muted">
       <small>
-        {{ page.excerpt }}
+        {{ page.excerpt | escape }}
         <span>
-          — {% if page.location %}{{ page.location }},{% endif %}
+          — {% if page.location %}{{ page.location | escape }},{% endif %}
           {{ page.date | date: "%B %Y" }}
         </span>
       </small>

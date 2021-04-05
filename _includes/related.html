@@ -15,11 +15,11 @@
           <div class="post-card card text-center border-light bg-light mb-4">
             {% assign post_image = post.image.path | default: post.image %}
             {% if post_image %}
-            <img class="card-img-top" alt="{{ post.title }}" src="{{ post_image }}">
+            <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">
             {% endif %}
             <div class="card-body">
               <span class="card-title">
-                <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title }}</strong></a>
+                <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title | escape }}</strong></a>
               </span>
             </div>
           </div>
