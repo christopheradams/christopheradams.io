@@ -11,6 +11,12 @@ author: christopheradams
 {% assign authorDetails = site.data.authors[page.author] %}
 {{ authorDetails.bio }}
 
+## Exhibitions
+
+*Museum of Contemporary Art Taipei, Kuandu Museum of Fine Arts, Taiwan
+Contemporary Culture Lab, Taipei Contemporary Art Center, Ars
+Electronica, transmediale, IMPAKT, Beijing Design Week*
+
 ## Contact
 
 * [{{ site.email }}]({{ site.email | prepend: "mailto:" }})
