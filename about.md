@@ -8,8 +8,10 @@ author: christopheradams
 {% assign about_posts = site.posts | where: "category", "about" %}
 {% include cards.html posts=about_posts %}
 
+<p class="lead">
 {% assign authorDetails = site.data.authors[page.author] %}
 {{ authorDetails.bio }}
+</p>
 
 ## Exhibitions
 
