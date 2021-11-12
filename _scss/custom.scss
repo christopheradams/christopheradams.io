@@ -35,6 +35,12 @@ $post-line-height: 1.7;
   }
 }
 
+.jumbotron {
+  @include media-breakpoint-down(xs) {
+    padding-bottom: 0;
+  }
+}
+
 .post-card {
   &:hover {
     .card-img-top {
