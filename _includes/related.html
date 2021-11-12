@@ -2,8 +2,8 @@
 {% if related.size > 1 %}
 <div class="row d-none d-md-block">
   <div class="col-12 full-width">
-    <div class="jumbotron bg-light mb-0 py-1">
-      <div class="row text-center py-5">
+    <div class="jumbotron related-jumbotron bg-light">
+      <div class="row related-title text-center">
         <div class="col">
           <h2>Related</h2>
         </div>
@@ -12,7 +12,7 @@
       <div class="row">
         {% for post in related %}
         <div class="col">
-          <div class="post-card card text-center border-light bg-light mb-4">
+          <div class="post-card card text-center border-light bg-light">
             {% assign post_image = post.image.path | default: post.image %}
             {% if post_image %}
             <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">

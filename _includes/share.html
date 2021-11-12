@@ -1,9 +1,9 @@
 {% assign authorDetails = site.data.authors[page.author] %}
 <div class="post-social post-share d-flex flex-row justify-content-center">
-  <div class="p-2">
+  <div class="tag-item">
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | cgi_escape | escape }}" target="_blank">Share on Facebook</a>
   </div>
-  <div class="p-2">
+  <div class="tag-item">
     <a href="https://twitter.com/intent/tweet?text={{ page.title | cgi_escape }}+{{ page.url | absolute_url | cgi_escape | escape }}{% if authorDetails %}+by+{{ authorDetails.name | cgi_escape | escape }}{% endif %}" target="_blank">Share on Twitter</a>
   </div>
 </div>

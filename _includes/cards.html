@@ -1,6 +1,6 @@
-<div class="card-columns mt-5">
+<div class="card-columns">
   {% for post in include.posts %}
-  <div class="post-card card border-white mb-4">
+  <div class="post-card card border-white">
     {% assign post_image = post.image.path | default: post.image %}
     {% if post_image %}
     <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">
