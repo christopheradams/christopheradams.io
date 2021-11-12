@@ -72,6 +72,10 @@ $post-line-height: 1.7;
   font-size: $post-body-size;
   line-height: $post-line-height;
 
+  .lead {
+    font-size: 2rem;
+  }
+
   blockquote {
     font-style: italic;
     font-size: $post-body-size;
