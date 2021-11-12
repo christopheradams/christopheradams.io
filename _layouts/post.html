@@ -4,7 +4,7 @@ layout: page
 
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="row">
-    <div class="col-12 px-0 border-bottom">
+    <div class="col-12 full-width border-bottom">
       <section class="jumbotron text-center bg-white">
         <div class="container">
           <h1 class="post-title jumbotron-heading display-3" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
@@ -25,7 +25,7 @@ layout: page
   {% if page_image %}
   {% assign image_title = page.image.title | default: page.title %}
   <div class="row justify-content-center border-bottom">
-    <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-5 px-0">
+    <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-5 full-width">
       <section class="text-center my-5">
         <img class="img-fluid" alt="{{ image_title | escape }}" src="{{ page_image }}">
       </section>

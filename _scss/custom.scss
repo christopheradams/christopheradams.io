@@ -6,6 +6,11 @@ $post-line-height: 1.7;
   background-color: $red;
 }
 
+.full-width {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .navbar-brand,
 .nav-link {
   font-size: 0.9rem;

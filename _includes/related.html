@@ -1,7 +1,7 @@
 {% assign related = site.categories[page.category] | where_exp:"p", "p.id != page.id" | sample: 3 | limit: 3%}
 {% if related.size > 1 %}
 <div class="row d-none d-md-block">
-  <div class="col-12 px-0">
+  <div class="col-12 full-width">
     <div class="jumbotron bg-light mb-0 py-1">
       <div class="row text-center py-5">
         <div class="col">
