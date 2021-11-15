@@ -207,3 +207,12 @@ $post-line-height: 1.7;
 .tag-item {
   padding: .5rem;
 }
+
+.link-domain {
+  font-weight: $font-weight-normal;
+}
+
+.link-path {
+  color: $gray-800;
+  font-weight: $font-weight-lighter;
+}
