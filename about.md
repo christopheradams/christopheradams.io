@@ -25,15 +25,12 @@ Electronica, transmediale, IMPAKT, Beijing Design Week, Get It Louder*
 
 ## Links
 
-{% assign twitter_user = site.social | where: "name", "twitter" | first %}
-{% assign github_user = site.social | where: "name", "github" | first %}
-{% assign instagram_user = site.social | where: "name", "instagram" | first %}
-{% assign hen_user = site.social | where: "name", "hicetnunc" | first %}
-
-* [{{ hen_user.url | remove_first: "https://" }}]({{ hen_user.url }})
-* [{{ instagram_user.url | remove_first: "https://" }}]({{ instagram_user.url }})
-* [{{ github_user.url | remove_first: "https://" }}]({{ github_user.url }})
-* [{{ twitter_user.url | remove_first: "https://" }}]({{ twitter_user.url }})
+{% if site.social %}
+  {% assign socials = site.social | sort: "name" %}
+  {%- for social in socials %}
+  * [{{ social.url | remove_first: "https://" }}]({{ social.url }})
+  {%- endfor -%}
+{% endif %}
 
 ## Colophon
 
