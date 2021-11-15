@@ -21,13 +21,19 @@ Electronica, transmediale, IMPAKT, Beijing Design Week, Get It Louder*
 
 ## Contact
 
-* [{{ site.email }}]({{ site.email | prepend: "mailto:" }})
+<ul class="list-unstyled">
+  <li>
+    <a href="{{ site.email | prepend: "mailto:" }}">
+      {{ site.email }}
+    </a>
+  </li>
+</ul>
 
 ## Links
 
 {% if site.social %}
   {% assign socials = site.social | sort: "name" %}
-  <ul>
+  <ul class="list-unstyled">
   {%- for social in socials %}
   <li>
   <a href="{{ social.url}}">
