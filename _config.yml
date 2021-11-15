@@ -17,8 +17,8 @@ social:
     url: https://instagram.com/christopherleeadams
   - name: github
     url: https://github.com/christopheradams
-  - name: flickr
-    url: https://flickr.com/photos/christopheradams
+  # - name: flickr
+  #   url: https://flickr.com/photos/christopheradams
   - name: hicetnunc
     url: https://hicetnunc.art/christopheradams
 
