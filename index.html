@@ -3,6 +3,8 @@ layout: page
 title: "Home"
 ---
 
-{% include cards.html posts=paginator.posts %}
+<div class="homepage-body">
+  {% include cards.html posts=paginator.posts %}
 
-{% include pagination.html %}
+  {% include pagination.html %}
+</div>

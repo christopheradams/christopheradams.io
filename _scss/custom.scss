@@ -7,8 +7,8 @@ $post-line-height: 1.7;
 }
 
 .full-width {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .navbar-brand,
@@ -21,36 +21,17 @@ $post-line-height: 1.7;
   }
 }
 
+.navbar-nav {
+  margin-left: auto;
+}
+
 .navbar-light .navbar-nav .nav-link  {
   color: $body-color;
 }
 
-.card-columns {
-  margin-top: 3rem;
-
-  @include media-breakpoint-only(sm) {
-    column-count: 1;
-  }
-  @include media-breakpoint-only(md) {
-    column-count: 2;
-  }
-  @include media-breakpoint-only(lg) {
-    column-count: 2;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 3;
-  }
-}
-
-.jumbotron {
-  @include media-breakpoint-down(xs) {
-    padding-bottom: 0;
-  }
-}
-
-.related-jumbotron {
-  margin-bottom: 0;
-  padding: 0.25rem;
+.homepage-body {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .related-title {
@@ -62,11 +43,36 @@ $post-line-height: 1.7;
   margin-top: 3rem !important;
 }
 
-.post-card {
+.card-columns {
+  @include media-breakpoint-up(sm) {
+    column-count: 1;
+  }
+  @include media-breakpoint-up(md) {
+    column-count: 2;
+  }
+}
+
+.homepage-body .card-columns {
+  @include media-breakpoint-up(xl) {
+    column-count: 3;
+  }
+}
+
+.card-block {
+  display: inline-block;
+
   &:hover {
     .card-img-top {
       transform: translate3d(0, -10px, 0);
     }
+  }
+
+  .card-body {
+    font-size: $post-body-size;
+    line-height: $post-line-height;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 1.5rem;
   }
 
   .card-img-top {
@@ -74,17 +80,24 @@ $post-line-height: 1.7;
   }
 }
 
-.post-card .card-body {
-  font-size: $post-body-size;
-  line-height: $post-line-height;
-  padding-left: 0;
-  padding-right: 0;
-  margin-bottom: 1.5rem;
+.article-banner {
+  @extend .text-center;
+  @extend .bg-white;
+  @extend .py-5;
+
+  .post-title {
+    @extend .display-3;
+  }
 }
 
 .post-title {
   a {
     color: $body-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -100,7 +113,7 @@ $post-line-height: 1.7;
   font-size: $post-body-size;
   line-height: $post-line-height;
 
-  padding: 3rem 0;
+  padding: 2rem 0;
 
   .lead {
     font-size: 2rem;
@@ -130,12 +143,12 @@ $post-line-height: 1.7;
     p,
     ul {
       a {
+        text-decoration: none;
         border-bottom: 2px solid $gray-400;
         box-shadow: inset 0 -3px 0 $gray-400;
         color: $body-color;
 
         &:hover {
-          text-decoration: none;
           border-bottom: 2px solid $gray-600;
           box-shadow: inset 0 -3px 0 $gray-600;
         }
@@ -171,6 +184,7 @@ $post-line-height: 1.7;
 
   a {
     color: $gray-400;
+    text-decoration: none;
 
       &:hover {
         color: $gray-600;
@@ -185,7 +199,12 @@ $post-line-height: 1.7;
   padding: 1rem 0;
 
   a {
+    text-decoration: none;
     color: $white;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .footer-content {

@@ -1,9 +1,10 @@
 <header>
   <nav class="navbar navbar-expand navbar-light bg-white border-bottom">
+    <div class="container-fluid">
     <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 
     <div class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="{{ '/' | prepend: site.baseurl }}">Posts</a>
         </li>
@@ -12,6 +13,6 @@
         </li>
       </ul>
     </div>
-
+    </div>
   </nav>
 </header>

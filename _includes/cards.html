@@ -1,6 +1,7 @@
 <div class="card-columns">
   {% for post in include.posts %}
-  <div class="post-card card border-white">
+  <div class="card-block">
+  <div class="card border-white">
     {% assign post_image = post.image.path | default: post.image %}
     {% if post_image %}
     <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">
@@ -14,6 +15,7 @@
         </span>
       </span>
     </div>
+  </div>
   </div>
   {% endfor %}
 </div>

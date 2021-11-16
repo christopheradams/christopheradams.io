@@ -5,9 +5,9 @@ layout: page
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="row">
     <div class="col-12 full-width border-bottom">
-      <section class="jumbotron text-center bg-white">
+      <section class="article-banner">
         <div class="container">
-          <h1 class="post-title jumbotron-heading display-3" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
+          <h1 class="post-title" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
           <div class="post-dateline">
             <time class="" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
             {% if page.location %}
