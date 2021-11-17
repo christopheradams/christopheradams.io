@@ -38,11 +38,6 @@ $post-line-height: 1.7;
   padding: 3rem 0;
 }
 
-.img-section {
-  margin-bottom: 3rem !important;
-  margin-top: 3rem !important;
-}
-
 .card-columns {
   @include media-breakpoint-up(sm) {
     column-count: 1;
@@ -106,6 +101,15 @@ $post-line-height: 1.7;
     &::before {
       content: "·"
     }
+  }
+}
+
+.post-image {
+  margin-bottom: 3rem !important;
+  margin-top: 3rem !important;
+
+    .img-fluid {
+      width: 100%;
   }
 }
 
