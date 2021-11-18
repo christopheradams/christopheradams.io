@@ -9,11 +9,13 @@
     <div class="card-body">
       <span class="card-title">
         <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"></a>
+        {% if include.body != false %}
         <strong itemprop="name">{{ post.title | escape }}</strong>
         &mdash;
         <span class="card-description" itemprop="description">
           {{ post.content | truncatewords: 35 }}
         </span>
+        {% endif %}
       </span>
     </div>
   </div>
