@@ -55,7 +55,7 @@ defaults:
       type: category
     values:
       layout: category
-      permalink: /:title/
+      permalink: /categories/:title/
       author: christopheradams
 paginate: 9
 paginate_path: "/page/:num/"
