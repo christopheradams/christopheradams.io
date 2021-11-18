@@ -68,6 +68,21 @@ $post-line-height: 1.7;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 1.5rem;
+
+    a {
+      color: $body-color;
+      text-decoration: none;
+    }
+
+    p {
+      display: inline;
+    }
+
+    .card-description {
+      strong {
+        font-weight: $font-weight-normal;
+      }
+    }
   }
 
   .card-img-top {
