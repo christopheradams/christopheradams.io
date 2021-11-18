@@ -31,6 +31,8 @@ author:
 
 # Pagination settings
 collections:
+  images:
+    output: true
   category:
     output: true
 defaults:
@@ -40,6 +42,13 @@ defaults:
     values:
       layout: post
       permalink: /:categories/:year/:month/:title/
+      author: christopheradams
+  - scope:
+      path: ""
+      type: images
+    values:
+      layout: post
+      permalink: /images/:year/:month/:title/
       author: christopheradams
   - scope:
       path: ""
