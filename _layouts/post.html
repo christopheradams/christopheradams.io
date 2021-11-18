@@ -39,11 +39,12 @@ layout: page
         <div class="col-md-10 col-lg-8 border-bottom">
           <div class="post-content">
             {{ content }}
-            {% if page.link %}
+
+            {% if page.source %}
             <p>
               Source:
-              <a href="{{ page.link }}">
-                {% assign links = page.link | split: "/" %}
+              <a href="{{ page.source }}">
+                {% assign links = page.source | split: "/" %}
                 {{ links[2] }}
               </a>
             </p>
