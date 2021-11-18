@@ -13,4 +13,4 @@ image:
 excerpt: Ars Electronica
 ---
 
-Photo by Joi Ito
+Photo by Joi Ito.

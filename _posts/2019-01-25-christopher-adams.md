@@ -9,4 +9,4 @@ image:
 excerpt: Leica Qingtian Grand Opening
 ---
 
-Photo by Chen You-Wei
+Photo by Chen You-Wei.
