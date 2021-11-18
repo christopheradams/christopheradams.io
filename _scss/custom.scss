@@ -220,6 +220,14 @@ $post-line-height: 1.7;
   }
 }
 
+.page-link {
+  color: $body-color;
+
+  &:hover {
+    color: $body-color;
+  }
+}
+
 .post-social,
 .footer-social {
   text-transform: uppercase;
