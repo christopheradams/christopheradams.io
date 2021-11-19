@@ -216,6 +216,8 @@ $post-line-height: 1.7;
 }
 
 .footer {
+  @extend .mt-auto;
+
   background-color: $gray-900;
   color: $gray-100;
 
