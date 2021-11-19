@@ -5,8 +5,11 @@ layout: post
 {% assign category = page.title | downcase %}
 
 <div class="list-group list-group-flush">
-{% assign category_posts = site.categories[category] | sort: "title" %}
-{% for page in category_posts %}
+{% assign category_posts = site.categories[category] %}
+{% if category_posts.size > 0 %}
+{% assign category_posts_sorted = category_posts | sort: "title" %}
+
+{% for page in category_posts_sorted %}
   <a href="{{ page.url }}" class="list-group-item list-group-item-action">
     <div class="d-flex w-100 justify-content-between">
       <h5 class="mb-1">{{ page.title | escape }}</h5>
@@ -22,4 +25,5 @@ layout: post
     </p>
   </a>
 {% endfor %}
+{% endif %}
 </div>
