@@ -14,12 +14,7 @@ title: Index
     </div>
     <p class="text-muted">
       <small>
-        {{ posts.size }}
-        {% if posts.size == 1 %} item {% else %} items {% endif %}
-        <span>
-          {% assign latest_post = posts.first %}
-          — Updated {{ latest_post.date | date: "%B %Y" }}
-        </span>
+        {{ subject.excerpt }}
       </small>
     </p>
   </a>
