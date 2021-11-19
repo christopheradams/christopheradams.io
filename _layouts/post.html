@@ -10,11 +10,9 @@ layout: page
           <h1 class="post-title" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
           <div class="post-dateline">
             <time class="" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | default: "now" | date: "%-d %b %Y" }}</time>
-            {% if page.location %}
             <span class="page-location">
-              {{ page.location | escape }}
+              {{ page.location | default: site.location }}
             </span>
-            {% endif %}
           </div>
         </div>
       </section>
