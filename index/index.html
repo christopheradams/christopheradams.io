@@ -4,21 +4,21 @@ title: Index
 ---
 
 <div class="list-group list-group-flush">
-{% for post in site.subjects %}
-{% assign category = post.title | downcase %}
-{% assign category_posts = site.categories[category] %}
-{% if category_posts.size > 0 %}
-  <a href="{{ post.url }}" class="list-group-item list-group-item-action">
+{% for subject in site.subjects %}
+{% assign category = subject.slug %}
+{% assign posts = site.categories[category] %}
+{% if posts.size > 0 %}
+  <a href="{{ subject.url }}" class="list-group-item list-group-item-action">
     <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">{{ post.title }}</h5>
+      <h5 class="mb-1">{{ subject.title }}</h5>
     </div>
     <p class="text-muted">
       <small>
-        {{ category_posts.size }}
-        {% if category_post_size == 1 %} item {% else %} items {% endif %}
+        {{ posts.size }}
+        {% if posts.size == 1 %} item {% else %} items {% endif %}
         <span>
-          {% assign category_latest_post = category_posts.first %}
-          — Updated {{ category_latest_post.date | date: "%B %Y" }}
+          {% assign latest_post = posts.first %}
+          — Updated {{ latest_post.date | date: "%B %Y" }}
         </span>
       </small>
     </p>
