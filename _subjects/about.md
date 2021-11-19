@@ -17,8 +17,9 @@ excerpt: Bio, contact, and links
 ## Exhibitions
 
 *Museum of Contemporary Art Taipei, Kuandu Museum of Fine Arts, Taiwan
-Contemporary Culture Lab, Taipei Contemporary Art Center, Ars
-Electronica, transmediale, IMPAKT, Beijing Design Week, Get It Louder*
+Contemporary Culture Lab, Taipei Contemporary Art Center, Gray Area
+Festival, Ars Electronica, transmediale, IMPAKT, Beijing Design Week,
+Get It Louder*
 
 ## Contact
 
