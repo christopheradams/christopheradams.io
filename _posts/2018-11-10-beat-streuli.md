@@ -7,4 +7,6 @@ image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/491
 excerpt: Taiwan Contemporary Culture Lab
 ---
 
-Beat Streuli is a Swiss visual artist.
+Beat Streuli is a Swiss visual artist. He was in Taipei to collaborate
+with Michael Lin on a project titled *Opening*, at the Taiwan
+Contemporary Culture Lab.
