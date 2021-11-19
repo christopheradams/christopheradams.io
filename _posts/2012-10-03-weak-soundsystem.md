@@ -4,7 +4,7 @@ location: Beijing
 category: photos
 tags: art
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8324/8126876501_dd46191c8a_k.jpg
-excerpt: "Beijing Design Week"
+excerpt: Caochangdi
 ---
 
 The Beijing-based artist Matt Hope was commissioned to build a custom
