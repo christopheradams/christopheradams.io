@@ -2,7 +2,7 @@
 title: "Christopher Adams"
 location: Linz
 category: about
-tags: portrait
+tags: creativecommons
 source: https://www.flickr.com/photos/joi/2829609654/
 image:
   author: Joi Ito

@@ -2,7 +2,7 @@
 title: Heinz Frank
 location: Vienna
 category: photos
-tags: portrait
+tags: artist
 image: https://static.christopheradams.io/file/cxadams-website/medium/albums/2019/20190219-1912_Vienna_Kunsthalle/20190219-1912_Vienna_Kunsthalle_L1000927-0.jpg
 excerpt: Kunsthalle Wien
 ---

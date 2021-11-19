@@ -2,7 +2,7 @@
 title: "Philipp Schmidt"
 location: Cambridge, MA
 category: photos
-tags: portrait
+tags: east-coast
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8024/28711451844_35f72173d9_k.jpg
 excerpt: "MIT Media Lab"
 ---

@@ -2,7 +2,7 @@
 title: "Christopher Doyle"
 location: Beijing
 category: photos
-tags: portrait
+tags: beijing
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8400/8699512236_ae449847b2_k_d.jpg
 excerpt: East Hotel
 ---

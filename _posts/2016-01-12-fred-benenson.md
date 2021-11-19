@@ -2,7 +2,7 @@
 title: "Fred Benenson"
 location: New York
 category: photos
-tags: portrait
+tags: east-coast
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8244/29334522065_4fa6b186b2_k.jpg
 excerpt: Kickstarter
 ---

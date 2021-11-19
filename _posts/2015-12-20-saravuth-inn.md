@@ -2,7 +2,7 @@
 title: "Saravuth Inn"
 location: New York
 category: photos
-tags: portrait
+tags: east-coast
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/7167/27357650411_e9b7614f5d_k.jpg
 excerpt: Union Square
 ---

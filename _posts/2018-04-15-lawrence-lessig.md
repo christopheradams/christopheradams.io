@@ -2,7 +2,7 @@
 title: Lawrence Lessig
 location: Toronto
 category: photos
-tags: portrait
+tags: creativecommons
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/864/41943589411_9733118b6d_k.jpg
 excerpt: Creative Commons Global Summit
 ---

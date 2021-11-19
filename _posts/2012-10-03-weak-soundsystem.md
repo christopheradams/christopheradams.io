@@ -2,7 +2,7 @@
 title: "Weak Soundsystem"
 location: Beijing
 category: photos
-tags: art
+tags: beijing
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8324/8126876501_dd46191c8a_k.jpg
 excerpt: Caochangdi
 ---
