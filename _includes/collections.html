@@ -1,8 +1,8 @@
 <div class="footer-tags d-flex flex-wrap justify-content-center">
 
-  {% for category in site.category %}
+  {% for subject in site.subjects %}
   <div class="tag-item">
-    <a class="footer-link" href="{{ category.url }}">{{ category.title | capitalize }}</a>
+    <a class="footer-link" href="{{ subject.url }}">{{ subject.title | capitalize }}</a>
   </div>
   {% endfor %}
 

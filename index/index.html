@@ -4,7 +4,7 @@ title: Index
 ---
 
 <div class="list-group list-group-flush">
-{% for post in site.category %}
+{% for post in site.subjects %}
 {% assign category = post.title | downcase %}
 {% assign category_posts = site.categories[category] %}
 {% if category_posts.size > 0 %}
