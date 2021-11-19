@@ -10,9 +10,9 @@ location: Taipei
 > What would happen if I approached blogging from a software development
 > perspective?
 
-<footer class="blockquote-footer">
+<figcaption class="blockquote-footer">
   <cite>Tom Preston-Werner</cite>
-</footer>
+</figcaption>
 
 ### The Dynamic, Static Web
 
