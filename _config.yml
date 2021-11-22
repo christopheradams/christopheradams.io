@@ -61,9 +61,6 @@ defaults:
 paginate: 9
 paginate_path: "/page/:num/"
 
-license: "CC-by"
-license_url: https://creativecommons.org/licenses/by/4.0/
-
 sass:
   sass_dir: _scss
   style: compressed
@@ -79,6 +76,3 @@ exclude:
   - package-lock.json
   - package.json
   - screenshot.png
-  - webpack.dev.js
-  - webpack.prod.js
-  - webpack.common.js
