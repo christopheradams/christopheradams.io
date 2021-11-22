@@ -16,6 +16,4 @@ The Weak Soundsystem fit right in at the CCD Pavilion, nestled in the courtyard
 of White Space Beijing, and survived a week of exposure to the cultural and
 climatic elements of Caochangdi.
 
-I was there to capture the destruction on film.
-
 ![Weak Soundsystem](https://static.christopheradams.io/file/cxadams-website/medium/flickr/8048/8111359498_b7d4360145_k.jpg)
