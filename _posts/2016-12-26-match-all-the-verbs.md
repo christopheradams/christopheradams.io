@@ -5,6 +5,7 @@ category: articles
 tags: programming
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/833/43414845681_4af48e97c1_b.jpg
 location: Hanoi
+published: false
 ---
 
 > It turns out that Elixir's popular MVC web framework doesn't need Models,
