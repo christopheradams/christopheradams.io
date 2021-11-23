@@ -25,11 +25,13 @@ Although the very first website comprised plain hypertext documents, today much
 of the Web runs on dynamic software and data stores. This makes the recent
 renaissance of static websites look like little more than a novelty.
 
-<img src="/assets/posts/what-happens-when-you-blog-as-a-coder/static-sites.svg" />
-
-(This graph charts the Google search interest in "static site generator" since
-2008.)
-[source]({{ "/assets/posts/what-happens-when-you-blog-as-a-coder" | prepend: site.source_url}})
+<figure class="figure">
+  <img src="/assets/posts/what-happens-when-you-blog-as-a-coder/static-sites.svg" />
+  <figcaption class="figure-caption">
+    This graph charts the Google search interest in "static site
+    generator" since 2008.
+  </figcaption>
+</figure>
 
 There are very real, practical advantages to making websites static,
 specifically in terms of increased performance, security, and ease of deployment
