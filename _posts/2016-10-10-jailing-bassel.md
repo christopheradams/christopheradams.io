@@ -1,9 +1,9 @@
 ---
 title: Jailing Bassel
+subtitle: Activists in Syria
 location: Seoul
 category: articles
 tags: creativecommons
-excerpt: "Activists in Syria"
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/7156/6553833251_3cc3bd1a9c_k.jpg
 ---
 <figure>

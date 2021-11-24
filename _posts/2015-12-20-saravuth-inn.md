@@ -1,10 +1,10 @@
 ---
 title: Saravuth Inn
+subtitle: Union Square
 location: New York
 category: photos
 tags: east-coast
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/7167/27357650411_e9b7614f5d_k.jpg
-excerpt: Union Square
 ---
 
 Saravuth Inn is originally from Cambodia. You can often find him playing chess

@@ -1,3 +1,3 @@
 ---
-excerpt: Essays, news, and projects
+subtitle: Essays, news, and projects
 ---

@@ -1,6 +1,6 @@
 ---
 title: Go to the Source
-excerpt: Linking each webpage to its code
+subtitle: Linking each webpage to its code
 category: articles
 tags: programming
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8504/8271297507_3736d4d718_k.jpg

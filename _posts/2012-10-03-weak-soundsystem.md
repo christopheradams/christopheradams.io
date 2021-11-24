@@ -1,10 +1,10 @@
 ---
 title: Weak Soundsystem
+subtitle: Caochangdi
 location: Beijing
 category: photos
 tags: beijing
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8324/8126876501_dd46191c8a_k.jpg
-excerpt: Caochangdi
 ---
 
 The Beijing-based artist Matt Hope was commissioned to build a custom

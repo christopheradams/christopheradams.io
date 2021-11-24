@@ -1,3 +1,3 @@
 ---
-excerpt: Portraits, landscapes, film, and digital photography
+subtitle: Portraits, landscapes, film, and digital photography
 ---

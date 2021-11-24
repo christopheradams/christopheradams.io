@@ -16,7 +16,7 @@ layout: post
     </div>
     <p class="text-muted">
       <small>
-        {{ post.excerpt | strip_html }}
+        {{ post.subtitle }}
         <span>
           — {% if post.location %}{{ post.location }},{% endif %}
           {{ post.date | date: "%B %Y" }}

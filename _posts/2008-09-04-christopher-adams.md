@@ -1,5 +1,6 @@
 ---
 title: Christopher Adams
+subtitle: Ars Electronica
 location: Linz
 category: about
 tags: creativecommons
@@ -10,7 +11,6 @@ image:
   license_url: https://creativecommons.org/licenses/by/2.0/
   path: https://static.christopheradams.io/file/cxadams-website/medium/flickr/3094/2829609654_800aede242_k.jpg
   title: Christopher Adams
-excerpt: Ars Electronica
 ---
 
 Photo by Joi Ito.

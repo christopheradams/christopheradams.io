@@ -1,9 +1,9 @@
 ---
 title: What happens when you blog as a coder?
+subtitle: The uptick of static site generators
 category: articles
 tags: programming
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8211/8271084033_c56ced1cee_k.jpg
-excerpt: "The uptick of static site generators"
 location: Taipei
 ---
 
