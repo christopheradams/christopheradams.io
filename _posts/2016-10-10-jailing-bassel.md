@@ -5,6 +5,8 @@ location: Seoul
 category: articles
 tags: creativecommons
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/7156/6553833251_3cc3bd1a9c_k.jpg
+excerpt: >
+    The people who are in real danger never leave their countries.
 ---
 <figure>
   <blockquote class="blockquote" data-lang="en">
