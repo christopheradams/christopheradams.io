@@ -180,6 +180,16 @@ $post-line-height: 1.7;
     }
   }
 
+  .post-content {
+    p > img {
+      @include media-breakpoint-up(sm) {
+        display: block;
+        max-width: 75%;
+        margin: 0 auto;
+      }
+    }
+  }
+
   .post-byline {
     margin-bottom: 0.25rem;
   }
