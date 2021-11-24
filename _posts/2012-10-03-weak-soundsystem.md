@@ -1,5 +1,5 @@
 ---
-title: "Weak Soundsystem"
+title: Weak Soundsystem
 location: Beijing
 category: photos
 tags: beijing

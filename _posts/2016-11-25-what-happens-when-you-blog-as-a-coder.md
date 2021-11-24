@@ -1,5 +1,5 @@
 ---
-title: "What happens when you blog as a coder?"
+title: What happens when you blog as a coder?
 category: articles
 tags: programming
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8211/8271084033_c56ced1cee_k.jpg

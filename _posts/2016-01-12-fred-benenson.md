@@ -1,5 +1,5 @@
 ---
-title: "Fred Benenson"
+title: Fred Benenson
 location: New York
 category: photos
 tags: east-coast

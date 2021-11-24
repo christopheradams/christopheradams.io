@@ -1,5 +1,5 @@
 ---
-title: "Christopher Doyle"
+title: Christopher Doyle
 location: Beijing
 category: photos
 tags: beijing

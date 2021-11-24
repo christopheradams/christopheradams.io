@@ -1,5 +1,5 @@
 ---
-title: "Philipp Schmidt"
+title: Philipp Schmidt
 location: Cambridge, MA
 category: photos
 tags: east-coast

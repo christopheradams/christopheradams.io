@@ -1,6 +1,6 @@
 ---
-title: "New Router features in Plug 1.3"
-excerpt: "Calling All Plugs"
+title: New Router features in Plug 1.3
+excerpt: Calling All Plugs
 category: articles
 tags: programming
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/1844/44394644182_5331a43e3b_k.jpg

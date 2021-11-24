@@ -1,5 +1,5 @@
 ---
-title: "Shao Yanpeng"
+title: Shao Yanpeng
 location: Beijing
 category: photos
 tags: beijing

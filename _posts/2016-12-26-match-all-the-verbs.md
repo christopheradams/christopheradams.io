@@ -1,6 +1,6 @@
 ---
-title: "Match All the Verbs"
-excerpt: "Phoenix is not your App. Is it even MVC?"
+title: Match All the Verbs
+excerpt: Phoenix is not your App. Is it even MVC?
 category: articles
 tags: programming
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/833/43414845681_4af48e97c1_b.jpg

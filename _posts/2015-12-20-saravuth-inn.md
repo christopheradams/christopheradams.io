@@ -1,5 +1,5 @@
 ---
-title: "Saravuth Inn"
+title: Saravuth Inn
 location: New York
 category: photos
 tags: east-coast

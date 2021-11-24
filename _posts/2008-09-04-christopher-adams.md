@@ -1,5 +1,5 @@
 ---
-title: "Christopher Adams"
+title: Christopher Adams
 location: Linz
 category: about
 tags: creativecommons

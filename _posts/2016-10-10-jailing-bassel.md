@@ -1,5 +1,5 @@
 ---
-title: "Jailing Bassel"
+title: Jailing Bassel
 location: Seoul
 category: articles
 tags: creativecommons
