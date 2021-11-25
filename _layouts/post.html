@@ -59,10 +59,7 @@ layout: page
             {% endif %}
           </div>
 
-          <div class="post-images">
-            {% assign post_images = site.images | where: "link", page.path | sort: "image" %}
-            {% include cards.html posts=post_images body=false %}
-          </div>
+          {% include images.html %}
 
           <div class="post-share">
             {% include share.html %}
