@@ -16,7 +16,7 @@ endeavor began at [Art Sonje] at 2018, and was enlarged at [Kunsthaus
 Graz] in 2019 in collaboration with Barbara Steiner. It brought together
 work by Bruce Yonemoto, Erwin Bauer, Koki Tanaka, Lee Kit, Maja Vukoje,
 Michikazu Matsune, Mike Kelley, Oliver Klimpel, Paul McCarthy, siren eun
-youn jung, Yuki Okumura, and Yuuki Nishimura.
+youn jung, Yuki Okumura, and Yuuki Nishimura, and Jun Yang.
 
 The three Taipei venues were a commercial gallery, a national arts
 university, and a contemporary art museum. These institutions presented
