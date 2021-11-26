@@ -2,7 +2,7 @@ name: Christopher Adams
 title: christopheradams.io
 description: >
   Articles and Photographs by Christopher Adams.
-email: email@christopheradams.io
+email: info@christopheradams.io
 default_img: /assets/img/ChristopherAdams-2019-Taipei-by-ChenYouWei-IMG_9322_512px.jpg
 location: Taipei
 
@@ -27,7 +27,7 @@ social:
 # see _data/authors.yml
 author:
   name: Christopher Adams
-  email: email@christopheradams.io
+  email: info@christopheradams.io
   uri: https://christopheradams.io
 
 # Pagination settings
