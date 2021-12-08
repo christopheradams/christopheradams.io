@@ -23,14 +23,14 @@ social:
   - name: hicetnunc
     url: https://hicetnunc.art/christopheradams
 
-# Author settings
+# Authors
 # see _data/authors.yml
 author:
   name: Christopher Adams
   email: info@christopheradams.io
   uri: https://christopheradams.io
 
-# Pagination settings
+# Collections
 collections:
   images:
     output: true
@@ -58,10 +58,10 @@ defaults:
       layout: category
       permalink: /subjects/:title/
       author: christopheradams
+
 paginate: 9
 paginate_path: "/page/:num/"
 
-# Feed
 feed:
   posts_limit: 25
 
