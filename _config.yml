@@ -61,6 +61,10 @@ defaults:
 paginate: 9
 paginate_path: "/page/:num/"
 
+# Feed
+feed:
+  posts_limit: 25
+
 sass:
   sass_dir: _scss
   style: compressed
