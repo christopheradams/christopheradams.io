@@ -66,7 +66,19 @@ collection: posts
       <id>{{ post.id | absolute_url | xml_escape }}</id>
       {% assign excerpt_only = post.feed.excerpt_only | default: site.feed.excerpt_only %}
       {% unless excerpt_only %}
-        <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">{{ post.content | strip | xml_escape }}</content>
+      {% capture post_image_tag %}
+        {% assign post_image = post.image.path | default: post.image %}
+        {% if post_image %}
+          {% unless post_image contains "://" %}
+            {% assign post_image = post_image | absolute_url %}
+          {% endunless %}
+          <p><img src="{{ post_image }}"></p>
+        {% endif %}
+      {% endcapture %}
+        <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">
+          {{ post_image_tag | strip | xml_escape }}
+          {{ post.content | strip | xml_escape }}
+        </content>
       {% endunless %}
 
       {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
