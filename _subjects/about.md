@@ -39,7 +39,7 @@ Get It Louder*
   {%- for social in socials %}
   <li>
   <a href="{{ social.url}}">
-    {%- assign domain_path = social.url | remove_first: "https://" -%}
+    {%- assign domain_path = social.url | remove_first: "https://www." | remove_first: "https://" -%}
     {%- assign domain = domain_path | split: '/' | first -%}
     {%- assign path = domain_path | remove_first: domain -%}
     <span class="link-domain">{{ domain }}</span><span class="link-path">{{path}}</span>
