@@ -48,7 +48,7 @@ collection: posts
     {% assign posts = site[page.collection] %}
   {% endif %}
   {% if page.category %}
-    {% assign posts = posts | where: "category", page.category %}
+    {% assign posts = posts | where: "categories", page.category %}
   {% endif %}
   {% unless site.show_drafts %}
     {% assign posts = posts | where_exp: "post", "post.draft != true" %}
@@ -87,11 +87,11 @@ collection: posts
           {% endif %}
         {% endfor %}
       {% endcapture %}
-        <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">
-          {{ post_image_tag | strip | xml_escape }}
-          {{ post.content | strip | xml_escape }}
-          {{ post_images_tags | strip | xml_escape }}
-        </content>
+        <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}"><![CDATA[
+        {{ post_image_tag | strip }}
+        {{ post.content | strip }}
+        {{ post_images_tags | strip }}
+        ]]></content>
       {% endunless %}
 
       {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
@@ -122,8 +122,9 @@ collection: posts
         <category term="{{ tag | xml_escape }}" />
       {% endfor %}
 
-      {% if post.excerpt and post.excerpt != empty %}
-        <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
+      {% assign post_summary = post.description | default: post.excerpt %}
+      {% if post_summary and post_summary != empty %}
+        <summary type="html"><![CDATA[{{ post_summary | strip_html | normalize_whitespace }}]]></summary>
       {% endif %}
 
       {% assign post_image = post.image.path | default: post.image %}
