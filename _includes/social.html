@@ -2,7 +2,7 @@
 <div class="footer-social d-flex flex-wrap justify-content-center">
   {% for social in site.social %}
   <div class="tag-item">
-    <a href="{{ social['url'] }}" target="_blank">
+    <a rel="me" href="{{ social['url'] }}" target="_blank">
       {{ social['name'] | capitalize }}
     </a>
   </div>

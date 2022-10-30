@@ -38,7 +38,7 @@ Get It Louder*
   <ul class="list-unstyled">
   {%- for social in socials %}
   <li>
-  <a href="{{ social.url}}">
+  <a rel="me" href="{{ social.url}}">
     {%- assign domain_path = social.url | remove_first: "https://www." | remove_first: "https://" -%}
     {%- assign domain = domain_path | split: '/' | first -%}
     {%- assign path = domain_path | remove_first: domain -%}
