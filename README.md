@@ -38,7 +38,7 @@ npm run deploy root@cxadams.com:/srv/www/christopheradams.io
 
 ![Screenshot](/assets/img/screenshot.png?raw=true)
 
-[Barber]: http://barber.samesies.io/
+[Barber]: https://github.com/samesies/barber-jekyll
 [Bootstrap]: https://getbootstrap.com/
 [Jekyll]: http://jekyllrb.com/
 [Remarkdown]: https://fvsch.com/remarkdown/
