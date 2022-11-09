@@ -34,7 +34,7 @@ author:
 collections:
   images:
     output: true
-  subjects:
+  topics:
     output: true
 defaults:
   - scope:
@@ -53,10 +53,10 @@ defaults:
       author: christopheradams
   - scope:
       path: ""
-      type: subjects
+      type: topics
     values:
       layout: category
-      permalink: /subjects/:title/
+      permalink: /categories/:title/
       author: christopheradams
 
 paginate: 9

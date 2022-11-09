@@ -4,17 +4,17 @@ title: Index
 ---
 
 <div class="list-group list-group-flush">
-{% for subject in site.subjects %}
-{% assign category = subject.slug %}
+{% for topic in site.topics %}
+{% assign category = topic.slug %}
 {% assign posts = site.categories[category] %}
 {% if posts.size > 0 %}
-  <a href="{{ subject.url }}" class="list-group-item list-group-item-action">
+  <a href="{{ topic.url }}" class="list-group-item list-group-item-action">
     <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">{{ subject.title }}</h5>
+      <h5 class="mb-1">{{ topic.title }}</h5>
     </div>
     <p class="text-muted">
       <small>
-        {% assign post_summary = subject.description | default: subject.excerpt %}
+        {% assign post_summary = topic.description | default: topic.excerpt %}
         {{ post_summary | strip_html | normalize_whitespace | truncatewords: 35}}
       </small>
     </p>
