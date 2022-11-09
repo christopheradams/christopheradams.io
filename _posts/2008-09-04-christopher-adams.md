@@ -1,6 +1,7 @@
 ---
 title: Christopher Adams
-subtitle: Ars Electronica
+description: Photo by Joi Ito
+excerpt: Photo by Joi Ito.
 location: Linz
 category: about
 tags: creativecommons
@@ -13,4 +14,4 @@ image:
   title: Christopher Adams
 ---
 
-Photo by Joi Ito.
+Photo by Joi Ito at Ars Electronica.

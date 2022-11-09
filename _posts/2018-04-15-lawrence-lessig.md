@@ -1,6 +1,6 @@
 ---
 title: Lawrence Lessig
-subtitle: Creative Commons Global Summit
+description: Creative Commons Global Summit
 location: Toronto
 category: photos
 tags: creativecommons

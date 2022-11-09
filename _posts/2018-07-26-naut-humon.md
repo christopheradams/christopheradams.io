@@ -1,6 +1,6 @@
 ---
 title: Naut Humon
-subtitle: Gray Area
+description: Gray Area
 location: San Francisco
 category: photos
 tags: artist

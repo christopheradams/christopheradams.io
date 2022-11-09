@@ -1,6 +1,6 @@
 ---
 title: Heinz Frank
-subtitle: Kunsthalle Wien
+description: Kunsthalle Wien
 location: Vienna
 category: photos
 tags: artist

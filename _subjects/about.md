@@ -3,7 +3,7 @@ layout: post
 title: About
 permalink: /about/
 author: christopheradams
-subtitle: Bio, contact, and links
+description: Bio, contact, and links
 ---
 
 <p class="lead">

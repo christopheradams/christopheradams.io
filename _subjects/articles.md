@@ -1,3 +1,3 @@
 ---
-subtitle: Essays, news, and projects
+description: Essays, news, and projects
 ---

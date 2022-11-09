@@ -1,6 +1,6 @@
 ---
 title: Christopher Doyle
-subtitle: East Hotel
+description: East Hotel
 location: Beijing
 category: photos
 tags: beijing

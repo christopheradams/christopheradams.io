@@ -1,6 +1,6 @@
 ---
 title: Philipp Schmidt
-subtitle: MIT Media Lab
+description: MIT Media Lab
 location: Cambridge, MA
 category: photos
 tags: east-coast

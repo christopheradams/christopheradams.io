@@ -13,7 +13,8 @@
         <strong itemprop="name">{{ post.title | escape }}</strong>
         &mdash;
         <span class="card-description" itemprop="description">
-          {{ post.excerpt | strip_html | truncatewords: 35 }}
+          {% assign post_summary = post.excerpt | default: description %}
+          {{ post_summary | strip_html | normalize_whitespace | truncatewords: 35}}
         </span>
         {% endif %}
       </span>

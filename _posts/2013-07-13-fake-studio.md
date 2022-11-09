@@ -1,6 +1,6 @@
 ---
 title: Fake Studio
-subtitle: Caochangdi
+description: Caochangdi
 location: Beijing
 category: photos
 tag: beijing

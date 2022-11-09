@@ -1,6 +1,6 @@
 ---
 title: Beat Streuli
-subtitle: Taiwan Contemporary Culture Lab
+description: Taiwan Contemporary Culture Lab
 location: Taipei
 category: photos
 tags: taiwan

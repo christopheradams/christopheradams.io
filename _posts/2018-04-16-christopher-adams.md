@@ -1,6 +1,6 @@
 ---
 title: Christopher Adams
-subtitle: Creative Commons Global Summit
+description: Photo by Razan Hadid
 location: Toronto
 category: about
 tags: taiwan
@@ -10,4 +10,4 @@ image:
 published: false
 ---
 
-Photo by Razan Hadid
+Photo by Razan Hadid at Creative Commons Global Summit.

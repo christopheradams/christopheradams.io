@@ -14,7 +14,8 @@ title: Index
     </div>
     <p class="text-muted">
       <small>
-        {{ subject.subtitle }}
+        {% assign post_summary = subject.description | default: subject.excerpt %}
+        {{ post_summary | strip_html | normalize_whitespace | truncatewords: 35}}
       </small>
     </p>
   </a>

@@ -1,6 +1,6 @@
 ---
 title: Raúl Gasque
-subtitle: Yangmingshan
+description: Yangmingshan
 location: Taipei
 category: photos
 tags: taiwan

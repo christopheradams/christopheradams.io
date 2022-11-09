@@ -1,6 +1,6 @@
 ---
 title: Fred Benenson
-subtitle: Kickstarter
+description: Kickstarter
 location: New York
 category: photos
 tags: east-coast

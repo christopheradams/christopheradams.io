@@ -1,6 +1,7 @@
 ---
 title: The Resistance War of Computer Science
-subtitle: Object Lessons of History
+description: Object Lessons of History
+excerpt: Naming and misnaming things in Computer Science.
 category: articles
 tags: programming
 location: Hanoi

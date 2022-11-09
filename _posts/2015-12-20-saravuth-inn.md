@@ -1,6 +1,6 @@
 ---
 title: Saravuth Inn
-subtitle: Union Square
+description: Union Square
 location: New York
 category: photos
 tags: east-coast

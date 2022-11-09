@@ -1,6 +1,6 @@
 ---
 title: Blockchain and Distributed Systems
-subtitle: Gray Area
+description: Gray Area Festival 2018
 location: San Francisco
 category: articles
 tags: artist

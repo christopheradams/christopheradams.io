@@ -16,7 +16,8 @@ layout: post
     </div>
     <p class="text-muted">
       <small>
-        {{ post.subtitle }}
+        {% assign post_summary = post.description | default: post.excerpt %}
+        {{ post_summary | strip_html | normalize_whitespace | truncatewords: 35}}
         <span>
           — {% if post.location %}{{ post.location }},{% endif %}
           {{ post.date | date: "%B %Y" }}
