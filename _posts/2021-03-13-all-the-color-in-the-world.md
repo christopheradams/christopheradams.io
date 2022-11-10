@@ -12,7 +12,7 @@ Venues* opened at **TKG+**, the **Kuandu Museum of Fine Arts**, and
 **MoCA Taipei** between December 2020 and March 2021.
 
 This series of exhibitions exploring fundamental questions of artistic
-endeavor began at [Art Sonje] at 2018, and was enlarged at [Kunsthaus
+endeavor began at [Art Sonje] in 2018, and was enlarged at [Kunsthaus
 Graz] in 2019 in collaboration with Barbara Steiner. It brought together
 work by Bruce Yonemoto, Erwin Bauer, Koki Tanaka, Lee Kit, Maja Vukoje,
 Michikazu Matsune, Mike Kelley, Oliver Klimpel, Paul McCarthy, siren eun
