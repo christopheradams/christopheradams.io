@@ -1,0 +1,4 @@
+<div class="post-attachments">
+  {% assign post_attachments = site.attachments | where: "link", page.path | sort: "image" %}
+  {% include cards.html posts=post_attachments body=false %}
+</div>

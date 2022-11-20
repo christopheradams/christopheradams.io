@@ -34,7 +34,7 @@ author:
 
 # Collections
 collections:
-  images:
+  attachments:
     output: true
   topics:
     output: true
@@ -48,10 +48,10 @@ defaults:
       author: christopheradams
   - scope:
       path: ""
-      type: images
+      type: attachments
     values:
       layout: post
-      permalink: /images/:year/:month/:title/
+      permalink: /attachments/:year/:month/:title/
       author: christopheradams
   - scope:
       path: ""

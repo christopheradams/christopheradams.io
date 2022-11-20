@@ -50,7 +50,7 @@ $post-line-height: 1.7;
   }
 }
 
-.post-images {
+.post-attachments {
   .card-columns {
     @include media-breakpoint-up(sm) {
       column-count: 2;

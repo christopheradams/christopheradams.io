@@ -75,9 +75,9 @@ collection: posts
           <p><img src="{{ post_image }}"></p>
         {% endif %}
       {% endcapture %}
-      {% capture post_images_tags %}
-        {% assign post_images = site.images | where: "link", post.path | sort: "image" %}
-        {% for image in post_images %}
+      {% capture post_attachments_tags %}
+        {% assign post_attachments = site.attachments | where: "link", post.path | sort: "image" %}
+        {% for image in post_attachments %}
           {% assign post_image = image.image.path | default: image.image %}
           {% if post_image %}
             {% unless post_image contains "://" %}
@@ -90,7 +90,7 @@ collection: posts
         <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}"><![CDATA[
         {{ post_image_tag | strip }}
         {{ post.content | strip }}
-        {{ post_images_tags | strip }}
+        {{ post_attachments_tags | strip }}
         ]]></content>
       {% endunless %}
 
