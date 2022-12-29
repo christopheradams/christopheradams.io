@@ -1,6 +1,6 @@
 ---
 title: Heinz Frank, Hand
-subtitle: Kunsthalle Wien
+description: Kunsthalle Wien
 location: Vienna
 image: https://static.christopheradams.io/file/cxadams-website/medium/albums/2019/20190219-1912_Vienna_Kunsthalle/20190219-1912_Vienna_Kunsthalle_L1000918-0.jpg
 link: _posts/2019-02-19-heinz-frank.md
