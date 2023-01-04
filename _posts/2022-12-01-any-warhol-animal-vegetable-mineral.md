@@ -3,8 +3,8 @@ title: Any Warhol, Animal, Vegetable, Mineral
 description: Querying hierarchies
 excerpt: Querying hierarchies in AI tools.
 location: Taipei
-category: photos
-tags: machinelearning
+category: machine-learning
+tags: stablediffusion
 image: https://static.christopheradams.io/file/cxadams-website/medium/drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221215103348_00006_a_black_and_white_photograph_of_a_geological_formation.jpg
 ---
 
