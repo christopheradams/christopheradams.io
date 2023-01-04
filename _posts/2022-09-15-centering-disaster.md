@@ -4,7 +4,7 @@ description: Outpainting our future
 excerpt: Venice is sinking while the seas are rising. An AI outpaints our future.
 location: Taipei
 category: photos
-tags: ai
+tags: machinelearning
 image: https://static.christopheradams.io/file/cxadams-website/medium/drive/AI/StableDiffusion/2022-09/venice_underwater_01/20220915105932_00047_St_Marks_Square_clock_tower_Venice_view_from_above_flooded_disaster_water_from_the_sea.jpg
 ---
 
