@@ -22,6 +22,8 @@ social:
     url: https://mastodon.social/@christopheradams
   - name: nostr
     url: https://damus.io/npub1fnnxzzdzaw4a0j5y25wjukmwlaqfe6heugf78hqxrs2ulpx3tyxqe9vk8n
+  - name: objkt
+    url: https://objkt.com/profile/christopheradams/
   # - name: flickr
   #   url: https://flickr.com/photos/christopheradams
   # - name: hicetnunc
