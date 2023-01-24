@@ -72,6 +72,9 @@ $post-line-height: 1.7;
     .card-img-top {
       transform: translate3d(0, -10px, 0);
     }
+    .card-body {
+      color: $gray-600;
+    }
   }
 
   .card-body {
