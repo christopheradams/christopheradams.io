@@ -1,7 +1,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 
-<title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+{% capture page_title %}
+{% if page.title and page.title != "" %}
+{{ page.title }}
+{% else %}
+{% assign post_summary = page.excerpt | default: page.description %}
+{{ post_summary | strip_html | normalize_whitespace | truncatewords: 8}}
+{% endif %}
+{% endcapture %}
+
+<title>{{ page_title | escape }} | {{ site.title | escape }}</title>
 <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}">
 
 {% include meta.html %}
