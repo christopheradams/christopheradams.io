@@ -1,7 +1,7 @@
 ---
 title: AI Fall/Winter
 description: Finely-tuned
-excerpt: Finely-tuned.
+excerpt: A finely-tuned series starring Item Idem.
 location: Taipei
 category: machine-learning
 tags: stablediffusion
