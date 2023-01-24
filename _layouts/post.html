@@ -7,7 +7,9 @@ layout: page
     <div class="col-12 full-width border-bottom">
       <section class="article-banner">
         <div class="container">
+          {% if page.title and page.title != "" %}
           <h1 class="post-title" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
+          {% endif %}
           <div class="post-dateline">
             <time class="" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | default: "now" | date: "%-d %b %Y" }}</time>
             <span class="page-location">

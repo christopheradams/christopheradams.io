@@ -10,8 +10,10 @@
       <span class="card-title">
         <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"></a>
         {% if include.body != false %}
+        {% if post.title and post.title != "" %}
         <strong itemprop="name">{{ post.title | escape }}</strong>
         &mdash;
+        {% endif %}
         <span class="card-description" itemprop="description">
           {% assign post_summary = post.excerpt | default: post.description %}
           {{ post_summary | strip_html | normalize_whitespace | truncatewords: 35}}
