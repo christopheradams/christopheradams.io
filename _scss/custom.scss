@@ -113,7 +113,8 @@ $post-line-height: 1.7;
   }
 }
 
-.post-title {
+.post-title,
+.post-dateline {
   a {
     color: $body-color;
     text-decoration: none;
