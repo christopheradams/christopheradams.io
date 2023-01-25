@@ -2,12 +2,12 @@
 <meta charset="utf-8">
 
 {% capture page_title %}
-{% if page.title and page.title != "" %}
+{%- if page.title and page.title != "" -%}
 {{ page.title }}
-{% else %}
-{% assign post_summary = page.excerpt | default: page.description %}
+{%- else -%}
+{%- assign post_summary = page.excerpt | default: page.description -%}
 {{ post_summary | strip_html | normalize_whitespace | truncatewords: 8}}
-{% endif %}
+{%- endif -%}
 {% endcapture %}
 
 <title>{{ page_title | escape }} | {{ site.title | escape }}</title>
