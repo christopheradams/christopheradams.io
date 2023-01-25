@@ -65,7 +65,7 @@ defaults:
       permalink: /categories/:title/
       author: christopheradams
 
-paginate: 9
+paginate: 12
 paginate_path: "/page/:num/"
 
 feed:
