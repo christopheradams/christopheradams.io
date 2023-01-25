@@ -4,7 +4,7 @@ description: Longquan Market
 excerpt: Installation at Longquan Market.
 location: Taipei
 category: photos
-tags: taiwan
+tags: taiwan featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/albums/2020/20200923-2004_Taipei_LongquanMarket/20200923-2004_Taipei_LongquanMarket_L1001284-1.jpg
 ---
 
