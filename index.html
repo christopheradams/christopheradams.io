@@ -4,7 +4,11 @@ title: "Home"
 ---
 
 <div class="homepage-body">
-  {% include cards.html posts=paginator.posts %}
+  {% include cards.html posts=site.tags.featured %}
 
-  {% include pagination.html %}
+  <nav aria-label="Pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a href="{% link page/index.html %}" class="page-link">All Posts</a></li>
+  </ul>
+  </nav>
 </div>
