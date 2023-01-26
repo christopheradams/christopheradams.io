@@ -146,6 +146,12 @@ $post-line-height: 1.7;
   }
 }
 
+.category-note {
+  .post-content {
+    font-size: 2rem;
+  }
+}
+
 .post-body {
   font-size: $post-body-size;
   line-height: $post-line-height;
