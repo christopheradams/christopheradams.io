@@ -1,5 +1,5 @@
 ---
-category: note
+category: notes
 date: 2023-01-25 17:56:40 +0800
 ---
 
