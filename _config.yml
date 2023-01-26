@@ -56,7 +56,7 @@ defaults:
       path: ""
       type: notes
     values:
-      layout: post
+      layout: note
       title: ""
       permalink: /notes/:year/:month/:title/
       author: christopheradams
