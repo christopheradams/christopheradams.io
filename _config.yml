@@ -39,6 +39,8 @@ author:
 
 # Collections
 collections:
+  notes:
+    output: true
   topics:
     output: true
 defaults:
@@ -48,6 +50,14 @@ defaults:
     values:
       layout: post
       permalink: /posts/:year/:month/:title/
+      author: christopheradams
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
+      title: ""
+      permalink: /notes/:year/:month/:day/:title/
       author: christopheradams
   - scope:
       path: ""
