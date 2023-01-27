@@ -58,7 +58,7 @@ defaults:
     values:
       layout: note
       title: ""
-      permalink: /notes/:year/:month/:title/
+      permalink: /notes/:year/:month/:day/:title/
       author: christopheradams
   - scope:
       path: ""
