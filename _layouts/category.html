@@ -9,6 +9,8 @@ layout: post
 {% if posts.size > 0 %}
 {% assign posts_sorted = posts | sort: "title" %}
 
+{{ content }}
+
 {% for post in posts_sorted %}
   <a href="{{ post.url }}" class="list-group-item list-group-item-action">
     <div class="d-flex w-100 justify-content-between">
