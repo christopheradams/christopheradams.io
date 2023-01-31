@@ -24,6 +24,6 @@ portraiture. Each plastic bag portrait is unique and yet recognizably the same.
 
 ![Any Warhol Bag Blue](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00001_a_plastic_bag_against_a_window.jpg)
 
-![Any Warhol Bag Red](https://static.christopheradams.io/file/cxadams-website/medium/drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00005_a_plastic_bag_against_a_window.jpg)
+![Any Warhol Bag Red](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00005_a_plastic_bag_against_a_window.jpg)
 
-![Any Warhol Bag Green](https://static.christopheradams.io/file/cxadams-website/medium/drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00013_a_plastic_bag_against_a_window.jpg)
+![Any Warhol Bag Green](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00013_a_plastic_bag_against_a_window.jpg)
