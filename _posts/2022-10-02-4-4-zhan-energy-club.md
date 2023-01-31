@@ -6,7 +6,7 @@ excerpt: Betty Apple and Nuit Blanche Taipei.
 date: 2022-10-02 02:00 +0800
 last_modified_at: 2023-01-30 21:50:36
 category: machine-learning
-tags: stable-diffusion
+tags: stable-diffusion featured
 image:
     title: Betty Apple on stage at Nuit Blanche Taipei 2022
     path: https://static.christopheradams.io/file/cxadams-website/medium/albums/2022/20221002-0213_Shilin_NuitBlanche/20221002-0213_Shilin_NuitBlanche_L1008376-0.jpg
