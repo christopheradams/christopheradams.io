@@ -17,6 +17,12 @@ I created a series of AI generated videos for [Betty Apple] and Social Dis Dance
 projected the videos during subsequent performances at Melbourne Fringe in
 October, and TheCube Forum Music Festival in December, 2022.
 
+<p>
+<video controls>
+    <source src="https://static.christopheradams.io/file/cxadams-website/video/Zhan-Energy-Club_20220926022258_clip.mp4" type="video/mp4">
+</video>
+</p>
+
 ![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_00115.jpg)
 
 ![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_00138.jpg)
