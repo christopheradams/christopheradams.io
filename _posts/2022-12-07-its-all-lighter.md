@@ -28,14 +28,10 @@ thanks to [Saul Leiter](https://www.saulleiterfoundation.org/) and
 
 ![Dream Youth](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2022-12/lighter-itemidem-2-upscale/20221206143713_00000_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.jpg)
 
-![Dream Youth](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2022-12/lighter-itemidem-2-upscale/20221206144323_00001_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.jpg)
-
 ![Dream
 Youth](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2022-12/lighter-itemidem-2-upscale/20221206142548_00000_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.jpg)
 
 ![Dream Youth](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2023-01/lighter-piopiolee-itemidem-upscale/20230131070605_00001_a_photograph_portrait_of_piopiolee_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.jpg)
-
-![Dream Youth](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2023-01/lighter-piopiolee-itemidem-upscale/20230131070653_00000_a_photograph_portrait_of_piopiolee_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.jpg)
 
 ![Dream Youth](https://static.christopheradams.io/file/cxadams-website/small/drive/AI/StableDiffusion/2023-01/lighter-piopiolee-itemidem-upscale/20230131071539_00001_a_photograph_portrait_of_piopiolee_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.jpg)
 
