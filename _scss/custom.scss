@@ -141,8 +141,8 @@ $post-line-height: 1.7;
   margin-bottom: 3rem !important;
   margin-top: 3rem !important;
 
-    .img-fluid {
-      width: 100%;
+  .img-fluid {
+    width: 100%;
   }
 }
 
@@ -237,9 +237,9 @@ $post-line-height: 1.7;
     color: $gray-400;
     text-decoration: none;
 
-      &:hover {
-        color: $gray-600;
-      }
+    &:hover {
+      color: $gray-600;
+    }
   }
 }
 
