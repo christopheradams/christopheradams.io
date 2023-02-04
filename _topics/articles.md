@@ -1,3 +1,3 @@
 ---
-description: Essays, news, and projects
+description: Essays, features, and projects
 ---
