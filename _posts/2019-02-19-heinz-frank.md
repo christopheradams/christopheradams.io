@@ -10,3 +10,9 @@ date: 2019-02-19 19:27:41
 
 Heinz Frank at the opening of his exhibition *The Angle of the End
 Always Comes from Behind* at Kunsthalle Wien.
+
+![Heinz Frank, Kunstalle Wien](https://static.christopheradams.io/file/cxadams-website/medium/albums/2019/20190219-1912_Vienna_Kunsthalle/20190219-1912_Vienna_Kunsthalle_L1000888-0.jpg)
+
+![Heinz Frank, Lapel](https://static.christopheradams.io/file/cxadams-website/medium/albums/2019/20190219-1912_Vienna_Kunsthalle/20190219-1912_Vienna_Kunsthalle_L1000904-0.jpg)
+
+![Heinz Frank, Hand](https://static.christopheradams.io/file/cxadams-website/medium/albums/2019/20190219-1912_Vienna_Kunsthalle/20190219-1912_Vienna_Kunsthalle_L1000918-0.jpg)
