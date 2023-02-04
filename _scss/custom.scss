@@ -50,14 +50,6 @@ $post-line-height: 1.7;
   }
 }
 
-.post-attachments {
-  .card-columns {
-    @include media-breakpoint-up(sm) {
-      column-count: 2;
-    }
-  }
-}
-
 .homepage-body .card-columns {
   @include media-breakpoint-up(xl) {
     column-count: 3;

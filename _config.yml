@@ -38,8 +38,6 @@ author:
 
 # Collections
 collections:
-  attachments:
-    output: true
   topics:
     output: true
 defaults:
@@ -49,13 +47,6 @@ defaults:
     values:
       layout: post
       permalink: /posts/:year/:month/:title/
-      author: christopheradams
-  - scope:
-      path: ""
-      type: attachments
-    values:
-      layout: post
-      permalink: /attachments/:year/:month/:title/
       author: christopheradams
   - scope:
       path: ""
