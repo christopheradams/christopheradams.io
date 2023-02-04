@@ -3,10 +3,10 @@ title: A New Letter
 category: newsletter
 excerpt: My life in plain text.
 image:
-    title: 食養山坊
-    path: https://static.christopheradams.io/file/cxadams-website/medium/albums/2022/20221230-1648_Taipei_ShiYang/20221230-1648_Taipei_ShiYang_L1008913-0.jpg
+  title: 食養山坊
+  path: https://static.christopheradams.io/file/cxadams-website/medium/albums/2022/20221230-1648_Taipei_ShiYang/20221230-1648_Taipei_ShiYang_L1008913-0.jpg
+date: 2023-02-04 21:58 +0800
 ---
-
 A turn away from social media means more time to pour into personal writing that
 goes out by email and web feeds. I started making websites in the 1990s, and
 maintained a blog using [Textpattern] from 2008 to 2012 before abandoning it in
