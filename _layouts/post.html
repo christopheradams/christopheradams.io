@@ -61,6 +61,13 @@ layout: page
               </a>
             </p>
             {% endif %}
+
+            {% if page.category %}
+            {% assign topic = site.topics | where: "slug", page.category | first %}
+            {% if topic %}
+            <p>Category: <a href="{{ topic.url }}">{{ topic.title }}</a></p>
+            {% endif %}
+            {% endif %}
           </div>
 
           {% include attachments.html %}
