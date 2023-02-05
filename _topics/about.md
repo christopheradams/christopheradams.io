@@ -49,6 +49,10 @@ Get It Louder*
   </ul>
 {% endif %}
 
+{% if site.newsletter %}
+[Subscribe to the Newsletter]({{ site.newsletter }})
+{% endif %}
+
 ## Colophon
 
 This website is written in [Emacs](https://www.gnu.org/software/emacs/),
