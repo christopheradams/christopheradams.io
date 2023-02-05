@@ -26,7 +26,7 @@ more, at its root it's a kind of word processor called an [outliner], which has
 
 Org mode doesn't *make* me want to write, but it *keeps* me writing, if that
 makes any sense. All day I'm keeping a diary, taking notes, saving bookmarks,
-making to-do lists, all the while touching text. It's feels natural to take the
+making to-do lists, all the while touching text. It feels natural to take the
 next step to edit, format, and publish it.
 
 I created this category of posts to collect observations, personal news, and
