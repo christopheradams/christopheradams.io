@@ -7,7 +7,7 @@ layout: post
 <div class="list-group list-group-flush">
 {% assign posts = site.categories[category] %}
 {% if posts.size > 0 %}
-{% assign posts_sorted = posts | sort: "title" %}
+{% assign posts_sorted = posts | sort: "date" | reverse %}
 
 {{ content }}
 
