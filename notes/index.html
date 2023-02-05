@@ -1,0 +1,9 @@
+---
+layout: post
+title: Notes
+author: christopheradams
+---
+
+{% for note in site.notes %}
+{{ note.content | strip_html | normalize_whitespace }} &#9679;
+{% endfor %}
