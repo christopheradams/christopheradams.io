@@ -4,6 +4,11 @@ title: Notes
 author: christopheradams
 ---
 
-{% for note in site.notes %}
-<a href="{{ note.url }}">{{ note.content | strip_html | normalize_whitespace }} &#9679;</a>
+<div class="collection-notes">
+{% assign notes = site.notes | sort: "date" | reverse %}
+{% for note in notes %}
+<a class="collection-note" href="{{ note.url }}">
+{{ note.content }}
+</a>
 {% endfor %}
+</div>
