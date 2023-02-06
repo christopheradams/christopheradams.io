@@ -10,9 +10,9 @@ layout: post
 {% if posts.size > 0 %}
 {% assign posts_sorted = posts | sort: "date" | reverse %}
 
-<div class="collection-notes">
+<div class="inline-grafs">
 {% for post in posts_sorted %}
-  <p class="collection-note">
+  <p class="inline-graf">
     <a href="{{ post.url }}">
       {{ post.content | strip_html | normalize_whitespace }}
     </a>

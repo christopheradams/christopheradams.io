@@ -4,10 +4,10 @@ title: Notes
 author: christopheradams
 ---
 
-<div class="collection-notes">
+<div class="inline-grafs">
 {% assign notes = site.notes | sort: "date" | reverse %}
 {% for note in notes %}
-  <p class="collection-note">
+  <p class="inline-graf">
     <a href="{{ note.url }}">
       {{ note.content | strip_html | normalize_whitespace }}
     </a>

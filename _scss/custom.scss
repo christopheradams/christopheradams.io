@@ -212,7 +212,7 @@ $post-line-height: 1.7;
     padding-top: 3rem;
   }
 
-  .collection-notes {
+  .inline-grafs {
 
     p {
       display: inline;
@@ -223,7 +223,7 @@ $post-line-height: 1.7;
       }
     }
 
-    .collection-note + .collection-note::before {
+    .inline-graf + .inline-graf::before {
       content: "¶";
     }
   }
