@@ -1,7 +1,7 @@
 ---
 title: A New Letter
 category: newsletter
-excerpt: My life in plain text.
+description: My life in plain text
 image:
   title: 食養山坊
   path: https://static.christopheradams.io/file/cxadams-website/medium/albums/2022/20221230-1648_Taipei_ShiYang/20221230-1648_Taipei_ShiYang_L1008913-0.jpg
