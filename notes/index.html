@@ -8,7 +8,7 @@ author: christopheradams
 {% assign notes = site.notes | sort: "date" | reverse %}
 {% for note in notes %}
 <a class="collection-note" href="{{ note.url }}">
-{{ note.content }}
+{{ note.content | strip_html | normalize_whitespace }}
 </a>
 {% endfor %}
 </div>
