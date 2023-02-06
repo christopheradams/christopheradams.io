@@ -39,39 +39,43 @@ layout: page
     <div class="post-main">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-8 border-bottom">
-          <div class="post-content">
-            {{ content }}
+          <div class="post-container">
+            <div class="post-content">
+              {{ content }}
+            </div>
 
-            {% if page.link %}
-            {% assign page_post = site.posts | where: "path", page.link | first %}
-            <p>
-              Read more:
-              <a href="{% link {{ page.link }} %}">
-                {{ page_post.title }}, {{ page_post.description }}
-              </a>
-            </p>
-            {% endif %}
+            <div class="post-details">
+              {% if page.link %}
+              {% assign page_post = site.posts | where: "path", page.link | first %}
+              <p>
+                Read more:
+                <a href="{% link {{ page.link }} %}">
+                  {{ page_post.title }}, {{ page_post.description }}
+                </a>
+              </p>
+              {% endif %}
 
-            {% if page.source %}
-            <p>
-              Source:
-              <a href="{{ page.source }}">
-                {% assign links = page.source | split: "/" %}
-                {{ links[2] }}
-              </a>
-            </p>
-            {% endif %}
+              {% if page.source %}
+              <p>
+                Source:
+                <a href="{{ page.source }}">
+                  {% assign links = page.source | split: "/" %}
+                  {{ links[2] }}
+                </a>
+              </p>
+              {% endif %}
 
-            {% if page.category %}
-            {% assign topic = site.topics | where: "slug", page.category | first %}
-            {% if topic %}
-            <p>Category: <a href="{{ topic.url }}">{{ topic.title }}</a></p>
-            {% endif %}
-            {% endif %}
-          </div>
+              {% if page.category %}
+              {% assign topic = site.topics | where: "slug", page.category | first %}
+              {% if topic %}
+              <p>Category: <a href="{{ topic.url }}">{{ topic.title }}</a></p>
+              {% endif %}
+              {% endif %}
+            </div>
 
-          <div class="post-share">
-            {% include share.html %}
+            <div class="post-share">
+              {% include share.html %}
+            </div>
           </div>
         </div>
       </div>

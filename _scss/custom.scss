@@ -162,6 +162,7 @@ $post-line-height: 1.7;
   }
 
   .post-content,
+  .post-sources,
   .post-details {
     blockquote,
     figure,
@@ -203,7 +204,7 @@ $post-line-height: 1.7;
     margin-bottom: 0.25rem;
   }
 
-  .post-content,
+  .post-container,
   .post-share {
     margin-bottom: 3rem;
   }
