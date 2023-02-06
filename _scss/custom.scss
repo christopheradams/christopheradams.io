@@ -213,6 +213,23 @@ $post-line-height: 1.7;
     padding-top: 3rem;
   }
 
+  .inline-grafs {
+    margin-bottom: 1rem;
+
+    p {
+      display: inline;
+
+      a {
+        border-bottom: none;
+        box-shadow: none;
+      }
+    }
+
+    .inline-graf + .inline-graf::before {
+      content: "¶";
+    }
+  }
+
   img {
     @extend .img-fluid
   }
@@ -233,6 +250,13 @@ $post-line-height: 1.7;
     &:hover {
       color: $gray-600;
     }
+  }
+}
+
+.category-notes {
+  .post-content {
+    font-size: 2rem;
+    font-weight: 300;
   }
 }
 
