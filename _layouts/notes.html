@@ -1,0 +1,22 @@
+---
+layout: post
+---
+
+{{ content }}
+
+{% assign category = page.slug %}
+
+{% assign posts = site.categories[category] %}
+{% if posts.size > 0 %}
+{% assign posts_sorted = posts | sort: "date" | reverse %}
+
+<div class="collection-notes">
+{% for post in posts_sorted %}
+  <p class="collection-note">
+    <a href="{{ post.url }}">
+      {{ post.content | strip_html | normalize_whitespace }}
+    </a>
+  </p>
+{% endfor %}
+</div>
+{% endif %}
