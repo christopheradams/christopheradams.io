@@ -47,7 +47,7 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /posts/:year/:month/:title/
+      permalink: /posts/:year/:month/:day/:title/
       author: christopheradams
   - scope:
       path: ""
