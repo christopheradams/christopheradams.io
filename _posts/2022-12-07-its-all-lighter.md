@@ -6,7 +6,7 @@ last_modified_at: 2023-01-31 21:53:30
 location: Taipei
 category: machine-learning
 tags: stable-diffusion featured
-image: https://static.christopheradams.io/file/cxadams-website/medium/drive/AI/StableDiffusion/2022-12/lighter-itemidem-2-upscale/20221206140958_00001_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png
+image: https://static.christopheradams.io/file/cxadams-website/medium/drive/AI/StableDiffusion/2022-12/lighter-itemidem-2-upscale/20221206140958_00001_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.jpg
 ---
 
 *It's All Lighter* explores AI's affinity for bending identities and doing it in
