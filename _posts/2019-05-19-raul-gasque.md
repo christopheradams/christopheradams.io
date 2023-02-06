@@ -1,6 +1,6 @@
 ---
 title: Raúl Gasque
-description: Yangmingshan
+description: At home on Yangmingshan
 location: Taipei
 category: photos
 tags: taiwan featured

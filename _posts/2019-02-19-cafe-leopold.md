@@ -1,7 +1,6 @@
 ---
 title: Cafe Leopold
 description: The Leopold Museum
-excerpt: The Leopold Museum.
 location: Vienna
 category: photos
 tags: austria

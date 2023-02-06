@@ -1,7 +1,6 @@
 ---
 title: Any Warhol Bags
 description: Portraits in Plastic
-excerpt: Portraits in Plastic.
 last_modified_at: 2023-01-31 13:18:36
 location: Taipei
 category: machine-learning

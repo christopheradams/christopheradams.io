@@ -1,7 +1,6 @@
 ---
 title: Weak Soundsystem
-description: Caochangdi
-excerpt: Custom soundsystem designed by Matt Hope for Beijing Design Week.
+description: Custom soundsystem designed by Matt Hope
 location: Beijing
 category: photos
 tags: beijing

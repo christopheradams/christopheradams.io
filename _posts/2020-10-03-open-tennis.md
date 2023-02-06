@@ -1,6 +1,6 @@
 ---
 title: Open Tennis
-description: Nuit Blanche
+description: After the performance at Nuit Blanche
 location: Taipei
 category: photos
 tags: taiwan

@@ -1,6 +1,6 @@
 ---
 title: Lin Chuanchu
-description: Jinshan
+description: At the artist's studio in Jinshan
 location: New Taipei City
 category: photos
 tags: taiwan

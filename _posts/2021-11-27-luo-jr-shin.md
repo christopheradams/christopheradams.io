@@ -1,7 +1,6 @@
 ---
-title: Luo Jr-shin
-description: Taipei Fine Arts Museum
-excerpt: Like a Urinal in a Nightclub.
+title: Like a Urinal in a Nightclub
+description: Luo Jr-shin's exhibition at Taipei Fine Arts Museum
 location: Taipei
 category: photos
 tags: taiwan

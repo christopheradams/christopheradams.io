@@ -1,7 +1,6 @@
 ---
 title: Centering Disaster
-description: Outpainting our future
-excerpt: Venice is sinking while the seas are rising. An AI outpaints our future.
+description: Venice sinks, the seas rise, and an AI outpaints our future
 location: Taipei
 category: machine-learning
 tags: stable-diffusion featured

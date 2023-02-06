@@ -1,7 +1,6 @@
 ---
 title: Taipei Popcorn
-description: Taiwan Contemporary Culture Lab
-excerpt: After their performance at C-LAB.
+description: After their performance at C-LAB
 location: Taipei
 category: photos
 tags: taiwan featured

@@ -1,7 +1,6 @@
 ---
 title: Barricade (Empty)
 description: West Kowloon Station
-excerpt: Near West Kowloon Station.
 location: Hong Kong
 category: photos
 tags: hongkong

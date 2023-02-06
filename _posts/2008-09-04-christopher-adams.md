@@ -1,7 +1,6 @@
 ---
 title: Christopher Adams
 description: Photo by Joi Ito
-excerpt: Photo by Joi Ito.
 location: Linz
 category: about
 tags: creativecommons

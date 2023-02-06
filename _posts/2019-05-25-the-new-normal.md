@@ -1,6 +1,6 @@
 ---
 title: The New Normal
-description: Item Idem
+description: Arrangement by Item Idem
 location: Taipei
 category: photos
 tags: taiwan

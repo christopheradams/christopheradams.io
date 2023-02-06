@@ -1,8 +1,7 @@
 ---
 title: Mediocre
-description: TKG+
-excerpt: >
-    Techno: Lee Kit Solo Exhibition.
+description: >
+    Techno: Lee Kit Solo Exhibition
 location: Taipei
 category: photos
 tags: taiwan

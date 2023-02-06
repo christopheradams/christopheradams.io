@@ -1,7 +1,6 @@
 ---
 title: Ting-Tong Chang
-description: Longquan Market
-excerpt: Installation at Longquan Market.
+description: Installation at Longquan Market
 location: Taipei
 category: photos
 tags: taiwan featured

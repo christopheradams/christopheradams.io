@@ -1,7 +1,6 @@
 ---
 title: Shao Yanpeng
-description: Caochangdi
-excerpt: DJ set during Beijing Design Week in Caochangdi.
+description: DJ set in Caochangdi
 location: Beijing
 category: photos
 tags: beijing

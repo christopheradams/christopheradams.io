@@ -1,8 +1,7 @@
 ---
 title: Christopher Adams
-description: Leica Qingtian Grand Opening
-excerpt: Photo by Chen You-Wei.
 location: Taipei
+description: Photo by Chen You-Wei
 category: about
 tags: taiwan
 image:

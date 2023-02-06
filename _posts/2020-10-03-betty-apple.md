@@ -1,7 +1,6 @@
 ---
 title: Betty Apple
-description: Nuit Blanche
-excerpt: Before her performance at Nuit Blanche.
+description: Before her performance at Nuit Blanche
 location: Taipei
 category: photos
 tags: taiwan

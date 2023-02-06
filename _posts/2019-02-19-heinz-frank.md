@@ -1,6 +1,6 @@
 ---
 title: Heinz Frank
-description: Kunsthalle Wien
+description: Exhibition opening at Kunsthalle Wien
 location: Vienna
 category: photos
 tags: artist

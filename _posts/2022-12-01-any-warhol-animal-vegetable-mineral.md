@@ -1,7 +1,6 @@
 ---
 title: Any Warhol, Animal, Vegetable, Mineral
-description: Querying hierarchies
-excerpt: Querying hierarchies in AI tools.
+description: Querying hierarchies in AI tools
 last_modified_at: 2023-01-31 13:18:36
 location: Taipei
 category: machine-learning

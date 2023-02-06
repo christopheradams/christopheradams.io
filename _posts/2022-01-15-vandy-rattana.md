@@ -1,7 +1,6 @@
 ---
 title: Vandy Rattana
-description: Tianmu
-excerpt: Screening the Monograph Trilogy.
+description: Screening the Monograph Trilogy
 location: Taipei
 category: photos
 tags: taiwan

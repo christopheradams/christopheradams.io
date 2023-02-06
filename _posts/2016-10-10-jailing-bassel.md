@@ -1,7 +1,6 @@
 ---
 title: Jailing Bassel
-description: The people in real danger
-excerpt: The people who are in real danger never leave their countries.
+description: The people who are in real danger never leave their countries
 location: Seoul
 category: articles
 tags: creativecommons
