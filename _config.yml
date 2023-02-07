@@ -63,6 +63,8 @@ paginate_path: "/page/:num/"
 feed:
   posts_limit: 25
 
+excerpt_separator: <!--more-->
+
 sass:
   sass_dir: _scss
   style: compressed
