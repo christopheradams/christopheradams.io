@@ -34,7 +34,7 @@ Get It Louder*
 ## Links
 
 {% if site.social %}
-  {% assign socials = site.social | sort: "name" %}
+  {% assign socials = site.social %}
   <ul class="list-unstyled">
   {%- for social in socials %}
   <li>
