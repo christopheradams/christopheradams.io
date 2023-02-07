@@ -316,4 +316,5 @@ $post-line-height: 1.7;
 .link-path {
   color: $gray-800;
   font-weight: $font-weight-lighter;
+  overflow-wrap: break-word;
 }
