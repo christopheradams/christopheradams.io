@@ -1,7 +1,7 @@
 ---
 title: It's All Lighter
 description: Bending identities in style
-last_modified_at: 2023-01-31 21:53:30
+last_modified_at: 2023-01-31 21:53:30 +0800
 location: Taipei
 category: machine-learning
 tags: stable-diffusion featured

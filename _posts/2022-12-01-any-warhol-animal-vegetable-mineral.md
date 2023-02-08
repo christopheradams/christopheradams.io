@@ -1,7 +1,7 @@
 ---
 title: Any Warhol, Animal, Vegetable, Mineral
 description: Querying hierarchies in AI tools
-last_modified_at: 2023-01-31 13:18:36
+last_modified_at: 2023-01-31 13:18:36 +0800
 location: Taipei
 category: machine-learning
 tags: stable-diffusion featured
