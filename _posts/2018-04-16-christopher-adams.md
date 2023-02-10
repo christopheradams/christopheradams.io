@@ -2,7 +2,6 @@
 title: Christopher Adams
 description: Photo by Razan Hadid
 location: Toronto
-category: about
 tags: christopheradams
 image:
   author: Razan Hadid
