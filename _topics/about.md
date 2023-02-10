@@ -11,7 +11,7 @@ description: Bio, contact, and links
 {{ authorDetails.bio }}
 </p>
 
-{% assign about_posts = site.posts | where: "category", "about" %}
+{% assign about_posts = site.categories.about %}
 {% include cards.html posts=about_posts %}
 
 ## Exhibitions
