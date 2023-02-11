@@ -13,7 +13,9 @@
         <strong itemprop="name">{{ post.title | escape }}</strong>
         &mdash;
         {% else %}
+        {% unless post_image %}
         <strong>¶</strong>
+        {% endunless %}
         {% endif %}
         <span class="card-description" itemprop="description">
           {% assign post_summary = post.description | default: post.excerpt %}
