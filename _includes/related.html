@@ -19,9 +19,15 @@
             <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">
             {% endif %}
             <div class="card-body">
-              <span class="card-title">
-                <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"><strong itemprop="name">{{ post.title | escape }}</strong></a>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"></a>
+              {% if post.title and post.title != "" %}
+              <span class="card-title">{{ post.title | escape }}</span>
+              {% else %}
+              <span class="card-description" itemprop="description">
+                {% assign post_summary = post.description | default: post.excerpt %}
+                {{ post_summary | strip_html | normalize_whitespace | truncatewords: 20 }}
               </span>
+              {% endif %}
             </div>
           </div>
         </div>
