@@ -5,7 +5,7 @@
 {%- if page.title and page.title != "" -%}
 {{ page.title }}
 {%- else -%}
-{%- assign post_summary = page.excerpt | default: page.description -%}
+{%- assign post_summary = page.description | default: page.excerpt -%}
 {{ post_summary | strip_html | normalize_whitespace | truncatewords: 8}}
 {%- endif -%}
 {% endcapture %}
