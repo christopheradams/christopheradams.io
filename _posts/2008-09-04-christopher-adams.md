@@ -1,5 +1,5 @@
 ---
-title: Christopher Adams
+title: ""
 description: Photo by Joi Ito
 location: Linz
 tags: christopheradams

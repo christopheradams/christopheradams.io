@@ -1,5 +1,5 @@
 ---
-title: Christopher Adams
+title: ""
 description: Photo by Razan Hadid
 location: Toronto
 tags: christopheradams

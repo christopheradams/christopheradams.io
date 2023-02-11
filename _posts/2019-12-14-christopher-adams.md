@@ -1,5 +1,5 @@
 ---
-title: Christopher Adams
+title: ""
 description: Photo by Joi Ito
 last_updated_at: 2023-02-10 22:41:52 +0800
 location: Hong Kong

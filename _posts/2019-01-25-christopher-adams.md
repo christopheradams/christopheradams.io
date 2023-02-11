@@ -1,5 +1,5 @@
 ---
-title: Christopher Adams
+title: ""
 location: Taipei
 description: Photo by Chen You-Wei
 category: about
