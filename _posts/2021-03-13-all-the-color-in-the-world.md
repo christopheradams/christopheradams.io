@@ -1,6 +1,7 @@
 ---
 title: All the Color in the World
 description: A project by Christopher Adams and Jun Yang at MoCA Taipei
+location: Taipei
 category: articles
 tags: artist featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/other/2021/MoCA-Taipei/MoCA-Taipei_20210313_Adams-Yang_DSC06787.JPG

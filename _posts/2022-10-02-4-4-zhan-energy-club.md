@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 4:4 Zhan Energy Club
+location: Taipei
 description: Betty Apple, Nuit Blanche, and an Underwater Rave
 last_modified_at: 2023-01-30 21:50:36 +0800
 category: machine-learning
