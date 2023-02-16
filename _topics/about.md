@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 author: christopheradams
 description: Bio, contact, and links
+image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/65535/49241319873_7ee721ed6a_k.jpg
 ---
 
 <p class="lead">
 {% assign authorDetails = site.data.authors[page.author] %}
 {{ authorDetails.bio }}
 </p>
-
-{% assign about_posts = site.categories.about %}
-{% include cards.html posts=about_posts %}
 
 ## Exhibitions
 
@@ -52,6 +50,11 @@ Get It Louder*
 {% if site.newsletter %}
 [Subscribe to the Newsletter]({{ site.newsletter }})
 {% endif %}
+
+## Photos
+
+{% assign about_posts = site.categories.about %}
+{% include cards.html posts=about_posts %}
 
 ## Colophon
 
