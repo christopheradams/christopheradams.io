@@ -13,6 +13,16 @@ image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/655
 {{ authorDetails.description }}
 </p>
 
+I'm a software developer working on web, blockchain, and distributed systems,
+and a photographer and visual artist working with film, digital, and AI.  Past
+projects include [All the Color in the World]({% post_url
+2021-03-13-all-the-color-in-the-world %}) with Jun Yang and [FREESOULS]({%
+post_url 2008-12-03-freesouls %}) with Joi Ito. I publish [articles]({% link
+_topics/articles.md %}), [photographs]({% link _topics/photos.md %}), [machine
+learning]({% link _topics/machine-learning.md %}), [notes]({% link
+_topics/notes.md %}), and the occasional [newsletter]({% link
+_topics/newsletter.md %}) on [christopheradams.io](https://christopheradams.io).
+
 ## Exhibitions
 
 *Museum of Contemporary Art Taipei, Kuandu Museum of Fine Arts, Taiwan
