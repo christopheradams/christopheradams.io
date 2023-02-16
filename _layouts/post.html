@@ -98,7 +98,7 @@ layout: page
             </p>
             {% for author in page.author %}
             {% assign authorDetails = site.data.authors[author] %}
-            <p class="post-bio">{{ authorDetails.bio | escape }}</p>
+            <p>{{ authorDetails.description }}</p>
             {% endfor %}
           </div>
           <div class="post-details">

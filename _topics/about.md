@@ -7,9 +7,10 @@ description: Bio, contact, and links
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/65535/49241319873_7ee721ed6a_k.jpg
 ---
 
-<p class="lead">
 {% assign authorDetails = site.data.authors[page.author] %}
-{{ authorDetails.bio }}
+
+<p class="lead">
+{{ authorDetails.description }}
 </p>
 
 ## Exhibitions
