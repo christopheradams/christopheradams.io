@@ -14,10 +14,10 @@ event in Taipei. The 2022 edition of the art fair welcomed four digital art
 platforms, featuring work by [Ben Snell] for Art Blocks, [Huang Hai-Hsin] for SOYL,
 [Rachel Rose] for Outland, and [Whistlegraph] for Feral File.
 
-I designed the [Launch Stage] program for Taipei Dangdai, a real-time system
-that interfaces with the blockchain to present the artists' NFTs as they were
-minted. We invited the artists to call in over video chat to address a live
-audience as their collections were released.
+For the program I designed [Launch Stage], a real-time system that interfaces
+with the Ethereum blockchain to present NFTs as they are minted. We invited the
+participating artists to call in over video chat with a live audience as their
+collections were released.
 
 [Taipei Dangdai]: https://taipeidangdai.com/
 [Launch Stage]: https://nft.taipeidangdai.com/
