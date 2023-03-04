@@ -4,7 +4,7 @@
   "description": "Articles and Photographs by Christopher Adams",
   "private": true,
   "scripts": {
-    "build": "bundle exec jekyll build",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build",
     "deploy": "rsync -avz --delete _site/ $1",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "bundle exec jekyll serve --livereload --drafts"
