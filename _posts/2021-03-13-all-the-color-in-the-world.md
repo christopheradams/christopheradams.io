@@ -4,7 +4,7 @@ description: A project by Christopher Adams and Jun Yang at MoCA Taipei
 location: Taipei
 category: articles
 tags: artist featured
-image: https://static.christopheradams.io/file/cxadams-website/medium/other/2021/MoCA-Taipei/MoCA-Taipei_20210313_Adams-Yang_DSC06787.JPG
+image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2021/MoCA-Taipei/MoCA-Taipei_20210313_Adams-Yang_DSC06787.JPG
 ---
 
 Jun Yang's *The Artist, his Collaborators, their Exhibition, and three
@@ -23,7 +23,7 @@ university, and a contemporary art museum. These institutions presented
 the work in various ways: as a solo show, a group exhibition, a
 biennial, a retrospective, an open forum.
 
-![All the Color in the World](https://static.christopheradams.io/file/cxadams-website/medium/other/2021/MoCA-Taipei/MoCA-Taipei_20210204_Jun-Yang_0059_Small.jpg)
+![All the Color in the World](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2021/MoCA-Taipei/MoCA-Taipei_20210204_Jun-Yang_0059_Small.jpg)
 
 Jun and I created a project at MoCA Taipei titled [All the Color in the
 World]: a set of posters displayed in the museum shop, a collection

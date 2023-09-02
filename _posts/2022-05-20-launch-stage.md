@@ -6,7 +6,7 @@ category: articles
 tags: taiwan featured
 image:
     author: Taipei Dangdai
-    path: https://static.christopheradams.io/file/cxadams-website/medium/other/2022/taipei-dangdai-2022/284547233_339737218268457_796128295586667004_n.jpg
+    path: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2022/taipei-dangdai-2022/284547233_339737218268457_796128295586667004_n.jpg
 ---
 
 [Taipei Dangdai Art & Ideas][Taipei Dangdai] is the leading arts and culture
@@ -19,7 +19,7 @@ with the Ethereum blockchain to present NFTs as they are minted. We invited the
 participating artists to call in over video chat with a live audience as their
 collections were released.
 
-![Launch Stage](https://static.christopheradams.io/file/cxadams-website/medium/other/2022/taipei-dangdai-2022/NFT-Taipei-Dangdai_live_Cattleya-53-by-Ben-Snell.png){:.shadow-lg.rounded-3.mb-4}
+![Launch Stage](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2022/taipei-dangdai-2022/NFT-Taipei-Dangdai_live_Cattleya-53-by-Ben-Snell.png){:.shadow-lg.rounded-3.mb-4}
 
 [Taipei Dangdai]: https://taipeidangdai.com/
 [Launch Stage]: https://static.christopheradams.io/file/cxadams-website/large/other/2022/taipei-dangdai-2022/NFT-Taipei-Dangdai_Home.jpg
