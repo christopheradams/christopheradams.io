@@ -8,7 +8,7 @@ category: machine-learning
 tags: stable-diffusion featured
 image:
     title: Betty Apple on stage at Nuit Blanche Taipei 2022
-    path: https://static.christopheradams.io/file/cxadams-website/medium/albums/2022/20221002-0213_Shilin_NuitBlanche/20221002-0213_Shilin_NuitBlanche_L1008376-0.jpg
+    path: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2022/20221002-0213_Shilin_NuitBlanche/20221002-0213_Shilin_NuitBlanche_L1008376-0.jpg
 ---
 
 I created a series of AI generated videos for [Betty Apple] and Social Dis Dance

@@ -4,7 +4,7 @@ description: Cafe Leopold
 location: Vienna
 category: photos
 tags: austria
-image: https://static.christopheradams.io/file/cxadams-website/medium/albums/2019/20190219-1552_Vienna_Leopold/20190219-1552_Vienna_Leopold_L1000755-0.jpg
+image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2019/20190219-1552_Vienna_Leopold/20190219-1552_Vienna_Leopold_L1000755-0.jpg
 ---
 
 [Jun Yang] at Cafe Leopold, which he designed for the Leopold Museum.
