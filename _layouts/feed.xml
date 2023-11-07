@@ -73,8 +73,14 @@
           <p><img src="{{ post_image }}"></p>
         {% endif %}
       {% endcapture %}
+      {% capture post_dateline_tag %}
+        {% assign location = post.location | default: site.location | upcase %}
+        {% assign dateline = post.date | default: "now" | date: "%-d %b %Y" %}
+        <p>{{location}} ({{dateline}})</p>
+      {% endcapture %}
         <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}"><![CDATA[
         {{ post_image_tag | strip }}
+        {{ post_dateline_tag | strip }}
         {{ post.content | strip }}
         ]]></content>
       {% endunless %}
