@@ -2,7 +2,8 @@
 title: Who is the artist?
 description: 藝術家是誰？
 location: Graz
-last_modified_at: 2023-02-13 12:56:45 +0800
+published_at: 2023-02-13 16:22:28 +0800
+last_modified_at: 2023-02-13 16:22:28 +0800
 category: articles
 tags: artist
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2020-12-10-18h26m48s140.jpg

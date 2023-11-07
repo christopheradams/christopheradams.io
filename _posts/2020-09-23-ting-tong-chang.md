@@ -2,6 +2,7 @@
 title: Ting-Tong Chang
 description: Installation at Longquan Market
 location: Taipei
+published_at: 2022-10-31 12:57:16 +0800
 category: photos
 tags: taiwan featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2020/20200923-2004_Taipei_LongquanMarket/20200923-2004_Taipei_LongquanMarket_L1001284-1.jpg

@@ -1,8 +1,9 @@
 ---
 title: Any Warhol Bags
 description: Portraits in Plastic
-last_modified_at: 2023-01-31 13:18:36 +0800
 location: Taipei
+published_at: 2023-01-05 01:44:12 +0800
+last_modified_at: 2023-01-31 13:18:36 +0800
 category: machine-learning
 tags: stable-diffusion featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00017_a_plastic_bag_against_a_window.jpg

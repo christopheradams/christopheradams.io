@@ -2,6 +2,7 @@
 title: Weak Soundsystem
 description: Custom soundsystem designed by Matt Hope
 location: Beijing
+published_at: 2016-11-17 16:42:25 +0800
 category: photos
 tags: beijing
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/8324/8126876501_dd46191c8a_k.jpg

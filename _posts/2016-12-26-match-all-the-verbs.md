@@ -1,6 +1,7 @@
 ---
 title: Match All the Verbs
 description: Phoenix is not your App. Is it even MVC?
+published_at: 2016-12-30 18:41:10 +0800
 category: articles
 tags: programming
 image: https://static.christopheradams.io/file/cxadams-website/medium/flickr/833/43414845681_4af48e97c1_b.jpg

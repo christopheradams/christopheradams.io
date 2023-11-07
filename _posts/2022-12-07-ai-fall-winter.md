@@ -2,6 +2,7 @@
 title: AI Fall/Winter
 description: A finely-tuned series starring Item Idem
 location: Taipei
+published_at: 2022-12-29 23:54:34 +0800
 category: machine-learning
 tags: stable-diffusion featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Drive/AI/StableDiffusion/2022-12/lighter-itemidem-3-upscale/20221228073423_00000_portrait_blurry_photo_of_handsome_itemidem_street_photography_by_robert_doisneau_fashion_photo_shoot_on_the_street_large_black_sunglasses.jpg

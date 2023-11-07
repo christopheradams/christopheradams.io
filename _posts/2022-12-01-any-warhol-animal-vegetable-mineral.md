@@ -1,14 +1,14 @@
 ---
 title: Any Warhol, Animal, Vegetable, Mineral
 description: Querying hierarchies in AI tools
-last_modified_at: 2023-01-31 13:18:36 +0800
 location: Taipei
+published_at: 2023-01-05 01:44:12 +0800
+last_modified_at: 2023-01-31 13:18:36 +0800
 category: machine-learning
 tags: stable-diffusion featured
 image:
     title: Any Warhol Cave
     path: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221215103348_00006_a_black_and_white_photograph_of_a_geological_formation.jpg
-
 ---
 
 *Any Warhol, Animal, Vegetable, Mineral* is part of an ongoing series querying

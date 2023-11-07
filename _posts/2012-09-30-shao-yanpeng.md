@@ -1,6 +1,7 @@
 ---
 title: Shao Yanpeng
 description: DJ set in Caochangdi
+published_at: 2016-11-17 16:42:25 +0800
 location: Beijing
 category: photos
 tags: beijing

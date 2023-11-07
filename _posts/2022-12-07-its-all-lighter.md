@@ -1,8 +1,9 @@
 ---
 title: It's All Lighter
 description: Bending identities in style
-last_modified_at: 2023-01-31 21:53:30 +0800
 location: Taipei
+published_at: 2023-01-31 21:57:09 +0800
+last_modified_at: 2023-01-31 21:57:09 +0800
 category: machine-learning
 tags: stable-diffusion featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Drive/AI/StableDiffusion/2022-12/lighter-itemidem-2-upscale/20221206140958_00001_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.jpg
