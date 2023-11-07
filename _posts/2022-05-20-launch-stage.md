@@ -1,6 +1,7 @@
 ---
 title: Launch Stage
 description: NFTs at Taipei Dangdai
+location: Taipei
 date: 2022-05-20 00:00 +0000
 published_at: 2023-02-23 11:46:40 +0800
 category: articles

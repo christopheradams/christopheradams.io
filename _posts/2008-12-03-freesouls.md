@@ -2,6 +2,7 @@
 title: FREESOULS
 description: Captured and Released by Joi Ito
 date: 2008-12-03 00:00 +0000
+location: Taipei
 published_at: 2023-02-13 21:59:29 +0800
 last_updated_at: 2023-02-13 19:45:58 +0800
 category: articles
