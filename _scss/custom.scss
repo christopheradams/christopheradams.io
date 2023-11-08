@@ -184,7 +184,7 @@ $post-line-height: 1.7;
   }
 
   .post-content {
-    p > img {
+    p > img:not(.post-img-wide) {
       @include media-breakpoint-up(sm) {
         display: block;
         max-width: 75%;
