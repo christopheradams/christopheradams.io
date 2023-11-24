@@ -1,6 +1,6 @@
 ---
 title: Newsletter
-description: Updates syndicated by RSS and Email
+description: Updates syndicated by Email
 ---
 
 {% if site.newsletter %}
