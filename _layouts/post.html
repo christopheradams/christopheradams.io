@@ -45,16 +45,6 @@ layout: page
             </div>
 
             <div class="post-details">
-              {% if page.link %}
-              {% assign page_post = site.posts | where: "path", page.link | first %}
-              <p>
-                Read more:
-                <a href="{% link {{ page.link }} %}">
-                  {{ page_post.title }}, {{ page_post.description }}
-                </a>
-              </p>
-              {% endif %}
-
               {% if page.source %}
               <p>
                 Source:
