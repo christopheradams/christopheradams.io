@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 4:4 Zhan Energy Club
 description: Betty Apple, Nuit Blanche, and an Underwater Rave
 location: Taipei
