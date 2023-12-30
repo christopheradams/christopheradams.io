@@ -2,7 +2,15 @@
 layout: page
 ---
 
-<article class="{{ page.category | prepend: "category-" }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+{%- capture page_class -%}
+  {%- if page.category -%}
+  {{ page.category | prepend: "category-" }}
+  {%- else -%}
+  category-none
+  {%- endif -%}
+{%- endcapture -%}
+
+<article class="{{ page_class }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="row">
     <div class="col-12 full-width border-bottom">
       <section class="article-banner">
