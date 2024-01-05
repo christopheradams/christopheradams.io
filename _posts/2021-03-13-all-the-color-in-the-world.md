@@ -3,6 +3,7 @@ title: All the Color in the World
 description: A project by Christopher Adams and Jun Yang at MoCA Taipei
 location: Taipei
 published_at: 2021-11-25 16:36:31 +0800
+modified_at: 2024-01-05 19:51:23 +0800
 category: articles
 tags: artist featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2021/MoCA-Taipei/MoCA-Taipei_20210313_Adams-Yang_DSC06787.JPG
@@ -38,10 +39,9 @@ We'd only do this for *All the Color in the World*.
 
 Photos courtesy MoCA Taipei.
 
-Website: [allthecolorintheworld.com]
+Website: [All the Color in the World]
 
-[All the Color in the World]: https://www.allthecolorintheworld.com
-[allthecolorintheworld.com]: https://www.allthecolorintheworld.com
+[All the Color in the World]: https://aparallax.github.io/allthecolorintheworld/
 [Art Sonje]: http://junyang.info/project/the-overview-perspective-art-sonje/
 [Kunsthaus Graz]: http://junyang.info/project/the-artist-the-work-and-the-exhibition-at-kunsthaus-graz/
 [OpenSea]: https://opensea.io/collection/allthecolorintheworld
