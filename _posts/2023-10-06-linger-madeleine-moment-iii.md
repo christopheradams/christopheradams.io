@@ -13,6 +13,6 @@ Details from *Madeleine Moment: The Technology of Memory and Sentiment Part III,
 an exhibition by Hung Tzu-Ni and Lai Chih-Sheng for TheCube Project Space,
 hosted by Hong Foundation.
 
-![Linger, Madeleine Moment Part III](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2023/20231006-1350_Taipei_HongFoundation/20231006-1350_Taipei_HongFoundation_L1000541-0.jpg){:.post-img-wide}
+![Linger, Madeleine Moment Part III](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2023/20231006-1350_Taipei_HongFoundation/20231006-1350_Taipei_HongFoundation_L1000541-0.jpg){: .wide}
 
-![Linger, Madeleine Moment Part III](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2023/20231006-1350_Taipei_HongFoundation/20231006-1350_Taipei_HongFoundation_L1000549-0.jpg){:.post-img-wide}
+![Linger, Madeleine Moment Part III](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2023/20231006-1350_Taipei_HongFoundation/20231006-1350_Taipei_HongFoundation_L1000549-0.jpg){: .wide}
