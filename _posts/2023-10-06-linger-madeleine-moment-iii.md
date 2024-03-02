@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2023-11-07 22:33:55 +0800
 last_modified_at: 2023-11-07 22:33:55 +0800
 category: photos
-tags: artist featured
+tags: artist
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2023/20231006-1350_Taipei_HongFoundation/20231006-1350_Taipei_HongFoundation_L1000545-0.jpg
 ---
 
