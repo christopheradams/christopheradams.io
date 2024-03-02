@@ -184,6 +184,12 @@ $post-line-height: 1.7;
   }
 
   .post-content {
+    p > img.narrow {
+      @include media-breakpoint-up(sm) {
+        width: 50%;
+      }
+    }
+
     p > img:not(.wide) {
       @include media-breakpoint-up(sm) {
         display: block;
