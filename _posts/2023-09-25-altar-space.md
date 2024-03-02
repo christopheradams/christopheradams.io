@@ -109,9 +109,9 @@ the *yes or no* answers from moon blocks can be read as a sequence of *ones* and
 and to sign transactions on the blockchain. The steps for using moon blocks as a
 source of *entropy* are detailed in an accompanying [divination guide].
 
-![Divination Guide](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-divination-guide-cover.jpg){: .img-thumbnail .w-50}
+![Divination Guide](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-divination-guide-cover.jpg){: .img-thumbnail .narrow}
 
-![Divination Guide](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-divination-guide-01.jpg){: .img-thumbnail .w-50}
+![Divination Guide](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-divination-guide-01.jpg){: .img-thumbnail .narrow}
 
 Yao Jui-Chung, *Divination Guide* (2023)
 {: .text-center}
@@ -155,7 +155,7 @@ as talismans of crypto art, with Yao's emblem taking the place of the currency
 symbol. Part of the artist's spiritual and monetary worth is deposited in these
 tradable tokens.
 
-![YAO COIN: SPIN](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-yaocoin-spin.jpg){: .w-50}
+![YAO COIN: SPIN](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-yaocoin-spin.jpg){: .narrow}
 
 ![YAO COIN: STACKS](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-yaocoin-stacks.jpg)
 
