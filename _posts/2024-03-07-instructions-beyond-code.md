@@ -3,7 +3,7 @@ title: Instructions Beyond Code
 description: Prompts on Generative Art
 location: Taipei
 published_at: 2024-03-22 13:34:26 +0800
-last_modified_at: 2024-03-22 13:34:26 +0800
+last_modified_at: 2024-03-22 14:46:58 +0800
 category: articles
 tags: taiwan featured
 image:
@@ -46,7 +46,7 @@ decisions for generative artists is a productive set of binary choices:
 1. On-chain vs Off-chain: NFTs or bust
 
 I chose work from seven artists that neatly illustrate some of these decisions:
-[Aluan Wang], [Graphyni] [Hemilylan], [Jun Yang], [Lai Tsung-Yun], [Liu
+[Aluan Wang], [Graphyni], [Hemilylan], [Jun Yang], [Lai Tsung-Yun], [Liu
 Nai-Ting], and [Natalie.J]. Jun Yang's "fill-in-the-blanks" poster series for
 the 2008 Taipei Biennial is a perfect example of a conceptual art as a set of
 "instructions beyond code." It's a "generative artwork" that is only fully
