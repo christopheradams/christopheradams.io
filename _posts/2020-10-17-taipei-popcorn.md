@@ -4,7 +4,7 @@ description: After their performance at C-LAB
 location: Taipei
 published_at: 2022-10-30 18:47:40 +0800
 category: photos
-tags: taiwan featured
+tags: taiwan
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2020/20201017-1920_Taipei_C-LAB/20201017-1920_Taipei_C-LAB_L1003411-0.jpg
 ---
 
