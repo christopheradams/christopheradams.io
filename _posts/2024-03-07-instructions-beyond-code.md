@@ -3,7 +3,7 @@ title: Instructions Beyond Code
 description: Prompts on Generative Art
 location: Taipei
 published_at: 2024-03-22 13:34:26 +0800
-last_modified_at: 2024-03-22 14:46:58 +0800
+last_modified_at: 2024-03-22 15:22:08 +0800
 category: articles
 tags: taiwan featured
 image:
@@ -33,8 +33,8 @@ five design strategies, *Repetition, Transformation, Parameterization,
 Visualization,* and *Simulation* are lifted directly from their book.
 
 The index of influences on generative art drawing a line from Cubism through
-Serial Art all the way to [Demoscene] is only a pointer. The list of critical
-decisions for generative artists is a productive set of binary choices:
+Serial Art all the way to [Demoscene] is greatly compressed. The list of
+critical decisions for generative artists is a productive set of binary choices:
 
 1. Pixels vs Paint: digital or traditional media
 1. Screen vs Print: on a monitor or on paper
