@@ -3,7 +3,7 @@ title: Instructions Beyond Code
 description: Prompts on Generative Art
 location: Taipei
 published_at: 2024-03-22 13:34:26 +0800
-last_modified_at: 2024-03-22 15:22:08 +0800
+last_modified_at: 2024-03-25 19:07:08 +0800
 category: articles
 tags: taiwan featured
 image:
@@ -39,7 +39,7 @@ critical decisions for generative artists is a productive set of binary choices:
 1. Pixels vs Paint: digital or traditional media
 1. Screen vs Print: on a monitor or on paper
 1. Geometry vs Gesture: mechanical or human
-1. Long Form vs Short Form: random or selected
+1. Long Form vs Short Form: random or curated
 1. Static vs Kinetic: still or moving
 1. Fixed vs Responsive: one size or many
 1. Software vs Hardware: virtual or embodied
