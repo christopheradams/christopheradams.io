@@ -19,9 +19,11 @@ What can an artificial intelligence see in a holy place? It sees boddhisattvas
 and demons using laptops. It sees nuclear weapons and space vehicles, UFOs and
 CRTs, robots and monsters. It sees Buddhas with virtual reality headsets and
 immolated figures in smoke and fire. The future Buddha sits in an empty lot with
-a dilapidated globe. The image-generation model was fine-tuned on instant film
-and flash photography of Buddhist and Taoist temples. As temples are already
-places of artifice, the image generation model can be absolved of its errors.
+a dilapidated globe.
+
+The image-generation model was fine-tuned on instant film and flash photography
+of Buddhist and Taoist religious art. As temples are already sites of artifice,
+the image generation model can be absolved of its errors.
 
 ![Hell Diffuse](https://replicate.delivery/pbxt/QWIfcAPB7q0JeETjJZh1TeLrfEisgSkKwzemiU090NYk3MDUC/out-2.png)
 
