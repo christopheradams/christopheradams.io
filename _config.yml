@@ -23,7 +23,7 @@ social:
   - name: mastodon
     url: https://mastodon.social/@christopheradams
   - name: nostr
-    url: https://damus.io/npub1fnnxzzdzaw4a0j5y25wjukmwlaqfe6heugf78hqxrs2ulpx3tyxqe9vk8n
+    url: https://primal.net/p/npub1fnnxzzdzaw4a0j5y25wjukmwlaqfe6heugf78hqxrs2ulpx3tyxqe9vk8n
   - name: objkt
     url: https://objkt.com/profile/christopheradams/
   # - name: flickr
