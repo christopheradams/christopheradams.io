@@ -3,7 +3,7 @@ title: Hell Diffuse
 description: Latent Eschatologies
 location: Taipei
 published_at: 2024-03-25 19:07:40 +0800
-last_modified_at: 2024-03-25 19:07:40 +0800
+last_modified_at: 2024-04-20 18:39:18 +0800
 category: machine-learning
 tags: stable-diffusion featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2024/hell-diffuse/images/9InhsrTptK4rLdSNeVmbBwiwQWIN62tm7rAYrmysXJpeme8kA_out-2.jpg
@@ -12,8 +12,8 @@ image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/
 *Hell Diffuse* is a series of AI-generated imagery that synthesizes religion and
 technology. But the picture is complicated. The tech looks obsolete while the
 divine looks to the future. Eschatology studies the end times and final events
-in world history and human destiny. It could be [Maitreya] or the [technological
-singularity]. Either that or we're stuck in hell on earth.
+in world history and human destiny. It could be the [future buddha] or
+the [technological singularity]. Either that or we're stuck in hell on earth.
 
 ![Hell Diffuse](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Photos/Pictures/2024/hell-diffuse/images/iZWX7AaUKeV8cyErD5SsDEcFHF8i5q3L3Ow38Q4oBp3ZfagSA_out-2.jpg)
 
@@ -21,7 +21,7 @@ What does an artificial intelligence imagine in a shrine? In the afterlife or
 purgatory? It conjures boddhisattvas and demons using laptops. It hallucinates
 nuclear weapons and space vehicles, UFOs and CRTs, robots and monsters. It
 envisions deities with virtual reality headsets and immolated figures in smoke
-and fire. The future Buddha sits in an empty lot with a dilapidated globe.
+and fire. A laughing buddha sits in an empty lot with a dilapidated globe.
 
 ![Hell Diffuse](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Photos/Pictures/2024/hell-diffuse/images/bCGEbHkROZ7FB5vYtScKodyfMv6WJKi6VvbeKcwHeR7cmjfJB_out-3.jpg)
 
@@ -76,5 +76,5 @@ Treasure Hill Light Festival* from 23 March to 5 June 2024.
 
 ![Hell Diffuse](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Photos/Pictures/2024/hell-diffuse/images/cOHeY8GsEMSre0ecbYb8DkBi3IjkPNtvJeCYS6MBKc00OJ3JB_out-0.jpg)
 
-[Maitreya]: https://en.wikipedia.org/wiki/Maitreya
+[future buddha]: https://en.wikipedia.org/wiki/Maitreya
 [technological singularity]: https://en.wikipedia.org/wiki/Technological_singularity
