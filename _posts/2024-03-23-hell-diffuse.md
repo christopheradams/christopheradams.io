@@ -3,17 +3,17 @@ title: Hell Diffuse
 description: Latent Eschatologies
 location: Taipei
 published_at: 2024-03-25 19:07:40 +0800
-last_modified_at: 2024-04-20 18:39:18 +0800
+last_modified_at: 2024-04-21 18:02:34 +0800
 category: machine-learning
 tags: stable-diffusion featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2024/hell-diffuse/images/9InhsrTptK4rLdSNeVmbBwiwQWIN62tm7rAYrmysXJpeme8kA_out-2.jpg
 ---
 
 *Hell Diffuse* is a series of AI-generated imagery that synthesizes religion and
-technology. But the picture is complicated. The tech looks obsolete while the
-divine looks to the future. Eschatology studies the end times and final events
-in world history and human destiny. It could be the [future buddha] or
-the [technological singularity]. Either that or we're stuck in hell on earth.
+technology. The picture is complicated by obsolete machines and newfangled
+deities. An eschatology for the end times and final events in world history and
+human destiny could indicate the [future buddha] or the [technological
+singularity]. Either that or we're stuck in hell on earth.
 
 ![Hell Diffuse](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Photos/Pictures/2024/hell-diffuse/images/iZWX7AaUKeV8cyErD5SsDEcFHF8i5q3L3Ow38Q4oBp3ZfagSA_out-2.jpg)
 
