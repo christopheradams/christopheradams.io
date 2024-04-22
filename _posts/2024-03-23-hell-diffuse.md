@@ -3,7 +3,7 @@ title: Hell Diffuse
 description: Latent Eschatologies
 location: Taipei
 published_at: 2024-03-25 19:07:40 +0800
-last_modified_at: 2024-04-21 18:02:34 +0800
+last_modified_at: 2024-04-22 13:22:19 +0800
 category: machine-learning
 tags: stable-diffusion featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2024/hell-diffuse/images/9InhsrTptK4rLdSNeVmbBwiwQWIN62tm7rAYrmysXJpeme8kA_out-2.jpg
@@ -17,19 +17,22 @@ singularity]. Either that or we're stuck in hell on earth.
 
 ![Hell Diffuse](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Photos/Pictures/2024/hell-diffuse/images/iZWX7AaUKeV8cyErD5SsDEcFHF8i5q3L3Ow38Q4oBp3ZfagSA_out-2.jpg)
 
-What does an artificial intelligence imagine in a shrine? In the afterlife or
-purgatory? It conjures boddhisattvas and demons using laptops. It hallucinates
-nuclear weapons and space vehicles, UFOs and CRTs, robots and monsters. It
-envisions deities with virtual reality headsets and immolated figures in smoke
-and fire. A laughing buddha sits in an empty lot with a dilapidated globe.
+Prompt an artificial intelligence about temples and shrines, purgatory and the
+underworld, armageddon and the afterlife. It conjures bodhisattvas and demons
+using laptops. It hallucinates nuclear weapons and astronauts, UFOs and CRTs,
+robots and monsters. It envisions buddhas with virtual reality headsets and
+immolated figures in smoke and fire. There's God *and* Godzilla. Hooded hackers
+recite their prayers in lines of computer code. A laughing buddha sits in an
+empty lot with a dilapidated globe. The AI projects a phantasm of the past into
+an apocalyptic future.
 
 ![Hell Diffuse](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Photos/Pictures/2024/hell-diffuse/images/bCGEbHkROZ7FB5vYtScKodyfMv6WJKi6VvbeKcwHeR7cmjfJB_out-3.jpg)
 
-This AI was fine-tuned on Yao Jui-Chung's instant film and flash photography of
-Buddhist and Taoist religious art, including depictions of heaven and
-hell. These images have one pole floating in the fantasy world and another
-grounded in photo-realism. As temples are already sites of artifice, the image
-generation model can be absolved of its errors.
+This AI was fine-tuned on [Yao Jui-Chung]'s instant film and flash photography
+of Buddhist and Taoist religious art, including depictions of heaven and
+hell. The resulting images have one pole floating in the fantasy world and
+another grounded in photorealism. As temples are already sites of artifice, the
+image generation model can be absolved of its errors.
 
 ![Treasure Hill Light Festival](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2024/hell-diffuse/treasure-hill/430240735_2812746662199829_2257322722256778578_n.jpg)
 
@@ -78,3 +81,4 @@ Treasure Hill Light Festival* from 23 March to 5 June 2024.
 
 [future buddha]: https://en.wikipedia.org/wiki/Maitreya
 [technological singularity]: https://en.wikipedia.org/wiki/Technological_singularity
+[Yao Jui-Chung]: https://www.yaojuichung.com/
