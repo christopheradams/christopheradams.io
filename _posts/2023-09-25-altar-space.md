@@ -93,12 +93,12 @@ Yao Jui-Chung, *Moon–Block–Chain* (2023)
 [Moon blocks] are (usually) red-colored, crescent-shaped, wooden divination
 tools that are commonplace at temples in Taiwan, especially in proximity to a
 God of Prosperity or an Earth Deity. They are used to seek divine guidance in
-the form of *yes or no* questions, often about careers, relationships, or
-financial decisions. If you have a quandary, pick up two moon blocks, hold them
-in prayer, recite your name, ask the question, and drop the blocks on the
-ground. Each block has a round side and a flat side. If the two blocks land
-opposite sides up, it means "yes," and otherwise it means "no." Three "yeses" in
-a row indicate a successful reply to your query.
+the form of yes--no questions, often about careers, relationships, or financial
+decisions. If you have a quandary, pick up two moon blocks, hold them in prayer,
+recite your name, ask the question, and drop the blocks on the ground. Each
+block has a round side and a flat side. If the two blocks land opposite sides
+up, it means "yes," and otherwise it means "no." Three "yeses" in a row indicate
+a successful reply to your query.
 
 Answering Yao's prayer for a cryptocurrency wallet requires more than three
 tosses. It needs *one-hundred and twenty-eight*, to be safe. Like flipping a
