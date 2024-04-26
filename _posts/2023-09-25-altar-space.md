@@ -3,7 +3,7 @@ title: Altar Space
 description: Cryptography and Divination with Yao Jui-Chung
 location: Taipei
 published_at: 2024-03-01 15:46:47 +0800
-last_modified_at: 2024-03-01 15:46:47 +0800
+last_modified_at: 2024-04-26 10:58:37 +0800
 category: articles
 tags: artist featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-04.jpg
@@ -68,9 +68,9 @@ charm and mints a digital token; and he deploys a new pantheon of crypto
 gods. Every technological innovation is the successor of a specific cultural
 practice.
 
-## Moon–Block–Chain
+## Moon--Block--Chain
 
-*Moon–Block–Chain* (2023) is a two-channel video shot at Hongludi Temple, a
+*Moon--Block--Chain* (2023) is a two-channel video shot at Hongludi Temple, a
 popular place of worship where believers come at all hours of the night to judge
 their fortunes. The videos open with a prayer to the [Righteous God of Blessing
 and Virtue], pleading for the private key to an NFT wallet. The first video is
@@ -81,13 +81,13 @@ prays and repeatedly casts a pair of moon blocks on the ground, while other
 series of still photographs of a pair of moon blocks on the temple floor,
 showing the "answers" to his appeals.
 
-![Moon–Block–Chain](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer.jpg)
+![Moon--Block--Chain](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer.jpg)
 
-![Moon–Block–Chain](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-22.jpg)
+![Moon--Block--Chain](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-22.jpg)
 
-![Moon–Block–Chain](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-answer-07.jpg)
+![Moon--Block--Chain](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-answer-07.jpg)
 
-Yao Jui-Chung, *Moon–Block–Chain* (2023)
+Yao Jui-Chung, *Moon--Block--Chain* (2023)
 {: .text-center}
 
 [Moon blocks] are (usually) red-colored, crescent-shaped, wooden divination
@@ -123,7 +123,7 @@ the ends are constant. Praying for wealth is not so removed from playing the
 odds.
 
 To redeem his communion with the divine, Yao minted two collections on Ethereum
-as **[Moon–Block–Chain: Prayers]** and **[Moon–Block–Chain: Answers]**. These
+as **[Moon--Block--Chain: Prayers]** and **[Moon--Block--Chain: Answers]**. These
 *sixty-four* videos and *sixty-four* photos are enduring specimens of
 performance art and valuable documentation of a timeless custom. Each bit of the
 prayers and answers is transmuted into a *non-fungible token* (NFT), a link in
@@ -214,7 +214,7 @@ trust in the market and belief in the divine, when the temptation is there.*
 
 * [yaojuichung] on Twitter
 * [yao_juichung] on Instagram
-* [Moon–Block–Chain] on Foundation
+* [Moon--Block--Chain] on Foundation
 * [Twelve Disciples 十二使徒] on Objkt.com
 * [YAO COIN] on Objkt.com
 
@@ -239,13 +239,13 @@ Cornell University.
 [moon blocks]: https://en.wikipedia.org/wiki/Jiaobei
 [Righteous God of Blessing and Virtue]: https://en.wikipedia.org/wiki/Fude_Zhengshen
 [divination guide]: https://www.yaojuichung.com/index.php?page=publications_book&language=EN&id=t6Tdnsc1mGkrCQ1AK2r8NDMyx99eX55N
-[Moon–Block–Chain: Prayers]: https://foundation.app/collection/moon-block-chain-prayers
-[Moon–Block–Chain: Answers]: https://foundation.app/collection/moon-block-chain-answers
+[Moon--Block--Chain: Prayers]: https://foundation.app/collection/moon-block-chain-prayers
+[Moon--Block--Chain: Answers]: https://foundation.app/collection/moon-block-chain-answers
 [numismatic charm]: https://en.wikipedia.org/wiki/Numismatic_charm
 [YAO COIN: SPIN]: https://objkt.com/tokens/hicetnunc/830420
 [YAO COIN: STACKS]: https://objkt.com/tokens/hicetnunc/830421
 [Twelve Disciples 十二使徒]: https://objkt.com/collections/KT1Atcaqejrf8V8v6Ce9fknM5Pzoy8ZceCQ6
 [yaojuichung]: https://twitter.com/YAOjuichung
 [yao_juichung]: https://www.instagram.com/yao_juichung/
-[Moon–Block–Chain]: https://foundation.app/0x215158De0B564B5678Ee21071b2482f3Ab459D4e?tab=collections
+[Moon--Block--Chain]: https://foundation.app/0x215158De0B564B5678Ee21071b2482f3Ab459D4e?tab=collections
 [YAO COIN]: https://objkt.com/tokens?tags=yaocoin
