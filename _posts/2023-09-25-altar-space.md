@@ -6,7 +6,7 @@ published_at: 2024-03-01 15:46:47 +0800
 last_modified_at: 2024-04-26 10:58:37 +0800
 category: articles
 tags: artist featured
-image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-04.jpg
+image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-invidia-altarspace-IMG_4950_crop.JPG
 ---
 
 ALTAR SPACE is the genesis of Yao Jui-Chung's journey into "crypto art."  Three
@@ -55,7 +55,7 @@ tokens as the coin of the realm. He ponders the creation of a crypto wallet, the
 prerequisite of any NFT art, and makes a ritual out of it. Yao has given the
 name *Altar Space* to the site of his initiation.
 
-![Altar Space](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-invidia-altarspace-IMG_4950.JPG)
+![Altar Space](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-invidia-altarspace-IMG_5039-color.JPG)
 
 Yao Jui-Chung, *Altar Space* (installation view)
 {: .text-center}
