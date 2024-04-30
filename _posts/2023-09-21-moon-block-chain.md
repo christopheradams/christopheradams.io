@@ -1,0 +1,76 @@
+---
+title: Moon–Block–Chain
+description: A divine cryptographic link
+location: Taipei
+published_at: 2024-04-26 12:55:31 +0800
+last_modified_at: 2024-04-26 12:55:31 +0800
+category: articles
+tags: artist featured
+image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-04.jpg
+---
+
+One late winter night, the artist [Yao Jui-Chung] ascended the hundreds of steps
+leading up to Hongludi Temple in the mountains above Taipei. After arriving in
+the main hall, he set down his camera, picked up a pair of moon blocks, and
+recited this prayer:
+
+> Disciple Yao Jui-Chung has come to ask the God of Blessing and Virtue
+> for the password for an NFT wallet. Thank you for giving me this
+> password. I wish for world peace and good fortune for all. Thank you
+> God of Blessing and Virtue, your disciple bows before you.
+
+Seeking divine guidance with a pair of moon blocks is a longstanding custom, but
+asking a God of Prosperity to generate a cryptocurrency wallet is a something of
+an innovation. Tossing the moon blocks on the ground and interpreting their
+yes--no answer as a *one* or a *zero* gives Yao the first bit of information he
+needs. He would have to perform this ritual 128 times in total to compose a
+sufficiently long random number for the secure private key to a wallet.
+
+![Moon--Block--Chain: Prayers on
+Foundation](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-foundation-prayers.jpg){: .img-thumbnail}
+
+![Moon--Block--Chain: Answers on Foundation](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-foundation-answers.jpg){: .img-thumbnail}
+
+To make good on his plea for an NFT wallet, Yao minted two collections of videos
+and photos on Ethereum as **[Moon--Block--Chain: Prayers]** and
+**[Moon--Block--Chain: Answers]**. The smart contracts were deployed using using
+Manifold Studio and listed for sale on Foundation. The media files and metadata
+were stored permanently on Arweave. Each of the sixty-four *Prayers* is a unique
+five-second video loop of Yao tossing a pair of moon blocks. Each of the
+sixty-four *Answers* is a unique still photograph of a pair of moon blocks on
+the temple floor.
+
+<p>
+    <video
+    autoplay muted loop
+    preload="metadata"
+    src="https://f001.backblazeb2.com/file/cxadams-website/video/nextcloud/Video/2023/yaojuichung-moonblockchain-prayer-04.mp4"
+    type="video/mp4"
+    poster="https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-04.jpg"
+> </video> </p>
+
+Yao Jui-Chung's *Moon--Block--Chain* (2023) is part of a long line of photo and
+video performance artworks that he has made over the past thirty years. It also
+fallows his careful study and documentation of Buddhist and Taoist religious
+sites. A two-channel video of the new work was installed as part of [Altar
+Space]({% post_url 2023-09-25-altar-space %}) in the exhibition *[Yao Jui-Chung:
+Invidia]* at Tina Keng Gallery in August 2023.
+
+<!-- TK: divination and cryptography; crypto-art form first principles -->
+
+<!-- Yao is no stranger to seeking divine guidance for the sake of his art. -->
+
+## About
+
+[Yao Jui-Chung] (b. 1969) is a Taiwanese contemporary artist, painter, and
+photographer. He represented Taiwan at the 1997 Venice Biennale, and has
+exhibited at major art biennials in Taipei, Yokohama, Shanghai, Beijing, Sydney,
+and Jakarta; and curated the 2020 Taiwan Biennial. Yao is the co-founder of VT
+Artsalon, and an Associate Professor at National Taiwan Normal University. The
+*Yao Jui-Chung Archive of Taiwan Contemporary Art* is in the collection of
+Cornell University.
+
+[Yao Jui-Chung]: https://www.yaojuichung.com/
+[Moon--Block--Chain: Prayers]: https://foundation.app/collection/moon-block-chain-prayers
+[Moon--Block--Chain: Answers]: https://foundation.app/collection/moon-block-chain-answers
+[Yao Jui-Chung: Invidia]: https://www.tinakenggallery.com/en/exhibitions/243-invidia/press_release_text/
