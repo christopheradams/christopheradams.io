@@ -39,9 +39,10 @@ and photos on Ethereum as **[Moon--Block--Chain: Prayers]** and
 **[Moon--Block--Chain: Answers]**. Each of the sixty-four *Prayers* is a unique
 five-second video loop (with sound) of the artist tossing a pair of moon blocks
 in the temple hall. Each of the sixty-four *Answers* is a unique still
-photograph of a pair of moon blocks on the temple floor. The smart contracts
-were deployed using Manifold Studio and listed for sale on Foundation. The media
-files and metadata were stored permanently on Arweave.
+photograph of a pair of moon blocks on the temple floor.
+
+<!-- The smart contracts were deployed using Manifold Studio and listed for sale on -->
+<!-- Foundation. The media files and metadata were stored permanently on Arweave. -->
 
 <p>
 <video
