@@ -11,20 +11,20 @@ image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/
 
 One late winter night, the artist [Yao Jui-Chung] ascended the hundreds of steps
 leading up to Hongludi Temple in the mountains above Taipei. After arriving in
-the main hall, he set down his camera, picked up a pair of moon blocks, and
-recited this prayer:
+the main hall, he set down his camera, picked up a pair of red wooden [moon
+blocks], and recited this prayer:
 
 > Disciple Yao Jui-Chung has come to ask the God of Blessing and Virtue
 > for the password for an NFT wallet. Thank you for giving me this
 > password. I wish for world peace and good fortune for all. Thank you
 > God of Blessing and Virtue, your disciple bows before you.
 
-Seeking guidance by divination is a longstanding custom, but asking a God of
-Prosperity to generate a cryptocurrency wallet is a something of an
-innovation. Tossing the moon blocks on the ground and interpreting their yes--no
-answer as a *one* or a *zero* gives Yao the first bit of information he
-needs. He would have to perform this ritual 128 times in total to compose a
-sufficiently long random number for the secure private key to a wallet.
+Seeking guidance by divination is a longstanding custom, but asking the Gods for
+a cryptocurrency wallet is something of an innovation. Tossing the moon blocks
+on the ground and interpreting their yes--no answer as a *one* or a *zero* gives
+Yao the first bit of information he needs. He would have to perform this ritual
+128 times in total to compose a sufficiently long random number for the secure
+private key to a wallet.
 
 ![Moon--Block--Chain: Prayers on
 Foundation](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-foundation-prayers.jpg){: .img-thumbnail}
@@ -34,15 +34,12 @@ Foundation](https://static.christopheradams.io/file/cxadams-website/medium/nextc
 *Moon--Block--Chain: Prayers* and *Answers* collections on Foundation
 {: .text-center}
 
-To make good on his plea for an NFT wallet, Yao minted two collections of videos
-and photos on Ethereum as **[Moon--Block--Chain: Prayers]** and
+To make good on his plea for a lucky wallet, Yao minted two collections of
+videos and photos on Ethereum as **[Moon--Block--Chain: Prayers]** and
 **[Moon--Block--Chain: Answers]**. Each of the sixty-four *Prayers* is a unique
-five-second video loop (with sound) of the artist tossing a pair of moon blocks
-in the temple hall. Each of the sixty-four *Answers* is a unique still
-photograph of a pair of moon blocks on the temple floor.
-
-<!-- The smart contracts were deployed using Manifold Studio and listed for sale on -->
-<!-- Foundation. The media files and metadata were stored permanently on Arweave. -->
+five-second video loop (with sound) of the artist tossing moon blocks in the
+temple hall. Each of the sixty-four *Answers* is a unique still photograph of a
+pair of blocks on the temple floor.
 
 <p>
 <video
@@ -57,7 +54,16 @@ photograph of a pair of moon blocks on the temple floor.
 Yao Jui-Chung. *Moon--Block--Chain: Prayer #4* (2023)
 {: .text-center}
 
+<!-- The intent of this project was to approach crypto-art from first principles, by -->
+<!-- drawing a connection between divination and cryptography, and between  -->
+
+<!-- wealth wishing and asset speculation; fortune/fate; gambling/currency markets -->
+
 <!-- by publishing as an NFT collection... brings full circle... each bit of  -->
+
+<!-- TK: how they are conceived as a collection of "tokenized" artworks -->
+
+<!-- Yao is no stranger to seeking divine guidance for the sake of his art. -->
 
 Yao Jui-Chung's *Moon--Block--Chain* (2023) is the latest entry in his catalog
 of photo and video performance artworks made over the past three decades. It
@@ -65,12 +71,6 @@ also follows his careful study and documentation of Buddhist and Taoist
 religious sites. A two-channel video of the new work was installed as part of
 [Altar Space]({% post_url 2023-09-25-altar-space %}) in the exhibition *[Yao
 Jui-Chung: Invidia]* at Tina Keng Gallery in August 2023.
-
-<!-- TK: divination and cryptography; crypto-art form first principles -->
-
-<!-- TK: how they are conceived as a collection of "tokenized" artworks -->
-
-<!-- Yao is no stranger to seeking divine guidance for the sake of his art. -->
 
 ## Links
 
@@ -89,6 +89,7 @@ Artsalon, and an Associate Professor at National Taiwan Normal University. The
 Cornell University.
 
 [Yao Jui-Chung]: https://www.yaojuichung.com/
+[moon blocks]: https://en.wikipedia.org/wiki/Jiaobei
 [Moon--Block--Chain: Prayers]: https://foundation.app/collection/moon-block-chain-prayers
 [Moon--Block--Chain: Answers]: https://foundation.app/collection/moon-block-chain-answers
 [Yao Jui-Chung: Invidia]: https://www.tinakenggallery.com/en/exhibitions/243-invidia/press_release_text/
