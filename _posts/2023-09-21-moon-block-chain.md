@@ -19,10 +19,10 @@ recited this prayer:
 > password. I wish for world peace and good fortune for all. Thank you
 > God of Blessing and Virtue, your disciple bows before you.
 
-Seeking divine guidance with a pair of moon blocks is a longstanding custom, but
-asking a God of Prosperity to generate a cryptocurrency wallet is a something of
-an innovation. Tossing the moon blocks on the ground and interpreting their
-yes--no answer as a *one* or a *zero* gives Yao the first bit of information he
+Seeking guidance by divination is a longstanding custom, but asking a God of
+Prosperity to generate a cryptocurrency wallet is a something of an
+innovation. Tossing the moon blocks on the ground and interpreting their yes--no
+answer as a *one* or a *zero* gives Yao the first bit of information he
 needs. He would have to perform this ritual 128 times in total to compose a
 sufficiently long random number for the secure private key to a wallet.
 
@@ -31,34 +31,51 @@ Foundation](https://static.christopheradams.io/file/cxadams-website/medium/nextc
 
 ![Moon--Block--Chain: Answers on Foundation](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-foundation-answers.jpg){: .img-thumbnail}
 
+*Moon--Block--Chain: Prayers* and *Answers* collections on Foundation
+{: .text-center}
+
 To make good on his plea for an NFT wallet, Yao minted two collections of videos
 and photos on Ethereum as **[Moon--Block--Chain: Prayers]** and
-**[Moon--Block--Chain: Answers]**. The smart contracts were deployed using using
-Manifold Studio and listed for sale on Foundation. The media files and metadata
-were stored permanently on Arweave. Each of the sixty-four *Prayers* is a unique
-five-second video loop of Yao tossing a pair of moon blocks. Each of the
-sixty-four *Answers* is a unique still photograph of a pair of moon blocks on
-the temple floor.
+**[Moon--Block--Chain: Answers]**. Each of the sixty-four *Prayers* is a unique
+five-second video loop (with sound) of the artist tossing a pair of moon blocks
+in the temple hall. Each of the sixty-four *Answers* is a unique still
+photograph of a pair of moon blocks on the temple floor. The smart contracts
+were deployed using Manifold Studio and listed for sale on Foundation. The media
+files and metadata were stored permanently on Arweave.
 
 <p>
-    <video
-    autoplay muted loop
-    preload="metadata"
-    src="https://f001.backblazeb2.com/file/cxadams-website/video/nextcloud/Video/2023/yaojuichung-moonblockchain-prayer-04.mp4"
-    type="video/mp4"
-    poster="https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-04.jpg"
-> </video> </p>
+<video
+  autoplay muted loop
+  preload="metadata"
+  src="https://f001.backblazeb2.com/file/cxadams-website/video/nextcloud/Video/2023/yaojuichung-moonblockchain-prayer-04.mp4"
+  type="video/mp4"
+  poster="https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-04.jpg"
+></video>
+</p>
 
-Yao Jui-Chung's *Moon--Block--Chain* (2023) is part of a long line of photo and
-video performance artworks that he has made over the past thirty years. It also
-fallows his careful study and documentation of Buddhist and Taoist religious
-sites. A two-channel video of the new work was installed as part of [Altar
-Space]({% post_url 2023-09-25-altar-space %}) in the exhibition *[Yao Jui-Chung:
-Invidia]* at Tina Keng Gallery in August 2023.
+Yao Jui-Chung. *Moon--Block--Chain: Prayer #4* (2023)
+{: .text-center}
+
+<!-- by publishing as an NFT collection... brings full circle... each bit of  -->
+
+Yao Jui-Chung's *Moon--Block--Chain* (2023) is the latest entry in his catalog
+of photo and video performance artworks made over the past three decades. It
+also follows his careful study and documentation of Buddhist and Taoist
+religious sites. A two-channel video of the new work was installed as part of
+[Altar Space]({% post_url 2023-09-25-altar-space %}) in the exhibition *[Yao
+Jui-Chung: Invidia]* at Tina Keng Gallery in August 2023.
 
 <!-- TK: divination and cryptography; crypto-art form first principles -->
 
+<!-- TK: how they are conceived as a collection of "tokenized" artworks -->
+
 <!-- Yao is no stranger to seeking divine guidance for the sake of his art. -->
+
+## Links
+
+* **[Moon--Block--Chain: Prayers]** on Foundation
+* **[Moon--Block--Chain: Answers]** on Foundation
+* [Altar Space: The Genesis of Yao Jui Chung]({% post_url 2023-09-25-altar-space %})
 
 ## About
 
