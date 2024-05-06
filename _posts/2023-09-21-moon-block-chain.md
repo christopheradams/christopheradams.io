@@ -19,12 +19,12 @@ blocks], and recited this prayer:
 > password. I wish for world peace and good fortune for all. Thank you
 > God of Blessing and Virtue, your disciple bows before you.
 
-Seeking guidance by divination is a longstanding custom, but asking the Gods for
-a cryptocurrency wallet is something of an innovation. Tossing the moon blocks
-on the ground and interpreting their yes--no answer as a *one* or a *zero* gives
-Yao the first bit of information he needs. He would have to perform this ritual
-128 times in total to compose a sufficiently long random number for the secure
-private key to a wallet.
+Seeking guidance by divination is a long-standing custom, but asking the Deities
+for a cryptocurrency wallet is something of an innovation. Tossing the moon
+blocks on the ground and interpreting their yes--no answer as a *one* or a
+*zero* gives Yao the first bit of information he needs. He would have to perform
+this ritual 128 times in total to compose a sufficiently long random number for
+his secure private key. Only Yao and the Gods know what it is.
 
 ![Moon--Block--Chain: Prayers on
 Foundation](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-foundation-prayers.jpg){: .img-thumbnail}
@@ -38,8 +38,12 @@ To make good on his plea for a lucky wallet, Yao minted two collections of
 videos and photos on Ethereum as **[Moon--Block--Chain: Prayers]** and
 **[Moon--Block--Chain: Answers]**. Each of the sixty-four *Prayers* is a unique
 five-second video loop (with sound) of the artist tossing moon blocks in the
-temple hall. Each of the sixty-four *Answers* is a unique still photograph of a
-pair of blocks on the temple floor.
+temple hall. Each of the sixty-four *Answers* is a unique still photograph of
+the pair of blocks on the temple floor, with an attribute that identifies it as
+*angry, laughing,* or *divine.*
+
+<!-- Before you ask: this is a *performance*. You won't figure out Yao's real private -->
+<!-- key from these collections. -->
 
 <p>
 <video
@@ -53,6 +57,10 @@ pair of blocks on the temple floor.
 
 Yao Jui-Chung. *Moon--Block--Chain: Prayer #4* (2023)
 {: .text-center}
+
+<!-- This work approaches crypto-art from first principles. It draws a  -->
+
+<!-- creating a wallet is a performance -->
 
 <!-- The intent of this project was to approach crypto-art from first principles, by -->
 <!-- drawing a connection between divination and cryptography, and between  -->
