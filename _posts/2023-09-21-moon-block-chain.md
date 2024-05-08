@@ -39,8 +39,8 @@ videos and photos on Ethereum as **[Moon--Block--Chain: Prayers]** and
 **[Moon--Block--Chain: Answers]**. Each of the sixty-four *Prayers* is a unique
 five-second video loop (with sound) of the artist tossing moon blocks in the
 temple hall. Each of the sixty-four *Answers* is a unique still photograph of
-the pair of blocks on the temple floor, with an attribute that identifies it as
-*angry, laughing,* or *divine.*
+the pair of blocks on the temple floor, with an attribute that identifies them
+as *angry, laughing,* or *divine.*
 
 <!-- Before you ask: this is a *performance*. You won't figure out Yao's real private -->
 <!-- key from these collections. -->
@@ -58,20 +58,15 @@ the pair of blocks on the temple floor, with an attribute that identifies it as
 Yao Jui-Chung. *Moon--Block--Chain: Prayer #4* (2023)
 {: .text-center}
 
-<!-- This work approaches crypto-art from first principles. It draws a  -->
-
-<!-- creating a wallet is a performance -->
-
-<!-- The intent of this project was to approach crypto-art from first principles, by -->
-<!-- drawing a connection between divination and cryptography, and between  -->
-
-<!-- wealth wishing and asset speculation; fortune/fate; gambling/currency markets -->
-
-<!-- by publishing as an NFT collection... brings full circle... each bit of  -->
-
-<!-- TK: how they are conceived as a collection of "tokenized" artworks -->
-
-<!-- Yao is no stranger to seeking divine guidance for the sake of his art. -->
+This work approaches crypto-art from first principles. Creating a wallet becomes
+a devout act that is charged with meaning. Both favorable divination and
+asymmetric cryptography derive their power from the mystery of an infinite and
+random universe. Praying for fortune and speculating on currencies are two sides
+of the same coin. The esoteric rituals and garish art of folk religion are
+equivalent to the cryptic software and vulgar memes of blockchain culture. Yao's
+*Prayers* and *Answers* find their perfect form when transmuted into individual
+tokens in a blessed smart contract. The artist is no stranger to seeking divine
+guidance (or putting his body on the line) for the sake of his art.
 
 Yao Jui-Chung's *Moon--Block--Chain* (2023) is the latest entry in his catalog
 of photo and video performance artworks made over the past three decades. It
