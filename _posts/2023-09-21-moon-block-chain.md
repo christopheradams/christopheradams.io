@@ -2,8 +2,8 @@
 title: Moon–Block–Chain
 description: A divine cryptographic link
 location: Taipei
-published_at: 2024-04-26 12:55:31 +0800
-last_modified_at: 2024-04-26 12:55:31 +0800
+published_at: 2024-05-08 18:51:08 +0800
+last_modified_at: 2024-05-08 18:51:08 +0800
 category: articles
 tags: artist featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-04.jpg
