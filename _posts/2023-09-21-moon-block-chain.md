@@ -42,8 +42,8 @@ temple hall. Each of the sixty-four *Answers* is a unique still photograph of
 the pair of blocks on the temple floor, with an attribute that identifies them
 as *angry, laughing,* or *divine.*
 
-<!-- Before you ask: this is a *performance*. You won't figure out Yao's real private -->
-<!-- key from these collections. -->
+<!-- Before you ask: this is a *performance*. You won't figure out Yao's private key -->
+<!-- from these collections. -->
 
 <p>
 <video
@@ -60,13 +60,14 @@ Yao Jui-Chung. *Moon--Block--Chain: Prayer #4* (2023)
 
 This work approaches crypto-art from first principles. Creating a wallet becomes
 a devout act that is charged with meaning. Both favorable divination and
-asymmetric cryptography derive their power from the mystery of an infinite and
+asymmetric cryptography derive their power from the riddle of an infinite and
 random universe. Praying for fortune and speculating on currencies are two sides
-of the same coin. The esoteric rituals and garish art of folk religion are
-equivalent to the cryptic software and vulgar memes of blockchain culture. Yao's
-*Prayers* and *Answers* find their perfect form when transmuted into individual
-tokens in a blessed smart contract. The artist is no stranger to seeking divine
-guidance (or putting his body on the line) for the sake of his art.
+of the same coin. The esoteric rituals and garish art of folk religion find
+their match in the cryptic software and vulgar memes of blockchain
+culture. Yao's *Prayers* and *Answers* take their perfect form when transmuted
+into individual tokens in a blessed smart contract. The artist is no stranger to
+seeking divine guidance (or putting his body on the line) for the sake of his
+art.
 
 Yao Jui-Chung's *Moon--Block--Chain* (2023) is the latest entry in his catalog
 of photo and video performance artworks made over the past three decades. It
