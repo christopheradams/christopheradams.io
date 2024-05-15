@@ -1,0 +1,37 @@
+@media print {
+  .post-body,
+  .card-body,
+  blockquote {
+    font-size: 1rem !important;
+  }
+
+  .post-body .lead {
+    font-size: 1.4rem !important;
+  }
+
+  .post-image {
+    margin: 0;
+  }
+
+  p > img{
+    width: 50% !important;
+  }
+
+  .border-bottom {
+    border-bottom: none !important;
+  }
+
+  .article-banner {
+    padding: 0 !important;
+  }
+
+  .navbar-nav,
+  .post-share,
+  .post-about,
+  .post-details,
+  .post-related,
+  .footer
+  {
+    display: none !important;
+  }
+}
