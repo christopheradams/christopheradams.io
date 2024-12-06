@@ -10,7 +10,7 @@ image:
   author: Liu Nai-Ting
   path: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/liunaiting-walkinprogress/Liu-Nai-Ting_2023_Walk-in-Progress_Miscalculation.jpg
   title: Walk in Progress "miscalculation"
-source: https://artist.nccu.edu.tw/da_article_en.html
+source: https://artist.nccu.edu.tw/2024spring/da_article_en.html
 ---
 
 > Generative art is like a huge factory where the machines started talking
@@ -68,7 +68,7 @@ his translation.
 
 Illustration: [Liu Nai-Ting][Walk In Progress]
 
-[Instructions Beyond Code]: https://artist.nccu.edu.tw/da_article_en.html
+[Instructions Beyond Code]: https://artist.nccu.edu.tw/2024spring/da_article_en.html
 [LLM]: https://en.wikipedia.org/wiki/Large_language_model
 [Form+Code]: http://formandcode.com/contents
 [Demoscene]: https://en.wikipedia.org/wiki/Demoscene
