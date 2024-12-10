@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2024-03-01 15:46:47 +0800
 last_modified_at: 2024-04-30 09:07:20 +0800
 category: articles
-tags: artist featured
+tags: blockchain featured
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-invidia-altarspace-IMG_4950_crop.JPG
 ---
 

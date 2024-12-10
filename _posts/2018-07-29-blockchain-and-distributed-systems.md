@@ -3,7 +3,7 @@ title: Blockchain and Distributed Systems
 location: San Francisco
 published_at: 2021-11-24 18:36:58 +0800
 category: articles
-tags: artist
+tags: blockchain
 image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2018/20180725-1250_SanFrancisco_GrayArea/20180725-1250_SanFrancisco_GrayArea_L1002528-0.jpg
 description: >
     Gray Area Festival 2018 was the largest collection of Blockchain

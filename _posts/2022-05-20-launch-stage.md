@@ -5,7 +5,7 @@ location: Taipei
 date: 2022-05-20 00:00 +0000
 published_at: 2023-02-23 11:46:40 +0800
 category: articles
-tags: taiwan featured
+tags: blockchain featured
 image:
     author: Taipei Dangdai
     path: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2022/taipei-dangdai-2022/284547233_339737218268457_796128295586667004_n.jpg
