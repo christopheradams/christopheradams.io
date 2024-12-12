@@ -193,18 +193,25 @@ $post-line-height: 1.7;
   }
 
   .post-content {
-    p > img.narrow {
+    p > img.narrow,
+    picture > img.narrow {
       @include media-breakpoint-up(sm) {
         width: 50%;
       }
     }
 
-    p > img:not(.wide) {
+    p > img:not(.wide),
+    picture > img:not(.wide) {
       @include media-breakpoint-up(sm) {
         display: block;
         max-width: 75%;
         margin: 0 auto;
       }
+    }
+
+    picture {
+      display: block;
+      margin-bottom: 1rem;
     }
 
     video {
