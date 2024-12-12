@@ -4,3 +4,6 @@ _site
 .jekyll-metadata
 vendor
 node_modules
+images
+videos
+generated

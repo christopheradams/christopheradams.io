@@ -10,15 +10,19 @@ The previous theme used [Remarkdown]. See the `remarkdown` branch.
 
 ## Requirements
 
+* [libvips] and/or ImageMagick
+
 ```sh
 gem install bundler
 ```
 
-## Instructions
+## Installation
 
 ```sh
 bundle install
 npm install
+make install
+make
 ```
 
 ### Development
@@ -41,5 +45,6 @@ npm run deploy root@cxadams.com:/srv/www/christopheradams.io
 [Barber]: https://github.com/samesies/barber-jekyll
 [Bootstrap]: https://getbootstrap.com/
 [Jekyll]: http://jekyllrb.com/
+[libvips]: https://www.libvips.org/install.html
 [Remarkdown]: https://fvsch.com/remarkdown/
 [remarkdown-branch]: /tree/remarkdown

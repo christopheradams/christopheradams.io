@@ -87,6 +87,7 @@ exclude:
   - CNAME
   - LICENSE
   - README.md
+  - Makefile
   - package-lock.json
   - package.json
   - screenshot.png
