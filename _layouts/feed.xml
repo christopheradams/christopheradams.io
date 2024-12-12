@@ -56,6 +56,7 @@
     <entry{% if post.lang %}{{" "}}xml:lang="{{ post.lang }}"{% endif %}>
       {% assign post_title = post.title | smartify | strip_html | normalize_whitespace | xml_escape %}
       {% assign post_date = post.published_at | default: post.date %}
+      {% assign post_image = post.image.path | default: post.image %}
 
       <title type="html">{{ post_title }}</title>
       <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post_title }}" />
@@ -65,12 +66,10 @@
       {% assign excerpt_only = post.feed.excerpt_only | default: site.feed.excerpt_only %}
       {% unless excerpt_only %}
       {% capture post_image_tag %}
-        {% assign post_image = post.image.path | default: post.image %}
         {% if post_image %}
-          {% unless post_image contains "://" %}
-            {% assign post_image = post_image | absolute_url %}
-          {% endunless %}
-          <p><img src="{{ post_image }}"></p>
+        <p>
+          {% picture feed {{ post_image }} --alt {{ post_title | escape }} %}
+          </p>
         {% endif %}
       {% endcapture %}
       {% capture post_dateline_tag %}
@@ -118,13 +117,12 @@
         <summary type="html"><![CDATA[{{ post_summary | strip_html | normalize_whitespace }}]]></summary>
       {% endif %}
 
-      {% assign post_image = post.image.path | default: post.image %}
       {% if post_image %}
-        {% unless post_image contains "://" %}
-          {% assign post_image = post_image | absolute_url %}
-        {% endunless %}
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image | xml_escape }}" />
-        <media:content medium="image" url="{{ post_image | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" />
+      {%- capture post_image_url -%}
+      {% picture meta {{ post_image }} %}
+      {%- endcapture -%}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image_url | xml_escape }}" />
+        <media:content medium="image" url="{{ post_image_url | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" />
       {% endif %}
     </entry>
   {% endfor %}

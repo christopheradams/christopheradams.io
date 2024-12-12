@@ -3,9 +3,9 @@
 
 {% assign image = page.image.path | default: page.image %}
 {%- assign image = image | default: site.default_img -%}
-{%- unless image contains "://" -%}
-  {%- assign image = image | absolute_url -%}
-{%- endunless -%}
+{%- capture image_url -%}
+{% picture meta {{ image }} %}
+{%- endcapture -%}
 
 <meta name="description" content="{{ description }}">
 
@@ -14,7 +14,7 @@
 <meta property="og:title" content="{{ title }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:description" content="{{ description }}">
-<meta property="og:image" content="{{ image }}">
+<meta property="og:image" content="{{ image_url }}">
 
 {% assign twitter_user = site.social | where: "name", "twitter" | first -%}
 <meta name="twitter:url" content="{{ page.url | absolute_url }}">
@@ -23,4 +23,4 @@
 <meta name="twitter:site" content="{{ site.title | escape }}">
 <meta name="twitter:description" content="{{ description }}">
 {% if twitter_user %}<meta name="twitter:creator" content="@{{ twitter_user.url | split: "/" | last }}">{% endif %}
-<meta property="twitter:image" content="{{ image }}">
+<meta property="twitter:image" content="{{ image_url }}">

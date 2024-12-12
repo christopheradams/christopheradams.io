@@ -4,7 +4,7 @@
   <div class="card border-white">
     {% assign post_image = post.image.path | default: post.image %}
     {% if post_image %}
-    <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">
+    {% picture {{ post_image }} --alt {{ post.title | escape }} --img class="card-img-top" %}
     {% endif %}
     <div class="card-body">
       <span class="card-title">
