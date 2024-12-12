@@ -78,6 +78,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll_picture_tag
 exclude:
   - CNAME
   - LICENSE
