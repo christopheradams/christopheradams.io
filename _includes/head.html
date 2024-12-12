@@ -16,4 +16,5 @@
 {% include meta.html %}
 {% feed_meta %}
 
-<link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url }}">
+{% assign cache = site.time | date:'?v=%s' %}
+<link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url | append: cache }}">
