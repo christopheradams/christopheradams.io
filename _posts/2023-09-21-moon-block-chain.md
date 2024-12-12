@@ -46,7 +46,7 @@ as *angry, laughing,* or *divine.*
 
 <p>
 <video
-  autoplay muted loop
+  autoplay muted loop playsinline
   preload="metadata"
   src="/generated/videos/cloud.cxadams.com/index.php/s/673mojn8sLkDWWS/download/yaojuichung-moonblockchain-prayer-04.mp4"
   type="video/mp4"
