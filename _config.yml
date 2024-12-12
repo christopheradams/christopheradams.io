@@ -74,6 +74,10 @@ sass:
   sass_dir: _scss
   style: compressed
 
+picture:
+  relative_url: false
+  suppress_warnings: true
+
 plugins:
   - jekyll-feed
   - jekyll-paginate

@@ -1,0 +1,15 @@
+presets:
+  default:
+    formats: [jpg]
+    widths: [400, 640, 800, 1280]
+
+  feed:
+    formats: [jpg]
+    widths: [800]
+    fallback_width: 800
+    markup: img
+
+  meta:
+    formats: [jpg]
+    fallback_width: 1280
+    markup: direct_url
