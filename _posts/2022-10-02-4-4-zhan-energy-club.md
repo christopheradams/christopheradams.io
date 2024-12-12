@@ -8,7 +8,7 @@ category: machine-learning
 tags: stable-diffusion featured
 image:
     title: Betty Apple on stage at Nuit Blanche Taipei 2022
-    path: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2022/20221002-0213_Shilin_NuitBlanche/20221002-0213_Shilin_NuitBlanche_L1008376-0.jpg
+    path: /images/cloud.cxadams.com/index.php/s/xWBnnSW38657yfE/download/20221002-0213_Shilin_NuitBlanche_L1008376-0.jpg
 ---
 
 I created a series of AI generated videos for [Betty Apple] and Social Dis Dance
@@ -20,33 +20,34 @@ October, and TheCube Forum Music Festival in December, 2022.
     <video
     controls
     preload="metadata"
-    src="https://f001.backblazeb2.com/file/cxadams-website/video/nextcloud/Video/2022/Zhan-Energy-Club_20220926022258_clip.mp4"
+    src="/generated/videos/cloud.cxadams.com/index.php/s/KTPqGnasDXxGCtT/download/Zhan-Energy-Club_20220926022258_clip.mp4"
     type="video/mp4"
-    poster="https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_00256.jpg"
-> </video> </p>
+    poster="{% picture meta /images/cloud.cxadams.com/index.php/s/3JpQtZbnfcYPyN4/download/20220926022258_00256.jpg %}"
+    ></video>
+</p>
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_00115.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/pL9bDKZQXqm74a2/download/20220926022258_00115.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_00138.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/aibg9oBbwqw9ngq/download/20220926022258_00138.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_00256.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/3JpQtZbnfcYPyN4/download/20220926022258_00256.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_01070.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/WcNFoqTCFJ4CCF6/download/20220926022258_01070.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_01333.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/m4457bkqQCQg6CC/download/20220926022258_01333.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_02013.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/cNEdJDdKiJ4ft37/download/20220926022258_02013.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_02111.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/t23K6JXX6nyztnr/download/20220926022258_02111.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_02217.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/S3QjfeFg2RC6KxQ/download/20220926022258_02217.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_02289.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/WQD3r99kcbnrTAH/download/20220926022258_02289.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_02352.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/joD5woqgMbKXntD/download/20220926022258_02352.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_02798.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/gqjKZEKQPJqwJDa/download/20220926022258_02798.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-![4:4 Zhan Energy Club Underwater Rave](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-09/betty_apple_it_me_crowd_5/20220926022258_03224.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/ZxyQiM7WmWrEjF8/download/20220926022258_03224.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
 [Betty Apple]: https://bettyapple.art/

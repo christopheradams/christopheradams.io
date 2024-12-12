@@ -6,7 +6,7 @@ published_at: 2023-01-05 01:44:12 +0800
 last_modified_at: 2023-01-31 13:18:36 +0800
 category: machine-learning
 tags: stable-diffusion featured
-image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00017_a_plastic_bag_against_a_window.jpg
+image: /images/cloud.cxadams.com/index.php/s/HrP8PCrT7cCwH2S/download/20221227041809_00017_a_plastic_bag_against_a_window.png
 ---
 
 *Any Warhol Bags* is part of an ongoing series querying the hierarchy of
@@ -20,10 +20,10 @@ general taxonomies underpinning AI tools, this series examines the
 representation of materials by the diffusion models through the lens of
 portraiture. Each plastic bag portrait is unique and yet recognizably the same.
 
-![Any Warhol Bag White](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221226094904_00012_a_plastic_bag_vaporwave_style.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/DNjAJj4z4qAW5sm/download/20221226094904_00012_a_plastic_bag_vaporwave_style.png --alt Any Warhol Bag White %}
 
-![Any Warhol Bag Blue](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00001_a_plastic_bag_against_a_window.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/AgkRwb4H8dQ4wCW/download/20221227041809_00001_a_plastic_bag_against_a_window.png --alt Any Warhol Bag Blue %}
 
-![Any Warhol Bag Red](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00005_a_plastic_bag_against_a_window.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/ftTQCeGfWRm9YAN/download/20221227041809_00005_a_plastic_bag_against_a_window.png --alt Any Warhol Bag Red %}
 
-![Any Warhol Bag Green](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221227041809_00013_a_plastic_bag_against_a_window.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/cBnDCEGgNTFezj8/download/20221227041809_00013_a_plastic_bag_against_a_window.png --alt Any Warhol Bag Green %}

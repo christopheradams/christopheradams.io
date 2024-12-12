@@ -8,7 +8,7 @@ category: machine-learning
 tags: stable-diffusion featured
 image:
     title: Any Warhol Cave
-    path: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221215103348_00006_a_black_and_white_photograph_of_a_geological_formation.jpg
+    path: /images/cloud.cxadams.com/index.php/s/3z2y67Ns2ZdWpDX/download/20221215103348_00006_a_black_and_white_photograph_of_a_geological_formation.jpg
 ---
 
 *Any Warhol, Animal, Vegetable, Mineral* is part of an ongoing series querying
@@ -34,24 +34,24 @@ of engaging in the "reproduction" of images rather than the "representation" of
 reality. I use AI to shift this to the **generation** of images rather than their
 **reproduction** while also relying on an entirely mechanical process.
 
-![Any Warhol Sport](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221215103348_00012_a_black_and_white_photograph_of_a_sport.png)
+{% picture /images/cloud.cxadams.com/index.php/s/AMDeteJFyG3QWfP/download/20221215103348_00012_a_black_and_white_photograph_of_a_sport.png --alt Any Warhol Sport %}
 
-![Any Warhol Deer](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221220134835_00001_a_black_and_white_photograph_of_a_mounted_deers_head_with_antlers_and_real_fur.png)
+{% picture /images/cloud.cxadams.com/index.php/s/orffgHSjEDwMdTs/download/20221220134835_00001_a_black_and_white_photograph_of_a_mounted_deers_head_with_antlers_and_real_fur.png --alt Any Warhol Deer %}
 
-![Any Warhol Tree in Snow](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221220140115_00025_a_black_and_white_photograph_of_a_tree_in_snow.png)
+{% picture /images/cloud.cxadams.com/index.php/s/fjYq4r6gmg4dTeS/download/20221220140115_00025_a_black_and_white_photograph_of_a_tree_in_snow.png --alt Any Warhol Tree in Snow %}
 
-![Any Warhol Plant](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221220140115_00101_a_black_and_white_photograph_of_a_natural_object.png)
+{% picture /images/cloud.cxadams.com/index.php/s/iGg9agbsajNCXTA/download/20221220140115_00101_a_black_and_white_photograph_of_a_natural_object.png --alt Any Warhol Plant %}
 
-![Any Warhol Artifact](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221220140115_00170_a_black_and_white_photograph_of_an_artifact.png)
+{% picture /images/cloud.cxadams.com/index.php/s/CjA35MQGmkN3ew4/download/20221220140115_00170_a_black_and_white_photograph_of_an_artifact.png --alt Any Warhol Artifact %}
 
-![Any Warhol Tools](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221221052210_00050_a_black_and_white_photograph_of_a_stack_of_tools.png)
+{% picture /images/cloud.cxadams.com/index.php/s/ZFeX3eZz83k92Q8/download/20221221052210_00050_a_black_and_white_photograph_of_a_stack_of_tools.png --alt Any Warhol Tools %}
 
-![Any Warhol Church](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221221074957_00001_a_black_and_white_photograph_of_a_church_church_building.png)
+{% picture /images/cloud.cxadams.com/index.php/s/4coqq8oWHLAsgDj/download/20221221074957_00001_a_black_and_white_photograph_of_a_church_church_building.png --alt Any Warhol Church %}
 
-![Any Warhol Missiles](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221220135800_00002_a_black_and_white_photograph_of_a_stack_of_ballistic_missles.png)
+{% picture /images/cloud.cxadams.com/index.php/s/nY3ZtmDe5XXyNke/download/20221220135800_00002_a_black_and_white_photograph_of_a_stack_of_ballistic_missles.png --alt Any Warhol Missiles %}
 
-![Any Warhol Ship](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221221081754_00027_a_black_and_white_photograph_of_a_container_ship_containership_container_vessel.png)
+{% picture /images/cloud.cxadams.com/index.php/s/7Gf6mjHaSZtg7r9/download/20221221081754_00027_a_black_and_white_photograph_of_a_container_ship_containership_container_vessel.png --alt Any Warhol Ship %}
 
-![Any Warhol Trolley](https://static.christopheradams.io/file/cxadams-website/small/nextcloud/Drive/AI/StableDiffusion/2022-12/anywarhol_avm1/20221221090755_00009_a_black_and_white_photograph_of_a_streetcar_tram_tramcar_trolley_trolley_car.png)
+{% picture /images/cloud.cxadams.com/index.php/s/CN9zMq9iDdQrc5x/download/20221221090755_00009_a_black_and_white_photograph_of_a_streetcar_tram_tramcar_trolley_trolley_car.png --alt Any Warhol Trolley %}
 
 [ImageNet]: https://www.image-net.org/

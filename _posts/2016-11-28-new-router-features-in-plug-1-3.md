@@ -4,7 +4,7 @@ description: Calling All Plugs
 published_at: 2016-11-28 19:31:13 +0800
 category: articles
 tags: programming
-image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2018/20180604-20180604_Taipei_elixirtw/20180604-20180604_Taipei_elixirtw_L1002146-0.jpg
+image: /images/cloud.cxadams.com/index.php/s/kPnp6M6HDdW8ZMS/download/20180604-20180604_Taipei_elixirtw_L1002146-0.jpg
 location: Taipei
 published: false
 ---

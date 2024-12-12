@@ -7,7 +7,7 @@ published_at: 2023-02-13 21:59:29 +0800
 last_updated_at: 2023-02-13 19:45:58 +0800
 category: articles
 tags: creativecommons
-image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/04-INSIDE-hands-CORY-and-DEREK-a_08.jpg
+image: /images/cloud.cxadams.com/index.php/s/roSrja5cL95ndzF/download/04-INSIDE-hands-CORY-and-DEREK-a_08.jpg
 ---
 
 [FREESOULS: Captured and Released][FREESOULS] was photographed by Joi Ito,
@@ -18,29 +18,29 @@ released under a Creative Commons license.
 Rheingold, Lawrence Liang, Cory Doctorow, Yochai Benkler, Isaac Mao, and Marko
 Ahtisaari.
 
-![FREESOULS Boxed Set Packagign](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/01-LUXURY-EDITION-BOX-box_02.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/QGkqoKgxCRjQP3t/download/01-LUXURY-EDITION-BOX-box_02.jpg --alt FREESOULS Boxed Set Packaging %}
 
-![FREESOULS Hardcover](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/01-LUXURY-EDITION-hardcover-a_01.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/QPpQKbdRDFCZW3w/download/01-LUXURY-EDITION-hardcover-a_01.jpg --alt FREESOULS Hardcover %}
 
-![FREESOULS Hardcover](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/03-LUXURY-EDITION-inside-cover-a_02.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/onq3YrgLyjYWynT/download/03-LUXURY-EDITION-inside-cover-a_02.jpg --alt FREESOULS Hardcover %}
 
-![](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/00-LUXURY-EDITION-hardcover-perspective-closeup-c_01.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/K6Z8J7nn4bN2sZd/download/00-LUXURY-EDITION-hardcover-perspective-closeup-c_01.jpg --alt FREESOULS Hardcover %}
 
-![FREESOULS Hardcover](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/01-HARDCOVER-BOOK-perspective-a_c.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/irm56t5mD7AcNGb/download/01-HARDCOVER-BOOK-perspective-a_c.jpg --alt FREESOULS Hardcover %}
 
-![FREESOULS Hardcover](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/01-HARDCOVER-BOOK-perspective-a_d.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/aByMD3nxrd3JSwb/download/01-HARDCOVER-BOOK-perspective-a_d.jpg --alt FREESOULS Hardcover %}
 
-![FREESOULS Softcover](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/02-LIMITED-EDITION-cover-b_a.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/2tSbdKbCRpePi6N/download/02-LIMITED-EDITION-cover-b_a.jpg --alt FREESOULS Softcover %}
 
-![FREESOULS Hardcover inside](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/05-INSIDE-freesouls-a_18.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/7eyetnQGTZjc587/download/05-INSIDE-freesouls-a_18.jpg --alt FREESOULS Hardcover inside %}
 
-![FREESOULS Hardcover essays](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/06-INSIDE-hands-essays-a_30.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/RkwxjY6E9SKqJji/download/06-INSIDE-hands-essays-a_30.jpg --alt FREESOULS Hardcover essays %}
 
-![FREESOULS Hardcover photos](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/07-INSIDE-hands-A-Freesouls-is-a_37.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/mef3f9o66CSM9QQ/download/07-INSIDE-hands-A-Freesouls-is-a_37.jpg --alt FREESOULS Hardcover photos %}
 
-![FREESOULS model release](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/09-MODEL-RELEASE-d_02.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/eeb58Q2xjLNfXsi/download/09-MODEL-RELEASE-d_02.jpg --alt FREESOULS model release %}
 
-![FREESOULS Hardcover close-up](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2008/freesouls/10-YELLOW-NAME-perspective-closeup-c_02.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/2RqCWM3EwEDbRGc/download/10-YELLOW-NAME-perspective-closeup-c_02.jpg --alt FREESOULS Hardcover close-up %}
 
 [Available as a limited edition softcover and hardcover boxed
 set](https://freesouls.cc/order/).

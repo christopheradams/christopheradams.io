@@ -6,7 +6,7 @@ published_at: 2023-02-04 22:15:12 +0800
 category: newsletter
 image:
   title: 食養山坊
-  path: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2022/20221230-1648_Taipei_ShiYang/20221230-1648_Taipei_ShiYang_L1008913-0.jpg
+  path: /images/cloud.cxadams.com/index.php/s/Ti4Rs3LQPrpdkPj/download/20221230-1648_Taipei_ShiYang_L1008913-0.jpg
 date: 2023-02-04 21:58 +0800
 ---
 A turn away from social media means more time to pour into personal writing that

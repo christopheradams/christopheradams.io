@@ -6,7 +6,7 @@ published_at: 2016-12-29 21:06:48 +0800
 category: articles
 tags: programming
 location: Hanoi
-image: https://static.christopheradams.io/file/cxadams-website/medium/wikipedia/commons/c/c6/Hano%C3%AFLePetitLacVers1900.jpg
+image: /images/upload.wikimedia.org/wikipedia/commons/c/c6/HanoïLePetitLacVers1900.jpg
 ---
 
 <span class="byline">*Hoàn Kiếm Lake* (c. 1900), [Wikipedia][Hoan Kiem Lake].</span>

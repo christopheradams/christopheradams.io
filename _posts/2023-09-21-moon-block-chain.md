@@ -6,7 +6,7 @@ published_at: 2024-05-08 18:51:08 +0800
 last_modified_at: 2024-05-08 18:51:08 +0800
 category: articles
 tags: blockchain featured
-image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-04.jpg
+image: /images/cloud.cxadams.com/index.php/s/oD2ryWqc5QZ85RY/download/yaojuichung-moonblockchain-prayer-04.jpg
 ---
 
 One late winter night, the artist [Yao Jui-Chung] ascended the hundreds of steps
@@ -26,10 +26,9 @@ blocks on the ground and interpreting their yes--no answer as a *one* or a
 this ritual 128 times in total to compose a sufficiently long random number for
 his secure private key. Only Yao and the Gods know what it is.
 
-![Moon--Block--Chain: Prayers on
-Foundation](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-foundation-prayers.jpg){: .img-thumbnail}
+{% picture /images/cloud.cxadams.com/index.php/s/FAwBBbpRcmGAFC8/download/yaojuichung-moonblockchain-foundation-prayers.png --alt Moon--Block--Chain: Prayers on Foundation --img class="img-thumbnail" %}
 
-![Moon--Block--Chain: Answers on Foundation](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-foundation-answers.jpg){: .img-thumbnail}
+{% picture /images/cloud.cxadams.com/index.php/s/Wd78FTcKF6ErDGw/download/yaojuichung-moonblockchain-foundation-answers.jpg --alt Moon--Block--Chain: Answers on Foundation --img class="img-thumbnail" %}
 
 *Moon--Block--Chain: Prayers* and *Answers* collections on Foundation
 {: .text-center}
@@ -49,9 +48,9 @@ as *angry, laughing,* or *divine.*
 <video
   autoplay muted loop
   preload="metadata"
-  src="https://f001.backblazeb2.com/file/cxadams-website/video/nextcloud/Video/2023/yaojuichung-moonblockchain-prayer-04.mp4"
+  src="/generated/videos/cloud.cxadams.com/index.php/s/673mojn8sLkDWWS/download/yaojuichung-moonblockchain-prayer-04.mp4"
   type="video/mp4"
-  poster="https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2023/yaojuichung-invidia/yaojuichung-moonblockchain-prayer-04.jpg"
+  poster="{% picture meta /images/cloud.cxadams.com/index.php/s/oD2ryWqc5QZ85RY/download/yaojuichung-moonblockchain-prayer-04.jpg %}"
 ></video>
 </p>
 

@@ -6,7 +6,7 @@ published_at: 2023-02-13 16:22:28 +0800
 last_modified_at: 2023-02-13 16:22:28 +0800
 category: articles
 tags: artist
-image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2020-12-10-18h26m48s140.jpg
+image: /images/cloud.cxadams.com/index.php/s/TzWZHs6dckw5F7s/download/who-is-the-artist_2019-02-14_kunsthaus-graz_Michael-Laschen_1.png
 ---
 
 *Who is the artist?* is a video work we filmed at the opening of [Jun Yang]'s
@@ -15,21 +15,21 @@ Graz] in 2019. The answers by the other artists and attendees playfully reflect
 on issues of language, naming, and identity. Interviewees include Claudia
 Pestana, Bruce Yonemoto, Oliver Klimpel, Friedrich Tietjen, and others.
 
-![Who is the Artist?](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2023-02-13-14h42m31s271.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/7XB2HtYF59PtCji/download/who-is-the-artist_2019-02-14_kunsthaus-graz_title_1.png --alt Who is the Artist? %}
 
-![Claudia Pestana](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2023-02-13-14h44m01s277.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/3Xcp4CkNMdN7jof/download/who-is-the-artist_2019-02-14_kunsthaus-graz_Claudia-Pestana_1.png --alt Claudia Pestana %}
 
-![Oliver Klimpel](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2023-02-13-14h44m18s226.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/ZAHEMMZNSZnE8BL/download/who-is-the-artist_2019-02-14_kunsthaus-graz_Oliver-Klimpel_1.png --alt Oliver Klimpel %}
 
-![Bruce Yonemoto](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2020-12-10-18h30m10s822.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/myDMpq5kxAZFdcZ/download/who-is-the-artist_2019-02-14_kunsthaus-graz_Bruce-Yonemoto_2.png --alt Bruce Yonemoto %}
 
-![Jun Yang](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2020-12-10-18h29m20s514.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/TiqnYk63D4qBdRR/download/who-is-the-artist_2019-02-14_kunsthaus-graz_Jun-Yang_1.png --alt Jun Yang %}
 
-![Günther Holler-Schuster](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2023-02-13-14h44m47s980.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/zBMcpA36Cjp3JwY/download/who-is-the-artist_2019-02-14_kunsthaus-graz_Gunther-Holler-Schuster_1.png --alt Günther Holler-Schuster %}
 
-![Young Yang and Tie Yang](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2023-02-13-14h46m11s975.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/54DKL7DoRqmsg7d/download/who-is-the-artist_2019-02-14_kunsthaus-graz_Young-and-Tie_2.png --alt Young Yang and Tie Yang %}
 
-![Friedrich Tietjen](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2019/who-is-the-artist-kunsthaus-graz/vlcsnap-2023-02-13-14h46m29s924.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/DmoZWGiRqzQWSoH/download/who-is-the-artist_2019-02-14_kunsthaus-graz_Friedrich-Tietjen_1.png --alt Friedrich Tietjen %}
 
 We filmed a second series of interviews in 2020 and 2021 at Yang's exhibitions
 at Kuandu Museum of Fine Arts, TKG+ Projects, and MoCA Taipei.

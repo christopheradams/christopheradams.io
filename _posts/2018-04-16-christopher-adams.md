@@ -7,7 +7,7 @@ category: about
 tags: christopheradams
 image:
   author: Razan Hadid
-  path: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Albums/2018/20180415-2354_Toronto_DeltaHotels/20180415-2354_Toronto_DeltaHotels_L1000752-0.jpg
+  path: /images/cloud.cxadams.com/index.php/s/ba5KzCfeA5Hnfpk/download/20180415-2354_Toronto_DeltaHotels_L1000752-0.jpg
 ---
 
 Photo by Razan Hadid at Creative Commons Global Summit.

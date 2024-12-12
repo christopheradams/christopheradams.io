@@ -11,10 +11,10 @@ image:
   author: Joi Ito
   license: CC BY
   license_url: https://creativecommons.org/licenses/by/2.0/
-  path: https://static.christopheradams.io/file/cxadams-website/medium/flickr/65535/49241319873_7ee721ed6a_k.jpg
+  path: /images/live.staticflickr.com/65535/49241319873_7ee721ed6a_k.jpg
   title: Christopher Adams
 ---
 
-![Photo by Joi Ito](https://static.christopheradams.io/file/cxadams-website/medium/flickr/65535/49241321338_f004f73035_k.jpg)
+{% picture /images/live.staticflickr.com/65535/49241321338_f004f73035_k.jpg --alt Photo by Joi Ito %}
 
 Photo by Joi Ito, during a visit to Tai Kwun and Victoria Prison.

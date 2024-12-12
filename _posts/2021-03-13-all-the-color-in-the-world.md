@@ -6,7 +6,7 @@ published_at: 2021-11-25 16:36:31 +0800
 modified_at: 2024-01-05 19:51:23 +0800
 category: articles
 tags: blockchain featured
-image: https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2021/MoCA-Taipei/MoCA-Taipei_20210313_Adams-Yang_DSC06787.JPG
+image: /images/cloud.cxadams.com/index.php/s/zKfpiWckpYHcitJ/download/MoCA-Taipei_20210313_Adams-Yang_DSC06787.JPG
 ---
 
 Jun Yang's *The Artist, his Collaborators, their Exhibition, and three
@@ -25,7 +25,7 @@ university, and a contemporary art museum. These institutions presented
 the work in various ways: as a solo show, a group exhibition, a
 biennial, a retrospective, an open forum.
 
-![All the Color in the World](https://static.christopheradams.io/file/cxadams-website/medium/nextcloud/Photos/Pictures/2021/MoCA-Taipei/MoCA-Taipei_20210204_Jun-Yang_0059_Small.jpg)
+{% picture /images/cloud.cxadams.com/index.php/s/9k9RCp66TMcZ8D3/download/MoCA-Taipei_20210204_Jun-Yang_0059_Small.jpg --alt All the Color in the World %}
 
 Jun and I created a project at MoCA Taipei titled [All the Color in the
 World]: a set of posters displayed in the museum shop, a collection
