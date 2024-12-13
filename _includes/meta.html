@@ -2,7 +2,7 @@
 {%- assign description = page.description | default: site.description | strip | escape -%}
 
 {% assign image = page.image.path | default: page.image %}
-{%- assign image = image | default: site.default_img -%}
+{%- assign image = image | default: site.image -%}
 {%- capture image_url -%}
 {% picture meta {{ image }} %}
 {%- endcapture -%}
