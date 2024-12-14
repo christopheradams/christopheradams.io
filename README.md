@@ -10,7 +10,10 @@ The previous theme used [Remarkdown]. See the `remarkdown` branch.
 
 ## Requirements
 
+* Ruby
+* Node.js
 * [libvips] and/or ImageMagick
+* wget
 
 ```sh
 gem install bundler
@@ -24,6 +27,13 @@ npm install
 make install
 make
 ```
+Note: All URLs listed in the `_images.txt` and `_videos.txt` files are
+downloaded by `make` into `/images` and `/video`, respectively, with a hierarchy
+of directories including the host name.
+
+These local images can be served responsively using [jekyll_picture_tag]'s `{%
+picture ... %}` tag.
+
 
 ### Development
 
@@ -48,3 +58,4 @@ npm run deploy root@cxadams.com:/srv/www/christopheradams.io
 [libvips]: https://www.libvips.org/install.html
 [Remarkdown]: https://fvsch.com/remarkdown/
 [remarkdown-branch]: /tree/remarkdown
+[jekyll_picture_tag]: https://github.com/rbuchberger/jekyll_picture_tag
