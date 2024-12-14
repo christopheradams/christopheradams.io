@@ -48,7 +48,7 @@ as *angry, laughing,* or *divine.*
 <video
   autoplay muted loop playsinline
   preload="metadata"
-  src="/generated/videos/cloud.cxadams.com/index.php/s/673mojn8sLkDWWS/download/yaojuichung-moonblockchain-prayer-04.mp4"
+  src="/videos/cloud.cxadams.com/index.php/s/673mojn8sLkDWWS/download/yaojuichung-moonblockchain-prayer-04.mp4"
   type="video/mp4"
   poster="{% picture meta /images/cloud.cxadams.com/index.php/s/oD2ryWqc5QZ85RY/download/yaojuichung-moonblockchain-prayer-04.jpg %}"
 ></video>

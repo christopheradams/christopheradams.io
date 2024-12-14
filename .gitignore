@@ -6,4 +6,4 @@ vendor
 node_modules
 images
 videos
-generated
+_videos
