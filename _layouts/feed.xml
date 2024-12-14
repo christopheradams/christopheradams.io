@@ -68,7 +68,11 @@
       {% capture post_image_tag %}
         {% if post_image %}
         <p>
+          {%- unless post_image contains "://" -%}
           {% picture feed {{ post_image }} --alt {{ post_title | escape }} %}
+          {%- else -%}
+          <img src="{{ post_image }}">
+          {%- endunless -%}
           </p>
         {% endif %}
       {% endcapture %}
@@ -119,7 +123,11 @@
 
       {% if post_image %}
       {%- capture post_image_url -%}
+      {%- unless post_image contains "://" -%}
       {% picture meta {{ post_image }} %}
+      {%- else -%}
+      {{ post_image }}
+      {% endunless %}
       {%- endcapture -%}
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image_url | xml_escape }}" />
         <media:content medium="image" url="{{ post_image_url | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" />

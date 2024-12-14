@@ -4,7 +4,11 @@
 {% assign image = page.image.path | default: page.image %}
 {%- assign image = image | default: site.image -%}
 {%- capture image_url -%}
+{%- unless image contains "://" -%}
 {% picture meta {{ image }} %}
+{%- else -%}
+{{ image }}
+{% endunless %}
 {%- endcapture -%}
 
 <meta name="description" content="{{ description }}">

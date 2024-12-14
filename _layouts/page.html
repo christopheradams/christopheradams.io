@@ -39,7 +39,11 @@ itemtype: https://schema.org/Article
   <div class="row justify-content-center border-bottom">
     <div class="col-12 col-sm-10 col-md-9 col-lg-8 col-xl-7 full-width">
       <section class="post-image">
+        {%- unless page_image contains "://" -%}
         {% picture {{ page_image }} --alt {{ image_title | escape }} --img class="img-fluid" %}
+        {%- else -%}
+        <img class="img-fluid" alt="{{ image_title | escape }}" src="{{ page_image }}">
+        {%- endunless -%}
       </section>
     </div>
   </div>

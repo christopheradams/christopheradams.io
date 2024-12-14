@@ -16,7 +16,11 @@
           <div class="related-card card-block card text-center border-light bg-light">
             {% assign post_image = post.image.path | default: post.image %}
             {% if post_image %}
+            {%- unless post_image contains "://" -%}
             {% picture {{ post_image }} --alt {{ post.title | escape }} --img class="card-img-top" %}
+            {%- else -%}
+            <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">
+            {%- endunless -%}
             {% endif %}
             <div class="card-body">
               <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"></a>
