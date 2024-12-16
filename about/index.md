@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 author: christopheradams
 description: Bio, contact, and links
 image: /images/live.staticflickr.com/65535/49241319873_7ee721ed6a_k.jpg
@@ -19,11 +18,8 @@ projects include [Launch Stage]({%post_url 2022-05-20-launch-stage %}) for
 Taipei Dangdai, [Altar Space]({% post_url 2023-09-25-altar-space %}) with Yao
 Jui-Chung, [All the Color in the World]({% post_url
 2021-03-13-all-the-color-in-the-world %}) with Jun Yang, and [FREESOULS]({%
-post_url 2008-12-03-freesouls %}) with Joi Ito. I publish [articles]({% link
-_topics/articles.md %}), [photographs]({% link _topics/photos.md %}), [machine
-learning]({% link _topics/machine-learning.md %}), [notes]({% link
-_topics/notes.md %}), and the occasional [newsletter]({% link
-_topics/newsletter.md %}) on [christopheradams.io](https://christopheradams.io).
+post_url 2008-12-03-freesouls %}) with Joi Ito. I publish my writing, works, and
+photographs at [christopheradams.io](https://christopheradams.io).
 
 ## Exhibitions
 
