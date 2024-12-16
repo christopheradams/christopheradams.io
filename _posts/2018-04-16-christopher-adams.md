@@ -3,7 +3,6 @@ title: ""
 description: Photo by Razan Hadid
 location: Toronto
 published_at: 2018-11-12 16:00:56 +0800
-category: about
 tags: christopheradams
 image:
   author: Razan Hadid

@@ -4,7 +4,6 @@ description: Photo by Joi Ito
 location: Hong Kong
 published_at: 2023-02-11 00:39:08 +0800
 last_updated_at: 2023-02-10 22:41:52 +0800
-category: about
 tags: christopheradams
 source: https://www.flickr.com/photos/joi/49241319873/
 image:
