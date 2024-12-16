@@ -66,7 +66,7 @@ Get It Louder*
 
 ## Photos
 
-{% assign about_posts = site.categories.about %}
+{% assign about_posts = site.tags.christopheradams %}
 {% include cards.html posts=about_posts %}
 
 ## Colophon
