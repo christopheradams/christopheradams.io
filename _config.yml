@@ -80,6 +80,7 @@ picture:
 
 plugins:
   - jekyll-feed
+  - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll_picture_tag
