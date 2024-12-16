@@ -2,10 +2,8 @@
 layout: page
 ---
 
-{% assign category = page.slug %}
-
 <div class="list-group list-group-flush">
-{% assign posts = site.categories[category] %}
+{% assign posts = page.posts %}
 {% if posts.size > 0 %}
 {% assign posts_sorted = posts | sort: "date" | reverse %}
 

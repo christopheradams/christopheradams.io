@@ -4,7 +4,7 @@ description: Prompts on Generative Art
 location: Taipei
 published_at: 2024-03-22 13:34:26 +0800
 last_modified_at: 2024-03-25 19:07:08 +0800
-category: articles
+category: Articles
 tags: blockchain genart featured
 image:
   author: Liu Nai-Ting

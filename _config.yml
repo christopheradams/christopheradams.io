@@ -74,6 +74,14 @@ sass:
   sass_dir: _scss
   style: compressed
 
+jekyll-archives:
+  enabled:
+    - categories
+  layouts:
+    category: category
+  permalinks:
+    category: '/categories/:name/'
+
 picture:
   relative_url: false
   suppress_warnings: true

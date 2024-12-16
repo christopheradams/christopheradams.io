@@ -3,7 +3,7 @@ title: Centering Disaster
 description: Venice sinks, the seas rise, and an AI outpaints our future
 location: Taipei
 published_at: 2022-12-30 12:06:48 +0800
-category: machine-learning
+category: Machine Learning
 tags: stable-diffusion
 image: /images/cloud.cxadams.com/index.php/s/9fXmS57XLXXarH5/download/20220915105932_00047_St_Marks_Square_clock_tower_Venice_view_from_above_flooded_disaster_water_from_the_sea.png
 ---

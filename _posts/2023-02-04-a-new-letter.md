@@ -3,7 +3,7 @@ title: A New Letter
 description: My life in plain text
 location: Taipei
 published_at: 2023-02-04 22:15:12 +0800
-category: newsletter
+category: Newsletter
 image:
   title: 食養山坊
   path: /images/cloud.cxadams.com/index.php/s/Ti4Rs3LQPrpdkPj/download/20221230-1648_Taipei_ShiYang_L1008913-0.jpg

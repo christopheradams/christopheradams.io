@@ -41,6 +41,11 @@ picture ... %}` tag.
 npm run watch
 ```
 
+Note:
+
+* Authors are defined in `_data/authors.yml`
+* Categories are described in `_data/archives.yml`.
+
 ### Production
 
 ```sh

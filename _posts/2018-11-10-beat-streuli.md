@@ -3,7 +3,7 @@ title: Beat Streuli
 description: Taiwan Contemporary Culture Lab
 location: Taipei
 published_at: 2018-11-12 15:35:21 +0800
-category: photos
+category: Photos
 tags: taiwan
 image: /images/cloud.cxadams.com/index.php/s/qa9EjxzFY95gYkN/download/20181110-1512_Taipei_C-LAB_L1005247-0.jpg
 ---

@@ -4,7 +4,7 @@ description: Betty Apple, Nuit Blanche, and an Underwater Rave
 location: Taipei
 published_at: 2023-01-30 21:52:03 +0800
 last_modified_at: 2023-01-30 21:52:03 +0800
-category: machine-learning
+category: Machine Learning
 tags: stable-diffusion featured
 image:
     title: Betty Apple on stage at Nuit Blanche Taipei 2022

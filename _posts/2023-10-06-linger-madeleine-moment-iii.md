@@ -4,7 +4,7 @@ description: Madeleine Moment Part III
 location: Taipei
 published_at: 2023-11-07 22:33:55 +0800
 last_modified_at: 2023-11-07 22:33:55 +0800
-category: photos
+category: Photos
 tags: artist
 image: /images/cloud.cxadams.com/index.php/s/dn9zZBabLo8DQQm/download/20231006-1350_Taipei_HongFoundation_L1000545-0.jpg
 ---

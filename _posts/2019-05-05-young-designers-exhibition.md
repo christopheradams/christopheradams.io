@@ -3,7 +3,7 @@ title: Young Designers Exhibition
 description: World Trade Center
 location: Taipei
 published_at: 2022-11-09 18:45:53 +0800
-category: photos
+category: Photos
 tags: taiwan
 image: /images/cloud.cxadams.com/index.php/s/nc4CHnYrPKeXWwB/download/20190505-1455_Taipei_Shimao_L1002407-0.jpg
 ---

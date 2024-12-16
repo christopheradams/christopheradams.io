@@ -69,12 +69,11 @@ itemtype: https://schema.org/Article
               </p>
               {% endif %}
 
-              {% if page.category %}
-              {% assign topic = site.topics | where: "slug", page.category | first %}
-              {% if topic %}
-              <p>Category: <a href="{{ topic.url }}">{{ topic.title }}</a></p>
+              {% for archive in site.archives %}
+              {% if archive.type == "category" and archive.title == page.category %}
+              <p>Category: <a href="{{ archive.url }}">{{ archive.title }}</a></p>
               {% endif %}
-              {% endif %}
+              {% endfor %}
             </div>
 
             <div class="post-share">

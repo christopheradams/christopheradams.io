@@ -4,7 +4,7 @@ description: Querying hierarchies in AI tools
 location: Taipei
 published_at: 2023-01-05 01:44:12 +0800
 last_modified_at: 2023-01-31 13:18:36 +0800
-category: machine-learning
+category: Machine Learning
 tags: stable-diffusion featured
 image:
     title: Any Warhol Cave

@@ -3,7 +3,7 @@ title: Jun Yang
 description: Cafe Leopold
 location: Vienna
 published_at: 2022-11-05 11:25:03 +0800
-category: photos
+category: Photos
 tags: austria
 image: /images/cloud.cxadams.com/index.php/s/ZQnzALYWbfd584E/download/20190219-1552_Vienna_Leopold_L1000755-0.jpg
 ---

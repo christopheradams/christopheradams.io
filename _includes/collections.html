@@ -1,9 +1,10 @@
 <div class="footer-tags d-flex flex-wrap justify-content-center">
-
-  {% for topic in site.topics %}
-  <div class="tag-item">
-    <a class="footer-link" href="{{ topic.url }}">{{ topic.title }}</a>
-  </div>
+  {% assign archives = site.archives | sort: "title" %}
+  {% for archive in archives %}
+    {% if archive.type == "category" %}
+    <div class="tag-item">
+      <a class="footer-link" href="{{ archive.url }}">{{ archive.title }}</a>
+    </div>
+    {% endif %}
   {% endfor %}
-
 </div>

@@ -1,0 +1,23 @@
+---
+layout: page
+title: Index
+permalink: /archives/
+---
+
+<div class="list-group list-group-flush">
+  {% assign archives = site.archives | sort: "title" %}
+  {% for archive in archives %}
+    {% if archive.type == "category"  %}
+      <a href="{{ archive.url }}" class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">{{ archive.title }}</h5>
+        </div>
+
+        {% assign archive_description = site.data.archives.categories[archive.title] | default: "Read More" %}
+        <p class="text-muted">
+          {{ archive_description }}
+        </p>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
