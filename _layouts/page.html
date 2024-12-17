@@ -13,25 +13,8 @@ itemtype: https://schema.org/Article
 {%- endcapture -%}
 
 <article class="{{ page_class }}" itemprop="{{ layout.itemprop }}" itemscope itemtype="{{ layout.itemtype }}">
-  <div class="row">
-    <div class="col-12 full-width border-bottom">
-      <section class="page-banner">
-        <div class="container">
-          {% if page.title and page.title != "" %}
-          <h1 class="page-title" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
-          {% endif %}
-          <div class="page-dateline">
-            <a href="{{ page_url }}">
-            <time class="" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | default: "now" | date: "%-d %b %Y" }}</time>
-            <span class="page-location">
-              {{ page.location | default: site.location }}
-            </span>
-            </a>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
+
+  {% include title.html %}
 
   {% assign page_image = page.image.path | default: page.image %}
   {% if page_image %}
