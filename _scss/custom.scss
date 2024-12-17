@@ -235,23 +235,6 @@ $page-line-height: 1.7;
     padding-top: 3rem;
   }
 
-  .inline-grafs {
-    margin-bottom: 1rem;
-
-    p {
-      display: inline;
-
-      a {
-        border-bottom: none;
-        box-shadow: none;
-      }
-    }
-
-    .inline-graf + .inline-graf::before {
-      content: "¶";
-    }
-  }
-
   img {
     @extend .img-fluid
   }
