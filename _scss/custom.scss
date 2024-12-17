@@ -170,24 +170,20 @@ $page-line-height: 1.7;
     }
   }
 
-  .page-content,
-  .page-sources,
-  .page-details {
-    blockquote,
-    figure,
-    ol,
-    p,
-    ul {
-      a {
-        text-decoration: none;
-        border-bottom: 2px solid $gray-400;
-        box-shadow: inset 0 -3px 0 $gray-400;
-        color: $body-color;
+  blockquote,
+  figure,
+  ol,
+  p,
+  ul {
+    a {
+      text-decoration: none;
+      border-bottom: 2px solid $gray-400;
+      box-shadow: inset 0 -3px 0 $gray-400;
+      color: $body-color;
 
-        &:hover {
-          border-bottom: 2px solid $gray-600;
-          box-shadow: inset 0 -3px 0 $gray-600;
-        }
+      &:hover {
+        border-bottom: 2px solid $gray-600;
+        box-shadow: inset 0 -3px 0 $gray-600;
       }
     }
   }
