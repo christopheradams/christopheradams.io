@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: About
 author: christopheradams
 description: Bio, contact, and links

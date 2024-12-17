@@ -4,33 +4,9 @@ itemprop: article
 itemtype: https://schema.org/Article
 ---
 
-{%- capture page_class -%}
-  {%- if page.category -%}
-  {{ page.category | prepend: "category-" }}
-  {%- else -%}
-  category-none
-  {%- endif -%}
-{%- endcapture -%}
-
-<article class="{{ page_class }}" itemprop="{{ layout.itemprop }}" itemscope itemtype="{{ layout.itemtype }}">
+<article itemprop="{{ layout.itemprop }}" itemscope itemtype="{{ layout.itemtype }}">
 
   {% include title.html %}
-
-  {% assign page_image = page.image.path | default: page.image %}
-  {% if page_image %}
-  {% assign image_title = page.image.title | default: page.title %}
-  <div class="row justify-content-center border-bottom">
-    <div class="col-12 col-sm-10 col-md-9 col-lg-8 col-xl-7 full-width">
-      <section class="page-image">
-        {%- unless page_image contains "://" -%}
-        {% picture {{ page_image }} --alt {{ image_title | escape }} --img class="img-fluid" %}
-        {%- else -%}
-        <img class="img-fluid" alt="{{ image_title | escape }}" src="{{ page_image }}">
-        {%- endunless -%}
-      </section>
-    </div>
-  </div>
-  {% endif %}
 
   <div class="page-body" itemprop="articleBody">
     <div class="row justify-content-center">
@@ -43,41 +19,4 @@ itemtype: https://schema.org/Article
       </div>
     </div>
 
-    <div class="page-about">
-      <div class="row justify-content-center">
-        <div class="col-sm-10 col-md-8 col-lg-7">
-          <div class="page-details">
-            <p class="page-byline">
-              {% for author in page.author %}
-              {% assign authorDetails = site.data.authors[author] %}
-              <strong>
-                {% if forloop.first == true %} Posted by {% else %} &amp; {% endif %}
-                {% if authorDetails.uri %}<a href="{{ authorDetails.uri }}" title="More By {{ authorDetails.name | escape }}">{% endif %}{{ authorDetails.name | escape }}{% if authorDetails.uri %}</a>{% endif %}
-              </strong>
-              {% else %}
-              <strong>About</strong>
-              {% endfor %}
-            </p>
-            {% for author in page.author %}
-            {% assign authorDetails = site.data.authors[author] %}
-            <p>{{ authorDetails.description }}</p>
-            {% endfor %}
-          </div>
-          <div class="page-details">
-            <p>
-              <small>
-                <a href="{{ page.path | prepend: site.source_url}}">
-                  Read the source code for this page.
-                </a>
-              </small>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  {% if page.collection == "posts" %}
-  {% include related.html %}
-  {% endif %}
 </article>
