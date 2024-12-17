@@ -1,5 +1,5 @@
 ---
-title: ""
+title: Tai Kwun
 description: Photo by Joi Ito
 location: Hong Kong
 published_at: 2023-02-11 00:39:08 +0800

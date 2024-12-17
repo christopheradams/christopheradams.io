@@ -1,5 +1,5 @@
 ---
-title: ""
+title: CC Global Summit
 description: Photo by Razan Hadid
 location: Toronto
 published_at: 2018-11-12 16:00:56 +0800

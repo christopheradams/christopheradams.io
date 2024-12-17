@@ -1,5 +1,5 @@
 ---
-title: ""
+title: Ars Electronica
 description: Photo by Joi Ito
 location: Linz
 published_at: 2016-11-15 13:18:23 +0800
