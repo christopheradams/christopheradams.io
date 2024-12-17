@@ -6,7 +6,7 @@ itemtype: https://schema.org/Article
 
 {%- capture page_class -%}
   {%- if page.category -%}
-  {{ page.category | prepend: "category-" }}
+  {{ "Category " | append: page.category | slugify }}
   {%- else -%}
   category-none
   {%- endif -%}
