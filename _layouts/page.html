@@ -50,35 +50,11 @@ itemtype: https://schema.org/Article
   {% endif %}
 
   <div class="post-body" itemprop="articleBody">
-    <div class="post-main">
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-10 col-xl-8 border-bottom">
-          <div class="post-container">
-            <div class="post-content">
-              {{ content }}
-            </div>
-
-            <div class="post-details">
-              {% if page.source %}
-              <p>
-                Source:
-                <a href="{{ page.source }}">
-                  {% assign links = page.source | split: "/" %}
-                  {{ links[2] }}
-                </a>
-              </p>
-              {% endif %}
-
-              {% for archive in site.archives %}
-              {% if archive.type == "category" and archive.title == page.category %}
-              <p>Category: <a href="{{ archive.url }}">{{ archive.title }}</a></p>
-              {% endif %}
-              {% endfor %}
-            </div>
-
-            <div class="post-share">
-              {% include share.html %}
-            </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 col-xl-8 border-bottom">
+        <div class="post-container">
+          <div class="post-content">
+            {{ content }}
           </div>
         </div>
       </div>
