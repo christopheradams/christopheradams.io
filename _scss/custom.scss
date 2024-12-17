@@ -1,5 +1,5 @@
-$post-body-size: 1.4rem;
-$post-line-height: 1.7;
+$page-body-size: 1.4rem;
+$page-line-height: 1.7;
 
 ::selection {
   color: $white;
@@ -78,8 +78,8 @@ $post-line-height: 1.7;
   }
 
   .card-body {
-    font-size: $post-body-size;
-    line-height: $post-line-height;
+    font-size: $page-body-size;
+    line-height: $page-line-height;
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 1.5rem;
@@ -107,18 +107,18 @@ $post-line-height: 1.7;
   }
 }
 
-.article-banner {
+.page-banner {
   @extend .text-center;
   @extend .bg-white;
   @extend .py-5;
 
-  .post-title {
+  .page-title {
     @extend .display-3;
   }
 }
 
-.post-title,
-.post-dateline {
+.page-title,
+.page-dateline {
   a {
     color: $body-color;
     text-decoration: none;
@@ -129,7 +129,7 @@ $post-line-height: 1.7;
   }
 }
 
-.post-dateline {
+.page-dateline {
   .page-location {
     &::before {
       content: "·"
@@ -137,7 +137,7 @@ $post-line-height: 1.7;
   }
 }
 
-.post-image {
+.page-image {
   margin-bottom: 3rem !important;
   margin-top: 3rem !important;
 
@@ -146,9 +146,9 @@ $post-line-height: 1.7;
   }
 }
 
-.post-body {
-  font-size: $post-body-size;
-  line-height: $post-line-height;
+.page-body {
+  font-size: $page-body-size;
+  line-height: $page-line-height;
 
   padding: 2rem 0;
 
@@ -157,7 +157,7 @@ $post-line-height: 1.7;
   }
 
   blockquote {
-    font-size: $post-body-size;
+    font-size: $page-body-size;
     border-left: 5px solid $gray-400;
     padding: 0 1.5rem;
   }
@@ -170,9 +170,9 @@ $post-line-height: 1.7;
     }
   }
 
-  .post-content,
-  .post-sources,
-  .post-details {
+  .page-content,
+  .page-sources,
+  .page-details {
     blockquote,
     figure,
     ol,
@@ -192,7 +192,7 @@ $post-line-height: 1.7;
     }
   }
 
-  .post-content {
+  .page-content {
     p > img.narrow,
     picture > img.narrow {
       @include media-breakpoint-up(sm) {
@@ -222,16 +222,16 @@ $post-line-height: 1.7;
 
   }
 
-  .post-byline {
+  .page-byline {
     margin-bottom: 0.25rem;
   }
 
-  .post-container,
-  .post-share {
+  .page-container,
+  .page-share {
     margin-bottom: 3rem;
   }
 
-  .post-about {
+  .page-about {
     padding-top: 3rem;
   }
 
@@ -257,7 +257,7 @@ $post-line-height: 1.7;
   }
 }
 
-.post-share {
+.page-share {
   list-style-type: none;
   font-size: 1.2rem;
 
@@ -276,7 +276,7 @@ $post-line-height: 1.7;
 }
 
 .category-notes {
-  .post-content {
+  .page-content {
     font-size: 2rem;
     font-weight: 300;
   }
@@ -320,7 +320,7 @@ $post-line-height: 1.7;
   }
 }
 
-.post-social,
+.page-social,
 .footer-social {
   text-transform: uppercase;
   font-size: 0.8rem;

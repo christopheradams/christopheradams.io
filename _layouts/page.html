@@ -15,12 +15,12 @@ itemtype: https://schema.org/Article
 <article class="{{ page_class }}" itemprop="{{ layout.itemprop }}" itemscope itemtype="{{ layout.itemtype }}">
   <div class="row">
     <div class="col-12 full-width border-bottom">
-      <section class="article-banner">
+      <section class="page-banner">
         <div class="container">
           {% if page.title and page.title != "" %}
-          <h1 class="post-title" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
+          <h1 class="page-title" itemprop="name headline"><a href="{{ page_url }}">{{ page.title }}</a></h1>
           {% endif %}
-          <div class="post-dateline">
+          <div class="page-dateline">
             <a href="{{ page_url }}">
             <time class="" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | default: "now" | date: "%-d %b %Y" }}</time>
             <span class="page-location">
@@ -38,7 +38,7 @@ itemtype: https://schema.org/Article
   {% assign image_title = page.image.title | default: page.title %}
   <div class="row justify-content-center border-bottom">
     <div class="col-12 col-sm-10 col-md-9 col-lg-8 col-xl-7 full-width">
-      <section class="post-image">
+      <section class="page-image">
         {%- unless page_image contains "://" -%}
         {% picture {{ page_image }} --alt {{ image_title | escape }} --img class="img-fluid" %}
         {%- else -%}
@@ -49,22 +49,22 @@ itemtype: https://schema.org/Article
   </div>
   {% endif %}
 
-  <div class="post-body" itemprop="articleBody">
+  <div class="page-body" itemprop="articleBody">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-10 col-xl-8 border-bottom">
-        <div class="post-container">
-          <div class="post-content">
+        <div class="page-container">
+          <div class="page-content">
             {{ content }}
           </div>
         </div>
       </div>
     </div>
 
-    <div class="post-about">
+    <div class="page-about">
       <div class="row justify-content-center">
         <div class="col-sm-10 col-md-8 col-lg-7">
-          <div class="post-details">
-            <p class="post-byline">
+          <div class="page-details">
+            <p class="page-byline">
               {% for author in page.author %}
               {% assign authorDetails = site.data.authors[author] %}
               <strong>
@@ -80,7 +80,7 @@ itemtype: https://schema.org/Article
             <p>{{ authorDetails.description }}</p>
             {% endfor %}
           </div>
-          <div class="post-details">
+          <div class="page-details">
             <p>
               <small>
                 <a href="{{ page.path | prepend: site.source_url}}">
