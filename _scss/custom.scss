@@ -275,7 +275,7 @@ $page-line-height: 1.7;
   }
 }
 
-.archives-list {
+.archives-list:not(.archives-category-notes) {
   @extend .list-group;
   @extend .list-group-flush;
 
@@ -297,9 +297,31 @@ $page-line-height: 1.7;
   }
 }
 
-.archives-category-notes {
+.archives-list.archives-category-notes {
   .archives-list-item-dateline {
     display: none;
+  }
+
+  .archives-list-item,
+  .archives-list-item-text {
+    display: inline;
+  }
+
+
+  .archives-list-item + .archives-list-item::before {
+    content: "¶";
+  }
+
+  a {
+    color: $body-color;
+    text-decoration: none;
+    border-bottom: none;
+    box-shadow: none;
+
+    &:hover {
+      border-bottom: 2px solid $gray-600;
+      box-shadow: inset 0 -3px 0 $gray-600;
+    }
   }
 }
 
