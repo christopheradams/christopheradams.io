@@ -6,7 +6,7 @@ layout: page
   {{ "Archives Category " | append: page.title | slugify }}
 {%- endcapture -%}
 
-<div class="archives-list {{ category_class }} list-group list-group-flush">
+<div class="archives-list {{ category_class }}">
 {% assign posts = page.posts %}
 {% if posts.size > 0 %}
 {% assign posts_sorted = posts | sort: "date" | reverse %}
@@ -14,20 +14,18 @@ layout: page
 {{ content }}
 
 {% for post in posts_sorted %}
-  <a href="{{ post.url }}" class="list-group-item list-group-item-action">
-    <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">{{ post.title | escape }}</h5>
-    </div>
-    <p class="text-muted">
-      <small>
+  <a href="{{ post.url }}" class="archives-list-item">
+    <span class="archives-list-item-title">
+      {{ post.title }}
+    </span>
+    <span class="archives-list-item-text">
         {% assign post_summary = post.description | default: post.excerpt %}
         {{ post_summary | strip_html | normalize_whitespace | truncatewords: 35 }}
-        <span>
+        <span class="archives-list-item-dateline">
           — {% if post.location %}{{ post.location }},{% endif %}
           {{ post.date | date: "%B %Y" }}
         </span>
-      </small>
-    </p>
+    </span>
   </a>
 {% endfor %}
 {% endif %}

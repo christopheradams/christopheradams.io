@@ -4,19 +4,19 @@ title: Index
 permalink: /archives/
 ---
 
-<div class="list-group list-group-flush">
+<div class="archives-list">
   {% assign archives = site.archives | sort: "title" %}
   {% for archive in archives %}
     {% if archive.type == "category"  %}
-      <a href="{{ archive.url }}" class="list-group-item list-group-item-action">
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">{{ archive.title }}</h5>
-        </div>
+      <a href="{{ archive.url }}" class="archives-list-item">
+        <span class="archives-list-item-title">
+          {{ archive.title }}
+        </span>
 
         {% assign archive_description = site.data.archives.categories[archive.title] | default: "Read More" %}
-        <p class="text-muted">
+        <span class="archives-list-item-text">
           {{ archive_description }}
-        </p>
+        </span>
       </a>
     {% endif %}
   {% endfor %}

@@ -275,6 +275,34 @@ $page-line-height: 1.7;
   }
 }
 
+.archives-list {
+  @extend .list-group;
+  @extend .list-group-flush;
+
+  .archives-list-item {
+    @extend .list-group-item;
+    @extend .list-group-item-action;
+
+    .archives-list-item-title {
+      @extend .d-flex;
+      @extend .w-100;
+      @extend .justify-content-between;
+      @extend h5;
+    }
+
+    .archives-list-item-text {
+      @extend .text-muted;
+      @extend small;
+    }
+  }
+}
+
+.archives-category-notes {
+  .archives-list-item-dateline {
+    display: none;
+  }
+}
+
 .page-category-notes {
   .page-content {
     font-size: 2rem;
