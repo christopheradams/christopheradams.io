@@ -6,9 +6,9 @@ itemtype: https://schema.org/Article
 
 {%- capture page_class -%}
   {%- if page.category -%}
-  {{ "Category " | append: page.category | slugify }}
+  {{ "Page Category " | append: page.category | slugify }}
   {%- else -%}
-  category-none
+  page-category-none
   {%- endif -%}
 {%- endcapture -%}
 
