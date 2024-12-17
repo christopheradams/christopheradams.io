@@ -260,7 +260,6 @@ $page-line-height: 1.7;
 
   .archives-list-item {
     @extend .list-group-item;
-    @extend .list-group-item-action;
 
     .archives-list-item-title {
       @extend .d-flex;
@@ -273,6 +272,10 @@ $page-line-height: 1.7;
       @extend .text-muted;
       @extend small;
     }
+  }
+
+  a.archives-list-item {
+    @extend .list-group-item-action;
   }
 }
 
