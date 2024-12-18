@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2023-01-30 21:52:03 +0800
 last_modified_at: 2023-01-30 21:52:03 +0800
 category: Machine Learning
-tags: stable-diffusion featured
+tags: [Text-to-Image, Featured]
 image:
     title: Betty Apple on stage at Nuit Blanche Taipei 2022
     path: /images/cloud.cxadams.com/index.php/s/xWBnnSW38657yfE/download/20221002-0213_Shilin_NuitBlanche_L1008376-0.jpg

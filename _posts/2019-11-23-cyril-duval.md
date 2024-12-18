@@ -4,7 +4,7 @@ description: Shilin District
 location: Taipei
 published_at: 2020-01-02 19:28:10 +0800
 category: Photos
-tags: taiwan
+tags: [Taiwan, Portrait]
 image: /images/cloud.cxadams.com/index.php/s/QQDaYX6j6Dii9Wg/download/20191123-2059_Taipei_Cyril_L1009681-4.jpg
 ---
 

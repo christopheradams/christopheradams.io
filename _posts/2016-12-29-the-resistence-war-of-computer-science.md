@@ -4,7 +4,7 @@ description: Object Lessons of History
 excerpt: Naming and misnaming things in Computer Science.
 published_at: 2016-12-29 21:06:48 +0800
 category: Articles
-tags: programming
+tags: [Programming]
 location: Hanoi
 image: /images/upload.wikimedia.org/wikipedia/commons/c/c6/HanoïLePetitLacVers1900.jpg
 ---

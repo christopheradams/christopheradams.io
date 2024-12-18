@@ -3,7 +3,7 @@ title: Ars Electronica
 description: Photo by Joi Ito
 location: Linz
 published_at: 2016-11-15 13:18:23 +0800
-tags: christopheradams
+tags: [Christopher Adams, Europe]
 source: https://www.flickr.com/photos/joi/2829609654/
 image:
   author: Joi Ito

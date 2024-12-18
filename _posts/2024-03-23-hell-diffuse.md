@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2024-03-25 19:07:40 +0800
 last_modified_at: 2024-04-22 13:22:19 +0800
 category: Machine Learning
-tags: stable-diffusion featured
+tags: [Text-to-Image, Featured]
 image: /images/cloud.cxadams.com/index.php/s/idZSfMHsL6z8sGZ/download/9InhsrTptK4rLdSNeVmbBwiwQWIN62tm7rAYrmysXJpeme8kA_out-2.png
 ---
 

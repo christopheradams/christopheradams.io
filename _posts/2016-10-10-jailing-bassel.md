@@ -4,7 +4,7 @@ description: The people who are in real danger never leave their countries
 location: Seoul
 published_at: 2016-11-17 18:47:22 +0800
 category: Articles
-tags: creativecommons
+tags: [Creative Commons]
 image: /images/live.staticflickr.com/7156/6553833251_3cc3bd1a9c_k.jpg
 ---
 <figure>

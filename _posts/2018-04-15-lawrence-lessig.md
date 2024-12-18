@@ -4,7 +4,7 @@ description: Creative Commons Global Summit
 location: Toronto
 published_at: 2018-11-12 15:46:45 +0800
 category: Photos
-tags: creativecommons
+tags: [Creative Commons, Canada, Portrait]
 image: /images/cloud.cxadams.com/index.php/s/sZxYFbdTpAxPG7w/download/20180415-1055_Toronto_CC-Summit_L1000613-0.jpg
 ---
 

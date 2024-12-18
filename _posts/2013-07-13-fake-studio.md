@@ -4,7 +4,7 @@ description: Caochangdi
 location: Beijing
 published_at: 2016-11-17 16:42:25 +0800
 category: Photos
-tags: beijing
+tags: [China, Installation]
 image: /images/live.staticflickr.com/2831/10684679515_8a560bbddf_k.jpg
 ---
 

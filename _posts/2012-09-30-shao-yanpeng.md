@@ -4,7 +4,7 @@ description: DJ set in Caochangdi
 published_at: 2016-11-17 16:42:25 +0800
 location: Beijing
 category: Photos
-tags: beijing
+tags: [China, Portrait]
 image: /images/live.staticflickr.com/8191/8122265571_bc2700623d_k.jpg
 ---
 

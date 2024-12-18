@@ -4,7 +4,7 @@ description: Custom soundsystem designed by Matt Hope
 location: Beijing
 published_at: 2016-11-17 16:42:25 +0800
 category: Photos
-tags: beijing
+tags: [China, Installation]
 image: /images/live.staticflickr.com/8324/8126876501_dd46191c8a_k.jpg
 ---
 

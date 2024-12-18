@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2024-03-22 13:34:26 +0800
 last_modified_at: 2024-03-25 19:07:08 +0800
 category: Articles
-tags: blockchain genart featured
+tags: [Blockchain, Generative Art, Featured]
 image:
   author: Liu Nai-Ting
   path: /images/cloud.cxadams.com/index.php/s/pgLyKqP4dXJ6Bx2/download/Liu-Nai-Ting_2023_Walk-in-Progress_Miscalculation.jpg

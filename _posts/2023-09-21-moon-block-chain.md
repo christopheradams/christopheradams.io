@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2024-05-08 18:51:08 +0800
 last_modified_at: 2024-05-08 18:51:08 +0800
 category: Articles
-tags: blockchain featured
+tags: [Blockchain, Project, Taiwan, Featured]
 image: /images/cloud.cxadams.com/index.php/s/oD2ryWqc5QZ85RY/download/yaojuichung-moonblockchain-prayer-04.jpg
 ---
 

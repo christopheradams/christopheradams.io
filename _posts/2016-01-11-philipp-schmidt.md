@@ -4,7 +4,7 @@ description: MIT Media Lab
 location: Cambridge, MA
 published_at: 2016-11-15 15:20:08 +0800
 category: Photos
-tags: east-coast
+tags: [USA, Portrait]
 image: /images/live.staticflickr.com/8024/28711451844_35f72173d9_k.jpg
 ---
 
