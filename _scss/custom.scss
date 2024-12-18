@@ -309,6 +309,10 @@ $page-line-height: 1.7;
 }
 
 .archives-list.archives-category-notes {
+  .archives-list-item-title {
+    font-weight: 600;
+  }
+
   .archives-list-item-dateline {
     display: none;
   }
