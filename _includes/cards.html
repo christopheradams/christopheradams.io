@@ -15,7 +15,7 @@
         <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"></a>
         {% if post.title and post.title != "" %}
         <strong itemprop="name">{{ post.title | escape }}</strong>
-        &mdash;
+        <span class="card-title-separator">&mdash;</span>
         {% else %}
         {% unless post_image %}
         <strong>¶</strong>
