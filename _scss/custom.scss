@@ -58,6 +58,23 @@ $page-line-height: 1.7;
   }
 }
 
+.card-columns-compact .card-columns {
+  column-count: 2;
+
+  @include media-breakpoint-up(md) {
+    column-count: 3;
+  }
+
+  .card-block {
+    .card-body {
+      font-size: 0.9rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
 .homepage-body .card-columns {
   @include media-breakpoint-up(xl) {
     column-count: 3;
@@ -80,8 +97,7 @@ $page-line-height: 1.7;
   .card-body {
     font-size: $page-body-size;
     line-height: $page-line-height;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0.5rem 0;
     margin-bottom: 1.5rem;
 
     a {
