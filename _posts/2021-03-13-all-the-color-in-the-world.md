@@ -4,8 +4,8 @@ description: A project by Christopher Adams and Jun Yang at MoCA Taipei
 location: Taipei
 published_at: 2021-11-25 16:36:31 +0800
 modified_at: 2024-01-05 19:51:23 +0800
-category: Articles
-tags: [Blockchain, Project, Taiwan, Featured]
+category: Projects
+tags: [Blockchain, Taiwan, Featured]
 image: /images/cloud.cxadams.com/index.php/s/zKfpiWckpYHcitJ/download/MoCA-Taipei_20210313_Adams-Yang_DSC06787.JPG
 ---
 

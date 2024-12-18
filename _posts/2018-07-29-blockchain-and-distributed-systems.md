@@ -2,7 +2,7 @@
 title: Blockchain and Distributed Systems
 location: San Francisco
 published_at: 2021-11-24 18:36:58 +0800
-category: Articles
+category: Projects
 tags: [Blockchain, USA]
 image: /images/cloud.cxadams.com/index.php/s/344KcoMxx9z7oFi/download/20180725-1250_SanFrancisco_GrayArea_L1002528-0.jpg
 description: >
