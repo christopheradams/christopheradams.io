@@ -19,4 +19,18 @@ title: Index
       </a>
     {% endif %}
   {% endfor %}
+  <div class="archives-list-item">
+    <span class="archives-list-item-title">
+      Tags
+    </span>
+    <span class="archives-list-item-text">
+      <ul class="archives-list-item-links">
+        {% for archive in archives %}
+          {%- if archive.type == "tag" -%}
+            <li><a href="{{ archive.url }}">{{ archive.title }}</a>
+          {%- endif -%}
+        {% endfor %}
+      </ul>
+    </span>
+  </div>
 </div>

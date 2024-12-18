@@ -277,6 +277,19 @@ $page-line-height: 1.7;
   a.archives-list-item {
     @extend .list-group-item-action;
   }
+
+  ul.archives-list-item-links {
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      display: inline;
+    }
+
+    li:not(:last-child)::after {
+      content: ", "
+    }
+  }
 }
 
 .archives-list.archives-category-notes {
