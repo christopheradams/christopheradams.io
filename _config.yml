@@ -25,7 +25,7 @@ social:
   - name: mastodon
     url: https://mastodon.social/@christopheradams
   - name: nostr
-    url: https://primal.net/p/npub1fnnxzzdzaw4a0j5y25wjukmwlaqfe6heugf78hqxrs2ulpx3tyxqe9vk8n
+    url: https://njump.me/npub1fnnxzzdzaw4a0j5y25wjukmwlaqfe6heugf78hqxrs2ulpx3tyxqe9vk8n
   - name: farcaster
     url: https://warpcast.com/christopheradams
   - name: objkt
