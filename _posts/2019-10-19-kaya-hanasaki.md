@@ -8,4 +8,4 @@ tags: [Taiwan, Portrait]
 image: /images/cloud.cxadams.com/index.php/s/gttQ8rmZXZijAow/download/20191018-1915_Taipei_KdMoFA_L1008711-0.jpg
 ---
 
-Kaya Hanasaki peforming at the exhibition *BOOCHOA* at Kuandu Museum of Fine Arts.
+Kaya Hanasaki performing at the exhibition *BOOCHOA* at Kuandu Museum of Fine Arts.

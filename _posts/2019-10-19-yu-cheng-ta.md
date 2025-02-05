@@ -8,4 +8,4 @@ tags: [Taiwan, Portrait, Featured]
 image: /images/cloud.cxadams.com/index.php/s/YcfpMCeZ2HaPWjm/download/20191018-1915_Taipei_KdMoFA_L1008681-0.jpg
 ---
 
-Yu Cheng-ta peforming at the exhibition *BOOCHOA* at Kuandu Museum of Fine Arts.
+Yu Cheng-ta performing at the exhibition *BOOCHOA* at Kuandu Museum of Fine Arts.
