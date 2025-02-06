@@ -28,13 +28,13 @@ npm install
 make install
 make
 ```
+
 Note: All URLs listed in the `_images.txt` and `_videos.txt` files are
 downloaded by `make` into `/images` and `/video`, respectively, with a hierarchy
 of directories including the host name.
 
 These local images can be served responsively using [jekyll_picture_tag]'s `{%
 picture ... %}` tag.
-
 
 ### Development
 
