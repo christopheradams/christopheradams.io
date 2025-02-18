@@ -16,18 +16,18 @@ source_url: "https://github.com/christopheradams/christopheradams.io/blob/master
 social:
   - name: twitter
     url: https://twitter.com/christopheradam
+  - name: nostr
+    url: https://njump.me/cxadams.com
   - name: bluesky
     url: https://bsky.app/profile/christopheradams.bsky.social
   - name: instagram
     url: https://www.instagram.com/christopherleeadams
-  - name: github
-    url: https://github.com/christopheradams
   - name: mastodon
     url: https://mastodon.social/@christopheradams
-  - name: nostr
-    url: https://njump.me/cxadams.com
   - name: farcaster
     url: https://warpcast.com/christopheradams
+  - name: github
+    url: https://github.com/christopheradams
   - name: objkt
     url: https://objkt.com/profile/christopheradams/
   # - name: flickr
