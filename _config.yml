@@ -43,9 +43,6 @@ author:
   uri: https://christopheradams.io
 
 # Collections
-collections:
-  topics:
-    output: true
 defaults:
   - scope:
       path: ""
@@ -53,13 +50,6 @@ defaults:
     values:
       layout: post
       permalink: /posts/:year/:month/:day/:title/
-      author: christopheradams
-  - scope:
-      path: ""
-      type: topics
-    values:
-      layout: category
-      permalink: /categories/:title/
       author: christopheradams
 
 paginate: 12
