@@ -47,7 +47,7 @@ Note:
 ### Deploying
 
 ```sh
-make deploy DEPLOY_TARGET="root@cxadams.com:/srv/www/christopheradams.io"
+make deploy DEPLOY_TARGET="user@example.org:/path/to/webroot"
 ```
 
 ## Screenshot
