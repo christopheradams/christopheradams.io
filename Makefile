@@ -23,7 +23,7 @@ install-bundle:
 
 install-bootstrap:
 	mkdir -p $(BOOTSTRAP_DIR)
-	curl -L https://github.com/twbs/bootstrap/archive/v$(BOOTSTRAP_VERSION).tar.gz -o bootstrap.tar.gz
+	wget -O bootstrap.tar.gz https://github.com/twbs/bootstrap/archive/v$(BOOTSTRAP_VERSION).tar.gz
 	tar -xzf bootstrap.tar.gz
 	cp -r bootstrap-$(BOOTSTRAP_VERSION)/* $(BOOTSTRAP_DIR)/
 	rm -rf bootstrap.tar.gz bootstrap-$(BOOTSTRAP_VERSION)
