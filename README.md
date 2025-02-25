@@ -12,7 +12,6 @@ The previous theme used [Remarkdown]. See the `remarkdown` branch.
 
 * Ruby
 * Bundler
-* Node.js
 * [libvips] and/or ImageMagick
 * wget
 
