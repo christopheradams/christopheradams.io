@@ -22,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/christopheradams/christopheradams.io/issues"
   },
-  "homepage": "https://github.com/christopheradams/christopheradams.io#readme",
-  "dependencies": {
-    "bootstrap": "^5.3.3"
-  }
+  "homepage": "https://github.com/christopheradams/christopheradams.io#readme"
 }
