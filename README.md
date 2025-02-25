@@ -20,11 +20,9 @@ The previous theme used [Remarkdown]. See the `remarkdown` branch.
 gem install bundler
 ```
 
-## Installation
+## Installing and building
 
 ```sh
-bundle install
-npm install
 make install
 make
 ```
@@ -39,7 +37,7 @@ picture ... %}` tag.
 ### Development
 
 ```sh
-npm run watch
+make serve
 ```
 
 Note:
@@ -47,11 +45,10 @@ Note:
 * Authors are defined in `_data/authors.yml`
 * Categories are described in `_data/archives.yml`.
 
-### Production
+### Deploying
 
 ```sh
-npm run build
-npm run deploy root@cxadams.com:/srv/www/christopheradams.io
+make deploy DEPLOY_TARGET="root@cxadams.com:/srv/www/christopheradams.io"
 ```
 
 ## Screenshot

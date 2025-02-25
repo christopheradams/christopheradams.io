@@ -93,3 +93,4 @@ exclude:
   - package-lock.json
   - package.json
   - screenshot.png
+  - vendor
