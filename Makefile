@@ -32,16 +32,16 @@ install-media:
 	wget --directory-prefix=$(IMAGES_DIR) --force-directories --no-clobber --input-file=$(IMAGES_FILE)
 	wget --directory-prefix=$(VIDEOS_DIR) --force-directories --no-clobber --input-file=$(VIDEOS_FILE)
 
-media: $(GENERATED_VIDEOS)
+build-media: $(GENERATED_VIDEOS)
 
 videos/%.mp4: _videos/%.mp4
 	mkdir -p $$(dirname $@)
 	ffmpeg -i $< -c:v libx264 -profile:v main -vf format=yuv420p -c:a aac -crf 28 -movflags +faststart $@
 
-serve: media
+serve: build-media
 	bundle exec jekyll serve --livereload --drafts
 
-build: media
+build: build-media
 	JEKYLL_ENV=production bundle exec jekyll build
 
 deploy: build
