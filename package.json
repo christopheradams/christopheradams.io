@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/christopheradams/christopheradams.io#readme",
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "pygments-rouge-css": "^0.1.0"
+    "bootstrap": "^5.3.3"
   }
 }
