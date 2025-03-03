@@ -83,7 +83,9 @@
       {% endcapture %}
         <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}"><![CDATA[
         {{ post_image_tag | strip }}
+        {%- if post_title != "" -%}
         {{ post_dateline_tag | strip }}
+        {%- endif -%}
         {{ post.content | strip }}
         ]]></content>
       {% endunless %}
