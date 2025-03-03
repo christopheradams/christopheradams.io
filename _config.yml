@@ -17,7 +17,7 @@ social:
   - name: twitter
     url: https://twitter.com/christopheradam
   - name: nostr
-    url: https://njump.me/cxadams.com
+    url: nostr:npub1fnnxzzdzaw4a0j5y25wjukmwlaqfe6heugf78hqxrs2ulpx3tyxqe9vk8n
   - name: bluesky
     url: https://bsky.app/profile/christopheradams.bsky.social
   - name: instagram
