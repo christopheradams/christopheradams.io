@@ -46,10 +46,10 @@ Get It Louder*
   {%- for social in socials %}
   <li>
   <a rel="me" href="{{ social.url}}">
-    {%- assign domain_path = social.url | remove_first: "https://www." | remove_first: "https://" -%}
-    {%- assign domain = domain_path | split: '/' | first -%}
-    {%- assign path = domain_path | remove_first: domain -%}
-    <span class="link-domain">{{ domain }}</span><span class="link-path">{{path}}</span>
+    {%- assign social_path = social.url | remove_first: "https://www." | remove_first: "https://" -%}
+    {%- assign social_name = social_path | split: '/' | first -%}
+    {%- assign account_name = social_path | remove_first: social_name -%}
+    <span class="link-domain">{{ social_name }}</span><span class="link-path">{{account_name}}</span>
   </a>
   </li>
   {%- endfor -%}
