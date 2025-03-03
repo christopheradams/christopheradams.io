@@ -46,8 +46,14 @@ Get It Louder*
   {%- for social in socials %}
   <li>
   <a rel="me" href="{{ social.url}}">
+    {%- assign scheme = social.url | split: ":" | first -%}
+    {%- if scheme == "https" -%}
     {%- assign social_path = social.url | remove_first: "https://www." | remove_first: "https://" -%}
     {%- assign social_name = social_path | split: '/' | first -%}
+    {%- else %}
+    {%- assign social_path = social.url | remove_first: scheme -%}
+    {%- assign social_name = scheme -%}
+    {%- endif %}
     {%- assign account_name = social_path | remove_first: social_name -%}
     <span class="link-domain">{{ social_name }}</span><span class="link-path">{{account_name}}</span>
   </a>
