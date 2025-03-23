@@ -3,6 +3,9 @@
 // Custom variables
 // https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
 
+// Automatic light/dark mode
+$color-mode-type: media-query;
+
 // Configuration
 @import "../vendor/bootstrap/scss/variables";
 @import '../vendor/bootstrap/scss/variables-dark';

@@ -3,7 +3,7 @@
 {% if related.size > 1 %}
 <div class="row d-none d-md-block">
   <div class="col-12 full-width">
-    <div class="bg-light">
+    <div class="related-section">
       <div class="row related-title text-center">
         <div class="col">
           <h2>Related</h2>
@@ -13,7 +13,7 @@
       <div class="row justify-content-md-center">
         {% for post in related %}
         <div class="col col-lg-3">
-          <div class="related-card card-block card text-center border-light bg-light">
+          <div class="related-card card-block card">
             {% assign post_image = post.image.path | default: post.image %}
             {%- assign post_image = post_image | default: site.image -%}
             {% if post_image %}

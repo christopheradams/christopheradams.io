@@ -1,7 +1,7 @@
 <div class="card-columns">
   {% for post in include.posts %}
   <div class="card-block">
-  <div class="card border-white">
+  <div class="card">
     {% assign post_image = post.image.path | default: post.image %}
     {% if post_image %}
     {%- unless post_image contains "://" -%}
