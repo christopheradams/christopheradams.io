@@ -40,8 +40,8 @@ Get It Louder*
 
 ## Links
 
-{% if site.social %}
-  {% assign socials = site.social %}
+{% if site.social_links %}
+  {% assign socials = site.social_links %}
   <ul class="list-unstyled">
   {%- for social in socials %}
   <li>

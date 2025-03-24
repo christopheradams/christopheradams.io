@@ -13,22 +13,22 @@ baseurl: ""
 
 source_url: "https://github.com/christopheradams/christopheradams.io/blob/master/"
 
-social:
-  - name: twitter
+social_links:
+  - title: Twitter
     url: https://twitter.com/christopheradam
-  - name: nostr
+  - title: Nostr
     url: https://nostr.at/cxadams.com
-  - name: bluesky
+  - title: Bluesky
     url: https://bsky.app/profile/christopheradams.bsky.social
-  - name: instagram
+  - title: Instagram
     url: https://www.instagram.com/christopherleeadams
-  - name: mastodon
+  - title: Mastodon
     url: https://mastodon.social/@christopheradams
-  - name: farcaster
+  - title: Farcaster
     url: https://warpcast.com/christopheradams
-  - name: github
+  - title: GitHub
     url: https://github.com/christopheradams
-  - name: objkt
+  - title: Objkt
     url: https://objkt.com/profile/christopheradams/
 
 # Authors

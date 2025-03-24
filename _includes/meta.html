@@ -20,7 +20,7 @@
 <meta property="og:description" content="{{ description }}">
 <meta property="og:image" content="{{ image_url }}">
 
-{% assign twitter_user = site.social | where: "name", "twitter" | first -%}
+{% assign twitter_user = site.social_links | where: "title", "Twitter" | first -%}
 <meta name="twitter:url" content="{{ page.url | absolute_url }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ title }}">

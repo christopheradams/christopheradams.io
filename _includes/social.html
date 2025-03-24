@@ -1,9 +1,9 @@
-{% if site.social %}
+{% if site.social_links %}
 <div class="footer-social d-flex flex-wrap justify-content-center">
-  {% for social in site.social %}
+  {% for social in site.social_links %}
   <div class="tag-item">
     <a rel="me" href="{{ social['url'] }}" target="_blank">
-      {{ social['name'] | capitalize }}
+      {{ social['title'] }}
     </a>
   </div>
   {% endfor %}
