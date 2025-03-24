@@ -63,6 +63,7 @@ excerpt_separator: <!--more-->
 sass:
   sass_dir: _scss
   style: compressed
+  quiet_deps: true
 
 jekyll-archives:
   enabled:
