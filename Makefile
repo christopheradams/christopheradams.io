@@ -22,11 +22,15 @@ install-bundle:
 	bundle install
 
 install-bootstrap:
-	mkdir -p $(BOOTSTRAP_DIR)
-	wget -O bootstrap.tar.gz https://github.com/twbs/bootstrap/archive/v$(BOOTSTRAP_VERSION).tar.gz
-	tar -xzf bootstrap.tar.gz
-	cp -r bootstrap-$(BOOTSTRAP_VERSION)/* $(BOOTSTRAP_DIR)/
-	rm -rf bootstrap.tar.gz bootstrap-$(BOOTSTRAP_VERSION)
+	@if [ -d "$(BOOTSTRAP_DIR)" ]; then \
+		echo "Bootstrap already installed. Skipping."; \
+	else \
+		mkdir -p $(BOOTSTRAP_DIR); \
+		wget -O bootstrap.tar.gz https://github.com/twbs/bootstrap/archive/v$(BOOTSTRAP_VERSION).tar.gz; \
+		tar -xzf bootstrap.tar.gz; \
+		cp -r bootstrap-$(BOOTSTRAP_VERSION)/* $(BOOTSTRAP_DIR)/; \
+		rm -rf bootstrap.tar.gz bootstrap-$(BOOTSTRAP_VERSION); \
+	fi
 
 install-media:
 	wget --directory-prefix=$(IMAGES_DIR) --force-directories --no-clobber --input-file=$(IMAGES_FILE)
