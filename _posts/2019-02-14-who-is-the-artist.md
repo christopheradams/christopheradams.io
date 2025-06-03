@@ -5,7 +5,7 @@ location: Graz
 published_at: 2023-02-13 16:22:28 +0800
 last_modified_at: 2023-02-13 16:22:28 +0800
 category: Projects
-tags: [Europe]
+tags: [Europe, Exhibition]
 image: /images/cloud.cxadams.com/index.php/s/TzWZHs6dckw5F7s/download/who-is-the-artist_2019-02-14_kunsthaus-graz_Michael-Laschen_1.png
 ---
 
