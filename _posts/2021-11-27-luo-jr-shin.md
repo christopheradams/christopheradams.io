@@ -4,7 +4,7 @@ description: Luo Jr-shin's exhibition at Taipei Fine Arts Museum
 location: Taipei
 published_at: 2022-11-12 18:40:26 +0800
 category: Photos
-tags: [Taiwan, Installation]
+tags: [Taiwan, Scene]
 image: /images/cloud.cxadams.com/index.php/s/EtsJy8W4FcHLsQF/download/20211127-1445_Taipei_TFAM_L1007737-0.jpg
 ---
 
