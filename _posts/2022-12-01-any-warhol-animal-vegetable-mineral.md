@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2023-01-05 01:44:12 +0800
 last_modified_at: 2023-01-31 13:18:36 +0800
 category: Machine Learning
-tags: [Text-to-Image, Featured]
+tags: [Text-to-Image]
 image:
     title: Any Warhol Cave
     path: /images/cloud.cxadams.com/index.php/s/3z2y67Ns2ZdWpDX/download/20221215103348_00006_a_black_and_white_photograph_of_a_geological_formation.jpg

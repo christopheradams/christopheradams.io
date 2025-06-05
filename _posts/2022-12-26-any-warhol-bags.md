@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2023-01-05 01:44:12 +0800
 last_modified_at: 2023-01-31 13:18:36 +0800
 category: Machine Learning
-tags: [Text-to-Image, Featured]
+tags: [Text-to-Image]
 image: /images/cloud.cxadams.com/index.php/s/HrP8PCrT7cCwH2S/download/20221227041809_00017_a_plastic_bag_against_a_window.png
 ---
 
