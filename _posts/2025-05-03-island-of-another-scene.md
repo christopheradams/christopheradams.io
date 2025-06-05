@@ -25,6 +25,10 @@ Subjects featured in this collection include Ai Weiwei, Betty Apple, FAMEME,
 Item Idem, Julia Hung, Jun Yang, Lai Chih-Sheng, Lee Kit, Luo Jr-Shin, Michael
 Lin, Su Hui-Yu, Su Misu, and Taipei Popcorn.
 
+The show is presented by [The Studio](https://www.thestudio-invite.com/), an
+independent exhibition space, private kitchen, and lounge. It's the perfect
+venue for art and life to mix.
+
 ---
 
 ## *Island of Another Scene*: Photographs by Christopher Adams
