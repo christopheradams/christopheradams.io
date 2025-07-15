@@ -8,7 +8,7 @@ category: Machine Learning
 tags: [Text-to-Image, Featured]
 image:
     title: Betty Apple on stage at Nuit Blanche Taipei 2022
-    path: /images/cloud.cxadams.com/index.php/s/xWBnnSW38657yfE/download/20221002-0213_Shilin_NuitBlanche_L1008376-0.jpg
+    path: /images/cloud.cxadams.com/index.php/s/z2iSNEKm9GHeaD3/download/20221002-0213_Taipei_NuitBlanche_L1008376-0.jpg
 ---
 
 I created a series of AI generated videos for [Betty Apple] and Social Dis Dance
