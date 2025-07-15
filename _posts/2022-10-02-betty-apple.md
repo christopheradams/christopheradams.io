@@ -8,4 +8,4 @@ tags: [Taiwan, Portrait]
 image: /images/cloud.cxadams.com/index.php/s/erHXpfT6pi2Md9m/download/20221002-0102_Taipei_NuitBlanche_L1008187-0.jpg
 ---
 
-Betty Apple at Nuit Blanche Taipei 2021.
+Betty Apple at Nuit Blanche Taipei 2022.
