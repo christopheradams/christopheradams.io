@@ -20,7 +20,7 @@ October, and TheCube Forum Music Festival in December, 2022.
     <video
     controls
     preload="metadata"
-    src="/videos/cloud.cxadams.com/index.php/s/KTPqGnasDXxGCtT/download/Zhan-Energy-Club_20220926022258_clip.mp4"
+    src="/assets/videos/Zhan-Energy-Club_20220926022258_clip.mp4"
     type="video/mp4"
     poster="{% picture meta /images/cloud.cxadams.com/index.php/s/3JpQtZbnfcYPyN4/download/20220926022258_00256.jpg %}"
     ></video>
