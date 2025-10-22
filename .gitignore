@@ -2,7 +2,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
-images
-videos
-_videos
+/vendor/
+/images/
+/videos/
+/_videos/
