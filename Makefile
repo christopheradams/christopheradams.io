@@ -3,20 +3,11 @@
 BOOTSTRAP_VERSION = 5.3.3
 BOOTSTRAP_DIR = vendor/bootstrap
 
-IMAGES_FILE := _images.txt
-IMAGES_DIR := images
-
-VIDEOS_FILE := _videos.txt
-VIDEOS_DIR := _videos
-
-VIDEO_FILES := $(shell find _videos -type f -name "*.mp4")
-GENERATED_VIDEOS := $(patsubst _videos/%.mp4,videos/%.mp4,$(VIDEO_FILES))
-
 DEPLOY_TARGET ?= root@cxadams.com:/srv/www/christopheradams.io
 
 all: build
 
-install: install-bootstrap install-bundle install-media
+install: install-bootstrap install-bundle
 
 install-bundle:
 	bundle install
@@ -32,20 +23,10 @@ install-bootstrap:
 		rm -rf bootstrap.tar.gz bootstrap-$(BOOTSTRAP_VERSION); \
 	fi
 
-install-media:
-	wget --directory-prefix=$(IMAGES_DIR) --force-directories --no-clobber --input-file=$(IMAGES_FILE)
-	wget --directory-prefix=$(VIDEOS_DIR) --force-directories --no-clobber --input-file=$(VIDEOS_FILE)
-
-build-media: $(GENERATED_VIDEOS)
-
-videos/%.mp4: _videos/%.mp4
-	mkdir -p $$(dirname $@)
-	ffmpeg -i $< -c:v libx264 -profile:v main -vf format=yuv420p -c:a aac -crf 28 -movflags +faststart $@
-
-serve: build-media
+serve:
 	bundle exec jekyll serve --livereload --drafts
 
-build: build-media
+build:
 	JEKYLL_ENV=production bundle exec jekyll build
 
 deploy: build
@@ -53,4 +34,3 @@ deploy: build
 
 clean:
 	bundle exec jekyll clean
-	rm -rf $(IMAGES_DIR) $(VIDEOS_DIR)
