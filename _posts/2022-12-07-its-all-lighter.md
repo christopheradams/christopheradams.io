@@ -6,7 +6,7 @@ published_at: 2023-01-31 21:57:09 +0800
 last_modified_at: 2023-01-31 21:57:09 +0800
 category: Machine Learning
 tags: [Text-to-Image]
-image: /images/cloud.cxadams.com/index.php/s/SmWHwaEpHY7dzHA/download/20221206140958_00001_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png
+image: /assets/images/20221206140958_00001_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png
 ---
 
 *It's All Lighter* explores AI's affinity for bending identities and doing it in
@@ -22,20 +22,20 @@ Diffusion](https://github.com/deforum-art/deforum-stable-diffusion). Prompts
 thanks to [Saul Leiter](https://www.saulleiterfoundation.org/) and
 [Lexica](https://lexica.art/).
 
-{% picture /images/cloud.cxadams.com/index.php/s/CTnaHTjPndTFd77/download/20221206061543_00006_a_portrait_of_itemidem_by_saul_leiter.png --alt Dream Youth %}
+{% picture /assets/images/20221206061543_00006_a_portrait_of_itemidem_by_saul_leiter.png --alt Dream Youth %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/JcJWEP4T2qk63xk/download/20221206135222_00001_out_of_focus_photorealistic_portrait_of_a_beautiful_aesthetic_pale_itemidem_by_saul_leiter_behind_a_white_latex_sheet_very_blurry_translucent_white_skin_closed_.png --alt Dream Youth %}
+{% picture /assets/images/20221206135222_00001_out_of_focus_photorealistic_portrait_of_a_beautiful_aesthetic_pale_itemidem_by_saul_leiter_behind_a_white_latex_sheet_very_blurry_translucent_white_skin_closed_.png --alt Dream Youth %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/eDmmEe85YRW555q/download/20221206143713_00000_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}
+{% picture /assets/images/20221206143713_00000_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/Ndekqjjde7fT2Aq/download/20221206142548_00000_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}
+{% picture /assets/images/20221206142548_00000_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/bY2yNnDpWjE4WZt/download/20230131070605_00001_a_photograph_portrait_of_piopiolee_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}
+{% picture /assets/images/20230131070605_00001_a_photograph_portrait_of_piopiolee_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/SEW29mjaa539cJy/download/20230131071539_00001_a_photograph_portrait_of_piopiolee_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}
+{% picture /assets/images/20230131071539_00001_a_photograph_portrait_of_piopiolee_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/jNNLgHmqYmMMDia/download/20230131072633_00001_out_of_focus_photorealistic_portrait_of_a_beautiful_aesthetic_pale_piopiolee_by_saul_leiter_behind_a_white_latex_sheet_very_blurry_translucent_white_skin_closed.png --alt Dream Youth %}
+{% picture /assets/images/20230131072633_00001_out_of_focus_photorealistic_portrait_of_a_beautiful_aesthetic_pale_piopiolee_by_saul_leiter_behind_a_white_latex_sheet_very_blurry_translucent_white_skin_closed.png --alt Dream Youth %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/LMAyS33gFmXozSf/download/20230131085954_00000_a_portrait_of_piopiolee_by_saul_leiter.png --alt Dream Youth %}
+{% picture /assets/images/20230131085954_00000_a_portrait_of_piopiolee_by_saul_leiter.png --alt Dream Youth %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/AfWWHZL5dXNGa4D/download/20230131070137_00000_a_photograph_portrait_of_piopiolee_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}
+{% picture /assets/images/20230131070137_00000_a_photograph_portrait_of_piopiolee_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png --alt Dream Youth %}

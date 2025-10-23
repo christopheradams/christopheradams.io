@@ -8,7 +8,7 @@ category: Projects
 tags: [Blockchain, Taiwan]
 image:
     author: Taipei Dangdai
-    path: /images/cloud.cxadams.com/index.php/s/nn9QobYYqBSyZk9/download/284547233_339737218268457_796128295586667004_n.jpg
+    path: /assets/images/284547233_339737218268457_796128295586667004_n.jpg
 ---
 
 [Taipei Dangdai Art & Ideas][Taipei Dangdai] is the leading arts and culture
@@ -21,7 +21,7 @@ with the Ethereum blockchain to present NFTs as they are minted. We invited the
 participating artists to call in over video chat with a live audience as their
 collections were released.
 
-{% picture /images/cloud.cxadams.com/index.php/s/8YCpKB7Q7nSB2Qp/download/NFT-Taipei-Dangdai_Home.png --alt Launch Stage --img class="shadow-lg rounded-3 mb-4" %}
+{% picture /assets/images/NFT-Taipei-Dangdai_Home.png --alt Launch Stage --img class="shadow-lg rounded-3 mb-4" %}
 
 [Taipei Dangdai]: https://taipeidangdai.com/
 [Ben Snell]: https://www.artblocks.io/project/308

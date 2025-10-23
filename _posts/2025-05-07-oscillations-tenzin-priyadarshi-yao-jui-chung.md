@@ -7,7 +7,7 @@ date: 2025-05-07 11:00 +0800
 published_at: 2025-05-31 18:30:13 +0800
 category: Projects
 tags: [Taiwan, Exhibition, Featured]
-image: /images/cloud.cxadams.com/index.php/s/ZyPH5HMPMY5Kftp/download/556b7c5ac506fbfc5d309345cf6677ae.JPEG
+image: /assets/images/556b7c5ac506fbfc5d309345cf6677ae.JPEG
 ---
 
 I curated an exhibition for two photographers whom I am fortunate to count as
@@ -31,7 +31,7 @@ sea. It's a perfect spot for the meeting of these two visionaries.
 **Venue**: HOHObase (No. 93, Sec 2, Jianji Rd, Ruifang District, New Taipei City)  
 **Curators**: Christopher Adams, Sophie Chiang
 
-{% picture /images/cloud.cxadams.com/index.php/s/afBCdkKdZZQWK9i/download/Oscillations-2-EN.jpg --alt Oscillations %}
+{% picture /assets/images/Oscillations-2-EN.jpg --alt Oscillations %}
 
 HOHObase is proud to present *Oscillations*, bringing together the work of
 Venerable Tenzin Priyadarshi Rinpoche and Yao Jui-Chung for the very first
@@ -52,7 +52,7 @@ in 2018. The English title refers to the embodiment of our self-image in these
 deities, while the Chinese title (literally, 'Giant God Connection') conceives
 of them as an island-wide spiritual network.
 
-{% picture /images/cloud.cxadams.com/index.php/s/FsWLLFsgxzs8KBf/download/Oscillations-1-ZH.jpg --alt Oscillations %}
+{% picture /assets/images/Oscillations-1-ZH.jpg --alt Oscillations %}
 
 An *oscillation* is a repeated variation between two or more different states
 (like a swinging pendulum, a plucked string, a beating heart, or an
@@ -70,7 +70,7 @@ same place.
 
 *An opening ceremony for Oscillations will be held at HOHObase on Wednesday, May 14, 2025 at 2:30pm with the Venerable Tenzin Priyadarshi Rinpoche and Yao Jui-Chung in attendance. We kindly welcome you to visit.*
 
-{% picture /images/cloud.cxadams.com/index.php/s/5wTZk2DMYSn6AQx/download/039784b45607430c480120de0f5c9e75.JPEG --alt Oscillations %}
+{% picture /assets/images/039784b45607430c480120de0f5c9e75.JPEG --alt Oscillations %}
 
 **The Venerable Tenzin Priyadarshi Rinpoche** is the Founding President and CEO of
 the Dalai Lama Center for Ethics and Transformative Values at the Massachusetts

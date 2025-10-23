@@ -9,7 +9,7 @@ image:
   author: Joi Ito
   license: CC BY
   license_url: https://creativecommons.org/licenses/by/2.0/
-  path: /images/live.staticflickr.com/3094/2829609654_800aede242_k.jpg
+  path: /assets/images/2829609654_800aede242_k.jpg
   title: Christopher Adams
 ---
 

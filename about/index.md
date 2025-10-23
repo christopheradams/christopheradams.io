@@ -3,7 +3,7 @@ layout: article
 title: About
 author: christopheradams
 description: Bio, contact, and links
-image: /images/live.staticflickr.com/65535/49241319873_7ee721ed6a_k.jpg
+image: /assets/images/49241319873_7ee721ed6a_k.jpg
 ---
 
 {% assign authorDetails = site.data.authors[page.author] %}

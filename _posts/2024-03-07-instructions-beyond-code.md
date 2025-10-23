@@ -8,7 +8,7 @@ category: Articles
 tags: [Blockchain, Generative Art, Featured]
 image:
   author: Liu Nai-Ting
-  path: /images/cloud.cxadams.com/index.php/s/pgLyKqP4dXJ6Bx2/download/Liu-Nai-Ting_2023_Walk-in-Progress_Miscalculation.jpg
+  path: /assets/images/Liu-Nai-Ting_2023_Walk-in-Progress_Miscalculation.jpg
   title: Walk in Progress "miscalculation"
 source: https://artist.nccu.edu.tw/2024spring/da_article_en.html
 ---
@@ -52,7 +52,7 @@ the 2008 Taipei Biennial is a perfect example of a conceptual art as a set of
 "instructions beyond code." It's a "generative artwork" that is only fully
 realized by autonomous participants.
 
-{% picture /images/cloud.cxadams.com/index.php/s/oq46dTbmqdk4sn5/download/MG_9326_web.jpg --alt a contemporary art center, taipei %}
+{% picture /assets/images/MG_9326_web.jpg --alt a contemporary art center, taipei %}
 
 Jun Yang, *a contemporary art center, taipei (a proposal)* (2008)
 {: .text-center}

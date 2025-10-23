@@ -4,7 +4,7 @@ description: Linking each webpage to its code
 published_at: 2016-12-02 14:53:30 +0800
 category: Articles
 tags: [Programming]
-image: /images/live.staticflickr.com/8504/8271297507_3736d4d718_k.jpg
+image: /assets/images/8271297507_3736d4d718_k.jpg
 location: Taipei
 ---
 

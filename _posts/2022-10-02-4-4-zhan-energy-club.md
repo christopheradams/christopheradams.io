@@ -8,7 +8,7 @@ category: Machine Learning
 tags: [Text-to-Image, Featured]
 image:
     title: Betty Apple on stage at Nuit Blanche Taipei 2022
-    path: /images/cloud.cxadams.com/index.php/s/z2iSNEKm9GHeaD3/download/20221002-0213_Taipei_NuitBlanche_L1008376-0.jpg
+    path: /assets/images/20221002-0213_Taipei_NuitBlanche_L1008376-0.jpg
 ---
 
 I created a series of AI generated videos for [Betty Apple] and Social Dis Dance
@@ -22,32 +22,32 @@ October, and TheCube Forum Music Festival in December, 2022.
     preload="metadata"
     src="/assets/videos/Zhan-Energy-Club_20220926022258_clip.mp4"
     type="video/mp4"
-    poster="{% picture meta /images/cloud.cxadams.com/index.php/s/3JpQtZbnfcYPyN4/download/20220926022258_00256.jpg %}"
+    poster="{% picture meta /assets/images/20220926022258_00256.jpg %}"
     ></video>
 </p>
 
-{% picture /images/cloud.cxadams.com/index.php/s/pL9bDKZQXqm74a2/download/20220926022258_00115.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_00115.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/aibg9oBbwqw9ngq/download/20220926022258_00138.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_00138.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/3JpQtZbnfcYPyN4/download/20220926022258_00256.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_00256.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/WcNFoqTCFJ4CCF6/download/20220926022258_01070.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_01070.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/m4457bkqQCQg6CC/download/20220926022258_01333.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_01333.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/cNEdJDdKiJ4ft37/download/20220926022258_02013.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_02013.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/t23K6JXX6nyztnr/download/20220926022258_02111.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_02111.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/S3QjfeFg2RC6KxQ/download/20220926022258_02217.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_02217.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/WQD3r99kcbnrTAH/download/20220926022258_02289.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_02289.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/joD5woqgMbKXntD/download/20220926022258_02352.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_02352.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/gqjKZEKQPJqwJDa/download/20220926022258_02798.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_02798.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/ZxyQiM7WmWrEjF8/download/20220926022258_03224.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
+{% picture /assets/images/20220926022258_03224.jpg --alt 4:4 Zhan Energy Club Underwater Rave %}
 
 [Betty Apple]: https://bettyapple.art/

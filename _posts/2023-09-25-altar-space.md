@@ -6,7 +6,7 @@ published_at: 2024-03-01 15:46:47 +0800
 last_modified_at: 2024-04-30 09:07:20 +0800
 category: Projects
 tags: [Blockchain, Exhibition, Taiwan]
-image: /images/cloud.cxadams.com/index.php/s/ZG4BYz2sXygtLD2/download/yaojuichung-invidia-altarspace-IMG_4950_crop.JPG
+image: /assets/images/yaojuichung-invidia-altarspace-IMG_4950_crop.JPG
 ---
 
 ALTAR SPACE is the genesis of Yao Jui-Chung's journey into "crypto art."  Three
@@ -28,7 +28,7 @@ for the artist and a vision of where the world is taking him.
 <!-- *[Envy]*. (Incidentally, the technology company [Nvidia] got its name from the -->
 <!-- same word.) -->
 
-{% picture /images/cloud.cxadams.com/index.php/s/P3D8JmsxJiX6DaF/download/yaojuichung-invidia-tkg-2023-invitation-front.png --alt Invidia %}
+{% picture /assets/images/yaojuichung-invidia-tkg-2023-invitation-front.png --alt Invidia %}
 
 *Yao Jui-Chung: Invidia,* Tina Keng Gallery (invitation card)
 {: .text-center}
@@ -55,7 +55,7 @@ tokens as the coin of the realm. He ponders the creation of a crypto wallet, the
 prerequisite of any NFT art, and makes a ritual out of it. Yao has given the
 name *Altar Space* to the site of his initiation.
 
-{% picture /images/cloud.cxadams.com/index.php/s/tNotoX8bGpQ9rwL/download/yaojuichung-invidia-altarspace-IMG_5039-color.JPG --alt Altar Space %}
+{% picture /assets/images/yaojuichung-invidia-altarspace-IMG_5039-color.JPG --alt Altar Space %}
 
 Yao Jui-Chung, *Altar Space* (installation view)
 {: .text-center}
@@ -81,11 +81,11 @@ prays and repeatedly casts a pair of moon blocks on the ground, while other
 series of still photographs of a pair of moon blocks on the temple floor,
 showing the "answers" to his appeals.
 
-{% picture /images/cloud.cxadams.com/index.php/s/skcXgjwddDrYb6H/download/yaojuichung-moonblockchain-prayer.jpg --alt Moon--Block--Chain %}
+{% picture /assets/images/yaojuichung-moonblockchain-prayer.jpg --alt Moon--Block--Chain %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/t8LEpwAikYzDYZZ/download/yaojuichung-moonblockchain-prayer-22.jpg --alt Moon--Block--Chain %}
+{% picture /assets/images/yaojuichung-moonblockchain-prayer-22.jpg --alt Moon--Block--Chain %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/mps8r82kQ4XpCyr/download/yaojuichung-moonblockchain-answer-07.jpg --alt Moon--Block--Chain %}
+{% picture /assets/images/yaojuichung-moonblockchain-answer-07.jpg --alt Moon--Block--Chain %}
 
 Yao Jui-Chung, *Moon--Block--Chain* (2023)
 {: .text-center}
@@ -109,9 +109,9 @@ the *yes or no* answers from moon blocks can be read as a sequence of *ones* and
 and to sign transactions on the blockchain. The steps for using moon blocks as a
 source of *entropy* are detailed in an accompanying [divination guide].
 
-{% picture /images/cloud.cxadams.com/index.php/s/ENrxbyD5PjqBP42/download/yaojuichung-divination-guide-cover.png --alt Divination Guide --img class="img-thumbnail narrow" %}
+{% picture /assets/images/yaojuichung-divination-guide-cover.png --alt Divination Guide --img class="img-thumbnail narrow" %}
 
-{% picture /images/cloud.cxadams.com/index.php/s/kZqztNqgJASX6fZ/download/yaojuichung-divination-guide-01.png --alt Divination Guide --img class="img-thumbnail narrow" %}
+{% picture /assets/images/yaojuichung-divination-guide-01.png --alt Divination Guide --img class="img-thumbnail narrow" %}
 
 Yao Jui-Chung, *Divination Guide* (2023)
 {: .text-center}
@@ -140,7 +140,7 @@ an antique wood carving. At the *Invidia* exhibition, gallery visitors were
 encouraged to take a coin in exchange for a cash donation. Small monetary
 offerings like this are customary at temples.
 
-{% picture /images/cloud.cxadams.com/index.php/s/Kmq73E7tpQs5x6P/download/yaojuichung-invidia-yaocoin-IMG_4912.JPG --alt YAO COIN %}
+{% picture /assets/images/yaojuichung-invidia-yaocoin-IMG_4912.JPG --alt YAO COIN %}
 
 Yao Jui-Chung, *YAO COIN* (2023)
 {: .text-center}
@@ -155,9 +155,9 @@ as talismans of crypto art, with Yao's emblem taking the place of the currency
 symbol. Part of the artist's spiritual and monetary worth is deposited in these
 tradable tokens.
 
-{% picture /images/cloud.cxadams.com/index.php/s/GxCHX97cntigrQD/download/yaojuichung-yaocoin-spin.jpg --alt YAO COIN: SPIN --img class="narrow"%}
+{% picture /assets/images/yaojuichung-yaocoin-spin.jpg --alt YAO COIN: SPIN --img class="narrow"%}
 
-{% picture /images/cloud.cxadams.com/index.php/s/AdH7qQe23ZyqnT3/download/yaojuichung-yaocoin-stacks.jpg --alt YAO COIN: STACKS %}
+{% picture /assets/images/yaojuichung-yaocoin-stacks.jpg --alt YAO COIN: STACKS %}
 
 Yao Jui-Chung, *YAO COIN: SPIN* and *YAO COIN: STACKS* (2023)
 {: .text-center}
@@ -177,7 +177,7 @@ A.I., Mutants, Humans, Fairies, Demons, Ghosts, Beasts,* and *Legendary
 Creatures*. These portrayals mimic PFP (profile-picture) projects that have
 become popular NFT collections.
 
-{% picture /images/cloud.cxadams.com/index.php/s/wCjqQz5KtLcrxWy/download/yaojuichung-twelve-disciples-collection.png --alt Twelve Disciples %}
+{% picture /assets/images/yaojuichung-twelve-disciples-collection.png --alt Twelve Disciples %}
 
 Yao Jui-Chung, *Twelve Disciples* (2023)
 {: .text-center}

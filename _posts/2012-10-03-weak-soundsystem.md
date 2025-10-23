@@ -5,7 +5,7 @@ location: Beijing
 published_at: 2016-11-17 16:42:25 +0800
 category: Projects
 tags: [China, Exhibition]
-image: /images/live.staticflickr.com/8324/8126876501_dd46191c8a_k.jpg
+image: /assets/images/8126876501_dd46191c8a_k.jpg
 ---
 
 The Beijing-based artist Matt Hope was commissioned to build a custom
@@ -17,4 +17,4 @@ The Weak Soundsystem fit right in at the CCD Pavilion, nestled in the courtyard
 of White Space Beijing, and survived a week of exposure to the cultural and
 climatic elements of Caochangdi.
 
-{% picture /images/live.staticflickr.com/8048/8111359498_b7d4360145_k.jpg --alt Weak Soundsystem %}
+{% picture /assets/images/8111359498_b7d4360145_k.jpg --alt Weak Soundsystem %}
