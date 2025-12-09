@@ -63,11 +63,13 @@ sass:
 
 jekyll-archives:
   enabled:
+    - year
     - categories
     - tags
   layouts:
     tag: tag
   permalinks:
+    year: '/archives/:year/'
     category: '/categories/:name/'
     tag: '/tags/:name/'
 
