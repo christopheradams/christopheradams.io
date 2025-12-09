@@ -33,4 +33,19 @@ title: Index
       </ul>
     </span>
   </div>
+  <div class="archives-list-item">
+    <span class="archives-list-item-title">
+      Dates
+    </span>
+    <span class="archives-list-item-text">
+      <ul class="archives-list-item-links">
+        {% assign reverse_archives = archives | reverse %}
+        {% for archive in reverse_archives %}
+          {%- if archive.type == "year" -%}
+            <li><a href="{{ archive.url }}">{{ archive.date | date: "%Y" }}</a>
+          {%- endif -%}
+        {% endfor %}
+      </ul>
+    </span>
+  </div>
 </div>
