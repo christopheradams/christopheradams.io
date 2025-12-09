@@ -2,11 +2,7 @@
 layout: page
 ---
 
-{%- capture category_class -%}
-  {{ "Archives Category " | append: page.title | slugify }}
-{%- endcapture -%}
-
-<div class="archives-list {{ category_class }}">
+<div class="archives-list">
 {% assign posts = page.posts %}
 {% if posts.size > 0 %}
 {% assign posts_sorted = posts | sort: "date" | reverse %}
