@@ -2,7 +2,13 @@
 <meta charset="utf-8">
 
 {% capture page_title %}
-{%- if page.title and page.title != "" -%}
+{%- if page.type == 'year' -%}
+{{ page.date | date: "%Y" }}
+{%- elsif page.type == 'month' -%}
+{{ page.date | date: "%B %Y" }}
+{%- elsif page.type == 'day' -%}
+{{ page.date | date: "%-d B %Y" }}
+{%- elsif page.title and page.title != "" -%}
 {{ page.title }}
 {%- else -%}
 {%- assign post_summary = page.description | default: page.excerpt -%}
