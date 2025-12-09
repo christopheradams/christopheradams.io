@@ -28,6 +28,8 @@ social_links:
     url: https://github.com/christopheradams
   - title: Objkt
     url: https://objkt.com/profile/christopheradams/
+  - title: PGP
+    url: https://keys.openpgp.org/search?q=chris%40raysend.com
 
 # Authors
 # see _data/authors.yml
