@@ -4,7 +4,7 @@ description: TheCube Project Space
 location: Taipei
 published_at: 2022-11-02 16:56:41 +0800
 category: Photos
-tags: [Taiwan, Portrait]
+tags: [Taiwan, Portraits]
 image: /assets/images/20181117-1641_Taipei_TheCube_L1005846-0.jpg
 ---
 

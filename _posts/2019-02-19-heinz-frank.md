@@ -4,7 +4,7 @@ description: Exhibition opening at Kunsthalle Wien
 location: Vienna
 published_at: 2021-11-18 15:36:17 +0800
 category: Photos
-tags: [Europe, Portrait]
+tags: [Europe, Portraits]
 image: /assets/images/20190219-1912_Vienna_Kunsthalle_L1000927-0.jpg
 ---
 

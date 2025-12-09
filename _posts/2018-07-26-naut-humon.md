@@ -4,7 +4,7 @@ description: Gray Area
 location: San Francisco
 published_at: 2018-09-09 21:53:02 +0800
 category: Photos
-tags: [USA, Portrait]
+tags: [USA, Portraits]
 image: /assets/images/20180726-1734_SanFrancisco_GrayArea_L1002596-0.jpg
 ---
 

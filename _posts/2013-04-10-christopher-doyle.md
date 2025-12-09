@@ -4,7 +4,7 @@ description: East Hotel
 location: Beijing
 published_at: 2016-11-15 15:20:08 +0800
 category: Photos
-tags: [China, Portrait]
+tags: [China, Portraits]
 image: /assets/images/8699512236_ae449847b2_k.jpg
 ---
 

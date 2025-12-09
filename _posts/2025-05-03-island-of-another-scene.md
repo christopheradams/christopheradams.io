@@ -6,7 +6,7 @@ location: Taipei
 date: 2025-05-03 15:00 +0800
 published_at: 2025-05-31 14:37:33 +0800
 category: Projects
-tags: [Taiwan, Exhibition, Featured]
+tags: [Taiwan, Exhibitions, Featured]
 image: /assets/images/DSC02836.JPG
 ---
 
