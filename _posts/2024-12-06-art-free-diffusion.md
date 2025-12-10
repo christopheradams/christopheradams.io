@@ -2,6 +2,7 @@
 layout: post
 title: Art-Free Diffusion
 date: 2024-12-06 l3:30 +0800
+published_at: 2024-12-06 l3:30 +0800
 location: Taipei
 category: Notes
 tags: [Text-to-Image]
