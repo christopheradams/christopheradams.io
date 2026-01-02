@@ -87,6 +87,12 @@
         {{ post_dateline_tag | strip }}
         {%- endif -%}
         {{ post.content | strip }}
+        {% if post.link %}
+        <p>
+          Link:
+          <a href="{{ post.link }}">{{ post.link }}</a>
+        </p>
+        {% endif %}
         ]]></content>
       {% endunless %}
 
