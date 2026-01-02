@@ -6,7 +6,7 @@ published_at: 2024-12-06 l3:30 +0800
 location: Taipei
 category: Notes
 tags: [Text-to-Image]
-source: https://arxiv.org/abs/2406.09408
+link: https://arxiv.org/abs/2406.09408
 ---
 
 How can one truly claim that an AI has been trained on what is "clearly not art"

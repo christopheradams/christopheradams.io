@@ -7,7 +7,7 @@ location: Taipei
 category: Notes
 tags: [Featured, Taiwan]
 image: assets/images/White-Fungus-Issue-18.jpg
-source: https://www.whitefungus.com/dinoliaominghe-fankuijiumeiyoujintou-zheyibeizhiyuzhishan
+link: https://www.whitefungus.com/dinoliaominghe-fankuijiumeiyoujintou-zheyibeizhiyuzhishan
 ---
 
 {% picture /assets/images/White-Fungus-Issue-18-p178.jpg --alt White Fungus

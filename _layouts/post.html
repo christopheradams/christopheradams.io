@@ -9,11 +9,11 @@ itemtype: http://schema.org/BlogPosting
 </div>
 
 <div class="page-details">
-  {% if page.source %}
+  {% if page.link %}
   <p>
-    Source:
-    <a href="{{ page.source }}">
-      {% assign links = page.source | split: "/" %}
+    Link:
+    <a href="{{ page.link }}">
+      {% assign links = page.link | split: "/" %}
       {{ links[2] }}
     </a>
   </p>
