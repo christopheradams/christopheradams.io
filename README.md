@@ -13,11 +13,8 @@ The previous theme used [Remarkdown]. See the `remarkdown` branch.
 * Ruby
 * Bundler
 * [libvips] and/or ImageMagick
+* Git LFS
 * wget
-
-```sh
-gem install bundler
-```
 
 ## Installing and building
 
