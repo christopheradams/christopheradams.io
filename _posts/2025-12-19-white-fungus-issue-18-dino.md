@@ -4,7 +4,7 @@ description: Portraits of Dino, pioneering Taiwanese noise artist
 date: 2025-12-19 11:45 +0800
 published_at: 2025-12-19 11:45 +0800
 location: Taipei
-category: Notes
+category: News
 tags: [Featured, Taiwan]
 image: assets/images/White-Fungus-Issue-18.jpg
 link: https://www.whitefungus.com/dinoliaominghe-fankuijiumeiyoujintou-zheyibeizhiyuzhishan
