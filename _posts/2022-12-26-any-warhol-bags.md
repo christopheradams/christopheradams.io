@@ -4,8 +4,8 @@ description: Portraits in Plastic
 location: Taipei
 published_at: 2023-01-05 01:44:12 +0800
 last_modified_at: 2023-01-31 13:18:36 +0800
-category: Machine Learning
-tags: [Text-to-Image]
+category: Works
+tags: [Artificial Intelligence]
 image: /assets/images/20221227041809_00017_a_plastic_bag_against_a_window.png
 ---
 

@@ -4,8 +4,8 @@ description: Bending identities in style
 location: Taipei
 published_at: 2023-01-31 21:57:09 +0800
 last_modified_at: 2023-01-31 21:57:09 +0800
-category: Machine Learning
-tags: [Text-to-Image]
+category: Works
+tags: [Artificial Intelligence]
 image: /assets/images/20221206140958_00001_a_photograph_portrait_of_itemidem_with_red_lips_and_pale_white_skin_white_latex_fabric_by_saul_leiter.png
 ---
 

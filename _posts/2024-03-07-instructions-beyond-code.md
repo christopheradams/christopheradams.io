@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2024-03-22 13:34:26 +0800
 last_modified_at: 2024-03-25 19:07:08 +0800
 category: Articles
-tags: [Blockchain, Generative Art, Featured]
+tags: [Artificial Intelligence, Blockchain, Generative Art, Featured]
 image:
   author: Liu Nai-Ting
   path: /assets/images/Liu-Nai-Ting_2023_Walk-in-Progress_Miscalculation.jpg
