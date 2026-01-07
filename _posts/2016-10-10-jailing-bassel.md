@@ -3,7 +3,7 @@ title: Jailing Bassel
 description: The people who are in real danger never leave their countries
 location: Seoul
 published_at: 2016-11-17 18:47:22 +0800
-category: Articles
+category: Writing
 tags: [Creative Commons]
 image: /assets/images/6553833251_3cc3bd1a9c_k.jpg
 ---

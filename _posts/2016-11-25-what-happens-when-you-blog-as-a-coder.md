@@ -2,7 +2,7 @@
 title: What happens when you blog as a coder?
 description: The uptick of static site generators
 published_at: 2016-11-27 19:45:26 +0800
-category: Articles
+category: Writing
 tags: [Programming]
 image: /assets/images/8271084033_c56ced1cee_k.jpg
 location: Taipei
