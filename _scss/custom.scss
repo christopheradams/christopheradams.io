@@ -29,6 +29,16 @@ $page-line-height: 1.7;
   color: var(--bs-body-color);
 }
 
+@include media-breakpoint-down(sm) {
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  .navbar-expand .navbar-nav .nav-link {
+    padding-right: 0;
+  }
+}
+
 .homepage-body {
   padding-top: 2rem;
   padding-bottom: 1rem;
