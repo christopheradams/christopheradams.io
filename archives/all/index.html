@@ -1,0 +1,27 @@
+---
+layout: article
+title: All
+---
+
+<div class="archives-list">
+{% assign posts = site.posts %}
+{% if posts.size > 0 %}
+{% assign posts_sorted = posts | sort: "date" | reverse %}
+
+{% for post in posts_sorted %}
+  <a href="{{ post.url }}" class="archives-list-item">
+    <span class="archives-list-item-title">
+      {{ post.title }}
+    </span>
+    <span class="archives-list-item-text">
+        {% assign post_summary = post.description | default: post.excerpt %}
+        {{ post_summary | strip_html | normalize_whitespace | truncatewords: 50 }}
+        <span class="archives-list-item-dateline">
+          —&nbsp;{%- if post.location -%}{{ post.location }}, {%- endif %}
+          {{ post.date | date: "%B %Y" }}
+        </span>
+    </span>
+  </a>
+{% endfor %}
+{% endif %}
+</div>

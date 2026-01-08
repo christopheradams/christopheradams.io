@@ -4,6 +4,15 @@ title: Archives
 ---
 
 <div class="archives-list">
+  <a href="{% link archives/all/index.html %}" class="archives-list-item">
+    <span class="archives-list-item-title">
+      All
+    </span>
+
+    <span class="archives-list-item-text">
+      Posts in reverse chronological order
+    </span>
+  </a>
   {% assign archives = site.archives | sort: "title" %}
   {% for archive in archives %}
     {% if archive.type == "category"  %}
