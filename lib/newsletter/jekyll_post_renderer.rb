@@ -31,6 +31,7 @@ module Newsletter
 
       renderer = Jekyll::Renderer.new(site, doc)
       html = renderer.run.to_s
+      html = strip_responsive_img_attributes(html)
 
       doc.data["layout"] = original_layout
       doc.content = original_content
@@ -99,6 +100,15 @@ module Newsletter
       inner = inner.gsub(/\s+--img\s+class=(\"[^\"]*\"|'[^']*')/, "")
 
       "#{leading_ws}{% picture #{inner.rstrip} %}#{trailing_ws}"
+    end
+
+    # Many email clients don't need (or want) responsive image attributes.
+    # If a picture tag renders to a single 640w image, jekyll_picture_tag still
+    # emits srcset="... 640w". For newsletters, strip srcset/sizes.
+    def strip_responsive_img_attributes(html)
+      html.to_s
+        .gsub(/\s+srcset=(\"[^\"]*\"|'[^']*')/, "")
+        .gsub(/\s+sizes=(\"[^\"]*\"|'[^']*')/, "")
     end
 
     def resolve_post!(site, identifier)
