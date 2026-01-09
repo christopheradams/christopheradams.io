@@ -75,19 +75,10 @@ module NewsletterEmail
   module_function
 
   def compose(rendered)
-    title = rendered[:title].to_s
-    description = rendered[:description].to_s
-    url = rendered[:url].to_s
     fragment = rendered[:html].to_s
 
     fragment = strip_excerpt(fragment)
-
-    header_bits = []
-    header_bits << %(<h1 style="margin: 0 0 0.5em 0;">#{escape_html(title)}</h1>) unless title.empty?
-    header_bits << %(<p style="margin: 0 0 1em 0; opacity: 0.85;">#{escape_html(description)}</p>) unless description.empty?
-    header_bits << %(<p style="margin: 0 0 1.5em 0;"><a href="#{escape_attr(url)}">Read on the web</a></p>) unless url.empty?
-
-    (header_bits.join("\n") + "\n" + fragment).strip + "\n"
+    fragment.strip + "\n"
   end
 
   # Your site uses <!--more--> as excerpt_separator.
@@ -96,17 +87,5 @@ module NewsletterEmail
     html.to_s.gsub("<!--more-->", "")
   end
 
-  def escape_html(s)
-    s.to_s
-      .gsub("&", "&amp;")
-      .gsub("<", "&lt;")
-      .gsub(">", "&gt;")
-      .gsub('"', "&quot;")
-      .gsub("'", "&#39;")
-  end
-
-  def escape_attr(s)
-    escape_html(s)
-  end
 end
 
