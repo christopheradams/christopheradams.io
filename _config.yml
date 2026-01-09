@@ -28,8 +28,6 @@ social_links:
     url: https://github.com/christopheradams
   - title: PGP
     url: https://keys.openpgp.org/search?q=chris%40raysend.com
-  - title: Newsletter
-    url: https://news.cxadams.com/subscription/form
 
 # Authors
 # see _data/authors.yml
