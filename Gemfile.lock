@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/christopheradams/jekyll-listmonk.git
+  revision: 5b15e6e1e7b2a442eb5691c731f35d7f3045dee6
+  specs:
+    jekyll_listmonk (0.2.2)
+      jekyll (>= 4.0, < 5.0)
+      reverse_markdown (>= 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -14,7 +22,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.3)
     forwardable-extended (2.6.0)
-    google-protobuf (4.33.2)
+    google-protobuf (4.33.3)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.1)
@@ -74,15 +82,22 @@ GEM
       logger
       mime-types-data (~> 3.2015)
     mime-types-data (3.2024.1203)
+    mini_portile2 (2.8.9)
+    nokogiri (1.19.0)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     objective_elements (1.1.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (7.0.2)
+    racc (1.8.1)
     rainbow (3.1.1)
     rake (13.3.1)
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
+    reverse_markdown (3.0.1)
+      nokogiri
     rexml (3.4.4)
     rouge (4.7.0)
     ruby-vips (2.2.2)
@@ -107,6 +122,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.17)
   jekyll-paginate
   jekyll-sitemap
+  jekyll_listmonk!
   jekyll_picture_tag (~> 2.0)
   webrick (~> 1.9)
 
