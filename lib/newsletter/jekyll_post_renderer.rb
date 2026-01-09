@@ -24,12 +24,16 @@ module Newsletter
 
       # Render without wrapping in the site's HTML layout (emails want fragments).
       original_layout = doc.data["layout"]
+      original_content = doc.content
+
       doc.data["layout"] = nil
+      doc.content = rewrite_picture_tags_for_newsletter(original_content)
 
       renderer = Jekyll::Renderer.new(site, doc)
       html = renderer.run.to_s
 
       doc.data["layout"] = original_layout
+      doc.content = original_content
 
       {
         title: doc.data["title"].to_s,
@@ -42,6 +46,60 @@ module Newsletter
     end
 
     private
+
+    # Converts "{% picture /path --img class="..." %}" into "{% picture newsletter /path %}"
+    # and strips any "--img class=..." option since email doesn't need your site CSS classes.
+    #
+    # Assumptions from this repo:
+    # - picture tags begin at the start of a line
+    # - each tag is its own block, but it may span multiple lines until "%}"
+    def rewrite_picture_tags_for_newsletter(markdown)
+      out = +""
+      lines = markdown.to_s.lines
+
+      i = 0
+      while i < lines.length
+        line = lines[i]
+
+        if line.lstrip.start_with?("{% picture")
+          tag = +""
+          loop do
+            tag << lines[i]
+            i += 1
+            break if tag.include?("%}") || i >= lines.length
+          end
+
+          out << transform_picture_tag_for_newsletter(tag)
+          next
+        end
+
+        out << line
+        i += 1
+      end
+
+      out
+    end
+
+    def transform_picture_tag_for_newsletter(tag)
+      m = tag.match(/\A(\s*)\{\%\s*picture\s+([\s\S]*?)\s*\%\}(\s*)\z/)
+      return tag unless m
+
+      leading_ws = m[1]
+      inner = m[2]
+      trailing_ws = m[3]
+
+      inner_lstripped = inner.lstrip
+      if inner_lstripped.start_with?("/") || inner_lstripped.start_with?("./") || inner_lstripped.start_with?("../")
+        inner = "newsletter " + inner_lstripped
+      else
+        inner = inner_lstripped
+      end
+
+      # Remove `--img class="..."` (and single-quote variant).
+      inner = inner.gsub(/\s+--img\s+class=(\"[^\"]*\"|'[^']*')/, "")
+
+      "#{leading_ws}{% picture #{inner.rstrip} %}#{trailing_ws}"
+    end
 
     def resolve_post!(site, identifier)
       id = identifier.to_s.strip

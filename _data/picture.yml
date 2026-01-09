@@ -9,6 +9,12 @@ presets:
     fallback_width: 800
     markup: img
 
+  newsletter:
+    formats: [jpg]
+    widths: [640]
+    fallback_width: 640
+    markup: img
+
   meta:
     formats: [jpg]
     fallback_width: 1280
