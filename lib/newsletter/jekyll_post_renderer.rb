@@ -113,12 +113,11 @@ module Newsletter
     #     path: /assets/images/foo.jpg
     #     title: Some Title
     #
-    # Injection is skipped if the first non-empty line already starts with `{% picture`.
+    # Injection is skipped only if the first `{% picture ... %}` block already references
+    # the same image path (to avoid duplicates). If the post begins with a different
+    # picture tag, we still inject the front matter image above it.
     def inject_frontmatter_image_picture_tag(markdown, image_field)
       content = markdown.to_s
-
-      first_nonempty = content.lines.find { |l| !l.strip.empty? }
-      return content if first_nonempty&.lstrip&.start_with?("{% picture")
 
       image_path, image_alt = extract_frontmatter_image(image_field)
       return content if image_path.nil? || image_path.to_s.strip.empty?
@@ -131,7 +130,36 @@ module Newsletter
       end
       tag << " %}\n"
 
+      # Avoid double-inserting if the post already starts with this image.
+      first_picture = first_picture_block(content)
+      if first_picture && first_picture.include?(image_path)
+        return content
+      end
+
       tag + "\n" + content
+    end
+
+    def first_picture_block(markdown)
+      lines = markdown.to_s.lines
+      i = 0
+      while i < lines.length
+        line = lines[i]
+        if line.strip.empty?
+          i += 1
+          next
+        end
+
+        return nil unless line.lstrip.start_with?("{% picture")
+
+        block = +""
+        loop do
+          block << lines[i]
+          i += 1
+          break if block.include?("%}") || i >= lines.length
+        end
+        return block
+      end
+      nil
     end
 
     def extract_frontmatter_image(image_field)
