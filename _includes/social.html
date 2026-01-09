@@ -1,5 +1,6 @@
-{% if site.social_links %}
+{% if site.social_links or site.newsletter %}
 <div class="footer-social d-flex flex-wrap justify-content-center">
+  {% if site.social_links %}
   {% for social in site.social_links %}
   <div class="tag-item">
     <a rel="me" href="{{ social['url'] }}" target="_blank">
@@ -7,5 +8,13 @@
     </a>
   </div>
   {% endfor %}
+  {% endif %}
+  {% if site.newsletter %}
+  <div class="tag-item">
+    <a rel="me" href="{{ site.newsletter }}" target="_blank">
+      Newsletter
+    </a>
+  </div>
+  {% endif %}
 </div>
 {% endif %}
