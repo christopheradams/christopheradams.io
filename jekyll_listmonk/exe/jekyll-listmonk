@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "jekyll_listmonk"
+
+exit(JekyllListmonk::CLI.run(ARGV))
+
