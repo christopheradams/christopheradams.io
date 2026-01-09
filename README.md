@@ -60,15 +60,12 @@ Set your Listmonk config via environment variables:
 - **`LISTMONK_USER` / `LISTMONK_TOKEN`**: Listmonk API user + token (sent as Basic auth `user:token`)
   - Set **`LISTMONK_AUTH_MODE=header`** to send `Authorization: token user:token` instead.
 
-Legacy/backcompat (if you used it previously):
-
-- **`LISTMONK_PASSWORD`**: Basic auth password (only used if `LISTMONK_TOKEN` is not set)
-
 Optional:
 
 - **`LISTMONK_SUBJECT`**: Email subject (defaults to the post title)
-- **`LISTMONK_CAMPAIGN_NAME`**: Campaign name (defaults to `"Newsletter: <title>"`)
+- **`LISTMONK_CAMPAIGN_NAME`**: Campaign name (defaults to the post title)
 - **`LISTMONK_CAMPAIGN_TYPE`**: Defaults to `regular`
+- **`LISTMONK_TEMPLATE_ID`**: Campaign template ID
 - **`LISTMONK_FROM_EMAIL` / `LISTMONK_FROM_NAME`**
 - **`LISTMONK_TAGS`**: Comma-separated tags
 - **`DRY_RUN=1`**: Print HTML and skip API calls

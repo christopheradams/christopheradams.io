@@ -30,7 +30,6 @@ namespace :newsletter do
     base_url = ENV.fetch("LISTMONK_URL")
     username = ENV["LISTMONK_USER"]
     token = ENV["LISTMONK_TOKEN"]
-    password = ENV["LISTMONK_PASSWORD"] # legacy/backcompat
 
     use_token_header = ENV.fetch("LISTMONK_AUTH_MODE", "").downcase == "header"
 
@@ -38,12 +37,14 @@ namespace :newsletter do
     raise "LISTMONK_LIST_IDS must contain at least one list id" if list_ids.empty?
 
     name = ENV["LISTMONK_CAMPAIGN_NAME"].to_s
-    name = "Newsletter: #{rendered[:title]}" if name.empty?
+    name = rendered[:title].to_s if name.empty?
 
     subject = ENV["LISTMONK_SUBJECT"].to_s
     subject = rendered[:title] if subject.empty?
 
     type = ENV.fetch("LISTMONK_CAMPAIGN_TYPE", "regular")
+    template_id = ENV["LISTMONK_TEMPLATE_ID"]&.to_s&.strip
+    template_id = template_id.to_i if template_id && !template_id.empty?
     from_email = ENV["LISTMONK_FROM_EMAIL"]
     from_name = ENV["LISTMONK_FROM_NAME"]
 
@@ -52,7 +53,6 @@ namespace :newsletter do
     client = Newsletter::ListmonkClient.new(
       base_url: base_url,
       username: username,
-      password: password,
       token: token,
       use_token_header: use_token_header
     )
@@ -63,6 +63,7 @@ namespace :newsletter do
       lists: list_ids,
       html_body: html_body,
       type: type,
+      template_id: template_id,
       from_email: from_email,
       from_name: from_name,
       tags: tags

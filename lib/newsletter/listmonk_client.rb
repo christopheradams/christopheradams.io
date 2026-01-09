@@ -11,19 +11,15 @@ module Newsletter
     # - Authorization header: "token api_user:api_token"
     #
     # This client supports both. By default, if username+token are provided, it uses Basic auth.
-    #
-    # For legacy/backcompat, username+password is also supported.
     def initialize(
       base_url:,
       username: nil,
-      password: nil,
       token: nil,
       use_token_header: false,
       timeout: 30
     )
       @base_uri = URI(base_url)
       @username = username
-      @password = password
       @token = token
       @use_token_header = use_token_header
       @timeout = timeout
@@ -35,6 +31,7 @@ module Newsletter
       lists:,
       html_body:,
       type: "regular",
+      template_id: nil,
       from_email: nil,
       from_name: nil,
       tags: nil
@@ -48,6 +45,7 @@ module Newsletter
         body: html_body
       }
 
+      payload[:template_id] = template_id if template_id
       payload[:from_email] = from_email if from_email && !from_email.empty?
       payload[:from_name] = from_name if from_name && !from_name.empty?
       payload[:tags] = tags if tags && !tags.empty?
@@ -86,18 +84,14 @@ module Newsletter
     end
 
     def apply_auth!(req)
-      if present?(@username) && present?(@token)
-        if @use_token_header
-          req["Authorization"] = "token #{@username}:#{@token}"
-        else
-          req.basic_auth(@username, @token)
-        end
-        return
+      unless present?(@username) && present?(@token)
+        raise Error, "Missing Listmonk credentials: set LISTMONK_USER and LISTMONK_TOKEN"
       end
 
-      if present?(@username) && present?(@password)
-        req.basic_auth(@username, @password)
-        return
+      if @use_token_header
+        req["Authorization"] = "token #{@username}:#{@token}"
+      else
+        req.basic_auth(@username, @token)
       end
     end
 
