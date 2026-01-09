@@ -29,8 +29,10 @@ namespace :newsletter do
 
     base_url = ENV.fetch("LISTMONK_URL")
     username = ENV["LISTMONK_USER"]
-    password = ENV["LISTMONK_PASSWORD"]
     token = ENV["LISTMONK_TOKEN"]
+    password = ENV["LISTMONK_PASSWORD"] # legacy/backcompat
+
+    use_token_header = ENV.fetch("LISTMONK_AUTH_MODE", "").downcase == "header"
 
     list_ids = ENV.fetch("LISTMONK_LIST_IDS").split(",").map(&:strip).reject(&:empty?).map(&:to_i)
     raise "LISTMONK_LIST_IDS must contain at least one list id" if list_ids.empty?
@@ -51,7 +53,8 @@ namespace :newsletter do
       base_url: base_url,
       username: username,
       password: password,
-      token: token
+      token: token,
+      use_token_header: use_token_header
     )
 
     res = client.create_campaign!(

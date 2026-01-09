@@ -6,11 +6,26 @@ module Newsletter
   class ListmonkClient
     class Error < StandardError; end
 
-    def initialize(base_url:, username: nil, password: nil, token: nil, timeout: 30)
+    # Auth modes supported by listmonk:
+    # - Basic auth: username=api_user, token=api_token (sent as user:token)
+    # - Authorization header: "token api_user:api_token"
+    #
+    # This client supports both. By default, if username+token are provided, it uses Basic auth.
+    #
+    # For legacy/backcompat, username+password is also supported.
+    def initialize(
+      base_url:,
+      username: nil,
+      password: nil,
+      token: nil,
+      use_token_header: false,
+      timeout: 30
+    )
       @base_uri = URI(base_url)
       @username = username
       @password = password
       @token = token
+      @use_token_header = use_token_header
       @timeout = timeout
     end
 
@@ -51,11 +66,7 @@ module Newsletter
       req["Content-Type"] = "application/json"
       req.body = JSON.dump(payload)
 
-      if @token && !@token.empty?
-        req["Authorization"] = "Bearer #{@token}"
-      elsif @username && @password
-        req.basic_auth(@username, @password)
-      end
+      apply_auth!(req)
 
       http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = (uri.scheme == "https")
@@ -72,6 +83,26 @@ module Newsletter
       JSON.parse(body)
     rescue JSON::ParserError
       raise Error, "Listmonk API returned non-JSON response (HTTP #{res&.code}): #{body}"
+    end
+
+    def apply_auth!(req)
+      if present?(@username) && present?(@token)
+        if @use_token_header
+          req["Authorization"] = "token #{@username}:#{@token}"
+        else
+          req.basic_auth(@username, @token)
+        end
+        return
+      end
+
+      if present?(@username) && present?(@password)
+        req.basic_auth(@username, @password)
+        return
+      end
+    end
+
+    def present?(s)
+      s && !s.to_s.empty?
     end
   end
 end

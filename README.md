@@ -57,8 +57,12 @@ Set your Listmonk config via environment variables:
 
 - **`LISTMONK_URL`**: Base URL, e.g. `https://list.example.com`
 - **`LISTMONK_LIST_IDS`**: Comma-separated list IDs, e.g. `1,2`
-- **`LISTMONK_USER` / `LISTMONK_PASSWORD`**: Admin API credentials (Basic auth)
-  - Alternatively **`LISTMONK_TOKEN`** (Bearer token), if your Listmonk setup supports it
+- **`LISTMONK_USER` / `LISTMONK_TOKEN`**: Listmonk API user + token (sent as Basic auth `user:token`)
+  - Set **`LISTMONK_AUTH_MODE=header`** to send `Authorization: token user:token` instead.
+
+Legacy/backcompat (if you used it previously):
+
+- **`LISTMONK_PASSWORD`**: Basic auth password (only used if `LISTMONK_TOKEN` is not set)
 
 Optional:
 
@@ -74,7 +78,7 @@ Example:
 ```sh
 LISTMONK_URL="https://list.example.com" \
 LISTMONK_USER="admin" \
-LISTMONK_PASSWORD="secret" \
+LISTMONK_TOKEN="token" \
 LISTMONK_LIST_IDS="1" \
 bundle exec rake newsletter:campaign[2024-03-07-instructions-beyond-code]
 ```
