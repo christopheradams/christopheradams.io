@@ -40,6 +40,45 @@ Note:
 make deploy DEPLOY_TARGET="user@example.org:/path/to/webroot"
 ```
 
+## Newsletter automation (Listmonk)
+
+This repo includes a `Rakefile` that can render a Jekyll post (including Liquid tags)
+into an email-friendly HTML fragment and create a Listmonk campaign from it.
+
+### Preview
+
+```sh
+bundle exec rake newsletter:preview[instructions-beyond-code]
+```
+
+### Create a campaign
+
+Set your Listmonk config via environment variables:
+
+- **`LISTMONK_URL`**: Base URL, e.g. `https://list.example.com`
+- **`LISTMONK_LIST_IDS`**: Comma-separated list IDs, e.g. `1,2`
+- **`LISTMONK_USER` / `LISTMONK_PASSWORD`**: Admin API credentials (Basic auth)
+  - Alternatively **`LISTMONK_TOKEN`** (Bearer token), if your Listmonk setup supports it
+
+Optional:
+
+- **`LISTMONK_SUBJECT`**: Email subject (defaults to the post title)
+- **`LISTMONK_CAMPAIGN_NAME`**: Campaign name (defaults to `"Newsletter: <title>"`)
+- **`LISTMONK_CAMPAIGN_TYPE`**: Defaults to `regular`
+- **`LISTMONK_FROM_EMAIL` / `LISTMONK_FROM_NAME`**
+- **`LISTMONK_TAGS`**: Comma-separated tags
+- **`DRY_RUN=1`**: Print HTML and skip API calls
+
+Example:
+
+```sh
+LISTMONK_URL="https://list.example.com" \
+LISTMONK_USER="admin" \
+LISTMONK_PASSWORD="secret" \
+LISTMONK_LIST_IDS="1" \
+bundle exec rake newsletter:campaign[2024-03-07-instructions-beyond-code]
+```
+
 ## Screenshot
 
 ![Screenshot](/assets/img/screenshot.png?raw=true)
