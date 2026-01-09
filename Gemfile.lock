@@ -108,6 +108,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   jekyll_picture_tag (~> 2.0)
+  rake (~> 13.3)
   webrick (~> 1.9)
 
 BUNDLED WITH
