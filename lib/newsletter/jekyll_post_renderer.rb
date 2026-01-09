@@ -27,7 +27,9 @@ module Newsletter
       original_content = doc.content
 
       doc.data["layout"] = nil
-      doc.content = rewrite_picture_tags_for_newsletter(original_content)
+      doc.content = rewrite_picture_tags_for_newsletter(
+        inject_frontmatter_image_picture_tag(original_content, doc.data["image"])
+      )
 
       renderer = Jekyll::Renderer.new(site, doc)
       html = renderer.run.to_s
@@ -100,6 +102,66 @@ module Newsletter
       inner = inner.gsub(/\s+--img\s+class=(\"[^\"]*\"|'[^']*')/, "")
 
       "#{leading_ws}{% picture #{inner.rstrip} %}#{trailing_ws}"
+    end
+
+    # If the post front matter includes an `image` field, inject a `{% picture ... %}`
+    # tag at the very beginning of the post content.
+    #
+    # Supported front matter formats:
+    # - image: assets/images/foo.jpg
+    # - image:
+    #     path: /assets/images/foo.jpg
+    #     title: Some Title
+    #
+    # Injection is skipped if the first non-empty line already starts with `{% picture`.
+    def inject_frontmatter_image_picture_tag(markdown, image_field)
+      content = markdown.to_s
+
+      first_nonempty = content.lines.find { |l| !l.strip.empty? }
+      return content if first_nonempty&.lstrip&.start_with?("{% picture")
+
+      image_path, image_alt = extract_frontmatter_image(image_field)
+      return content if image_path.nil? || image_path.to_s.strip.empty?
+
+      image_path = normalize_image_path(image_path)
+
+      tag = +"{% picture #{image_path}"
+      if image_alt && !image_alt.to_s.strip.empty?
+        tag << %( --alt "#{escape_liquid_double_quotes(one_line(image_alt))}")
+      end
+      tag << " %}\n"
+
+      tag + "\n" + content
+    end
+
+    def extract_frontmatter_image(image_field)
+      case image_field
+      when String
+        [image_field, nil]
+      when Hash
+        path = image_field["path"] || image_field[:path]
+        title = image_field["title"] || image_field[:title]
+        [path, title]
+      else
+        [nil, nil]
+      end
+    end
+
+    def normalize_image_path(path)
+      p = path.to_s.strip
+      return p if p.empty?
+
+      # Normalize to an absolute path for consistency with existing tags in this repo.
+      p = "/#{p}" unless p.start_with?("/", "./", "../")
+      p
+    end
+
+    def one_line(s)
+      s.to_s.gsub(/\s+/, " ").strip
+    end
+
+    def escape_liquid_double_quotes(s)
+      s.to_s.gsub("\\", "\\\\").gsub('"', '\"')
     end
 
     # Many email clients don't need (or want) responsive image attributes.
