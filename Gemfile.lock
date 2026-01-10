@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/christopheradams/jekyll-listmonk.git
-  revision: 5b15e6e1e7b2a442eb5691c731f35d7f3045dee6
+  revision: 2a89f062d5d095913375cebcd2a1d187ffc231c9
   specs:
-    jekyll_listmonk (0.2.2)
+    jekyll_listmonk (0.3.0)
       jekyll (>= 4.0, < 5.0)
       reverse_markdown (>= 2.1)
 
