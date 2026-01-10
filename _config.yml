@@ -52,6 +52,16 @@ paginate_path: "/page/:num/"
 feed:
   posts_limit: 25
 
+listmonk:
+  url: "https://news.cxadams.com/"
+  list_ids: [3]
+  template_id: 4
+  frontmatter_image: true
+  track_links: true
+  upload_media: true
+  picture_tag_preset: "newsletter"
+  format: "markdown"
+
 excerpt_separator: <!--more-->
 
 sass:
