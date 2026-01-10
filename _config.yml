@@ -76,6 +76,16 @@ picture:
   relative_url: false
   suppress_warnings: true
 
+listmonk:
+  url: "https://news.cxadams.com/"
+  list_ids: [3]
+  template_id: 4
+  frontmatter_image: true
+  track_links: true
+  upload_media: true
+  picture_tag_preset: "newsletter"
+  format: "markdown"
+
 plugins:
   - jekyll-feed
   - jekyll-archives
