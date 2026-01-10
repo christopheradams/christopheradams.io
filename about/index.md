@@ -63,7 +63,11 @@ Get It Louder*
 {% endif %}
 
 {% if site.newsletter %}
+
+## Newsletter
+
 [Subscribe to the Newsletter]({{ site.newsletter }})
+
 {% endif %}
 
 ## Photos
