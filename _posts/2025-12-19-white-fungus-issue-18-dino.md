@@ -20,4 +20,4 @@ issue of the arts magazine *White Fungus*, in an article "Infinite Feedback: A
 Toast to Resting in the Highest Excellence" by Yan Jun.
 
 Issue 18 of *White Fungus* can be pre-ordered at
-[shop.whitefungus.com](https://shop.whitefungus.com/products/wf-issue-18-presale).
+<https://shop.whitefungus.com/products/wf-issue-18-presale>.
