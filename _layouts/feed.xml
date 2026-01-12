@@ -94,7 +94,7 @@
         {% if post.link %}
         <p>
           Link:
-          <a href="{{ post.link }}">{{ post.link }}</a>
+          <a href="{{ post.link }}">{{ post.link  | split: '://' | last }}</a>
         </p>
         {% endif %}
         ]]></content>
