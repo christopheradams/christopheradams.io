@@ -12,10 +12,7 @@ itemtype: http://schema.org/BlogPosting
   {% if page.link %}
   <p>
     Link:
-    <a href="{{ page.link }}">
-      {% assign links = page.link | split: "/" %}
-      {{ links[2] }}
-    </a>
+    <a href="{{ page.link }}">{{ page.link  | split: '://' | last }}</a>
   </p>
   {% endif %}
 
