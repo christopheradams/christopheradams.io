@@ -405,6 +405,10 @@ $page-line-height: 1.7;
   }
 }
 
+.pagination {
+  @extend .justify-content-center;
+}
+
 .footer-tags,
 .footer-social,
 .footer-copyright {
