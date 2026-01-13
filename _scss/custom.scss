@@ -301,8 +301,14 @@ $page-line-height: 1.7;
 }
 
 .page-share {
+  @extend .d-flex;
+  @extend .flex-row;
+  @extend .justify-content-center;
+
   list-style-type: none;
+  text-transform: uppercase;
   font-size: 1.2rem;
+  letter-spacing: 0.1em;
 
   li {
     margin: 0 0.5rem;
@@ -389,10 +395,6 @@ $page-line-height: 1.7;
   .footer-line {
     padding: 1rem;
   }
-
-  .footer-copyright {
-    font-size: 0.8rem;
-  }
 }
 
 .page-link {
@@ -401,6 +403,18 @@ $page-line-height: 1.7;
   &:hover {
     color: var(--bs-body-color);
   }
+}
+
+.footer-tags,
+.footer-social,
+.footer-copyright {
+  @extend .d-flex;
+  @extend .flex-wrap;
+  @extend .justify-content-center;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
 }
 
 .page-social,
