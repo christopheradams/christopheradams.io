@@ -4,6 +4,7 @@ title: Dangdai × Lumitree
 description: Six artists in 8K in downtown Taipei
 date: 2025-05-08 19:00 +0800
 published_at: 2025-06-04 20:56:55 +0800
+location: Taipei
 category: Projects
 tags: [Taiwan, Exhibitions, Featured]
 image: /assets/images/dangdai-lumitree-2025-vlcsnap-weather.png
