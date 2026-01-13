@@ -26,6 +26,12 @@ $page-line-height: 1.7;
   padding-right: 0;
 }
 
+.site-nav {
+  @extend .navbar;
+  @extend .navbar-expand;
+  @extend .border-bottom;
+}
+
 .navbar-brand,
 .nav-link {
   font-size: 1rem;
@@ -49,7 +55,7 @@ $page-line-height: 1.7;
     margin-right: 0;
   }
 
-  .navbar-expand .navbar-nav .nav-link {
+  .site-nav .navbar-nav .nav-link {
     padding-right: 0;
   }
 }
