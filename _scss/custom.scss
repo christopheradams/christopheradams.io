@@ -1,6 +1,21 @@
 $page-body-size: 1.4rem;
 $page-line-height: 1.7;
 
+// Sticky footer layout
+.site-html {
+  @extend .h-100;
+}
+
+.site-body {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .h-100;
+}
+
+.site-main {
+  @extend .flex-shrink-0;
+}
+
 ::selection {
   color: $white;
   background-color: $red;
