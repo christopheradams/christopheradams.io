@@ -1,3 +1,4 @@
+{% assign card_sizes = include.sizes | default: "(min-width: 1200px) 33vw, (min-width: 768px) 50vw, 100vw" %}
 <div class="card-columns">
   {% for post in include.posts %}
   <div class="card-block">
@@ -5,7 +6,7 @@
     {% assign post_image = post.image.path | default: post.image %}
     {% if post_image %}
     {%- unless post_image contains "://" -%}
-    {% picture {{ post_image }} --alt {{ post.title | escape }} --img class="card-img-top" %}
+    {% picture {{ post_image }} --alt {{ post.title | escape }} --img class="card-img-top" sizes="{{ card_sizes }}" %}
     {% else %}
     <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">
     {% endunless %}
