@@ -24,7 +24,7 @@
             {%- endunless -%}
             {% endif %}
             <div class="card-body">
-              <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"></a>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="card-link card-link-stretched" itemprop="url"></a>
               {% if post.title and post.title != "" %}
               <span class="card-title">{{ post.title | escape }}</span>
               {% else %}

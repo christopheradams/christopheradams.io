@@ -16,6 +16,12 @@ $page-line-height: 1.7;
   @extend .flex-shrink-0;
 }
 
+.card-link-stretched {
+  @extend .text-body;
+  @extend .stretched-link;
+  @extend .text-decoration-none;
+}
+
 ::selection {
   color: $white;
   background-color: $red;
