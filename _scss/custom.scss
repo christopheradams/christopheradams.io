@@ -59,13 +59,37 @@ $page-line-height: 1.7;
   padding-bottom: 1rem;
 }
 
+.related-wrapper {
+  @extend .row;
+  @extend .d-none;
+  @extend .d-md-block;
+}
+
+.related-frame {
+  @extend .col-12;
+  @extend .full-width;
+}
+
 .related-section,
 .related-card {
   @extend .bg-body-tertiary;
 }
 
 .related-title {
+  @extend .row;
+  @extend .text-center;
+
   padding: 3rem 0;
+}
+
+.related-grid {
+  @extend .row;
+  @extend .justify-content-md-center;
+}
+
+.related-item {
+  @extend .col;
+  @extend .col-lg-3;
 }
 
 .related-card {

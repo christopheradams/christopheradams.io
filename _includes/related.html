@@ -1,18 +1,18 @@
 {% assign page_tag = page.tags | first %}
 {% assign related = site.tags[page_tag] | where_exp:"p", "p.id != page.id" | sample: 3 %}
 {% if related.size > 1 %}
-<div class="row d-none d-md-block">
-  <div class="col-12 full-width">
+<div class="related-wrapper">
+  <div class="related-frame">
     <div class="related-section">
-      <div class="row related-title text-center">
+      <div class="related-title">
         <div class="col">
           <h2>Related</h2>
         </div>
       </div>
       <div class="container-xl">
-      <div class="row justify-content-md-center">
+      <div class="related-grid">
         {% for post in related %}
-        <div class="col col-lg-3">
+        <div class="related-item">
           <div class="related-card card-block card">
             {% assign post_image = post.image.path | default: post.image %}
             {%- assign post_image = post_image | default: site.image -%}
