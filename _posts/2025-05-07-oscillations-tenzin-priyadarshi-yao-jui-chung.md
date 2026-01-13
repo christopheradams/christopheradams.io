@@ -54,7 +54,7 @@ of them as an island-wide spiritual network.
 
 {% picture /assets/images/Oscillations-1-ZH.jpg --alt Oscillations %}
 
-An *oscillation* is a repeated variation between two or more different states
+An *oscillation* is a repeated variation between two or more opposing states
 (like a swinging pendulum, a plucked string, a beating heart, or an
 electromagnetic wave), and is made manifest in the Buddhist concepts of
 dependent origination, cyclic change, and impermanence. Venerable Tenzin travels
