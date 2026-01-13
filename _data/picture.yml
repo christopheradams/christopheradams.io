@@ -1,7 +1,21 @@
+media_queries:
+  xl: 'min-width: 1200px'
+  md: 'min-width: 768px'
+  sm: 'min-width: 400px'
+
 presets:
   default:
     formats: [jpg]
     widths: [400, 640, 800, 1280]
+
+  card:
+    formats: [jpg]
+    widths: [400, 640, 800, 1280]
+    sizes:
+      xl: 400px
+      md: 320px
+      sm: 400px
+    size: 200px
 
   feed:
     formats: [jpg]
