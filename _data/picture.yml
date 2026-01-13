@@ -7,6 +7,10 @@ presets:
   default:
     formats: [jpg]
     widths: [400, 640, 800, 1280]
+
+  card:
+    formats: [jpg]
+    widths: [400, 640, 800, 1280]
     sizes:
       xl: 400px
       md: 320px
