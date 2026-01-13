@@ -197,6 +197,21 @@ $page-line-height: 1.7;
   }
 }
 
+.page-hero {
+  @extend .row;
+  @extend .justify-content-center;
+  @extend .border-bottom;
+}
+
+.page-hero-frame {
+  @extend .col-12;
+  @extend .col-sm-10;
+  @extend .col-md-9;
+  @extend .col-lg-8;
+  @extend .col-xl-7;
+  @extend .full-width;
+}
+
 .page-image {
   margin-bottom: 3rem !important;
   margin-top: 3rem !important;
@@ -206,11 +221,27 @@ $page-line-height: 1.7;
   }
 }
 
+.page-prose {
+  @extend .col-12;
+  @extend .col-lg-10;
+  @extend .col-xl-8;
+}
+
+.page-meta {
+  @extend .col-sm-10;
+  @extend .col-md-8;
+  @extend .col-lg-7;
+}
+
 .page-body {
   font-size: $page-body-size;
   line-height: $page-line-height;
 
   padding: 2rem 0;
+
+  > .row {
+    @extend .justify-content-center;
+  }
 
   .lead {
     font-size: 2rem;
@@ -293,6 +324,10 @@ $page-line-height: 1.7;
 
   .page-about {
     padding-top: 3rem;
+
+    > .row {
+      @extend .justify-content-center;
+    }
   }
 
   img {
