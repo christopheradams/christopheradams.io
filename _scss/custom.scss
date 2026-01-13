@@ -197,6 +197,16 @@ $page-line-height: 1.7;
   }
 }
 
+.page-header {
+  @extend .row;
+}
+
+.page-header-frame {
+  @extend .col-12;
+  @extend .full-width;
+  @extend .border-bottom;
+}
+
 .page-hero {
   @extend .row;
   @extend .justify-content-center;
