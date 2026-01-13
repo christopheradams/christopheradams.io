@@ -62,11 +62,22 @@ Get It Louder*
   </ul>
 {% endif %}
 
+{% if site.newsletter or site.feed %}
+
+## News
+
+{% endif %}
+
 {% if site.newsletter %}
 
-## Newsletter
-
 [Subscribe to the Newsletter]({{ site.newsletter }})
+
+{% endif %}
+
+{% if site.feed %}
+{% assign feed_path = site.feed.path | default: "/feed.xml" %}
+
+[Follow the RSS feed]({{ feed_path }})
 
 {% endif %}
 
