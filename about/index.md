@@ -81,10 +81,15 @@ Get It Louder*
 
 {% endif %}
 
+{% assign about_posts = site.tags[authorDetails.name] %}
+
+{% if about_posts.size > 0 %}
+
 ## Photos
 
-{% assign about_posts = site.tags[authorDetails.name] %}
 {% include cards.html posts=about_posts %}
+
+{% endif %}
 
 ## Colophon
 
