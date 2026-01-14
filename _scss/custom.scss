@@ -467,7 +467,7 @@
   background-color: var(--bs-dark);
   color: var(--bs-white);
 
-  padding: $footer-spacing 0;
+  padding: ($footer-spacing * 2) 0;
 
   a {
     text-decoration: none;
