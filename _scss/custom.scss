@@ -463,7 +463,6 @@
 
 .footer {
   @extend .mt-auto;
-  @extend .border-top;
 
   background-color: var(--bs-dark);
   color: var(--bs-white);
@@ -479,12 +478,8 @@
     }
   }
 
-  .footer-content {
+  .container {
     padding: $footer-spacing 0;
-  }
-
-  .footer-line {
-    padding: $footer-spacing;
   }
 }
 
@@ -498,6 +493,7 @@
 
 .footer-nav {
   @extend .justify-content-center;
+  padding: $footer-spacing;
 
   .nav-item {
     padding: 0 .5rem;
@@ -505,6 +501,7 @@
 
   .nav-link {
     color: var(--bs-white);
+    @extend .fw-normal;
 
     &:hover {
       text-decoration: underline;
