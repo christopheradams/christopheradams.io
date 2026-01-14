@@ -281,10 +281,6 @@
     @extend .justify-content-center;
   }
 
-  .lead {
-    font-size: 2rem;
-  }
-
   .lead strong {
     font-weight: $font-weight-bold;
   }
@@ -438,8 +434,7 @@
 
 .page-category-notes {
   .page-content {
-    font-size: 2rem;
-    font-weight: 300;
+    @extend .lead;
   }
 }
 
