@@ -503,18 +503,27 @@
 
     .container-fluid {
       @extend .justify-content-center;
-      padding: $footer-spacing;
+      padding: 0;
     }
+  }
+
+  .navbar-nav {
+    margin-left: 0;
   }
 
   // Show "Home" instead of site title
   .navbar-brand {
     font-size: 0;
+    margin-right: 0;
 
     &::after {
       content: "Home";
       font-size: $nav-body-size;
       font-weight: $font-weight-normal;
+    }
+
+    &:hover {
+      color: var(--bs-white);
     }
   }
 }
