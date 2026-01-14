@@ -499,7 +499,7 @@
   // Reset site-nav (navbar) styles for footer context
   .site-nav {
     background-color: transparent;
-    border-bottom: 0;
+    border-bottom: 0 !important;
     padding-top: 0;
     padding-bottom: 0;
 
