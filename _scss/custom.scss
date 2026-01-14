@@ -495,8 +495,10 @@
   .nav-link {
     @extend .fw-normal;
     padding: 0 .5rem;
+    color: var(--bs-white);
 
     &:hover {
+      color: var(--bs-white);
       text-decoration: underline;
     }
   }
