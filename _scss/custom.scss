@@ -1,6 +1,6 @@
 $page-body-size: 1.4rem;
 $page-line-height: 1.7;
-$footer-sm-size: 0.8rem;
+$footer-note-size: 0.8rem;
 
 // Sticky footer layout
 .site-html {
@@ -495,7 +495,7 @@ $footer-sm-size: 0.8rem;
 
 .footer-copyright,
 .footer-social {
-  font-size: $footer-sm-size;
+  font-size: $footer-note-size;
 }
 
 .footer-social {
