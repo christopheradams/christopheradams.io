@@ -40,6 +40,9 @@
 .site-nav {
   @extend .navbar;
   @extend .navbar-expand;
+}
+
+header .site-nav {
   @extend .border-bottom;
 }
 
@@ -53,20 +56,20 @@
   }
 }
 
-.navbar-nav {
+header .navbar-nav {
   margin-left: auto;
 }
 
-.navbar-nav .nav-link  {
+header .navbar-nav .nav-link {
   color: var(--bs-body-color);
 }
 
 @include media-breakpoint-down(sm) {
-  .navbar-brand {
+  header .navbar-brand {
     margin-right: 0;
   }
 
-  .site-nav .navbar-nav .nav-link {
+  header .site-nav .navbar-nav .nav-link {
     padding-right: 0;
   }
 }
@@ -499,7 +502,6 @@
   // Reset site-nav (navbar) styles for footer context
   .site-nav {
     background-color: transparent;
-    border-bottom: 0 !important;
     padding-top: 0;
     padding-bottom: 0;
 
@@ -507,10 +509,6 @@
       @extend .justify-content-center;
       padding: 0;
     }
-  }
-
-  .navbar-nav {
-    margin-left: 0;
   }
 
   // Show "Home" instead of site title
