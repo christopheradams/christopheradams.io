@@ -40,6 +40,9 @@
 .site-nav {
   @extend .navbar;
   @extend .navbar-expand;
+}
+
+header .site-nav {
   @extend .border-bottom;
 }
 
@@ -53,20 +56,20 @@
   }
 }
 
-.navbar-nav {
+header .navbar-nav {
   margin-left: auto;
 }
 
-.navbar-nav .nav-link  {
+header .navbar-nav .nav-link {
   color: var(--bs-body-color);
 }
 
 @include media-breakpoint-down(sm) {
-  .navbar-brand {
+  header .navbar-brand {
     margin-right: 0;
   }
 
-  .site-nav .navbar-nav .nav-link {
+  header .site-nav .navbar-nav .nav-link {
     padding-right: 0;
   }
 }
@@ -468,7 +471,7 @@
   background-color: var(--bs-dark);
   color: var(--bs-white);
 
-  padding: $footer-spacing 0;
+  padding: ($footer-spacing * 2) 0;
 
   a {
     text-decoration: none;
@@ -479,35 +482,68 @@
     }
   }
 
-  .footer-content {
+  // Shared nav styling for all navs in footer
+  .nav,
+  .navbar-nav {
+    @extend .justify-content-center;
     padding: $footer-spacing 0;
   }
 
-  .footer-line {
-    padding: $footer-spacing;
+  .nav-link {
+    @extend .fw-normal;
+    padding: 0 .5rem;
+    color: var(--bs-white);
+
+    &:hover {
+      color: var(--bs-white);
+      text-decoration: underline;
+    }
+  }
+
+  // Reset site-nav (navbar) styles for footer context
+  .site-nav {
+    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .container-fluid {
+      @extend .justify-content-center;
+      padding: 0;
+    }
+  }
+
+  // Show "Home" instead of site title
+  .navbar-brand {
+    font-size: 0;
+    margin-right: 0;
+    padding: 0 .5rem;
+
+    &::after {
+      content: "Home";
+      font-size: $nav-body-size;
+      font-weight: $font-weight-normal;
+    }
+
+    &:hover {
+      color: var(--bs-white);
+    }
   }
 }
 
-.footer-tags,
-.footer-social,
-.footer-copyright {
-  @extend .d-flex;
-  @extend .flex-wrap;
-  @extend .justify-content-center;
-}
-
-.footer-copyright,
-.footer-social {
+.footer-social .nav-link {
   font-size: $footer-note-size;
-}
-
-.footer-social {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
-.tag-item {
-  padding: 0 .5rem;
+.footer-copyright {
+  @extend .d-flex;
+  @extend .flex-wrap;
+  @extend .justify-content-center;
+
+  padding: $footer-spacing;
+  font-size: $footer-note-size;
+  text-align: center;
 }
 
 // Pagination
