@@ -11,6 +11,7 @@
 
 .site-main {
   @extend .flex-shrink-0;
+  flex-grow: 1;
 }
 
 .site-body {
