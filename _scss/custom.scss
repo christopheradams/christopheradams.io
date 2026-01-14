@@ -13,6 +13,15 @@
   @extend .flex-shrink-0;
 }
 
+.site-body {
+  background-color: var(--bs-dark);
+}
+
+.site-main,
+.site-nav {
+  background-color: var(--bs-body-bg);
+}
+
 // Site
 
 ::selection {
