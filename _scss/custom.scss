@@ -13,6 +13,8 @@
   @extend .flex-shrink-0;
 }
 
+// Site
+
 ::selection {
   color: $white;
   background-color: $red;
@@ -22,6 +24,8 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+// Navigation
 
 .site-nav {
   @extend .navbar;
@@ -57,10 +61,14 @@
   }
 }
 
+// Homepage
+
 .homepage-body {
   padding-top: $content-spacing;
   padding-bottom: 1rem;
 }
+
+// Related
 
 .related-wrapper {
   @extend .row;
@@ -106,6 +114,8 @@
     object-position: top;
   }
 }
+
+// Cards
 
 .card-columns {
   orphans: 1;
@@ -194,6 +204,8 @@
   }
 }
 
+// Page
+
 .page-banner {
   @extend .text-center;
   @extend .py-5;
@@ -267,6 +279,27 @@
   @extend .col-sm-10;
   @extend .col-md-8;
   @extend .col-lg-7;
+}
+
+.page-link {
+  color: var(--bs-body-color);
+
+  &:hover {
+    color: var(--bs-body-color);
+  }
+}
+
+.link-domain {
+  font-weight: $font-weight-normal;
+}
+
+.link-path {
+  font-weight: $font-weight-lighter;
+  overflow-wrap: break-word;
+
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
 }
 
 .page-body {
@@ -367,6 +400,8 @@
   }
 }
 
+// Archives
+
 .archives-list {
   @extend .list-group;
   @extend .list-group-flush;
@@ -406,11 +441,15 @@
   }
 }
 
+// Notes
+
 .page-category-notes {
   .page-content {
     @extend .lead;
   }
 }
+
+// Footer
 
 .footer {
   @extend .mt-auto;
@@ -439,18 +478,6 @@
   }
 }
 
-.page-link {
-  color: var(--bs-body-color);
-
-  &:hover {
-    color: var(--bs-body-color);
-  }
-}
-
-.pagination {
-  @extend .justify-content-center;
-}
-
 .footer-tags,
 .footer-social,
 .footer-copyright {
@@ -473,15 +500,8 @@
   padding: 0 .5rem;
 }
 
-.link-domain {
-  font-weight: $font-weight-normal;
-}
+// Pagination
 
-.link-path {
-  font-weight: $font-weight-lighter;
-  overflow-wrap: break-word;
-
-  @include media-breakpoint-down(sm) {
-    display: none;
-  }
+.pagination {
+  @extend .justify-content-center;
 }
