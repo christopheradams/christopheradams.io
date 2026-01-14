@@ -479,15 +479,6 @@
   }
 }
 
-.footer-copyright {
-  @extend .d-flex;
-  @extend .flex-wrap;
-  @extend .justify-content-center;
-
-  padding: $footer-spacing;
-  font-size: $footer-note-size;
-}
-
 .footer-nav {
   @extend .justify-content-center;
   padding: $footer-spacing;
@@ -508,6 +499,15 @@
   font-size: $footer-note-size;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+
+.footer-copyright {
+  @extend .d-flex;
+  @extend .flex-wrap;
+  @extend .justify-content-center;
+
+  padding: $footer-spacing;
+  font-size: $footer-note-size;
 }
 
 // Pagination
