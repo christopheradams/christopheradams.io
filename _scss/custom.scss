@@ -58,7 +58,7 @@
 }
 
 .homepage-body {
-  padding-top: 2rem;
+  padding-top: $content-spacing;
   padding-bottom: 1rem;
 }
 
@@ -81,7 +81,7 @@
 .related-title {
   @extend .text-center;
 
-  padding: 3rem 0;
+  padding: $section-spacing 0;
 }
 
 .related-grid {
@@ -249,8 +249,8 @@
 }
 
 .page-image {
-  margin-bottom: 3rem !important;
-  margin-top: 3rem !important;
+  margin-bottom: $section-spacing !important;
+  margin-top: $section-spacing !important;
 
   .img-fluid {
     width: 100%;
@@ -273,7 +273,7 @@
   font-size: $page-body-size;
   line-height: $page-line-height;
 
-  padding: 2rem 0;
+  padding: $content-spacing 0;
 
   > .row {
     @extend .justify-content-center;
@@ -351,11 +351,11 @@
 
   .page-container,
   .page-share {
-    margin-bottom: 3rem;
+    margin-bottom: $section-spacing;
   }
 
   .page-about {
-    padding-top: 3rem;
+    padding-top: $section-spacing;
 
     > .row {
       @extend .justify-content-center;
@@ -419,7 +419,7 @@
   background-color: var(--bs-dark);
   color: var(--bs-white);
 
-  padding: 1rem 0;
+  padding: $footer-spacing 0;
 
   a {
     text-decoration: none;
@@ -431,11 +431,11 @@
   }
 
   .footer-content {
-    padding: 1rem 0;
+    padding: $footer-spacing 0;
   }
 
   .footer-line {
-    padding: 1rem;
+    padding: $footer-spacing;
   }
 }
 
