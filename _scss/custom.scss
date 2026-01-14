@@ -477,11 +477,13 @@
       text-decoration: underline;
     }
   }
-}
 
-.footer-nav {
-  @extend .justify-content-center;
-  padding: $footer-spacing;
+  // Shared nav styling for all navs in footer
+  .nav,
+  .navbar-nav {
+    @extend .justify-content-center;
+    padding: $footer-spacing;
+  }
 
   .nav-link {
     @extend .fw-normal;
@@ -491,6 +493,28 @@
     &:hover {
       color: var(--bs-white);
       text-decoration: underline;
+    }
+  }
+
+  // Reset site-nav (navbar) styles for footer context
+  .site-nav {
+    background-color: transparent;
+    border: none;
+
+    .container-fluid {
+      @extend .justify-content-center;
+      padding: $footer-spacing;
+    }
+  }
+
+  // Show "Home" instead of site title
+  .navbar-brand {
+    font-size: 0;
+
+    &::after {
+      content: "Home";
+      font-size: $nav-body-size;
+      font-weight: $font-weight-normal;
     }
   }
 }
