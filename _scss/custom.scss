@@ -466,6 +466,7 @@ header .navbar-nav .nav-link {
 
 .footer {
   @extend .mt-auto;
+  @extend .border-top;
 
   background-color: var(--bs-dark);
   color: var(--bs-white);
