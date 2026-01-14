@@ -485,7 +485,7 @@ header .navbar-nav .nav-link {
   .nav,
   .navbar-nav {
     @extend .justify-content-center;
-    padding: $footer-spacing;
+    padding: $footer-spacing 0;
   }
 
   .nav-link {
@@ -515,6 +515,7 @@ header .navbar-nav .nav-link {
   .navbar-brand {
     font-size: 0;
     margin-right: 0;
+    padding: 0 .5rem;
 
     &::after {
       content: "Home";
