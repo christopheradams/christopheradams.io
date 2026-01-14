@@ -499,7 +499,9 @@
   // Reset site-nav (navbar) styles for footer context
   .site-nav {
     background-color: transparent;
-    border: none;
+    border-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 
     .container-fluid {
       @extend .justify-content-center;
