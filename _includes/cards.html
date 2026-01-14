@@ -12,7 +12,7 @@
     {% endif %}
     <div class="card-body">
       <span class="card-title">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="card-link text-body stretched-link text-decoration-none" itemprop="url"></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="card-link card-link-stretched" itemprop="url"></a>
         {% if post.title and post.title != "" %}
         <strong itemprop="name">{{ post.title | escape }}</strong>
         <span class="card-title-separator">&mdash;</span>

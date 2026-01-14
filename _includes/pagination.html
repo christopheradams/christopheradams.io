@@ -1,5 +1,5 @@
 <nav aria-label="Pagination">
-  <ul class="pagination justify-content-center">
+  <ul class="pagination">
   {% if paginator.previous_page %}
     <li class="page-item"><a href="{{ paginator.previous_page_path }}" class="page-link">Previous</a></li>
   {% else %}
@@ -18,5 +18,4 @@
     </li>
   {% endif %}
   </ul>
-</div>
 </nav>
