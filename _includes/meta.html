@@ -52,10 +52,15 @@
 <meta property="og:locale" content="{{ site.lang | default: 'en_US' | replace: '-', '_' }}">
 
 {%- comment -%} Twitter Card {%- endcomment -%}
-{% assign twitter_user = site.social_links | where: "title", "Twitter" | first -%}
+{%- assign twitter_user = site.social_links | where: "title", "Twitter" | first -%}
+{%- if twitter_user -%}
+{%- assign twitter_username = twitter_user.url | split: "/" | last -%}
+{%- endif -%}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ title }}">
-<meta name="twitter:site" content="{{ site.title | escape }}">
+{%- if twitter_username -%}
+<meta name="twitter:site" content="@{{ twitter_username }}">
+<meta name="twitter:creator" content="@{{ twitter_username }}">
+{%- endif -%}
 <meta name="twitter:description" content="{{ description }}">
-{% if twitter_user %}<meta name="twitter:creator" content="@{{ twitter_user.url | split: "/" | last }}">{% endif %}
 <meta name="twitter:image" content="{{ image_url }}">
