@@ -2,7 +2,7 @@
 $lead-font-size: 2rem;
 
 // Custom variables
-$page-body-size: 1.4rem;
+$page-body-size: clamp(1rem, 1rem + 0.8vw, 1.4rem);
 $page-line-height: 1.7;
 $page-code-size: 0.9rem;
 $nav-body-size: 1rem;
