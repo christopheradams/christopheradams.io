@@ -1,4 +1,4 @@
-{% if site.social_links or site.newsletter or site.feed %}
+{% if site.social_links %}
 <ul class="nav footer-social" aria-label="Social links">
   {% if site.social_links %}
   {% for social in site.social_links %}
@@ -8,21 +8,6 @@
     </a>
   </li>
   {% endfor %}
-  {% endif %}
-  {% if site.newsletter %}
-  <li class="nav-item">
-    <a class="nav-link" rel="noopener" href="{{ site.newsletter }}" aria-label="Newsletter">
-      Newsletter
-    </a>
-  </li>
-  {% endif %}
-  {% if site.feed %}
-  {% assign feed_path = site.feed.path | default: "/feed.xml" %}
-  <li class="nav-item">
-    <a class="nav-link" rel="alternate" href="{{ feed_path | absolute_url }}" aria-label="RSS Feed">
-      RSS
-    </a>
-  </li>
   {% endif %}
 </ul>
 {% endif %}
