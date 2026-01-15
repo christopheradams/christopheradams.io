@@ -3,24 +3,24 @@
   {% if site.social_links %}
   {% for social in site.social_links %}
   <li class="nav-item">
-    <a class="nav-link" rel="me noopener" href="{{ social['url'] }}" target="_blank" aria-label="{{ social['title'] }} (opens in new tab)">
-      {{ social['title'] }}<span class="visually-hidden"> (opens in new tab)</span>
+    <a class="nav-link" rel="me noopener" href="{{ social['url'] }}" aria-label="{{ social['title'] }}">
+      {{ social['title'] }}
     </a>
   </li>
   {% endfor %}
   {% endif %}
   {% if site.newsletter %}
   <li class="nav-item">
-    <a class="nav-link" rel="noopener" href="{{ site.newsletter }}" target="_blank" aria-label="Newsletter (opens in new tab)">
-      Newsletter<span class="visually-hidden"> (opens in new tab)</span>
+    <a class="nav-link" rel="noopener" href="{{ site.newsletter }}" aria-label="Newsletter">
+      Newsletter
     </a>
   </li>
   {% endif %}
   {% if site.feed %}
   {% assign feed_path = site.feed.path | default: "/feed.xml" %}
   <li class="nav-item">
-    <a class="nav-link" rel="alternate" href="{{ feed_path | absolute_url }}" target="_blank" aria-label="RSS Feed (opens in new tab)">
-      RSS<span class="visually-hidden"> (opens in new tab)</span>
+    <a class="nav-link" rel="alternate" href="{{ feed_path | absolute_url }}" aria-label="RSS Feed">
+      RSS
     </a>
   </li>
   {% endif %}
