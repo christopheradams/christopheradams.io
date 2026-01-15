@@ -21,7 +21,7 @@ page-category-none
   {% assign image_title = page.image.title | default: page.title %}
   <div class="page-hero">
     <div class="page-hero-frame">
-      <section class="page-image">
+      <section class="page-hero-image">
         {%- unless page_image contains "://" -%}
         {% picture {{ page_image }} --alt {{ image_title | escape }} --img class="img-fluid" %}
         {%- else -%}
