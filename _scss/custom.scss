@@ -265,8 +265,8 @@ header .navbar-nav .nav-link {
 }
 
 .page-hero-frame {
-  @extend .col-12;
-  @extend .col-md-11;
+  @extend .col-11;
+  @extend .col-md-10;
   @extend .col-xl-9;
   @extend .full-width;
 }
@@ -289,11 +289,11 @@ header .navbar-nav .nav-link {
     }
 
     @include media-breakpoint-up(lg) {
-      max-height: clamp(28rem, 80svh, 70rem);
+      max-height: clamp(28rem, 70svh, 65rem);
     }
 
     @include media-breakpoint-up(xl) {
-      max-height: clamp(28rem, 85svh, 80rem);
+      max-height: clamp(28rem, 72.5svh, 75rem);
     }
   }
 }
