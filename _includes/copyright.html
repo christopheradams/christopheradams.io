@@ -8,12 +8,6 @@
 {%- capture this_year -%}
   {{ site.time | date: "%Y" }}
 {%- endcapture -%}
-{%- capture site_author -%}
-  {%- if site.author -%}
-  {{ site.author.name | default: site.author }}
-  {%- else -%}
-  {{ site.name }}
-  {%- endif -%}
-{%- endcapture -%}
-© {{ first_year }}{{ this_year }} {{ site_author }}. All Rights Reserved.
+{%- assign site_author = site.author.name | default: site.author | default: site.name -%}
+<small>© {{ first_year }}{{ this_year }} {{ site_author }}. All Rights Reserved.</small>
 </div>

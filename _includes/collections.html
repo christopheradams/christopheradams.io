@@ -1,5 +1,6 @@
 {% assign archives = site.archives | sort: "title" %}
-<ul class="nav">
+<nav aria-label="Categories">
+<ul class="nav" role="list">
   {% for archive in archives %}
     {% if archive.type == "category" %}
     <li class="nav-item">
@@ -8,3 +9,4 @@
     {% endif %}
   {% endfor %}
 </ul>
+</nav>

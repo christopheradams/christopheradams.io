@@ -6,9 +6,9 @@ itemtype: https://schema.org/Article
 
 {%- capture page_class -%}
   {%- if page.category -%}
-  {{ "Page Category " | append: page.category | slugify }}
+page-category-{{ page.category | slugify }}
   {%- else -%}
-  page-category-none
+page-category-none
   {%- endif -%}
 {%- endcapture -%}
 
@@ -44,13 +44,13 @@ itemtype: https://schema.org/Article
     <div class="page-about">
       <div class="row">
         <div class="page-meta">
-          <div class="page-details">
+          <div class="page-details" itemprop="author" itemscope itemtype="https://schema.org/Person">
             <p class="page-byline">
               {% for author in page.author %}
               {% assign authorDetails = site.data.authors[author] %}
               <strong>
                 {% if forloop.first == true %} Posted by {% else %} &amp; {% endif %}
-                {% if authorDetails.uri %}<a href="{{ authorDetails.uri }}" title="More By {{ authorDetails.name | escape }}">{% endif %}{{ authorDetails.name | escape }}{% if authorDetails.uri %}</a>{% endif %}
+                {% if authorDetails.uri %}<a href="{{ authorDetails.uri }}" rel="author" itemprop="url" title="More By {{ authorDetails.name | escape }}">{% endif %}<span itemprop="name">{{ authorDetails.name | escape }}</span>{% if authorDetails.uri %}</a>{% endif %}
               </strong>
               {% else %}
               <strong>About</strong>
@@ -58,7 +58,7 @@ itemtype: https://schema.org/Article
             </p>
             {% for author in page.author %}
             {% assign authorDetails = site.data.authors[author] %}
-            <p>{{ authorDetails.description }}</p>
+            <p itemprop="description">{{ authorDetails.description }}</p>
             {% endfor %}
           </div>
           <div class="page-details">

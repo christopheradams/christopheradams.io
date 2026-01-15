@@ -11,20 +11,63 @@
 {% endunless %}
 {%- endcapture -%}
 
-<meta name="description" content="{{ description }}">
+{%- comment -%} Canonical URL {%- endcomment -%}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
 
+{%- comment -%} Basic SEO {%- endcomment -%}
+<meta name="description" content="{{ description }}">
+<meta name="robots" content="index, follow">
+{% if site.author %}<meta name="author" content="{{ site.author.name | default: site.author }}">{% endif %}
+
+{%- comment -%} Open Graph / Facebook {%- endcomment -%}
 <meta property="og:url" content="{{ page.url | absolute_url }}">
+{%- if page.layout == 'post' or page.layout == 'article' -%}
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="{{ page.published_at | default: page.date | date_to_xmlschema }}">
+{%- if page.last_modified_at -%}
+<meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
+{%- endif -%}
+{%- comment -%} Handle post-specific authors, falling back to site author {%- endcomment -%}
+{%- if page.author -%}
+{%- for author in page.author -%}
+{%- assign authorDetails = site.data.authors[author] -%}
+<meta property="article:author" content="{{ authorDetails.name | default: author }}">
+{%- endfor -%}
+{%- elsif site.author -%}
+<meta property="article:author" content="{{ site.author.name | default: site.author }}">
+{%- endif -%}
+{%- if page.category -%}
+<meta property="article:section" content="{{ page.category }}">
+{%- endif -%}
+{%- for tag in page.tags -%}
+<meta property="article:tag" content="{{ tag }}">
+{%- endfor -%}
+{%- else -%}
 <meta property="og:type" content="website">
+{%- endif -%}
 <meta property="og:title" content="{{ title }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:image" content="{{ image_url }}">
+<meta property="og:locale" content="{{ site.lang | default: 'en_US' | replace: '-', '_' }}">
 
-{% assign twitter_user = site.social_links | where: "title", "Twitter" | first -%}
-<meta name="twitter:url" content="{{ page.url | absolute_url }}">
+{%- comment -%} Twitter Card {%- endcomment -%}
+{%- comment -%} twitter:site uses site.author.twitter, twitter:creator uses post author's twitter {%- endcomment -%}
+{%- assign twitter_site = site.author.twitter -%}
+{%- if page.author -%}
+  {%- assign first_author_key = page.author | first | default: page.author -%}
+  {%- assign author_data = site.data.authors[first_author_key] -%}
+  {%- assign twitter_creator = author_data.twitter | default: twitter_site -%}
+{%- else -%}
+  {%- assign twitter_creator = twitter_site -%}
+{%- endif -%}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ title }}">
-<meta name="twitter:site" content="{{ site.title | escape }}">
+{%- if twitter_site -%}
+<meta name="twitter:site" content="@{{ twitter_site }}">
+{%- endif -%}
+{%- if twitter_creator -%}
+<meta name="twitter:creator" content="@{{ twitter_creator }}">
+{%- endif -%}
 <meta name="twitter:description" content="{{ description }}">
-{% if twitter_user %}<meta name="twitter:creator" content="@{{ twitter_user.url | split: "/" | last }}">{% endif %}
-<meta property="twitter:image" content="{{ image_url }}">
+<meta name="twitter:image" content="{{ image_url }}">

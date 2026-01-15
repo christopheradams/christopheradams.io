@@ -1,20 +1,32 @@
-<nav aria-label="Pagination">
-  <ul class="pagination">
+<nav aria-label="Pagination navigation">
+  <ul class="pagination" role="list">
   {% if paginator.previous_page %}
-    <li class="page-item"><a href="{{ paginator.previous_page_path }}" class="page-link">Previous</a></li>
+    <li class="page-item">
+      <a href="{{ paginator.previous_page_path }}" class="page-link" rel="prev" aria-label="Go to previous page">
+        <span aria-hidden="true">&laquo;</span> Previous
+      </a>
+    </li>
   {% else %}
-   <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    <li class="page-item disabled">
+      <span class="page-link" aria-disabled="true">
+        <span aria-hidden="true">&laquo;</span> Previous
+      </span>
     </li>
   {% endif %}
-   <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">{{ paginator.page }} of {{ paginator.total_pages }}</a>
+    <li class="page-item disabled" aria-current="page">
+      <span class="page-link">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     </li>
   {% if paginator.next_page %}
-    <li class="page-item"><a href="{{ paginator.next_page_path }}" class="page-link">Next</a></li>
+    <li class="page-item">
+      <a href="{{ paginator.next_page_path }}" class="page-link" rel="next" aria-label="Go to next page">
+        Next <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
   {% else %}
-   <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Next</a>
+    <li class="page-item disabled">
+      <span class="page-link" aria-disabled="true">
+        Next <span aria-hidden="true">&raquo;</span>
+      </span>
     </li>
   {% endif %}
   </ul>

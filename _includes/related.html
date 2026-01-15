@@ -1,36 +1,44 @@
 {% assign page_tag = page.tags | first %}
 {% assign related = site.tags[page_tag] | where_exp:"p", "p.id != page.id" | sample: 3 %}
 {% if related.size > 1 %}
-<div class="related-wrapper">
+<aside class="related-wrapper" aria-labelledby="related-heading">
   <div class="related-frame">
     <div class="related-section">
       <div class="related-title">
         <div class="col">
-          <h2>Related</h2>
+          <h2 id="related-heading">Related</h2>
         </div>
       </div>
       <div class="container-xl">
       <div class="related-grid">
         {% for post in related %}
+        {%- assign post_summary = post.description | default: post.excerpt | strip_html | normalize_whitespace | truncatewords: 20 -%}
+        {%- comment -%} For accessibility: use title if available, otherwise use truncated summary {%- endcomment -%}
+        {%- if post.title and post.title != "" -%}
+          {%- assign post_accessible_name = post.title | escape -%}
+        {%- else -%}
+          {%- assign post_accessible_name = post_summary | truncatewords: 10 -%}
+        {%- endif -%}
         <div class="related-item">
           <div class="related-card card-block card">
             {% assign post_image = post.image.path | default: post.image %}
             {%- assign post_image = post_image | default: site.image -%}
             {% if post_image %}
             {%- unless post_image contains "://" -%}
-            {% picture {{ post_image }} --alt {{ post.title | escape }} --img class="card-img-top" %}
+            {% picture {{ post_image }} --alt {{ post_accessible_name }} --img class="card-img-top" %}
             {%- else -%}
-            <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">
+            <img class="card-img-top" alt="{{ post_accessible_name }}" src="{{ post_image }}">
             {%- endunless -%}
             {% endif %}
             <div class="card-body">
-              <a href="{{ post.url | prepend: site.baseurl }}" class="card-link card-link-stretched" itemprop="url"></a>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="card-link card-link-stretched" itemprop="url" aria-label="{{ post_accessible_name }}">
+                <span class="visually-hidden">{{ post_accessible_name }}</span>
+              </a>
               {% if post.title and post.title != "" %}
               <span class="card-title">{{ post.title | escape }}</span>
               {% else %}
               <span class="card-description" itemprop="description">
-                {% assign post_summary = post.description | default: post.excerpt %}
-                {{ post_summary | strip_html | normalize_whitespace | truncatewords: 20 }}
+                {{ post_summary }}
               </span>
               {% endif %}
             </div>
@@ -41,5 +49,5 @@
       </div>
     </div>
   </div>
-</div>
+</aside>
 {% endif %}
