@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Dangdai × Lumitree
 description: Six artists in 8K in downtown Taipei
 date: 2025-05-08 19:00 +0800

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Oscillations
 description: Tenzin Priyadarshi × Yao Jui-Chung
 location: Ruifang

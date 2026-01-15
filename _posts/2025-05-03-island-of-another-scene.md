@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Island of Another Scene
 description: Photographs by Christopher Adams
 location: Taipei
