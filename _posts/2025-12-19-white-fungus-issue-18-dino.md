@@ -1,9 +1,9 @@
 ---
-title: White Fungus, Issue 18
-description: Portraits of Dino, pioneering Taiwanese noise artist
+title: Dino in White Fungus
+description: My portraits of a pioneering Taiwanese noise artist
 date: 2025-12-19 11:45 +0800
 published_at: 2025-12-19 11:45 +0800
-last_modified_at: 2026-01-08 15:18 +0800
+last_modified_at: 2026-01-15 10:31 +0800
 location: Taipei
 category: Notes
 tags: [Featured, Taiwan]
