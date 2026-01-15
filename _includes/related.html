@@ -12,28 +12,33 @@
       <div class="container-xl">
       <div class="related-grid">
         {% for post in related %}
-        {%- assign post_title = post.title | default: "Untitled post" | escape -%}
+        {%- assign post_summary = post.description | default: post.excerpt | strip_html | normalize_whitespace | truncatewords: 20 -%}
+        {%- comment -%} For accessibility: use title if available, otherwise use truncated summary {%- endcomment -%}
+        {%- if post.title and post.title != "" -%}
+          {%- assign post_accessible_name = post.title | escape -%}
+        {%- else -%}
+          {%- assign post_accessible_name = post_summary | truncatewords: 10 -%}
+        {%- endif -%}
         <div class="related-item">
           <div class="related-card card-block card">
             {% assign post_image = post.image.path | default: post.image %}
             {%- assign post_image = post_image | default: site.image -%}
             {% if post_image %}
             {%- unless post_image contains "://" -%}
-            {% picture {{ post_image }} --alt {{ post_title }} --img class="card-img-top" %}
+            {% picture {{ post_image }} --alt {{ post_accessible_name }} --img class="card-img-top" %}
             {%- else -%}
-            <img class="card-img-top" alt="{{ post_title }}" src="{{ post_image }}">
+            <img class="card-img-top" alt="{{ post_accessible_name }}" src="{{ post_image }}">
             {%- endunless -%}
             {% endif %}
             <div class="card-body">
-              <a href="{{ post.url | prepend: site.baseurl }}" class="card-link card-link-stretched" itemprop="url" aria-label="Read: {{ post_title }}">
-                <span class="visually-hidden">Read: {{ post_title }}</span>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="card-link card-link-stretched" itemprop="url" aria-label="{{ post_accessible_name }}">
+                <span class="visually-hidden">{{ post_accessible_name }}</span>
               </a>
               {% if post.title and post.title != "" %}
-              <span class="card-title">{{ post_title }}</span>
+              <span class="card-title">{{ post.title | escape }}</span>
               {% else %}
               <span class="card-description" itemprop="description">
-                {% assign post_summary = post.description | default: post.excerpt %}
-                {{ post_summary | strip_html | normalize_whitespace | truncatewords: 20 }}
+                {{ post_summary }}
               </span>
               {% endif %}
             </div>

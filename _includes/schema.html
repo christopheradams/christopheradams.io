@@ -3,8 +3,13 @@ JSON-LD Structured Data for SEO
 Supports WebSite, WebPage, Article/BlogPosting, Person, and BreadcrumbList schemas
 {%- endcomment -%}
 
-{%- assign page_title = page.title | default: site.title | escape -%}
 {%- assign page_description = page.description | default: site.description | strip | escape -%}
+{%- comment -%} For posts without titles, use description as the headline {%- endcomment -%}
+{%- if page.title and page.title != "" -%}
+  {%- assign page_title = page.title | escape -%}
+{%- else -%}
+  {%- assign page_title = page_description | truncatewords: 10 -%}
+{%- endif -%}
 {%- assign page_url = page.url | absolute_url -%}
 {%- assign page_image = page.image.path | default: page.image | default: site.image -%}
 {%- unless page_image contains "://" -%}
