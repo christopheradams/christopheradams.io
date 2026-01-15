@@ -473,7 +473,7 @@ header .navbar-nav .nav-link {
 // Notes category styling
 
 .page-category-notes {
-  .page-content {
+  .page-content > p:first-of-type {
     @extend .lead;
   }
 }
