@@ -1,3 +1,19 @@
+// Skip link for accessibility
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--bs-primary);
+  color: var(--bs-white);
+  padding: 8px 16px;
+  z-index: 1100;
+  text-decoration: none;
+
+  &:focus {
+    top: 0;
+  }
+}
+
 // Sticky footer
 .site-html {
   @extend .h-100;
@@ -454,12 +470,17 @@ header .navbar-nav .nav-link {
   }
 }
 
-// Notes
+// Notes category styling
 
 .page-category-notes {
   .page-content {
     @extend .lead;
   }
+}
+
+// News category styling
+.page-category-news {
+  // Add any news-specific styling here
 }
 
 // Footer

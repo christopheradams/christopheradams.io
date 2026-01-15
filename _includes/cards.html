@@ -1,29 +1,32 @@
 <div class="card-columns">
   {% for post in include.posts %}
+  {%- assign post_title = post.title | default: "Untitled post" | escape -%}
+  {%- assign post_summary = post.description | default: post.excerpt | strip_html | normalize_whitespace | truncatewords: 50 -%}
   <div class="card-block">
   <div class="card">
     {% assign post_image = post.image.path | default: post.image %}
     {% if post_image %}
     {%- unless post_image contains "://" -%}
-    {% picture card {{ post_image }} --alt {{ post.title | escape }} --img class="card-img-top" %}
+    {% picture card {{ post_image }} --alt {{ post_title }} --img class="card-img-top" %}
     {% else %}
-    <img class="card-img-top" alt="{{ post.title | escape }}" src="{{ post_image }}">
+    <img class="card-img-top" alt="{{ post_title }}" src="{{ post_image }}">
     {% endunless %}
     {% endif %}
     <div class="card-body">
       <span class="card-title">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="card-link card-link-stretched" itemprop="url"></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="card-link card-link-stretched" itemprop="url" aria-label="Read: {{ post_title }}">
+          <span class="visually-hidden">Read: {{ post_title }}</span>
+        </a>
         {% if post.title and post.title != "" %}
-        <strong itemprop="name">{{ post.title | escape }}</strong>
+        <strong itemprop="name">{{ post_title }}</strong>
         <span class="card-title-separator">&mdash;</span>
         {% else %}
         {% unless post_image %}
-        <strong>¶</strong>
+        <strong aria-hidden="true">¶</strong>
         {% endunless %}
         {% endif %}
         <span class="card-description" itemprop="description">
-          {% assign post_summary = post.description | default: post.excerpt %}
-          {{ post_summary | strip_html | normalize_whitespace | truncatewords: 50}}
+          {{ post_summary }}
         </span>
       </span>
     </div>

@@ -1,26 +1,39 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-{% capture page_title %}
+{%- capture page_title -%}
 {%- if page.type == 'year' -%}
 {{ page.date | date: "%Y" }}
 {%- elsif page.type == 'month' -%}
 {{ page.date | date: "%B %Y" }}
 {%- elsif page.type == 'day' -%}
-{{ page.date | date: "%-d B %Y" }}
+{{ page.date | date: "%-d %B %Y" }}
 {%- elsif page.title and page.title != "" -%}
 {{ page.title }}
 {%- else -%}
 {%- assign post_summary = page.description | default: page.excerpt -%}
-{{ post_summary | strip_html | normalize_whitespace | truncatewords: 8}}
+{{ post_summary | strip_html | normalize_whitespace | truncatewords: 8 }}
 {%- endif -%}
-{% endcapture %}
+{%- endcapture -%}
 
-<title>{{ page_title | escape }} | {{ site.title | escape }}</title>
+<title>{{ page_title | strip | escape }}{% if page_title != "" %} | {% endif %}{{ site.title | escape }}</title>
+
+{%- comment -%} Favicons {%- endcomment -%}
 <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}">
 
+{%- comment -%} SEO and Social Meta Tags {%- endcomment -%}
 {% include meta.html %}
+
+{%- comment -%} RSS Feed {%- endcomment -%}
 {% feed_meta %}
 
+{%- comment -%} Preconnect hints for performance {%- endcomment -%}
+<link rel="preconnect" href="{{ site.url }}">
+
+{%- comment -%} Stylesheets {%- endcomment -%}
 {% assign cache = site.time | date:'?v=%s' %}
 <link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url | append: cache }}">
+
+{%- comment -%} JSON-LD Structured Data {%- endcomment -%}
+{% include schema.html %}

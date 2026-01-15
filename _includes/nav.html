@@ -1,8 +1,8 @@
-<nav class="site-nav">
+<nav class="site-nav" aria-label="Main navigation">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{% link index.html %}">{{ site.title }}</a>
+    <a class="navbar-brand" href="{% link index.html %}" aria-label="{{ site.title }} - Home">{{ site.title }}</a>
 
-    <ul class="navbar-nav">
+    <ul class="navbar-nav" role="list">
       <li class="nav-item">
         <a class="nav-link" href="{% link page/index.html %}">Posts</a>
       </li>
