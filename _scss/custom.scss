@@ -266,10 +266,8 @@ header .navbar-nav .nav-link {
 
 .page-hero-frame {
   @extend .col-12;
-  @extend .col-sm-10;
-  @extend .col-md-9;
-  @extend .col-lg-8;
-  @extend .col-xl-7;
+  @extend .col-md-11;
+  @extend .col-xl-9;
   @extend .full-width;
 }
 
@@ -279,6 +277,24 @@ header .navbar-nav .nav-link {
 
   .img-fluid {
     width: 100%;
+
+    @include media-breakpoint-up(sm) {
+      height: auto;
+      object-fit: contain;
+      max-height: clamp(28rem, 60svh, 60rem);
+    }
+
+    @include media-breakpoint-up(md) {
+      max-height: clamp(28rem, 70svh, 60rem);
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-height: clamp(28rem, 80svh, 70rem);
+    }
+
+    @include media-breakpoint-up(xl) {
+      max-height: clamp(28rem, 85svh, 80rem);
+    }
   }
 }
 
