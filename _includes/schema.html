@@ -65,9 +65,15 @@ Supports WebSite, WebPage, Article/BlogPosting, Person, and BreadcrumbList schem
 
 {%- comment -%} Article/BlogPosting Schema (for posts) {%- endcomment -%}
 {%- if page.layout == 'post' or page.collection == 'posts' -%}
-{%- assign post_author = page.author | default: site.author -%}
-{%- if post_author -%}
-{%- assign author_data = site.data.authors[post_author] | default: post_author -%}
+{%- comment -%} Handle post-specific authors (can be array), falling back to site author {%- endcomment -%}
+{%- if page.author -%}
+  {%- assign first_author_key = page.author | first | default: page.author -%}
+  {%- assign author_data = site.data.authors[first_author_key] -%}
+  {%- unless author_data -%}
+    {%- assign author_data = first_author_key -%}
+  {%- endunless -%}
+{%- else -%}
+  {%- assign author_data = site.author -%}
 {%- endif -%}
 <script type="application/ld+json">
 {
@@ -84,8 +90,8 @@ Supports WebSite, WebPage, Article/BlogPosting, Person, and BreadcrumbList schem
   "dateModified": {{ page.last_modified_at | default: page.published_at | default: page.date | date_to_xmlschema | jsonify }},
   "author": {
     "@type": "Person",
-    "name": {{ author_data.name | default: author_data | default: site.author.name | jsonify }},
-    "url": {{ author_data.uri | default: site.author.uri | default: site.url | jsonify }}
+    "name": {{ author_data.name | default: author_data | jsonify }},
+    "url": {{ author_data.uri | default: site.url | jsonify }}
   },
   "publisher": {
     "@type": "Person",

@@ -27,7 +27,13 @@
 {%- if page.last_modified_at -%}
 <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
 {%- endif -%}
-{%- if site.author -%}
+{%- comment -%} Handle post-specific authors, falling back to site author {%- endcomment -%}
+{%- if page.author -%}
+{%- for author in page.author -%}
+{%- assign authorDetails = site.data.authors[author] -%}
+<meta property="article:author" content="{{ authorDetails.name | default: author }}">
+{%- endfor -%}
+{%- elsif site.author -%}
 <meta property="article:author" content="{{ site.author.name | default: site.author }}">
 {%- endif -%}
 {%- if page.category -%}
