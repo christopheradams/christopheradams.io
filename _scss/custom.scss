@@ -558,10 +558,6 @@ header .navbar-nav .nav-link {
 }
 
 .footer-copyright {
-  @extend .d-flex;
-  @extend .flex-wrap;
-  @extend .justify-content-center;
-
   padding: $footer-spacing;
   font-size: $footer-note-size;
   text-align: center;
