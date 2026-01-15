@@ -52,15 +52,22 @@
 <meta property="og:locale" content="{{ site.lang | default: 'en_US' | replace: '-', '_' }}">
 
 {%- comment -%} Twitter Card {%- endcomment -%}
-{%- assign twitter_user = site.social_links | where: "title", "Twitter" | first -%}
-{%- if twitter_user -%}
-{%- assign twitter_username = twitter_user.url | split: "/" | last -%}
+{%- comment -%} twitter:site uses site.author.twitter, twitter:creator uses post author's twitter {%- endcomment -%}
+{%- assign twitter_site = site.author.twitter -%}
+{%- if page.author -%}
+  {%- assign first_author_key = page.author | first | default: page.author -%}
+  {%- assign author_data = site.data.authors[first_author_key] -%}
+  {%- assign twitter_creator = author_data.twitter | default: twitter_site -%}
+{%- else -%}
+  {%- assign twitter_creator = twitter_site -%}
 {%- endif -%}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ title }}">
-{%- if twitter_username -%}
-<meta name="twitter:site" content="@{{ twitter_username }}">
-<meta name="twitter:creator" content="@{{ twitter_username }}">
+{%- if twitter_site -%}
+<meta name="twitter:site" content="@{{ twitter_site }}">
+{%- endif -%}
+{%- if twitter_creator -%}
+<meta name="twitter:creator" content="@{{ twitter_creator }}">
 {%- endif -%}
 <meta name="twitter:description" content="{{ description }}">
 <meta name="twitter:image" content="{{ image_url }}">
