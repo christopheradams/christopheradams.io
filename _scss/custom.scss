@@ -265,9 +265,9 @@ header .navbar-nav .nav-link {
 }
 
 .page-hero-frame {
-  @extend .col-11;
-  @extend .col-md-10;
-  @extend .col-xl-9;
+  @extend .col-12;
+  @extend .col-md-11;
+  @extend .col-xl-10;
   @extend .full-width;
 }
 
