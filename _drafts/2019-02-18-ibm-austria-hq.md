@@ -1,5 +1,5 @@
 ---
-title: Graffiti & IBM
+title: IBM Austria HQ
 description: Danube Canal
 location: Vienna
 category: Photos
