@@ -1,6 +1,6 @@
 ---
 title: Tomorrow will be even better
-description: Kuandu Museum of Fine Arts
+description: Jun Yang at Kuandu Museum of Fine Arts
 location: Taipei
 category: Photos
 tags: [Taiwan, Scenes]

@@ -1,6 +1,6 @@
 ---
-title: Yang Jun
-description: Kuandu Museum of Fine Arts
+title: Red Letters
+description: Jun Yang at Kuandu Museum of Fine Arts
 location: Taipei
 category: Photos
 tags: [Taiwan, Scenes]
