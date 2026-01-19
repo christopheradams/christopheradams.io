@@ -1,6 +1,6 @@
 ---
 title: Heinz Frank
-description: Exhibition opening at Kunsthalle Wien
+description: Kunsthalle Wien
 location: Vienna
 published_at: 2021-11-18 15:36:17 +0800
 category: Photos

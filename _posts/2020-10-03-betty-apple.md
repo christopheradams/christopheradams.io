@@ -1,6 +1,6 @@
 ---
 title: Betty Apple
-description: Before her performance at Nuit Blanche
+description: Nuit Blanche 2020
 location: Taipei
 published_at: 2022-10-31 15:31:44 +0800
 category: Photos

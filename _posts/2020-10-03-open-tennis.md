@@ -1,6 +1,6 @@
 ---
 title: Open Tennis
-description: After the performance at Nuit Blanche
+description: Nuit Blanche 2020
 location: Taipei
 published_at: 2022-11-09 18:46:29 +0800
 category: Photos

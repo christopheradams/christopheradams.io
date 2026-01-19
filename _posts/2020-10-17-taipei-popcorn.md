@@ -1,6 +1,6 @@
 ---
 title: Taipei Popcorn
-description: After their performance at C-LAB
+description: Taiwan Contemporary Culture Lab
 location: Taipei
 published_at: 2022-10-30 18:47:40 +0800
 category: Photos
