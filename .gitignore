@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.rake_tasks~
 /vendor/
 /images/
 /videos/
