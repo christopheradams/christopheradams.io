@@ -1,6 +1,7 @@
 ---
 title: Kaya Hanasaki
 description: Kuandu Museum of Fine Arts
+date: 2019-10-18 20:17 +0800
 location: Taipei
 category: Photos
 tags: [Taiwan, Portraits]
