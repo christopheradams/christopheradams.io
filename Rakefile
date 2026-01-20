@@ -58,7 +58,8 @@ task :photo_draft, [:image_path] do |_t, args|
   # Parse EXIF date format (YYYY:MM:DD HH:MM:SS)
   photo_date = parse_exif_date(date_original)
   
-  # Current timestamp for last_modified_at and published_at
+  # Photo date timestamp and current timestamp
+  photo_timestamp = photo_date.strftime('%Y-%m-%d %H:%M %z')
   now = Time.now
   timestamp = now.strftime('%Y-%m-%d %H:%M %z')
 
@@ -83,6 +84,7 @@ task :photo_draft, [:image_path] do |_t, args|
     title: #{title}
     description: #{description}
     location: #{location}
+    date: #{photo_timestamp}
     last_modified_at: #{timestamp}
     published_at: #{timestamp}
     category: Photos
