@@ -394,6 +394,29 @@ header .navbar-nav .nav-link {
       }
     }
 
+    // Height clamping for content images (similar to .page-hero-image)
+    // Prevents portrait-oriented images from being too tall
+    p > img:not(.narrow):not(.wide),
+    picture > img:not(.narrow):not(.wide) {
+      @include media-breakpoint-up(sm) {
+        height: auto;
+        object-fit: contain;
+        max-height: clamp(24rem, 55svh, 50rem);
+      }
+
+      @include media-breakpoint-up(md) {
+        max-height: clamp(26rem, 60svh, 55rem);
+      }
+
+      @include media-breakpoint-up(lg) {
+        max-height: clamp(28rem, 65svh, 60rem);
+      }
+
+      @include media-breakpoint-up(xl) {
+        max-height: clamp(28rem, 68svh, 65rem);
+      }
+    }
+
     picture {
       display: block;
       margin-bottom: 1rem;
