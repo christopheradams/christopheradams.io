@@ -396,24 +396,28 @@ header .navbar-nav .nav-link {
 
     // Height clamping for content images (similar to .page-hero-image)
     // Prevents portrait-oriented images from being too tall
+    // Min height matches landscape image width so both orientations have similar area
     p > img:not(.narrow):not(.wide),
     picture > img:not(.narrow):not(.wide) {
       @include media-breakpoint-up(sm) {
         height: auto;
         object-fit: contain;
-        max-height: clamp(24rem, 55svh, 50rem);
+        // col-12 * 75% max-width ≈ 70vw
+        max-height: min(50rem, max(70vw, 55svh));
       }
 
       @include media-breakpoint-up(md) {
-        max-height: clamp(26rem, 60svh, 55rem);
+        max-height: min(55rem, max(70vw, 60svh));
       }
 
       @include media-breakpoint-up(lg) {
-        max-height: clamp(28rem, 65svh, 60rem);
+        // col-10 * 75% max-width ≈ 55vw
+        max-height: min(60rem, max(55vw, 65svh));
       }
 
       @include media-breakpoint-up(xl) {
-        max-height: clamp(28rem, 68svh, 65rem);
+        // col-8 * 75% max-width ≈ 42vw
+        max-height: min(65rem, max(42vw, 68svh));
       }
     }
 
