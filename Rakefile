@@ -13,8 +13,9 @@ task :help do
   puts "Example:"
   puts "  rake photo_draft[assets/images/my-photo.jpg]"
   puts ""
-  puts "The script will extract EXIF data (Title, Description, Subject, DateTimeOriginal)"
+  puts "The script will extract EXIF data (Title, Description, Subject, Notes, DateTimeOriginal)"
   puts "and create a draft post in _drafts/ with the appropriate frontmatter."
+  puts "If Notes is present, it will be added as the body of the document."
   puts ""
   puts "Requirements:"
   puts "  - exiftool must be installed (sudo apt-get install libimage-exiftool-perl)"
@@ -47,6 +48,7 @@ task :photo_draft, [:image_path] do |_t, args|
   title = exif_data['Title'] || 'Untitled'
   description = exif_data['Description'] || ''
   location = exif_data['Subject'] || ''
+  notes = exif_data['Notes'] || ''
   date_original = exif_data['DateTimeOriginal'] || exif_data['CreateDate']
 
   if date_original.nil? || date_original.empty?
@@ -75,7 +77,7 @@ task :photo_draft, [:image_path] do |_t, args|
     abort "Error: Draft already exists: #{filename}"
   end
 
-  # Generate frontmatter
+  # Generate frontmatter and body
   content = <<~FRONTMATTER
     ---
     title: #{title}
@@ -89,6 +91,11 @@ task :photo_draft, [:image_path] do |_t, args|
     ---
   FRONTMATTER
 
+  # Add notes as body content if present
+  unless notes.empty?
+    content += "\n#{notes}\n"
+  end
+
   # Write the draft file
   File.write(filename, content)
 
@@ -97,11 +104,12 @@ task :photo_draft, [:image_path] do |_t, args|
   puts "  Description: #{description}"
   puts "  Location: #{location}"
   puts "  Photo Date: #{photo_date.strftime('%Y-%m-%d %H:%M')}"
+  puts "  Notes: #{notes.empty? ? '(none)' : notes[0, 50] + (notes.length > 50 ? '...' : '')}"
 end
 
 # Read EXIF data using exiftool and return as a hash
 def read_exif(image_path)
-  output = `exiftool -Title -Description -Subject -DateTimeOriginal -CreateDate "#{image_path}" 2>/dev/null`
+  output = `exiftool -Title -Description -Subject -Notes -DateTimeOriginal -CreateDate "#{image_path}" 2>/dev/null`
   
   exif = {}
   output.each_line do |line|
