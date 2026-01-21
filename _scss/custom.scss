@@ -446,7 +446,10 @@ header .navbar-nav .nav-link {
   }
 
   img {
-    @extend .img-fluid
+    @extend .img-fluid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
