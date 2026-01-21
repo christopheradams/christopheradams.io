@@ -30,8 +30,8 @@ build:
 	JEKYLL_ENV=production bundle exec jekyll build
 
 deploy: build
-	rsync -avz --delete --exclude 'generated/' _site/ $(DEPLOY_TARGET)
-	rsync -avz --ignore-existing _site/generated/ $(DEPLOY_TARGET)/generated/
+	rsync -avz --no-owner --no-group --delete --exclude 'generated/' _site/ $(DEPLOY_TARGET)
+	rsync -avz --no-owner --no-group --ignore-existing _site/generated/ $(DEPLOY_TARGET)/generated/
 
 clean:
 	bundle exec jekyll clean
