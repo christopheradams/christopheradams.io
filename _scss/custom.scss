@@ -281,19 +281,19 @@ header .navbar-nav .nav-link {
     @include media-breakpoint-up(sm) {
       height: auto;
       object-fit: contain;
-      max-height: min(60rem, max(60vw, 60svh));
+      max-height: min(60rem, max(85vw, 65svh));
     }
 
     @include media-breakpoint-up(md) {
-      max-height: min(60rem, max(55vw, 70svh));
+      max-height: min(65rem, max(85vw, 72svh));
     }
 
     @include media-breakpoint-up(lg) {
-      max-height: min(65rem, max(50vw, 70svh));
+      max-height: min(70rem, max(65vw, 80svh));
     }
 
     @include media-breakpoint-up(xl) {
-      max-height: min(75rem, max(45vw, 72.5svh));
+      max-height: min(80rem, max(50vw, 82svh));
     }
   }
 }
