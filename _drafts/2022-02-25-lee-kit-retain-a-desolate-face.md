@@ -1,6 +1,6 @@
 ---
 title: Lee Kit
-description: Kuandu Museum of Fine Arts
+description: Retain a desolate face, Kuandu Museum of Fine Arts
 location: Taipei
 last_modified_at: 2026-01-20 13:43 +0800
 published_at: 2026-01-20 13:43 +0800
