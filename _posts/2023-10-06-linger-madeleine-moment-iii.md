@@ -1,6 +1,6 @@
 ---
-title: Linger
-description: Lai Chih-Sheng at Hong Foundation
+title: Lai Chih-Sheng
+description: Madeleine Moment Part III, Hong Foundation
 location: Taipei
 published_at: 2023-11-07 22:33:55 +0800
 last_modified_at: 2023-11-07 22:33:55 +0800
