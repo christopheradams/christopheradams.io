@@ -1,6 +1,6 @@
 ---
-title: 24/7
-description: A Proposition by Michael Lin at Taipei Fine Arts Museum
+title: Michael Lin
+description: 24/7, Taipei Fine Arts Museum
 location: Taipei
 published_at: 2022-11-02 21:54:44 +0800
 category: Photos
