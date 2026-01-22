@@ -1,7 +1,6 @@
 ---
-title: Mediocre
-description: >
-    Techno: Lee Kit Solo Exhibition
+title: Lee Kit
+description: TECHNO, TKG+
 location: Taipei
 published_at: 2022-11-15 15:14:32 +0800
 category: Photos
