@@ -25,7 +25,8 @@ itemtype: https://schema.org/BlogPosting
     {%- endif %}
     {% endfor %}
 
-    {%- for tag in page.tags -%}
+    {%- assign page_tags = page.tags | sort -%}
+    {%- for tag in page_tags -%}
     {%- for archive in site.archives -%}
     {%- if archive.type == "tag" and archive.title == tag -%}
     <a href="{{ archive.url }}">{{ archive.title }}</a>
