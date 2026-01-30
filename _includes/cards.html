@@ -26,7 +26,9 @@
         </a>
         {% if post.title and post.title != "" %}
         <strong itemprop="name">{{ post.title | escape }}</strong>
+        {% if post_summary != "" %}
         <span class="card-title-separator">&mdash;</span>
+        {% endif %}
         {% else %}
         {% unless post_image %}
         <strong aria-hidden="true">¶</strong>
