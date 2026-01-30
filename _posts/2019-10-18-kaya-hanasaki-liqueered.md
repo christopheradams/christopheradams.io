@@ -6,7 +6,7 @@ last_modified_at: 2026-01-21 15:43 +0800
 published_at: 2026-01-21 15:43 +0800
 location: Taipei
 category: Photos
-tags: [Featured, Taiwan, Portraits]
+tags: [Featured, Taiwan, Portraits, Performances]
 image: assets/images/20191018-2004_Taipei_KdMoFA_L1009000-0.jpg
 ---
 
