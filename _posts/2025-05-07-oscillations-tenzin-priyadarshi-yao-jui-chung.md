@@ -5,7 +5,7 @@ location: Ruifang
 date: 2025-05-07 11:00 +0800
 published_at: 2025-05-31 18:30:13 +0800
 category: Projects
-tags: [Taiwan, Exhibitions, Featured]
+tags: [Taiwan, Exhibitions, Photography, Featured]
 image: /assets/images/556b7c5ac506fbfc5d309345cf6677ae.JPEG
 ---
 
