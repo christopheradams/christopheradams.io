@@ -497,7 +497,7 @@ header .navbar-nav .nav-link {
 // Notes category styling
 
 .page-category-notes {
-  .page-content > p:first-of-type {
+  .page-content > p:first-child {
     @extend .lead;
   }
 }
