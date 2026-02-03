@@ -6,7 +6,10 @@ published_at: 2025-12-19 11:45 +0800
 last_modified_at: 2026-01-15 10:31 +0800
 location: Taipei
 category: Notes
-tags: [Featured, Photography, Taiwan]
+tags:
+  - Featured
+  - Photography
+  - Taiwan
 image: assets/images/White-Fungus-Issue-18.jpg
 link: https://www.whitefungus.com/dinoliaominghe-fankuijiumeiyoujintou-zheyibeizhiyuzhishan
 ---

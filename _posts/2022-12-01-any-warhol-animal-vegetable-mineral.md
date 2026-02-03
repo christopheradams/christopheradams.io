@@ -5,7 +5,8 @@ location: Taipei
 published_at: 2023-01-05 01:44:12 +0800
 last_modified_at: 2023-01-31 13:18:36 +0800
 category: Works
-tags: [Artificial Intelligence]
+tags:
+  - Artificial Intelligence
 image:
     title: Any Warhol Cave
     path: /assets/images/20221215103348_00006_a_black_and_white_photograph_of_a_geological_formation.jpg

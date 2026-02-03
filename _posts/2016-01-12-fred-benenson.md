@@ -4,7 +4,9 @@ description: Kickstarter
 location: New York
 published_at: 2016-11-11 09:39:34 +0800
 category: Photos
-tags: [USA, Portraits]
+tags:
+  - Portraits
+  - USA
 image: /assets/images/29334522065_4fa6b186b2_k.jpg
 ---
 

@@ -4,7 +4,9 @@ description: Union Square
 location: New York
 published_at: 2016-11-15 15:20:08 +0800
 category: Photos
-tags: [USA, Portraits]
+tags:
+  - Portraits
+  - USA
 image: /assets/images/27357650411_e9b7614f5d_k.jpg
 ---
 

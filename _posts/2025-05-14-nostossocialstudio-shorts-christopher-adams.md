@@ -4,7 +4,11 @@ date: 2025-05-14 02:08:48 +0000
 published_at: 2025-06-03 22:01:42 +0800
 location: Taipei
 category: Notes
-tags: [Photography, Taiwan, Exhibitions, Featured]
+tags:
+  - Exhibitions
+  - Featured
+  - Photography
+  - Taiwan
 link: https://www.nostossocialstudio.com/p/shorts-matt-copson-kasia-fudakowski-sylvia-sleigh-la-pausa-christopher-adams-and-the-penghu-perennial?open=false#%C2%A7christopher-adams
 ---
 

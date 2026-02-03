@@ -4,7 +4,9 @@ description: MIT Media Lab
 location: Cambridge, MA
 published_at: 2016-11-15 15:20:08 +0800
 category: Photos
-tags: [USA, Portraits]
+tags:
+  - Portraits
+  - USA
 image: /assets/images/28711451844_35f72173d9_k.jpg
 ---
 

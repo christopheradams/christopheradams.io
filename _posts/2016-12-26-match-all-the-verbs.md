@@ -3,7 +3,8 @@ title: Match All the Verbs
 description: Phoenix is not your App. Is it even MVC?
 published_at: 2016-12-30 18:41:10 +0800
 category: Writing
-tags: [Programming]
+tags:
+  - Programming
 image: /assets/images/20180430-20180430_Taipei_elixirtw_L1001380-0.jpg
 location: Hanoi
 published: false

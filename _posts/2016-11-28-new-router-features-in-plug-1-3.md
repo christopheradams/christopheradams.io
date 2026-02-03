@@ -3,7 +3,8 @@ title: New Router features in Plug 1.3
 description: Calling All Plugs
 published_at: 2016-11-28 19:31:13 +0800
 category: Writing
-tags: [Programming]
+tags:
+  - Programming
 image: /assets/images/20180604-20180604_Taipei_elixirtw_L1002146-0.jpg
 location: Taipei
 published: false

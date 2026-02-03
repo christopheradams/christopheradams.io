@@ -5,7 +5,11 @@ location: Taipei
 published_at: 2021-11-25 16:36:31 +0800
 modified_at: 2024-01-05 19:51:23 +0800
 category: Projects
-tags: [Blockchain, Exhibitions, Taiwan, Featured]
+tags:
+  - Blockchain
+  - Exhibitions
+  - Featured
+  - Taiwan
 image: /assets/images/MoCA-Taipei_20210313_Adams-Yang_DSC06787.JPG
 ---
 

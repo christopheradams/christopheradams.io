@@ -6,7 +6,9 @@ location: Taipei
 published_at: 2023-02-13 21:59:29 +0800
 last_updated_at: 2023-02-13 19:45:58 +0800
 category: Projects
-tags: [Creative Commons, Photography]
+tags:
+  - Creative Commons
+  - Photography
 image: /assets/images/04-INSIDE-hands-CORY-and-DEREK-a_08.jpg
 ---
 

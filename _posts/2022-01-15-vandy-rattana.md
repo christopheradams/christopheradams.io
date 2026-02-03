@@ -4,7 +4,9 @@ description: Screening the Monograph Trilogy
 location: Taipei
 published_at: 2022-11-07 12:25:58 +0800
 category: Photos
-tags: [Taiwan, Portraits]
+tags:
+  - Portraits
+  - Taiwan
 image: /assets/images/20220115-2056_Taipei_Tianmu_L1008149-0.jpg
 ---
 

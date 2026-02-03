@@ -4,7 +4,8 @@ date: 2024-12-06 l3:30 +0800
 published_at: 2024-12-06 l3:30 +0800
 location: Taipei
 category: Notes
-tags: [Artificial Intelligence]
+tags:
+  - Artificial Intelligence
 link: https://arxiv.org/abs/2406.09408
 ---
 

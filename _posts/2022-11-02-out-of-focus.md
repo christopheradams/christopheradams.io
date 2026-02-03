@@ -5,7 +5,8 @@ published_at: 2023-03-04 19:16:55 +0800
 last_updated_at: 2023-03-04 19:10:05 +0800
 location: Taipei
 category: Notes
-tags: [Photography]
+tags:
+  - Photography
 ---
 
 To update an old adage: *One photo out of focus is a mistake, ten are an

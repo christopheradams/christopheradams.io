@@ -5,7 +5,10 @@ location: Taipei
 published_at: 2023-01-30 21:52:03 +0800
 last_modified_at: 2023-01-30 21:52:03 +0800
 category: Works
-tags: [Artificial Intelligence, Featured, Performances]
+tags:
+  - Artificial Intelligence
+  - Featured
+  - Performances
 image:
     title: Betty Apple on stage at Nuit Blanche Taipei 2022
     path: /assets/images/20221002-0213_Taipei_NuitBlanche_L1008376-0.jpg
