@@ -4,6 +4,3 @@ _site
 .jekyll-metadata
 .rake_tasks~
 /vendor/
-/images/
-/videos/
-/_videos/
