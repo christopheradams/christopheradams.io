@@ -5,7 +5,7 @@ location: Taipei
 category: Photos
 last_modified_at: 2026-01-18 20:45 +0800
 published_at: 2026-01-18 20:45 +0800
-tags: [Taiwan, Scenes]
+tags: [Taiwan, Scenes, Collection]
 image: assets/images/20210113-1427_Taipei_KdMoFA_L1005465-0.jpg
 ---
 

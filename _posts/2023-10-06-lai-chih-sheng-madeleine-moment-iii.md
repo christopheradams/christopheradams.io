@@ -5,7 +5,7 @@ location: Taipei
 published_at: 2023-11-07 22:33:55 +0800
 last_modified_at: 2023-11-07 22:33:55 +0800
 category: Photos
-tags: [Taiwan, Scenes]
+tags: [Taiwan, Scenes, Collection]
 image: /assets/images/20231006-1350_Taipei_HongFoundation_L1000545-0.jpg
 ---
 

@@ -4,7 +4,7 @@ description: 24/7, Taipei Fine Arts Museum
 location: Taipei
 published_at: 2022-11-02 21:54:44 +0800
 category: Photos
-tags: [Taiwan, Scenes]
+tags: [Taiwan, Scenes, Collection]
 image: /assets/images/20190830-1448_Taipei_TFAM_L1006990-0.jpg
 ---
 

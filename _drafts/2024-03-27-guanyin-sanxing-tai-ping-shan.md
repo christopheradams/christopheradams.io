@@ -3,7 +3,7 @@ title: Guanyin & Sanxing
 description: Alley Niche in Tai Ping Shan
 location: Hong Kong
 category: Photos
-tags: [Featured, Hong Kong, Scenes]
+tags: [Featured, Hong Kong, Scenes, Collection]
 image: assets/images/20240327-2004_HongKong_Central_L1001148-0.jpg
 ---
 

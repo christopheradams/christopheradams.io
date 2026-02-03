@@ -6,7 +6,7 @@ date: 2019-10-18 19:45 +0800
 last_modified_at: 2026-01-21 15:32 +0800
 published_at: 2026-01-21 15:32 +0800
 category: Photos
-tags: [Portraits, Taiwan, Performances]
+tags: [Portraits, Taiwan, Performances, Collection]
 image: assets/images/20191018-1915_Taipei_KdMoFA_L1008651-0.jpg
 ---
 
