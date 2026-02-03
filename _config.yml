@@ -87,5 +87,6 @@ exclude:
   - LICENSE
   - README.md
   - Makefile
+  - Rakefile
   - screenshot.png
   - vendor
