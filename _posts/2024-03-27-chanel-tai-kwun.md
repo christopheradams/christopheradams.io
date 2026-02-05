@@ -2,6 +2,9 @@
 title: Chanel × Tai Kwun
 description: Former Central Police Station Compound
 location: Hong Kong
+date: 2024-03-27 16:54 +0800
+last_modified_at: 2026-02-05 13:47 +0800
+published_at: 2026-02-05 13:47 +0800
 category: Photos
 tags:
   - Collection
