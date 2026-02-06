@@ -1,7 +1,7 @@
 ---
 title: Art-Free Diffusion
-date: 2024-12-06 l3:30 +0800
-published_at: 2024-12-06 l3:30 +0800
+date: 2024-12-06 13:30 +0800
+published_at: 2024-12-06 13:30 +0800
 location: Taipei
 category: Notes
 tags:
