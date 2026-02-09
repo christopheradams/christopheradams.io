@@ -9,6 +9,7 @@ category: Notes
 tags:
   - Featured
   - Photography
+  - Newsletter
   - Taiwan
 image: assets/images/White-Fungus-Issue-18.jpg
 link: https://www.whitefungus.com/dinoliaominghe-fankuijiumeiyoujintou-zheyibeizhiyuzhishan
