@@ -14,7 +14,7 @@ link: https://shop.christopheradams.io
 ---
 
 I've now opened a digital gallery at **[shop.christopheradams.io]**. This is a
-direct source for collectors to acquire unique editions of my work.
+direct source for collectors to acquire *one-of-a-kind* editions of my work.
 
 Many of the photographs listed for sale were first exhibited at my solo show
 *[Island of Another Scene]* (May--August 2025, Taipei), where I was guided by
