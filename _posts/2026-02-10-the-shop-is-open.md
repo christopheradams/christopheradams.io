@@ -28,8 +28,8 @@ management, and shipping costs. I've simplified the equation by offering only a
 
 I gleaned the spirit and mechanics of making an artwork unique from the practice
 of German photographer [Wolfgang Tillmans]. His photographs are customarily
-presented as large-format unframed prints, while certain collectible works each
-comprise a signed certificate of authenticity, a small inkjet print, and a CD
+presented as large-format unframed prints, while a collectible work is made up
+of a signed certificate of authenticity, a small inkjet print, and a CD
 containing a high-resolution image.[^Marchesi2021] The collector is instructed
 to make and retain only a single exhibition print of the work at a time, while
 the artist is bound by the same rule. This pact between the *image-maker* and
