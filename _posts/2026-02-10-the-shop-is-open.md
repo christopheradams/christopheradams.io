@@ -24,17 +24,19 @@ digital gallery will have these and other works available going forward.
 The business of selling photographs usually involves a complex calculus of
 edition sizes, print dimensions, paper stock, framing materials, inventory
 management, and shipping costs. I've simplified the equation by offering only a
-*single* edition of each work.
+*single* edition of each work as an archival inkjet print and digital image
+file.
 
-I gleaned the spirit and mechanics of making an artwork unique from the practice
-of German photographer [Wolfgang Tillmans]. His photographs are customarily
-presented as large-format unframed prints, while a collectible work is made up
-of a signed certificate of authenticity, a small inkjet print, and a CD
-containing a high-resolution image.[^Marchesi2021] The collector is instructed
-to make and retain only a single exhibition print of the work at a time, while
-the artist is bound by the same rule. This pact between the *image-maker* and
-*image-owner* sustains the work's value, while the color match print and digital
-file conserve its qualities.
+I gleaned the spirit and mechanics of making unique works from the practice of
+German photographer [Wolfgang Tillmans]. His photographs are customarily
+presented as large-format unframed prints, while his collectible works are
+accompanied by a signed certificate of authenticity, a small reference print,
+and a CD storing a high-resolution image.[^Marchesi2021] The artist is bound by
+the same rule as the collector, to retain only a single exhibition copy of the
+work at a time (the print can in fact be destroyed and re-created as needs and
+technologies change). This pact between the *image-maker* and *image-owner*
+sustains the work's value, while the color match print and digital file conserve
+its qualities.
 
 {% picture /assets/images/CA-20190116-L1007605-p0.png --alt Certificate of
 Authenticity --img class="img-thumbnail" %}
