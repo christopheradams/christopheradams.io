@@ -41,20 +41,20 @@ Authenticity --img class="img-thumbnail" %}
 
 I have adapted Tillmans's practice by dropping the compact disc but adding a
 cryptographic signature file to verify the digital image. You may well ask, *why
-not use a blockchain for this?* I'm well aware of [NFTs] as a solution for
-arranging an artwork from contract, to ownership, to data, and image. However, I
-desire an approach that begins with an *image* then forms a *relationship.* In
-short, these works are no *tokens.*
+not use a blockchain for this?* I'm well aware that [NFTs] can solve the
+connection between contract, ownership, data, and image. However, I desire an
+approach that begins with an *image* and then forms a *relationship.* In short,
+these works are no *tokens.*
 
 An initial set of ten works are now listed in the digital gallery. Additional
-works from the [Collection] are available upon request. Please email
-<shop@christopheradams.io> for any inquiries.
+works from **[the Collection]** are available for production upon
+request. Please email <shop@christopheradams.io> for any inquiries.
 
 [shop.christopheradams.io]: https://shop.christopheradams.io/
 [Island of Another Scene]: {% post_url 2025-05-03-island-of-another-scene %}
 [Wolfgang Tillmans]: https://en.wikipedia.org/wiki/Wolfgang_Tillmans
 [PGP]: https://en.wikipedia.org/wiki/Pretty_Good_Privacy
-[Collection]: {{ 'tags/collection' | relative_url }}
+[the Collection]: {{ 'tags/collection' | relative_url }}
 [NFTs]: https://en.wikipedia.org/wiki/Non-fungible_token
 
 [^Marchesi2021]: Marchesi, Monica (2021). "Reprint and destroy? Wolfgang Tillmans' artistic practice: The reprinting and the intentional destruction of large-format inkjet prints." In *Transcending Boundaries: Integrated Approaches to Conservation,* ICOM-CC 19th Triennial Conference Preprints, Beijing, 17–21 May 2021. Beijing: ICOM-CC. ISBN 978-2-491997-14-4.
