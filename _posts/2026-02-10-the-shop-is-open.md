@@ -19,22 +19,22 @@ direct source for collectors to acquire *one-of-a-kind* editions of my work.
 Many of the photographs listed for sale were first exhibited at my solo show
 *[Island of Another Scene]* (May--August 2025, Taipei), where I was guided by
 The Studio's Cesar Reyes and Jessica Lin to put a price on my images. The
-digital gallery will make these and other works available going forward.
+digital gallery will have these and other works available going forward.
 
 The business of selling photographs usually involves a complex calculus of
 edition sizes, print dimensions, paper stock, framing materials, inventory
 management, and shipping costs. I've simplified the equation by offering only a
 *single* edition of each work.
 
-I gleaned the spirit and mechanics of treating an artwork as unique from the
-practice of German photographer [Wolfgang Tillmans]. His photographs are
-customarily presented as large-format unframed prints, while a unique
-collectible work is constellated as a signed certificate of authenticity, a
-small inkjet print, and a CD containing a high-resolution image.[^Marchesi2021]
-The collector is instructed to make and retain only a single print of the work
-at a time, while the artist is bound by the same rule. This pact between the
-*image-maker* and *image-owner* sustains the work's value, while the color match
-print and digital file conserve its qualities.
+I gleaned the spirit and mechanics of making an artwork unique from the practice
+of German photographer [Wolfgang Tillmans]. His photographs are customarily
+presented as large-format unframed prints, while certain collectible works each
+comprise a signed certificate of authenticity, a small inkjet print, and a CD
+containing a high-resolution image.[^Marchesi2021] The collector is instructed
+to make and retain only a single exhibition print of the work at a time, while
+the artist is bound by the same rule. This pact between the *image-maker* and
+*image-owner* sustains the work's value, while the color match print and digital
+file conserve its qualities.
 
 {% picture /assets/images/CA-20190116-L1007605-p0.png --alt Certificate of
 Authenticity --img class="img-thumbnail" %}
