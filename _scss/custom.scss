@@ -587,3 +587,23 @@ header .navbar-nav .nav-link {
 .pagination {
   @extend .justify-content-center;
 }
+
+// Footnotes
+
+.page-body {
+  .footnotes {
+    font-size: smaller;
+  }
+
+  p sup a,
+  .footnotes .reversefootnote {
+    font-weight: $font-weight-bold;
+    border-bottom: none;
+    box-shadow: none;
+    color: $red;
+  }
+
+  sup + sup::before {
+    content: ",\2009"; // comma followed by thin space
+  }
+}
