@@ -1,6 +1,6 @@
 ---
 title: The Shop is Open
-description: Announcing a digital photography gallery
+description: A digital photography gallery debut
 location: Taipei
 date: 2026-02-10 16:18 +0800
 published_at: 2026-02-10 16:18 +0800
@@ -15,24 +15,27 @@ link: https://shop.christopheradams.io
 
 I've now opened a digital photography gallery at
 **[shop.christopheradams.io]**. This is a direct source for collectors to
-acquire one-of-a-kind editions of my work.
+acquire unique editions of my work.
 
-I had never sold in a gallery prior to my solo show *[Island of Another Scene]*
-(May--August 2025, Taipei), but I was guided by The Studio's Cesar Reyes and
-Jessica Lin to put a price on my images. The digital gallery will now make these
-and other works available going forward. The business of selling photographs
-usually involves a complex calculus of edition sizes, print dimensions, paper
-stock, framing materials, inventory management, and shipping costs. I've
-simplified the equation by only offering a single edition of each work.
+Many of the photographs listed for sale were first exhibited at my solo show
+*[Island of Another Scene]* (May--August 2025, Taipei), where I was guided by
+The Studio's Cesar Reyes and Jessica Lin to put a price on my images. The
+digital gallery will now make these and other works available going forward.
 
-I gleaned the spirit of treating each artwork as unique from the practice of
-German photographer [Wolfgang Tillmans]. His photographs are customarily
-presented as large-format unframed prints, while a collected work is accompanied
-by a signed certificate of authenticity, a small inkjet print, and a CD
-containing a high-resolution image.[^Marchesi2021] The collector is instructed
-to make a single print of the work for display or exhibition, while the artist
-is bound by the same constraint. This crafts a compact between the two
-image-owners that respects the intrinsic value of the work.
+The business of selling photographs usually involves a complex calculus of
+edition sizes, print dimensions, paper stock, framing materials, inventory
+management, and shipping costs. I've simplified the equation by only offering a
+single edition of each work.
+
+I gleaned the spirit and mechanics of treating an artwork as unique from the
+practice of German photographer [Wolfgang Tillmans]. His photographs are
+customarily presented as large-format unframed prints, while a unique
+collectible work is constellated as a signed certificate of authenticity, a
+small inkjet print, and a CD containing a high-resolution image.[^Marchesi2021]
+The collector is instructed to make and retain only a single print of the work
+at a time, while the artist is bound by the same rule. This pact between the
+image-maker and image-owner sustains the work's value, while the color match
+print and digital file conserve its qualities.
 
 {% picture /assets/images/CA-20190116-L1007605-p0.png --alt Certificate of
 Authenticity --img class="img-thumbnail" %}
