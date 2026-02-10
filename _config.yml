@@ -55,6 +55,9 @@ feed:
 
 excerpt_separator: <!--more-->
 
+kramdown:
+  footnote_backlink: "↵"
+
 sass:
   sass_dir: _scss
   style: compressed
