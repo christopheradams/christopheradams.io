@@ -47,7 +47,7 @@ A certificate of authenticity for *Su Misu & Soa* (2019)
 I have adapted Tillmans's practice by discarding the compact disc, but attaching
 a cryptographic signature to verify the photograph.[^nfts] Each work includes
 the digital image, a certificate of authenticity, and an 8×10 archival inkjet
-reference print.
+print.
 
 An initial set of ten works are now listed in the digital gallery. Additional
 works from **[the Collection]** are available for production upon
@@ -61,5 +61,5 @@ request. Please email <shop@christopheradams.io> for any inquiries.
 [NFT]: https://en.wikipedia.org/wiki/Non-fungible_token
 
 [^Marchesi2021]: Marchesi, Monica (2021). ["Reprint and destroy? Wolfgang Tillmans' artistic practice: The reprinting and the intentional destruction of large-format inkjet prints."](https://www.icom-cc-publications-online.org/4241/Reprint-and-destroy-Wolfgang-Tillmans-artistic-practice--The-reprinting-and-the-intentional-destruction-of-large-format-inkjet-prints) In *Transcending Boundaries: Integrated Approaches to Conservation,* ICOM-CC 19th Triennial Conference Preprints, Beijing, 17–21 May 2021. Beijing: ICOM-CC. ISBN 978-2-491997-14-4.
-[^nfts]: You might ask, *why not use a blockchain for this?* An [NFT] contract
-    can correlate a work's ownership, data, and image. TK.
+[^nfts]: You might ask, *why not use the blockchain for this?* An [NFT] contract
+    *can* correlate a work's ownership, data, and image. TK.
