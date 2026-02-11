@@ -596,11 +596,16 @@ header .navbar-nav .nav-link {
   }
 
   p sup a,
-  .footnotes .reversefootnote {
+  p a.reversefootnote {
     font-weight: $font-weight-bold;
     border-bottom: none;
     box-shadow: none;
     color: $red;
+
+    &:hover {
+      border-bottom: 2px solid $red;
+      box-shadow: none;
+    }
   }
 
   sup + sup::before {
