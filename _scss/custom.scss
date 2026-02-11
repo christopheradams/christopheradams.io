@@ -377,6 +377,12 @@ header .navbar-nav .nav-link {
     }
   }
 
+  .caption {
+    @extend .text-center;
+    font-size: smaller;
+    color: var(--bs-secondary-color);
+  }
+
   .page-content {
     p > img.narrow,
     picture > img.narrow {
