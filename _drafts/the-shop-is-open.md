@@ -32,8 +32,8 @@ German photographer [Wolfgang Tillmans]. He customarily exhibits his photographs
 as large-format unframed prints, while collectible works are sold as an edition
 of one, plus one artist's proof, accompanied by a signed certificate of
 authenticity, a small inkjet print, and a CD that stores the high-resolution
-image. The artist and collector agree they may each retain only a *single*
-exhibition copy of the work. The print may even be destroyed and re-created as
+image. The artist and collector agree they may each retain a *single* exhibition
+copy of the work. The print may even be destroyed and re-created as
 circumstances and technologies change.[^Marchesi2021] This pact between the
 *image-maker* and *image-owner* sustains the work's value, while the color print
 and digital file conserve its quality.
