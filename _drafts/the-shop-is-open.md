@@ -14,7 +14,7 @@ link: https://shop.christopheradams.io
 ---
 
 I've now opened a digital gallery as a direct source for collectors to acquire
-*one-of-a-kind* works at **[shop.christopheradams.io]**.
+*one-of-a-kind* works at [shop.christopheradams.io].
 
 The first set of photographs listed for sale are among those exhibited at my
 solo show *[Island of Another Scene]* (May--August 2025, Taipei), where I was
@@ -23,17 +23,17 @@ images. The new shop will host these works and make others available in the
 future.
 
 The business of selling photographs involves a complex calculus of edition
-sizes, paper stock, framing materials, and shipping costs. I've simplified the
-equation by offering only a *single* edition of each work in a physical and
-digital format.
+sizes, paper stock, framing materials, and logistics costs. I've simplified the
+equation by offering just *one* edition of each work in a physical and digital
+format.
 
 I gleaned the spirit and mechanics of making works unique from the practice of
 German photographer [Wolfgang Tillmans]. He customarily exhibits his photographs
 as large-format unframed prints, while collectible works are sold as an edition
 of one, plus one artist's proof, accompanied by a signed certificate of
 authenticity, a small inkjet print, and a CD that stores the high-resolution
-image. The artist is bound by the same directive as the collector: to retain
-only a single exhibition copy of the work. The print may even be destroyed and
+image. The artist is bound by the same directive as the collector: to retain a
+*single* exhibition copy of the work. The print may even be destroyed and
 re-created as circumstances and technologies change.[^Marchesi2021] This pact
 between the *image-maker* and *image-owner* sustains the work's value, while the
 color print and digital file conserve its quality.
