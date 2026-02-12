@@ -24,19 +24,19 @@ future.
 
 The business of selling photographs involves a complex calculus of edition
 sizes, paper stock, framing materials, and shipping costs. I've simplified the
-equation by offering only a *single* edition of each work as an archival inkjet
-print and digital image file.
+equation by offering only a *single* edition of each work in a physical and
+digital format.
 
 I gleaned the spirit and mechanics of making works unique from the practice of
 German photographer [Wolfgang Tillmans]. He customarily exhibits his photographs
-as large-format unframed prints, while collectible works exist as an edition of
-one, plus one artist's proof, accompanied by a signed certificate of
-authenticity, a small color match print, and a CD that stores the
-high-resolution image. The artist is bound by the same rule as the collector: to
-retain only a single exhibition copy of the work. The print may even be
-destroyed and re-created as needs and technologies change.[^Marchesi2021] This
-pact between the _image-maker_ and *image-owner* sustains the work's value,
-while the color print and digital file conserve its qualities.
+as large-format unframed prints, while collectible works are sold as an edition
+of one, plus one artist's proof, accompanied by a signed certificate of
+authenticity, a small inkjet print, and a CD that stores the high-resolution
+image. The artist is bound by the same directive as the collector: to retain
+only a single exhibition copy of the work. The print may even be destroyed and
+re-created as circumstances and technologies change.[^Marchesi2021] This pact
+between the *image-maker* and *image-owner* sustains the work's value, while the
+color print and digital file conserve its quality.
 
 {% picture /assets/images/CA-20190116-L1007605-p0.png --alt Certificate of
 Authenticity --img class="img-thumbnail" %}
@@ -46,12 +46,12 @@ A certificate of authenticity for *Su Misu & Soa* (2019)
 
 I have adapted Tillmans's practice by discarding the compact disc, but attaching
 a cryptographic signature to verify the photograph.[^nfts] Each work includes
-the digital image, a certificate of authenticity, and an 8×10 archival inkjet
-print.
+the digital image and signature, a certificate of authenticity, and an 8×10
+archival color match print.
 
-An initial set of ten works are now listed in the digital gallery. Additional
-works from **[the Collection]** are available for production upon
-request. Please email <shop@christopheradams.io> for any inquiries.
+An initial set of ten works are listed in the digital gallery. Additional works
+from **[the Collection]** are available for production upon request. Please
+email <shop@christopheradams.io> for any inquiries.
 
 [shop.christopheradams.io]: https://shop.christopheradams.io/
 [Island of Another Scene]: {% post_url 2025-05-03-island-of-another-scene %}
