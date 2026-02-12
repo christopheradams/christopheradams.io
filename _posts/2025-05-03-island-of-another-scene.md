@@ -41,7 +41,7 @@ venue for art and life to mix.
 **Opening**: 2025.05.03 (SAT) 3--5pm  
 **Venue**: The Studio (2F, No. 142, Sec. 3, Bade Rd, Songshan District, Taipei)
 
-{% picture /assets/images/island-of-another-scene-borderless.png --alt Island of Another Scene --img class="img-thumbnail bg-white p-2 p-md-3 p-lg-4" %}
+{% picture /assets/images/island-of-another-scene-borderless.png --alt Island of Another Scene --img class="img-thumbnail p-2 p-md-3 p-lg-4" %}
 
 I have taken pictures of the arts and artists in Taiwan for the past twelve
 years. This includes photographs of their many performances, their varied

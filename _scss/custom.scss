@@ -426,6 +426,9 @@ header .navbar-nav .nav-link {
       margin: 0 auto;
     }
 
+    .img-thumbnail {
+      background: var(--bs-white); 
+    }
   }
 
   .page-byline {
