@@ -16,7 +16,7 @@ link: https://www.whitefungus.com/dinoliaominghe-fankuijiumeiyoujintou-zheyibeiz
 ---
 
 {% picture /assets/images/White-Fungus-Issue-18-p178.jpg --alt White Fungus
-Issue 18, pp. 178-179 --img class="img-thumbnail bg-white p-2 p-md-3 p-lg-4 wide" %}
+Issue 18, pp. 178-179 --img class="img-thumbnail p-2 p-md-3 p-lg-4 wide" %}
 
 A number of my portraits of **Dino**, a pioneering Taiwanese noise artist who
 passed away in 2022, taken over the decade that I knew him, appear in the latest
