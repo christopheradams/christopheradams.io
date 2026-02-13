@@ -30,13 +30,13 @@ format.
 I gleaned the spirit and mechanics of making works unique from the practice of
 German photographer [Wolfgang Tillmans]. He customarily exhibits his photographs
 as large-format unframed prints, while collectible works are sold as an edition
-of one, plus one artist's proof, accompanied by a signed certificate of
+of one (plus one artist's proof), accompanied by a signed certificate of
 authenticity, a small inkjet print, and a CD that stores the high-resolution
-image. The artist and collector agree they may each retain a *single* exhibition
-copy of the work. The print may even be destroyed and re-created as
-circumstances and technologies change.[^Marchesi2021] This pact between the
-*image-maker* and *image-owner* sustains the work's value, while the color print
-and digital file conserve its quality.
+image. The artist and collector agree to each retain a *single* exhibition copy
+of the work. A print may even be destroyed and re-produced as circumstances and
+technologies change.[^Marchesi2021] This pact between the *image-maker* and
+*image-owner* sustains the work's value, while the color print and digital file
+conserve its quality.
 
 {% picture /assets/images/CA-20190116-L1007605-p0.png --alt Certificate of
 Authenticity --img class="img-thumbnail" %}
@@ -61,8 +61,8 @@ email <shop@christopheradams.io> for any inquiries.
 [NFT]: https://en.wikipedia.org/wiki/Non-fungible_token
 
 [^Marchesi2021]: Marchesi, Monica (2021). ["Reprint and destroy? Wolfgang Tillmans' artistic practice: The reprinting and the intentional destruction of large-format inkjet prints."](https://www.icom-cc-publications-online.org/4241/Reprint-and-destroy-Wolfgang-Tillmans-artistic-practice--The-reprinting-and-the-intentional-destruction-of-large-format-inkjet-prints) In *Transcending Boundaries: Integrated Approaches to Conservation,* ICOM-CC 19th Triennial Conference Preprints, Beijing, 17–21 May 2021. Beijing: ICOM-CC. ISBN 978-2-491997-14-4.
-[^nfts]: You might ask, *why not use a blockchain for this?* An [NFT] contract
-    *can* correlate a work's ownership, data, and image. However, I'm observing
-    an older convention, where the artist--collector bond is stronger than an
-    entry in a distributed ledger, and the circulation of images is not fully
-    automated. In short, these works are not just *tokens.*
+[^nfts]: You might ask, *why not use a blockchain for this?* An [NFT] *can*
+    correlate a work's ownership, data, and image. However, I'm observing an
+    older convention, where the artist--collector bond is more personal than a
+    smart contract, and the images aren't on every damn marketplace. In short,
+    these works are not just *tokens.*
