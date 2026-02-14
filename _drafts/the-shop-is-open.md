@@ -31,12 +31,12 @@ I gleaned the spirit and mechanics of making works unique from the practice of
 German photographer [Wolfgang Tillmans]. He customarily exhibits his photographs
 as unframed prints, while collectible works are sold as an edition
 of one (plus one artist's proof), accompanied by a signed certificate of
-authenticity, a small inkjet print, and a CD that stores the high-resolution
+authenticity, a small color print, and a CD that stores the high-resolution
 image.
 The collector agrees to retain a *single* large print of the work, while the artist is also free to make and exhibit one copy.
 A print may even be destroyed and re-produced as circumstances and
 technologies change.[^Marchesi2021] This pact between the *image-maker* and
-*image-owner* sustains the work's value, while the color print and digital file
+*image-owner* sustains the work's value, while the color match print and digital image file
 conserve its quality.
 
 {% picture /assets/images/CA-20190116-L1007605-p0.png --alt Certificate of
@@ -48,7 +48,7 @@ A certificate of authenticity for *Su Misu & Soa* (2019)
 I've adapted Tillmans's practice by first discarding the compact disc, and then
 signing the photograph cryptographically.[^nfts] Each work includes a digital
 image and signature file, a certificate of authenticity, and an 8×10 archival
-color match print.
+inkjet print.
 
 An initial set of ten works are listed in the digital gallery. Additional works
 from **[the Collection]** are available for production upon request. Please
