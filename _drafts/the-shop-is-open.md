@@ -2,9 +2,9 @@
 title: The Shop is Open
 description: A digital photography gallery debut
 location: Taipei
-date: 2026-02-12 17:27 +0800
-published_at: 2026-02-12 17:27 +0800
-last_modified_at: 2026-02-12 17:27 +0800
+date: 2026-02-14 14:05 +0800
+published_at: 2026-02-14 14:05 +0800
+last_modified_at: 2026-02-14 14:05 +0800
 category: Notes
 tags:
 - Featured
