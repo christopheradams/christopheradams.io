@@ -22,7 +22,7 @@ nudged by The Studio's Cesar Reyes and Jessica Lin to put a price on my
 images. The new shop will host these works and make others available in the
 future.
 
-The business of selling photographs is a complex calculus of edition
+The business of selling photographs is a commercial calculus of edition
 sizes, paper stock, framing materials, and logistics costs. I've simplified the
 equation by producing just *one* edition of each work in a physical and digital
 format.
