@@ -19,7 +19,7 @@ I've now opened a digital gallery as a direct source for collectors to acquire
 The first set of photographs for sale are among those exhibited at my
 solo show *[Island of Another Scene]* (May--August 2025, Taipei), where I was
 nudged by The Studio's Cesar Reyes and Jessica Lin to put a price on my
-images. The new shop will host these works and make others available in the
+images. The new shop will host these works and make more available in the
 future.
 
 The business of selling photographs is a commercial calculus of edition
