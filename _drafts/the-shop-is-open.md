@@ -62,6 +62,6 @@ email <shop@christopheradams.io> for any inquiries.
 [^Marchesi2021]: Marchesi, Monica (2021). ["Reprint and destroy? Wolfgang Tillmans' artistic practice: The reprinting and the intentional destruction of large-format inkjet prints."](https://www.icom-cc-publications-online.org/4241/Reprint-and-destroy-Wolfgang-Tillmans-artistic-practice--The-reprinting-and-the-intentional-destruction-of-large-format-inkjet-prints) In *Transcending Boundaries: Integrated Approaches to Conservation,* ICOM-CC 19th Triennial Conference Preprints, Beijing, 17–21 May 2021. Beijing: ICOM-CC. ISBN 978-2-491997-14-4.
 [^nfts]: You might ask, *why not use a blockchain for this?* An [NFT] *can*
     correlate a work's ownership, data, and image. However, I'm observing an
-    older convention, where the artist--collector bond is more personal than a
-    smart contract, and the images aren't listed automatically on every
-    marketplace. In short, these works are not just *tokens.*
+    older convention, where the artist--collector bond is more privy than a
+    smart contract, and the images aren't broadcast to every odd marketplace. In
+    short, these works are not just *tokens.*
