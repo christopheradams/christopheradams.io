@@ -63,5 +63,5 @@ email <shop@christopheradams.io> for any inquiries.
 [^nfts]: You might ask, *why not use a blockchain for this?* An [NFT] *can*
     correlate a work's ownership, data, and image. However, I'm observing an
     older convention, where the artist--collector bond is more personal than a
-    smart contract, and the images aren't on every damn marketplace. In short,
-    these works are not just *tokens.*
+    smart contract, and the images aren't listed automatically on every
+    marketplace. In short, these works are not just *tokens.*
