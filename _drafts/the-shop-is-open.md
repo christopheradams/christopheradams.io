@@ -28,9 +28,9 @@ format.
 
 I gleaned the spirit and mechanics of making works unique from the practice of
 German photographer [Wolfgang Tillmans]. He customarily exhibits his photographs
-as unframed prints, while collectible works are sold as an edition of one (plus
-one artist's proof), accompanied by a signed certificate of authenticity, a
-small color print, and a CD that stores the high-resolution image.  The
+as unframed prints, while collectible works are offered as an edition of one
+(plus one artist's proof), accompanied by a signed certificate of authenticity,
+a small color print, and a CD that stores the high-resolution image.  The
 collector agrees to retain a *single* exhibition print of the work, while the
 artist is also free to make and exhibit one copy.  A print may even be destroyed
 and re-produced as circumstances and technologies change.[^Marchesi2021] This
