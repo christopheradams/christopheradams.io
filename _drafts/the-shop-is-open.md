@@ -16,28 +16,26 @@ link: https://shop.christopheradams.io
 I've now opened a digital gallery as a direct source for collectors to acquire
 *one-of-a-kind* works at [shop.christopheradams.io].
 
-The first set of photographs for sale are among those exhibited at my
-solo show *[Island of Another Scene]* (May--August 2025, Taipei), where I was
-nudged by The Studio's Cesar Reyes and Jessica Lin to put a price on my
-images. The new shop will host these works and make more available in the
-future.
+The first set of photographs for sale are among those exhibited at my solo show
+*[Island of Another Scene]* (May--August 2025, Taipei), where I was nudged by
+The Studio's Cesar Reyes and Jessica Lin to put a price on my images. The new
+shop will host these works and make more available in the future.
 
-The business of selling photographs is a commercial calculus of edition
-sizes, paper stock, framing materials, and logistics costs. I've simplified the
+The business of selling photographs is a commercial calculus of edition sizes,
+paper stock, framing materials, and logistics costs. I've simplified the
 equation by producing just *one* edition of each work in a physical and digital
 format.
 
 I gleaned the spirit and mechanics of making works unique from the practice of
 German photographer [Wolfgang Tillmans]. He customarily exhibits his photographs
-as unframed prints, while collectible works are sold as an edition
-of one (plus one artist's proof), accompanied by a signed certificate of
-authenticity, a small color print, and a CD that stores the high-resolution
-image.
-The collector agrees to retain a *single* large print of the work, while the artist is also free to make and exhibit one copy.
-A print may even be destroyed and re-produced as circumstances and
-technologies change.[^Marchesi2021] This pact between the *image-maker* and
-*image-owner* sustains the work's value, while the color match print and digital image file
-conserve its quality.
+as unframed prints, while collectible works are sold as an edition of one (plus
+one artist's proof), accompanied by a signed certificate of authenticity, a
+small color print, and a CD that stores the high-resolution image.  The
+collector agrees to retain a *single* exhibition print of the work, while the
+artist is also free to make and exhibit one copy.  A print may even be destroyed
+and re-produced as circumstances and technologies change.[^Marchesi2021] This
+pact between the *image-maker* and *image-owner* sustains the work's value,
+while the color match print and digital image file conserve its quality.
 
 {% picture /assets/images/CA-20190116-L1007605-p0.png --alt Certificate of
 Authenticity --img class="img-thumbnail" %}
