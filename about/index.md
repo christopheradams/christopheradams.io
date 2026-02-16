@@ -81,6 +81,14 @@ Get It Louder*
 
 {% endif %}
 
+{% if site.shop %}
+
+## Shop
+
+[Visit the digital photography gallery]({{ site.shop }})
+
+{% endif %}
+
 {% assign about_posts = site.tags[authorDetails.name] %}
 
 {% if about_posts.size > 0 %}
