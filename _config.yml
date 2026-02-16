@@ -5,8 +5,10 @@ description: >-
 email: info@christopheradams.io
 image: /assets/images/20220522-1235_Taipei_TaipeiDangdai_L1000274-0.jpg
 location: Taipei
-newsletter: https://news.cxadams.com/subscription/form
 timezone: ETC/UTC
+
+newsletter: https://news.cxadams.com/subscription/form
+shop: https://shop.christopheradams.io/
 
 url: https://christopheradams.io
 baseurl: ""

@@ -1,5 +1,12 @@
-{% if site.newsletter or site.feed %}
+{% if site.shop or site.newsletter or site.feed %}
 <ul class="nav footer-social" aria-label="Social links">
+  {% if site.shop %}
+  <li class="nav-item">
+    <a class="nav-link" rel="noopener" href="{{ site.newsletter }}" aria-label="Shop">
+      Shop
+    </a>
+  </li>
+  {% endif %}
   {% if site.newsletter %}
   <li class="nav-item">
     <a class="nav-link" rel="noopener" href="{{ site.newsletter }}" aria-label="Newsletter">
