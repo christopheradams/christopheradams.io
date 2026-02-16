@@ -1,9 +1,10 @@
 GIT
   remote: https://github.com/christopheradams/jekyll-listmonk.git
-  revision: 2a89f062d5d095913375cebcd2a1d187ffc231c9
+  revision: b8cecb1766a45b8c519cff7a0e723448e923c73b
   specs:
-    jekyll_listmonk (0.3.0)
+    jekyll_listmonk (0.4.0)
       jekyll (>= 4.0, < 5.0)
+      nokogiri (>= 1.13)
       reverse_markdown (>= 2.1)
 
 GEM
@@ -22,7 +23,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.3)
     forwardable-extended (2.6.0)
-    google-protobuf (4.33.3)
+    google-protobuf (4.33.5)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.1)
@@ -67,13 +68,14 @@ GEM
       objective_elements (~> 1.1)
       rainbow (~> 3.0)
       ruby-vips (~> 2.2)
-    json (2.18.0)
-    kramdown (2.5.1)
-      rexml (>= 3.3.9)
+    json (2.18.1)
+    kramdown (2.5.2)
+      rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
-    listen (3.9.0)
+    listen (3.10.0)
+      logger
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.2)
@@ -96,7 +98,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    reverse_markdown (3.0.1)
+    reverse_markdown (3.0.2)
       nokogiri
     rexml (3.4.4)
     rouge (4.7.0)
@@ -104,7 +106,7 @@ GEM
       ffi (~> 1.12)
       logger
     safe_yaml (1.0.5)
-    sass-embedded (1.97.2)
+    sass-embedded (1.97.3)
       google-protobuf (~> 4.31)
       rake (>= 13)
     terminal-table (3.0.2)
