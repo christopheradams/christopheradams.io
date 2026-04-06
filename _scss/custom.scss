@@ -617,6 +617,11 @@ header .navbar-nav .nav-link {
     }
   }
 
+  p a.reversefootnote {
+    font-size: larger;
+    line-height: 1;
+  }
+
   sup + sup::before {
     content: ",\2009"; // comma followed by thin space
   }
