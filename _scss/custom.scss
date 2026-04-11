@@ -152,6 +152,9 @@ header .navbar-nav .nav-link {
   .card-block {
     .card-body {
       font-size: $card-compact-size;
+    }
+
+    .card-img-top + .card-body {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
