@@ -59,7 +59,7 @@ realized by autonomous participants.
 {% picture /assets/images/MG_9326_web.jpg --alt a contemporary art center, taipei %}
 
 Jun Yang, *a contemporary art center, taipei (a proposal)* (2008)
-{: .text-center}
+{: .caption}
 
 Yang's work was one of the catalysts of the contemporary independent art space
 movement in Taiwan in the past decade and a half. Today Distributed Autonomous

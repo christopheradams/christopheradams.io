@@ -20,7 +20,7 @@ Shavonne Wong, MAOTIK, and me.
 {% picture /assets/images/dangdai-lumitree-2025-vlcsnap-shavonne-wong-1.png --img class="narrow" %}
 
 Shavonne Wong, *Whirlwind of the Waking Dream* (2024)
-{: .small .text-center}
+{: .caption}
 
 [Taipei Dangdai]: https://taipeidangdai.com/
 [Taipei Lumitree]: https://lumitree.taipei/

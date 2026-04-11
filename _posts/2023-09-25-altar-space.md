@@ -34,7 +34,7 @@ for the artist and a vision of where the world is taking him.
 {% picture /assets/images/yaojuichung-invidia-tkg-2023-invitation-front.png --alt Invidia %}
 
 *Yao Jui-Chung: Invidia,* Tina Keng Gallery (invitation card)
-{: .text-center}
+{: .caption}
 
 Yao Jui-Chung is a multidisciplinary artist. His video and performance art
 tackles historical and political subjects; his black-and-white and instant film
@@ -61,7 +61,7 @@ name *Altar Space* to the site of his initiation.
 {% picture /assets/images/yaojuichung-invidia-altarspace-IMG_5039-color.JPG --alt Altar Space %}
 
 Yao Jui-Chung, *Altar Space* (installation view)
-{: .text-center}
+{: .caption}
 
 *Altar Space* admits the polarity of spirituality and technology and the strata
 of high- and low-culture. An annex room in the gallery transforms into a
@@ -91,7 +91,7 @@ showing the "answers" to his appeals.
 {% picture /assets/images/yaojuichung-moonblockchain-answer-07.jpg --alt Moon--Block--Chain %}
 
 Yao Jui-Chung, *Moon--Block--Chain* (2023)
-{: .text-center}
+{: .caption}
 
 [Moon blocks] are (usually) red-colored, crescent-shaped, wooden divination
 tools that are commonplace at temples in Taiwan, especially in proximity to a
@@ -117,7 +117,7 @@ source of *entropy* are detailed in an accompanying [divination guide].
 {% picture /assets/images/yaojuichung-divination-guide-01.png --alt Divination Guide --img class="img-thumbnail narrow" %}
 
 Yao Jui-Chung, *Divination Guide* (2023)
-{: .text-center}
+{: .caption}
 
 Favorable divination and asymmetric cryptography both rely on an unpredictable
 universe outside of your control. This is where faith and science each stake
@@ -146,7 +146,7 @@ offerings like this are customary at temples.
 {% picture /assets/images/yaojuichung-invidia-yaocoin-IMG_4912.JPG --alt YAO COIN %}
 
 Yao Jui-Chung, *YAO COIN* (2023)
-{: .text-center}
+{: .caption}
 
 *YAO COIN* (2023) is a [numismatic charm], a decorative coin that has
 ritualistic uses in many Eastern religions. They are not fiat money but
@@ -163,7 +163,7 @@ tradable tokens.
 {% picture /assets/images/yaojuichung-yaocoin-stacks.jpg --alt YAO COIN: STACKS %}
 
 Yao Jui-Chung, *YAO COIN: SPIN* and *YAO COIN: STACKS* (2023)
-{: .text-center}
+{: .caption}
 
 These editions of *YAO COIN* were limited to 1000 copies. They were not for
 sale, but must be offered. The exchange values of the real and the virtual are
@@ -183,7 +183,7 @@ become popular NFT collections.
 {% picture /assets/images/yaojuichung-twelve-disciples-collection.png --alt Twelve Disciples %}
 
 Yao Jui-Chung, *Twelve Disciples* (2023)
-{: .text-center}
+{: .caption}
 
 Each tier in Yao's order of beings is occupied by a singular character. The
 *Alien* has three pairs of legs stomping on its head, which stand for the world

@@ -34,7 +34,7 @@ his secure private key. Only Yao and the Gods know what it is.
 {% picture /assets/images/yaojuichung-moonblockchain-foundation-answers.jpg --alt Moon--Block--Chain: Answers on Foundation --img class="img-thumbnail" %}
 
 *Moon--Block--Chain: Prayers* and *Answers* collections on Foundation
-{: .text-center}
+{: .caption}
 
 To make good on his plea for a lucky wallet, Yao minted two collections of
 videos and photos on Ethereum as **[Moon--Block--Chain: Prayers]** and
@@ -58,7 +58,7 @@ as *angry, laughing,* or *divine.*
 </p>
 
 Yao Jui-Chung. *Moon--Block--Chain: Prayer #4* (2023)
-{: .text-center}
+{: .caption}
 
 This work approaches crypto-art from first principles. Creating a wallet becomes
 a devout act that is charged with meaning. Both favorable divination and
