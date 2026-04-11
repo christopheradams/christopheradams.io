@@ -231,18 +231,6 @@ header .navbar-nav .nav-link {
   }
 }
 
-.page-title,
-.page-dateline {
-  a {
-    color: var(--bs-body-color);
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
 .page-dateline {
   .page-location {
     &::before {

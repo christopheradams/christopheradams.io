@@ -17,15 +17,13 @@
     <section class="page-banner">
       <div class="container">
         {% if page_title and page_title != "" %}
-        <h1 class="page-title" itemprop="name headline"><a href="{{ page_url }}">{{ page_title | escape }}</a></h1>
+        <h1 class="page-title" itemprop="name headline">{{ page_title | escape }}</h1>
         {% endif %}
         <div class="page-dateline">
-          <a href="{{ page_url }}">
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | default: "now" | date: "%-d %b %Y" }}</time>
-            <span class="page-location">
-              {{ page.location | default: site.location }}
-            </span>
-          </a>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | default: "now" | date: "%-d %b %Y" }}</time>
+          <span class="page-location">
+            {{ page.location | default: site.location }}
+          </span>
         </div>
       </div>
     </section>
