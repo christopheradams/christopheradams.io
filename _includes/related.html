@@ -12,7 +12,7 @@
       <div class="container-xl">
       <div class="related-grid">
         {% for post in related %}
-        {%- assign post_summary = post.description | default: post.excerpt | strip_html | normalize_whitespace | truncatewords: 20 -%}
+        {%- assign post_summary = post.description | default: post.excerpt | strip_html | normalize_whitespace | truncatewords: 10 -%}
         {%- comment -%} For accessibility: use title if available, otherwise use truncated summary {%- endcomment -%}
         {%- if post.title and post.title != "" -%}
           {%- assign post_accessible_name = post.title | escape -%}
