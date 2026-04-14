@@ -60,6 +60,9 @@
 
       <title type="html">{{ post_title }}</title>
       <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post_title }}" />
+      {%- if post.related %}
+      <link href="{{ post.related }}" rel="related" type="text/html" />
+      {%- endif %}
       <published>{{ post_date | date_to_xmlschema }}</published>
       <updated>{{ post.last_modified_at | default: post_date | date_to_xmlschema }}</updated>
       <id>{{ post.id | absolute_url | xml_escape }}</id>
@@ -91,12 +94,6 @@
         {{ post_dateline_tag | strip }}
         {%- endif -%}
         {{ post.content | strip }}
-        {% if post.related %}
-        <p>
-          Link:
-          <a href="{{ post.related }}">{{ post.related  | split: '://' | last }}</a>
-        </p>
-        {% endif %}
         ]]></content>
       {% endunless %}
 
