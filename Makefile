@@ -24,7 +24,7 @@ install-bootstrap:
 	fi
 
 serve:
-	bundle exec jekyll serve --livereload --drafts
+	bundle exec jekyll serve --livereload --drafts --future
 
 build:
 	JEKYLL_ENV=production bundle exec jekyll build
