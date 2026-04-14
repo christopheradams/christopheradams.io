@@ -7,9 +7,9 @@ published_at: 2026-02-15 14:55 +0800
 last_modified_at: 2026-02-15 14:55 +0800
 category: Notes
 tags:
-- Featured
-- Newsletter
-- Photography
+  - Featured
+  - Newsletter
+  - Photography
 link: https://shop.christopheradams.io
 ---
 I've now opened a digital gallery as a direct source for collectors to acquire
