@@ -12,7 +12,7 @@ itemtype: https://schema.org/BlogPosting
   {% if page.related %}
   <p>
     Link:
-    <a rel="external" href="{{ page.related }}">{{ page.related  | split: '://' | last }}</a>
+    <a rel="external" href="{{ page.related | uri_escape }}">{{ page.related | uri_unescape  | split: '://' | last }}</a>
   </p>
   {% endif %}
 
