@@ -7,7 +7,7 @@ location: Taipei
 category: Notes
 tags:
   - Photography
-link: https://seagullbooks.org/collections/author-irwin-allan-sealy
+related: https://seagullbooks.org/collections/author-irwin-allan-sealy
 ---
 
 Allan Sealy found when travelling that a sketchbook makes you friends, while a camera makes you enemies.

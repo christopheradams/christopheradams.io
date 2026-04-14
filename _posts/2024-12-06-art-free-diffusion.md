@@ -6,7 +6,7 @@ location: Taipei
 category: Notes
 tags:
   - Artificial Intelligence
-link: https://arxiv.org/abs/2406.09408
+related: https://arxiv.org/abs/2406.09408
 ---
 
 How can one truly claim that an AI has been trained on what is "clearly not art"

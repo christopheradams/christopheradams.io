@@ -91,10 +91,10 @@
         {{ post_dateline_tag | strip }}
         {%- endif -%}
         {{ post.content | strip }}
-        {% if post.link %}
+        {% if post.related %}
         <p>
           Link:
-          <a href="{{ post.link }}">{{ post.link  | split: '://' | last }}</a>
+          <a href="{{ post.related }}">{{ post.related  | split: '://' | last }}</a>
         </p>
         {% endif %}
         ]]></content>

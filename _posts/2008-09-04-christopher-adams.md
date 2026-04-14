@@ -6,7 +6,7 @@ published_at: 2016-11-15 13:18:23 +0800
 tags:
   - Christopher Adams
   - Europe
-link: https://www.flickr.com/photos/joi/2829609654/
+related: https://www.flickr.com/photos/joi/2829609654/
 image:
   author: Joi Ito
   license: CC BY

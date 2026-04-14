@@ -6,7 +6,7 @@ published_at: 2023-11-27 16:42 +0800
 category: Notes
 tags:
   - Photography
-link: https://podcasts.apple.com/gb/podcast/ep-111-artist-wolfgang-tillmans/id1574394526?i=1000627061006
+related: https://podcasts.apple.com/gb/podcast/ep-111-artist-wolfgang-tillmans/id1574394526?i=1000627061006
 ---
 
 Wolfgang Tillmans said his photographs are paintings that he didn't need to

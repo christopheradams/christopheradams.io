@@ -10,7 +10,7 @@ tags:
   - Featured
   - Newsletter
   - Photography
-link: https://shop.christopheradams.io
+related: https://shop.christopheradams.io
 ---
 I've now opened a digital gallery as a direct source for collectors to acquire
 *one-of-a-kind* works at [shop.christopheradams.io].

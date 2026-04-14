@@ -6,7 +6,8 @@ location: Taipei
 category: Notes
 tags:
   - Artificial Intelligence
-link: https://ocula.com/magazine/opinion/why-ai-slop-is-the-dark-future-of-art/
+  - Featured
+related: https://ocula.com/magazine/opinion/why-ai-slop-is-the-dark-future-of-art/
 ---
 
 'Slopism' finally enters the art lexicon with Aimee Walleston writing for

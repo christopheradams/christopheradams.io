@@ -9,7 +9,7 @@ tags:
   - Featured
   - Photography
   - Taiwan
-link: https://www.nostossocialstudio.com/p/shorts-matt-copson-kasia-fudakowski-sylvia-sleigh-la-pausa-christopher-adams-and-the-penghu-perennial?open=false#%C2%A7christopher-adams
+related: https://www.nostossocialstudio.com/p/shorts-matt-copson-kasia-fudakowski-sylvia-sleigh-la-pausa-christopher-adams-and-the-penghu-perennial?open=false#%C2%A7christopher-adams
 ---
 
 Robin Peckham reviews *Island of Another Scene* as 'a stunning small-scale solo

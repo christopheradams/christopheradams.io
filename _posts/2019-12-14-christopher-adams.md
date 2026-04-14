@@ -7,7 +7,7 @@ last_updated_at: 2023-02-10 22:41:52 +0800
 tags:
   - Christopher Adams
   - Hong Kong
-link: https://www.flickr.com/photos/joi/49241319873/
+related: https://www.flickr.com/photos/joi/49241319873/
 image:
   author: Joi Ito
   license: CC BY

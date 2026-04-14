@@ -49,7 +49,7 @@ location: City
 category: Category
 tags: [Tag 1, Tag 2]
 image: assets/images/image.jpg
-link: https://example.org
+related: https://example.org
 ---
 ```
 

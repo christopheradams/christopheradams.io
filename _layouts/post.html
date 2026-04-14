@@ -9,10 +9,10 @@ itemtype: https://schema.org/BlogPosting
 </div>
 
 <div class="page-details">
-  {% if page.link %}
+  {% if page.related %}
   <p>
     Link:
-    <a href="{{ page.link }}">{{ page.link  | split: '://' | last }}</a>
+    <a rel="external" href="{{ page.related }}">{{ page.related  | split: '://' | last }}</a>
   </p>
   {% endif %}
 
