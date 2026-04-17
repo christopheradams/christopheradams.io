@@ -3,7 +3,7 @@ title: Immortal Banquet
 description: Tudi Gong & His Artist Friends
 date: 2026-04-18 12:00 +0800
 published_at: 2026-04-18 12:00 +0800
-last_modified_at: 2026-04-14 19:17 +0800
+last_modified_at: 2026-04-17 14:20 +0800
 location: Taoyuan
 category: Projects
 tags:
@@ -17,15 +17,18 @@ image: assets/images/immortal-banquet-tudigong-and-his-artist-friends.jpg
 *Immortal Banquet: Tudi Gong & His Artist Friends* is an exhibition organized by
 Yao Jui-Chung and Ada Kai-Ting Yang at the Taoyuan Tudigong Culture Museum
 featuring 25 artists. The show runs from April 18 to August 30, 2026. The
-opening ceremony is on April 21st at 11am.
+opening ceremony starts on April 21st at 11am.
 
 Tudigong (lit. 'The Lord of the Land') is a popular tutelary deity in Chinese
-folk religion who is frequently prayed to for good fortune. Countless shrines
-and temples are dedicated to Tudigong. It's extraordinary to have a contemporary
-art exhibition that is.
+folk religion to whom we frequently pray for good fortune. Countless shrines and
+temples are dedicated to Tudigong. It's extraordinary to have a contemporary art
+exhibition that is.
 
-I'm presenting my art--research project *Moon--Block--Chain* (2023) which
-links cryptocurrency with traditional divination techniques.
+I'm presenting my art--research project *Moon--Block--Chain* (2023) which links
+cryptocurrency with traditional divination techniques. I wrote the second
+edition of a *Divination Guide* which documents using moon blocks to generate
+the entropy for a cryptocurrency wallet. I also encode seed phrases in binary
+using 3D-printed prayer beads.
 
 ## Participating artists
 
