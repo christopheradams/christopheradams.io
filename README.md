@@ -47,7 +47,9 @@ published_at: 2026-01-02 12:27 +0800
 last_modified_at: 2026-01-08 15:18 +0800
 location: City
 category: Category
-tags: [Tag 1, Tag 2]
+tags:
+  - Tag 1
+  - Tag 2
 image: assets/images/image.jpg
 related: https://example.org
 ---
