@@ -12,6 +12,7 @@ group :jekyll_plugins do
 end
 
 group :development do
+  gem "dotenv"
   gem "jekyll_listmonk", github: "christopheradams/jekyll-listmonk"
 end
 
