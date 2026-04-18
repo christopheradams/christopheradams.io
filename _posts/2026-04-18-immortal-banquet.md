@@ -3,7 +3,7 @@ title: Immortal Banquet
 description: Tudi Gong & His Artist Friends
 date: 2026-04-18 12:00 +0800
 published_at: 2026-04-18 12:00 +0800
-last_modified_at: 2026-04-17 14:20 +0800
+last_modified_at: 2026-04-18 12:25 +0800
 location: Taoyuan
 category: Projects
 tags:
