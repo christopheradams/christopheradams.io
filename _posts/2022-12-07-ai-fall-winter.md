@@ -3,7 +3,7 @@ title: AI Fall/Winter
 description: A finely-tuned series starring Item Idem
 location: Taipei
 published_at: 2022-12-29 23:54:34 +0800
-category: Works
+category: Projects
 tags:
   - Artificial Intelligence
   - Featured

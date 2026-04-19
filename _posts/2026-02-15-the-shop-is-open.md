@@ -5,7 +5,7 @@ location: Taipei
 date: 2026-02-15 14:55 +0800
 published_at: 2026-02-15 14:55 +0800
 last_modified_at: 2026-02-15 14:55 +0800
-category: Notes
+category: Projects
 tags:
   - Featured
   - Newsletter

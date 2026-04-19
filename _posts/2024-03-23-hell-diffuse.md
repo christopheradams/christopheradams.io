@@ -4,7 +4,7 @@ description: Latent Eschatologies
 location: Taipei
 published_at: 2024-03-25 19:07:40 +0800
 last_modified_at: 2024-04-22 13:22:19 +0800
-category: Works
+category: Projects
 tags:
   - Artificial Intelligence
   - Featured
