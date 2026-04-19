@@ -98,7 +98,6 @@ plugins:
   - jekyll-sitemap
   - jekyll_picture_tag
 exclude:
-  - .env
   - CNAME
   - LICENSE
   - README.md
