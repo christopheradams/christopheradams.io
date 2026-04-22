@@ -16,6 +16,7 @@ itemtype: https://schema.org/BlogPosting
   </p>
   {% endif %}
 
+  {% if page.category or page.tags.size > 0 %}
   <p>
     Filed under:
     <span class="comma-links">
@@ -35,4 +36,5 @@ itemtype: https://schema.org/BlogPosting
     {%- endfor -%}
     </span>
   </p>
+  {% endif %}
 </div>
