@@ -2,8 +2,8 @@
 title: Moon–Block–Chain
 description: A divine cryptographic link
 location: Taipei
-published_at: 2024-05-08 18:51:08 +0800
-last_modified_at: 2024-05-08 18:51:08 +0800
+published_at: 2024-05-08 18:51 +0800
+last_modified_at: 2026-04-28 11:58 +0800
 category: Projects
 tags:
   - Blockchain
@@ -29,11 +29,11 @@ blocks on the ground and interpreting their yes--no answer as a *one* or a
 this ritual 128 times in total to compose a sufficiently long random number for
 his secure private key. Only Yao and the Gods know what it is.
 
-{% picture /assets/images/yaojuichung-moonblockchain-foundation-prayers.png --alt Moon--Block--Chain: Prayers on Foundation --img class="img-thumbnail" %}
+{% picture /assets/images/yaojuichung-moonblockchain-foundation-prayers.png --alt Moon--Block--Chain: Prayers on Ethereum --img class="img-thumbnail" %}
 
-{% picture /assets/images/yaojuichung-moonblockchain-foundation-answers.jpg --alt Moon--Block--Chain: Answers on Foundation --img class="img-thumbnail" %}
+{% picture /assets/images/yaojuichung-moonblockchain-foundation-answers.jpg --alt Moon--Block--Chain: Answers on Ethereum --img class="img-thumbnail" %}
 
-*Moon--Block--Chain: Prayers* and *Answers* collections on Foundation
+*Moon--Block--Chain: Prayers* and *Answers* collections on Ethereum
 {: .caption}
 
 To make good on his plea for a lucky wallet, Yao minted two collections of
@@ -80,8 +80,8 @@ Jui-Chung: Invidia]* at Tina Keng Gallery in August 2023.
 
 ## Links
 
-* **[Moon--Block--Chain: Prayers]** on Foundation
-* **[Moon--Block--Chain: Answers]** on Foundation
+* **[Moon--Block--Chain: Prayers]** on OpenSea
+* **[Moon--Block--Chain: Answers]** on OpenSea
 * [Altar Space: The Genesis of Yao Jui Chung]({% post_url 2023-09-25-altar-space %})
 
 ## About
@@ -96,6 +96,6 @@ Cornell University.
 
 [Yao Jui-Chung]: https://www.yaojuichung.com/
 [moon blocks]: https://en.wikipedia.org/wiki/Jiaobei
-[Moon--Block--Chain: Prayers]: https://foundation.app/collection/moon-block-chain-prayers
-[Moon--Block--Chain: Answers]: https://foundation.app/collection/moon-block-chain-answers
+[Moon--Block--Chain: Prayers]: https://opensea.io/collection/moon-block-chain-prayers
+[Moon--Block--Chain: Answers]: https://opensea.io/collection/moon-block-chain-answers
 [Yao Jui-Chung: Invidia]: https://www.tinakenggallery.com/en/exhibitions/243-invidia/press_release_text/
