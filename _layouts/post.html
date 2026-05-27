@@ -20,16 +20,16 @@ itemtype: https://schema.org/BlogPosting
   <p>
     Filed under:
     <span class="comma-links">
-    {% for archive in site.archives %}
-    {%- if archive.type == "category" and archive.title == page.category -%}
+    {% for archive in site.archives -%}
+    {% if archive.type == "category" and archive.title == page.category %}
     <a href="{{ archive.url }}">{{ archive.title }}</a>
-    {%- endif %}
+    {%- endif -%}
     {% endfor %}
 
-    {%- assign page_tags = page.tags | sort -%}
+    {% assign page_tags = page.tags | sort -%}
     {%- for tag in page_tags -%}
     {%- for archive in site.archives -%}
-    {%- if archive.type == "tag" and archive.title == tag -%}
+    {% if archive.type == "tag" and archive.title == tag %}
     <a href="{{ archive.url }}">{{ archive.title }}</a>
     {% endif %}
     {%- endfor -%}
