@@ -21,7 +21,7 @@ presets:
     formats: [jpg]
     widths: [800]
     fallback_width: 800
-    markup: img
+    markup: direct_url
 
   newsletter:
     formats: [jpg]
