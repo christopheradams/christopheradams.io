@@ -100,7 +100,7 @@
         Posts without a title (mostly Notes) don't get a dateline, so
         that the post content is the first text in the entry
         {%- endcomment -%}
-        {%- if post_title != "" -%} 
+        {%- if post_title != "" -%}
         {{ post_dateline_tag | strip }}
         {%- endif -%}
         {{ post.content | strip }}
