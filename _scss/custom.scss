@@ -163,8 +163,12 @@ header .navbar-nav .nav-link {
 }
 
 .homepage-body .card-columns {
-  @include media-breakpoint-up(xl) {
+  @include media-breakpoint-up(lg) {
     column-count: 3;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    column-count: 4;
   }
 }
 
