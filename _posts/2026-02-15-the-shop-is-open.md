@@ -36,10 +36,10 @@ and re-produced as circumstances and technologies change.[^Marchesi2021] This
 pact between the *image-maker* and *image-owner* sustains the work's value,
 while the color match print and digital image file conserve its quality.
 
-{% picture /assets/images/CA-20190116-L1007605-p0.png --alt Certificate of
+{% picture /assets/images/CA-20230511-L1009624-p0.jpg --alt Certificate of
 Authenticity --img class="img-thumbnail" %}
 
-A certificate of authenticity for *Su Misu & Soa* (2019)
+A certificate of authenticity for *Bonsai & Fan* (2023)
 {: .caption}
 
 I've adapted Tillmans's practice by first discarding the compact disc, and then
