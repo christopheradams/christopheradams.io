@@ -4,7 +4,7 @@ description: A digital photography gallery debut
 location: Taipei
 date: 2026-02-15 14:55 +0800
 published_at: 2026-02-15 14:55 +0800
-last_modified_at: 2026-02-15 14:55 +0800
+last_modified_at: 2026-08-10 20:05 +0800
 category: Projects
 tags:
   - Featured
@@ -47,9 +47,9 @@ signing the photograph cryptographically.[^nfts] Each work includes a digital
 image and signature file, a certificate of authenticity, and an 8×10 archival
 inkjet print.
 
-An initial set of ten works are listed in the digital gallery. Additional works
-from **[the Collection]** are available for production upon request. Please
-email <shop@christopheradams.io> for any inquiries.
+A number of works are listed in the digital gallery. Additional works from
+**[the Collection]** are available for production upon request. Please email
+<shop@christopheradams.io> for any inquiries.
 
 [shop.christopheradams.io]: https://shop.christopheradams.io/
 [Island of Another Scene]: {% post_url 2025-05-03-island-of-another-scene %}
