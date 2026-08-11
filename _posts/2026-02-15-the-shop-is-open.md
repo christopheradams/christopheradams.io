@@ -4,7 +4,7 @@ description: A digital photography gallery debut
 location: Taipei
 date: 2026-02-15 14:55 +0800
 published_at: 2026-02-15 14:55 +0800
-last_modified_at: 2026-08-11 09:35 +0800
+last_modified_at: 2026-08-11 13:57 +0800
 category: Projects
 tags:
   - Featured
@@ -39,8 +39,8 @@ A certificate of authenticity for *Bonsai & Fan* (2023)
 
 I've adapted Tillmans's practice by first discarding the compact disc, and then
 signing the photograph cryptographically.[^nfts] Each work includes a digital
-image and signature file, a certificate of authenticity, and an 8×10 archival
-inkjet print.
+image and signature file, a certificate of authenticity, and an inkjet color
+reference print.
 
 A number of works are listed in the digital gallery. Additional works from
 **[the Collection]** are available for production upon request. Please email
