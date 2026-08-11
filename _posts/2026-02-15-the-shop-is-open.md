@@ -4,7 +4,7 @@ description: A digital photography gallery debut
 location: Taipei
 date: 2026-02-15 14:55 +0800
 published_at: 2026-02-15 14:55 +0800
-last_modified_at: 2026-08-10 20:05 +0800
+last_modified_at: 2026-08-11 09:35 +0800
 category: Projects
 tags:
   - Featured
@@ -12,13 +12,8 @@ tags:
   - Photography
 related: https://shop.christopheradams.io
 ---
-I've now opened a digital gallery as a direct source for collectors to acquire
+I've opened a digital gallery as a direct source for collectors to acquire
 *one-of-a-kind* works at [shop.christopheradams.io].
-
-The first set of photographs for sale are among those exhibited at my solo show
-*[Island of Another Scene]* (May--August 2025, Taipei), where The Studio's Cesar
-Reyes and Jessica Lin nudged me to put a price on my images. The new shop will
-host these works and make more available in the future.
 
 The business of selling photographs is a commercial calculus of edition sizes,
 paper stock, framing materials, and logistics costs. I've simplified the
