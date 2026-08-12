@@ -3,7 +3,7 @@ title: Thomas Demand
 description: The Stutter of History
 location: Taipei
 date: 2025-04-13 14:20 +0800
-last_modified_at: 2026-08-12 15:11 +0800
+last_modified_at: 2026-08-12 16:04 +0800
 published_at: 2026-08-12 15:11 +0800
 category: Photos
 tags:
@@ -18,7 +18,7 @@ political, social, or personal history using paper model recreations. Monumental
 works, like the Fukushima nuclear control room, are presented as chromogenic
 prints bonded to large acrylic sheets, which tower over the viewer. Smaller,
 more intimate works, from the artist's *Dailies* series, invite the audience for
-a closer look at everyday tableaus, like a cup shoved into a chain-link fence.
+a closer look at everyday tableaux, like a cup shoved into a chain-link fence.
 
 On a few occasions, a series of work delimits its own physical space. *Refuge*
 (2021) illustrates the airport hotel room where American whistleblower Edward
