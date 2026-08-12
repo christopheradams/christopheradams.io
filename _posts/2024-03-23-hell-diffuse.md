@@ -7,7 +7,6 @@ last_modified_at: 2024-04-22 13:22:19 +0800
 category: Projects
 tags:
   - Artificial Intelligence
-  - Featured
 image: /assets/images/9InhsrTptK4rLdSNeVmbBwiwQWIN62tm7rAYrmysXJpeme8kA_out-2.png
 ---
 

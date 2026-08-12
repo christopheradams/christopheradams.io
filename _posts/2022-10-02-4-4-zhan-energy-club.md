@@ -7,7 +7,6 @@ last_modified_at: 2023-01-30 21:52:03 +0800
 category: Projects
 tags:
   - Artificial Intelligence
-  - Featured
   - Performances
 image:
     title: Betty Apple on stage at Nuit Blanche Taipei 2022
