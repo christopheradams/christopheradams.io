@@ -12,14 +12,14 @@ image: /assets/images/49241319873_7ee721ed6a_k.jpg
 {{ authorDetails.description }}
 </p>
 
-I work with web, blockchain, and distributed software, and visual media like
-film, digital imaging, generative art, and machine learning. Past projects
-include [Launch Stage]({%post_url 2022-05-20-launch-stage %}) for Taipei
-Dangdai, [Altar Space]({% post_url 2023-09-25-altar-space %}) with Yao
-Jui-Chung, [All the Color in the World]({% post_url
-2021-03-13-all-the-color-in-the-world %}) with Jun Yang, and [FREESOULS]({%
-post_url 2008-12-03-freesouls %}) with Joi Ito. I publish my writing, works, and
-photographs at [christopheradams.io](https://christopheradams.io).
+I work with web, blockchain, and distributed software, and visual media in film,
+digital imaging, generative art, and machine learning. Past projects include
+[Launch Stage]({%post_url 2022-05-20-launch-stage %}) for Taipei Dangdai, [Altar
+Space]({% post_url 2023-09-25-altar-space %}) with Yao Jui-Chung, [All the Color
+in the World]({% post_url 2021-03-13-all-the-color-in-the-world %}) with Jun
+Yang, and [FREESOULS]({% post_url 2008-12-03-freesouls %}) with Joi Ito. I
+publish my writing, works, and photographs at
+[christopheradams.io](https://christopheradams.io).
 
 ## Exhibitions
 
