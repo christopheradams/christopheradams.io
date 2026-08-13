@@ -34,3 +34,8 @@ presets:
     fallback_width: 1280
     markup: direct_url
     crop: '16:9'
+
+  apple_touch_icon:
+    fallback_format: png
+    fallback_width: 180
+    markup: direct_url

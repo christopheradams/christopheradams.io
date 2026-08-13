@@ -19,8 +19,16 @@
 
 <title>{{ page_title | strip | escape }}{% if page_title != "" %} | {% endif %}{{ site.title | escape }}</title>
 
-{%- comment -%} Favicons {%- endcomment -%}
-<link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | prepend: site.baseurl }}">
+{%- comment %} Favicons {% endcomment %}
+{% if site.favicon %}
+<link rel="icon" href="{{ site.favicon | relative_url }}">
+{%- else -%}
+<link rel="icon" href="/favicon.ico">
+{% endif %}
+
+{%- if site.touch %}
+<link rel="apple-touch-icon" sizes="180x180" href="{% picture apple_touch_icon "{{ site.touch }}" %}">
+{% endif %}
 
 {%- comment -%} SEO and Social Meta Tags {%- endcomment -%}
 {% include meta.html %}
