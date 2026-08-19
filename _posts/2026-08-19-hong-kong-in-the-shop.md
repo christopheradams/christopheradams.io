@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hong Kong in the Shop
-description: Gods, Police, and an Automobile
+description: Gods, Police, and a Porsche
+date: 2026-08-19 21:03 +0800
 location: Taipei
 category: Notes
 tags:
@@ -18,17 +19,16 @@ follows is a short story of each set of images.
 *Blue Porsche & Tarp I* (2019)
 {: .caption}
 
-I photographed this Porsche 911 on a Winter night, down a lane of old auto shops
-stacked behind the Blue House in Wan Chai. I was guided to these back alleys by
-[Shirley Surya], Curator of Design and Architecture at [M+]. Now I chase this
-motif: filthy and run-down luxury cars, mostly from the 80s and 90s -- the
-wrecks of an Asian Tiger economic boom.
+One Winter night in Wan Chai, I photographed an old Porsche down a lane of tiny
+auto shops stacked behind Blue House. I was guided to these back alleys by
+[Shirley Surya], Curator of Design and Architecture at [M+]. Since then I've
+chased this motif: begrimed and run-down luxury cars hailing from the 80s and
+90s -- the wrecks of an Asian Tiger economic boom.
 
-The following day, I came upon water barricades crowded together in West
+The following day, I happened upon water barricades crowded together in West
 Kowloon, where new museums, parks, and promenades have sprung up. The police
 barriers were stowed rather than deployed (they were weathered and empty, and
-guarded nothing) -- dormant but vigilant against protests that rocked the city
-that year.
+guarded nothing) -- dormant but vigilant against any and all protests.
 
 {% picture /assets/images/20191215-1313_HongKong_L1009955-0.jpg --img class="" %}
 
@@ -36,10 +36,9 @@ that year.
 {: .caption}
 
 I took the final two photographs on a Spring day in Central, during my first
-visit to Hong Kong after the pandemic. I found the Buddhist goddess of
-compassion and two Chinese deities of fortune and prosperity sequestered in an
-alley niche, while not far away a storied name in fashion peeked over a former
-prison's walls.
+visit to Hong Kong after the pandemic. The Buddhist goddess of compassion and
+Chinese deities of fortune and prosperity were sequestered in an alley niche,
+while not far away a storied name in fashion peeked out over a former prison.
 
 {% picture assets/images/20240327-2004_HongKong_Central_L1001148-0.jpg --img class="" %}
 
