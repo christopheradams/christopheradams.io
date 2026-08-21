@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: lead
 title: Another Year of Art Crimes
 description: Graffiti.org Goes Zola
 location: Taipei
@@ -12,10 +12,9 @@ tags:
 
 Art Crimes *aka* [Graffiti.org] was founded in 1994 by Susan Farrell and is the
 oldest and longest-running website of its kind on the Internet. (The
-photographer Brett Webb was an early collaborator.) The site has enjoyed three
-decades of submissions from thousands of graffiti artists and writers all over
-the world.
-{: .lead}
+photographer Brett Webb was an early collaborator.) The site has since enjoyed
+over three decades of contributions from thousands of graffiti artists and
+writers all over the world.
 
 Today, Graffiti.org hosts over 200,000 images and over 30,000 HTML files. The
 core of the site comprises around 10,000 pages, each one devoted to a specific

@@ -510,6 +510,13 @@ header .navbar-nav .nav-link {
   }
 }
 
+// Lead layout styling
+
+.page-content.page-lead > p:first-child,
+.page-content.page-lead > blockquote:first-child  {
+  @extend .lead;
+}
+
 // Footer
 
 .footer {

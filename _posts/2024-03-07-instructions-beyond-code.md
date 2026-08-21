@@ -1,4 +1,5 @@
 ---
+layout: lead
 title: Instructions Beyond Code
 description: Prompts on Generative Art
 location: Taipei
@@ -20,7 +21,6 @@ related: https://artist.nccu.edu.tw/2024spring/da_article_en.html
 > Generative art is like a huge factory where the machines started talking
 > back. As the computers got faster, the art got better. Now it's like the art is
 > making itself, and we're just here to watch. — A Large Language Model
-{: .lead}
 
 [Instructions Beyond Code] is an article I co-authored with an [LLM] for an
 exhibition at National Chengchi University. My brief was to encourage students

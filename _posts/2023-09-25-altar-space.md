@@ -1,4 +1,5 @@
 ---
+layout: lead
 title: Altar Space
 description: The Genesis of Yao Jui-Chung
 location: Taipei
@@ -17,7 +18,6 @@ original works, *Moon--Block--Chain*, *YAO COIN*, and *Twelve Disciples*
 approach the new media of blockchains, cryptocurrencies, and NFTs through the
 old means of divination tools, Buddhist coin charms, and religious icons. *The
 past is rich with the technology for a future mythos.*
-{: .lead}
 
 *[Yao Jui-Chung: Invidia]* was curated by Zian Chen and installed at Tina Keng
 Gallery (Taipei) from 5 August to 23 September, 2023. This solo exhibition

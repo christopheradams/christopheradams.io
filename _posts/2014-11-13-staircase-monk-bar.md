@@ -1,4 +1,5 @@
 ---
+layout: lead
 title: Staircase
 description: Monk Bar
 location: York
@@ -10,4 +11,3 @@ tags:
 ---
 
 The staircase to Monk Bar, York.
-{: .lead}
