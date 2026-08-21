@@ -1,7 +1,7 @@
 ---
 layout: lead
 title: Another Year of Art Crimes
-description: Graffiti.org Goes Zola
+description: Graffiti.org Gets Zola
 location: Taipei
 image: /assets/images/www.graffiti.org.png
 related: https://www.graffiti.org
@@ -13,41 +13,41 @@ tags:
 Art Crimes *aka* [Graffiti.org] was founded in 1994 by Susan Farrell and is the
 oldest and longest-running website of its kind on the Internet. (The
 photographer Brett Webb was an important early collaborator.) The site has since
-enjoyed three decades of contributions from thousands of graffiti artists and
-writers all over the world.
+enjoyed three decades of contributions by thousands of graffiti artists and
+writers from all over the world.
 
 Today, Graffiti.org hosts over 200,000 images and over 30,000 HTML files. The
-core of the site amounts to nearly 10,000 pages, each devoted to a specific
-artist, city, or train graffiti. It also features scores of articles,
+core of the site amounts to nearly 10,000 pages, most of which are devoted to a
+specific artist, city, or train location. It also features scores of articles,
 blackbooks, and murals, and lists hundreds of graffiti websites. Every caption,
-page, link, and index was written and maintained using plain HTML and CSS, with
-no software framework or templating system to speak of. A monumental feat.
+page, link, and index was originally written and maintained using plain HTML and
+CSS.
 
-In recent years, the St. Louis-based non-profit [Fabricatorz Foundation] stepped
-up to host the website, and Jon Phillips, Landon Taylor, and I pitched in to
-improve it. We pledged to follow Graffiti.org's mission and stay true to its
-spirit, while streamlining the publishing process. For the task we chose [Zola],
-a modern static-site generator written in Rust. Jon designed the server and
-container architecture, while I handled the bulk of the website development, and
-Landon provided hundreds of new pictures.
+In recent years, the St. Louis-based [Fabricatorz Foundation] has stepped up to
+host the website, and Jon Phillips, Landon Taylor, and I pitched in to improve
+it. We pledged to follow Graffiti.org's mission and stay true to its roots,
+while streamlining the publishing process. For this task we chose [Zola], a
+modern static-site generator written in Rust. Jon engineered the server, while I
+programmed the website, and Landon provided hundreds of new pictures.
 
-We kept the original website's static content completely intact, and added
-updated pages, sections, and taxonomies as we went along. We also resisted any
-changes to the site's style or layout. City Walls are neatly arranged in a
-hiearchy of continents, countries, states, and cities. Artists can be referenced
-on related pages using internal links. Pagination within a section is generated
-automatically. Publication dates were calculated by scraping the monthly updates
-index, and deciphering copyright notices on older pages. All of the code and
-media files are tracked with Git. We still accept submissions the old-fashioned
-way: by email. Only now we rely on [FreeScout] to stay organized.
+The site's design has not changed since the 1990s! We kept all the original
+static content intact, only adding updated pages, indexes, and taxonomies as we
+went. We avoided needless changes to the site's style or layout, save for a new
+image grid on the home page. City Walls are arranged in a hierarchy of
+continents, countries, territories, and cities. Artists can be referenced on
+related pages using Zola's internal link format. Publication dates were
+calculated by scraping the list of monthly updates, and deciphering copyright
+notices on older pages. All of the code and media files are tracked with Git. We
+still accept submissions the old-fashioned way: by email. Only now we use
+[FreeScout] to stay on top of things.
 
-One challenge was dealing with deadlinks. I replaced URLs for unreachable
-websites with their *earliest* recorded version from the [Wayback Machine] (that
-wasn't either blank or a landing page). Over many months I wrote the templates,
-reformatted the markup, checked countless external links, and curated dozens of
-new pages. Much of this work was aided by AI code generators writing scripts in
-Python, a language which I respect but prefer not to write. Graffiti.org gained
-another year of updates this way from Summer 2025 to Summer 2026.
+One challenge was dealing with link rot. If a domain was still online but had
+been taken over by spam, I replaced it with the *earliest* recorded version from
+the [Wayback Machine]. Over many months I wrote the templates, refactored the
+markup, checked countless external links, and curated dozens of new pages. Much
+of this work was aided by AI code generators writing scripts in Python, a
+language I respect but prefer not to write. Graffiti.org gained another year of
+updates this way from Summer 2025 to Summer 2026.
 
 A few of the additions I'd like to highlight:
 
@@ -67,6 +67,16 @@ A few of the additions I'd like to highlight:
   [2021](https://www.graffiti.org/stlouis/stlouis_2021_paintlouis_1/)
 * [Street art legend Blek Le
   Rat](https://www.graffiti.org/blek_le_rat/blek_le_rat_1/)
+
+The Art Crimes [message to
+Writers](https://www.graffiti.org/faq/story/#get-involved) is timeless:
+
+> We have great respect for you and your work. If you want to get involved, we
+> welcome you. Protect your history by making it digital. Tell your story,
+> express your opinions and publish them. Make your own site and send us your
+> Web address. Make the Internet work for you. Fight media with media. Be
+> careful in forums and chatrooms online, since those are very public places and
+> words once spoken have a life of their own.
 
 Don't hesitate to reach out to <yo@graffiti.org> if you would like to contribute
 or support the site. We are on the lookout for more artists, photographers,
