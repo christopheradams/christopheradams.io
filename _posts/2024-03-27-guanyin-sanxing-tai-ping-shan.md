@@ -11,7 +11,7 @@ tags:
   - Featured
   - Hong Kong
   - Scenes
-image: assets/images/20240327-2004_HongKong_Central_L1001148-0.jpg
+image: assets/images/20240327-2052_HongKong_TaiPingShan_L1001148-0.jpg
 ---
 
 Guanyin, the Bodhisattva of Compassion, flanked by Gods of Fortune and
