@@ -12,44 +12,48 @@ tags:
 
 Art Crimes *aka* [Graffiti.org] was founded in 1994 by Susan Farrell and is the
 oldest and longest-running website of its kind on the Internet. (The
-photographer Brett Webb was an early collaborator.) The site has since enjoyed
-over three decades of contributions from thousands of graffiti artists and
+photographer Brett Webb was an important early collaborator.) The site has since
+enjoyed three decades of contributions from thousands of graffiti artists and
 writers all over the world.
 
 Today, Graffiti.org hosts over 200,000 images and over 30,000 HTML files. The
-core of the site comprises around 10,000 pages, each one devoted to a specific
-artist, city, or train graffiti. Every caption, page, and index was written and
-maintained by hand over the decades.
+core of the site amounts to nearly 10,000 pages, each devoted to a specific
+artist, city, or train graffiti. It also features scores of articles,
+blackbooks, and murals, and lists hundreds of graffiti websites. Every caption,
+page, link, and index was written and maintained using plain HTML and CSS, with
+no software framework or templating system to speak of. A monumental feat.
 
-Recently, the St. Louis-based non-profit [Fabricatorz Foundation] stepped up to
-host the website, and Jon Phillips, Landon Taylor, and I all pitched in. We
-pledged to follow Graffiti.org's mission and honor its spirit, while
-streamlining the publishing process. For the task we chose [Zola], a modern
-static-site generator written in Rust. Jon designed the overall server and
-container architecture, while I did the bulk of the website development, and
-Landon provided hundreds of new pictures. We still accept submissions the
-old-fashioned way, however: by email.
+In recent years, the St. Louis-based non-profit [Fabricatorz Foundation] stepped
+up to host the website, and Jon Phillips, Landon Taylor, and I pitched in to
+improve it. We pledged to follow Graffiti.org's mission and stay true to its
+spirit, while streamlining the publishing process. For the task we chose [Zola],
+a modern static-site generator written in Rust. Jon designed the server and
+container architecture, while I handled the bulk of the website development, and
+Landon provided hundreds of new pictures.
 
-We kept the original website's static content completely intact, and added newly
-generated pages, sections, and taxonomies as we went along. We also resisted any
-changes to the site's style or organization. City Walls are neatly arranged in a
+We kept the original website's static content completely intact, and added
+updated pages, sections, and taxonomies as we went along. We also resisted any
+changes to the site's style or layout. City Walls are neatly arranged in a
 hiearchy of continents, countries, states, and cities. Artists can be referenced
 on related pages using internal links. Pagination within a section is generated
 automatically. Publication dates were calculated by scraping the monthly updates
-index, and deciphering copyright notices on older pages.
+index, and deciphering copyright notices on older pages. All of the code and
+media files are tracked with Git. We still accept submissions the old-fashioned
+way: by email. Only now we rely on [FreeScout] to stay organized.
 
 One challenge was dealing with deadlinks. I replaced URLs for unreachable
 websites with their *earliest* recorded version from the [Wayback Machine] (that
 wasn't either blank or a landing page). Over many months I wrote the templates,
-reformatted the markup, checked thousands of external links, and curated scores
-of new pages. Graffiti.org gained another year of updates this way from Summer
-2025 to Summer 2026.
+reformatted the markup, checked countless external links, and curated dozens of
+new pages. Much of this work was aided by AI code generators writing scripts in
+Python, a language which I respect but prefer not to write. Graffiti.org gained
+another year of updates this way from Summer 2025 to Summer 2026.
 
 A few of the additions I'd like to highlight:
 
 * [A tribute to John
   Howard](https://www.graffiti.org/john_howard/john_howard_1/), a pioneering
-  American graffiti who lived in São Paulo
+  American graffiti artist who lived in São Paulo
 * [1980s New York graffiti](https://www.graffiti.org/nyc/newyork_176/) and [New
   York subway train](https://www.graffiti.org/trains/trains_388/) photographs by
   RLH/TEL Norway
@@ -65,10 +69,11 @@ A few of the additions I'd like to highlight:
   Rat](https://www.graffiti.org/blek_le_rat/blek_le_rat_1/)
 
 Don't hesitate to reach out to <yo@graffiti.org> if you would like to contribute
-or support the site in any way. We are on the lookout for more artists,
-photographers, curators, and patrons of *art crimes.*
+or support the site. We are on the lookout for more artists, photographers,
+curators, and patrons of *art crimes.*
 
 [Graffiti.org]: https://www.graffiti.org/
 [Fabricatorz Foundation]: https://fabricatorz.org/
 [Zola]: https://www.getzola.org/
 [Wayback Machine]: https://web.archive.org/
+[FreeScout]: https://freescout.net/
