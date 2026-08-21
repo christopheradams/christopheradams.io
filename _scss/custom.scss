@@ -346,6 +346,10 @@ header .navbar-nav .nav-link {
     padding: 0 1.5rem;
   }
 
+  blockquote.lead {
+    @extend .lead;
+  }
+
   .highlight {
     font-size: $page-code-size;
 
