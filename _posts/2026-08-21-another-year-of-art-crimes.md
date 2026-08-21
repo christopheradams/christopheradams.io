@@ -2,12 +2,14 @@
 layout: lead
 title: Another Year of Art Crimes
 description: Graffiti.org Gets Zola
+date: 2026-08-21 18:06 +0800
 location: Taipei
-image: /assets/images/www.graffiti.org.png
+image: "/assets/images/www.graffiti.org.png"
 related: https://www.graffiti.org
 category: Projects
 tags:
 - Featured
+- Programming
 ---
 
 Art Crimes *aka* [Graffiti.org] was founded in 1994 by Susan Farrell and is the
