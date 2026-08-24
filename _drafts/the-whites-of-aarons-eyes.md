@@ -35,12 +35,13 @@ figurative forms, particularly humans and plants, while hewing to his
 characteristic freehand aesthetic.
 
 Cohen progressed through a series of programming languages: first Fortran, then
-C, and eventually Lisp. He used plotters to realize works on paper, and invented
-assorted hardware devices, including a mechanical 'turtle' that could steer
-itself around a paper surface, and even a prototype painting machine that could
-apply color with brushes directly.[^cohen2002] Cohen also executed large oil
-paintings based on AARON's outputs by photographing his computer screen and
-projecting the developed slides onto canvas in order to copy them.[^cohen1994]
+C, and eventually Lisp.[^mccorduck] He used plotters to realize works on paper,
+and invented assorted hardware devices, including a mechanical 'turtle' that
+could steer itself around a paper surface, and even a prototype painting machine
+that could apply color with brushes directly.[^cohen2002] Cohen also executed
+large oil paintings based on AARON's outputs by photographing his computer
+screen and projecting the developed slides onto canvas in order to copy
+them.[^cohen1994]
 
 [TK - AARON's reception and Cohen's success as an artist]
 
@@ -57,6 +58,9 @@ In 2001, Kurzweil CyberArt Technologies released a Windows PC program
     House](https://gazelliarthouse.com/artists/harold-cohen/overview/), which
     represents Harold Cohen's estate, has an excellent presentation of the
     artist's work from different stages of his career.
+
+[^mccorduck]: McCorduck, Pamela (1990). *AARON's Code: Meta-Art, Artificial
+    Intelligence, and the Work of Harold Cohen.* pp. 23, 120.
 
 [^cohen1994]: Cohen, Harold (1994). *[The Further Exploits of Aaron,
     Painter](https://aaronshome.com/aaron/publications/furtherexploits.pdf)*.
