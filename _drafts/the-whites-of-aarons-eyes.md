@@ -13,31 +13,34 @@ tags:
 ---
 
 AARON was Harold Cohen's life's work. The British-born artist succeeded in
-designing a computer art program that would outlive its creator. There are
+designing a computer art program to outlive its creator. [TK bridge] There are
 enduring details in AARON that deserve closer examination.
 
-Harold Cohen was born in London in 1928, and studied fine art at university. By
-the 1960s, Cohen had become a celebrated abstract painter: he represented
-Britain at Documenta and at the Venice Biennale, and mounted numerous solo shows
-in the UK, the US, and Canada. Early acrylic paintings demonstrate innovative,
-noisy textures and colors; while other works depict strange, primitive,
-life-like abstract shapes.[^gazelli] [TK -- a hook or bridge sentence]
+Harold Cohen was born in London in 1928. He studied fine art at university, and
+by the mid-1960s had become a celebrated abstract painter. Cohen represented
+Britain at both Documenta and at the Venice Biennale, among other international
+contemporary art exhibitions, and mounted numerous solo shows in the UK, the US,
+and Canada. Some of his early acrylic paintings demonstrate innovative, noisy
+textures with overlapping patterns and colors. Others depict strange, primitive,
+and often life-like forms.[^gazelli] These latter works would provide the
+building blocks for Cohen's functional model of artistic perception.
 
-In 1968, Cohen moved to California to teach and research visual arts. There he
-learned computer programming, which was unusual for arts faculty at the time,
-and began work on a machine-generated painting system that he would christen
-*AARON.*  Early outputs resembled randomized lines and shapes that nonetheless
-looked hand-drawn. (Cohen would fill and shade some prints manually with dyes or
-colored pencils) Later, he would evolve the system to portray figurative forms,
-including humans and plants, while hewing to his freehand aesthetic.
+In 1968, Cohen moved to California to teach and research the visual arts. There
+he learned computer programming, which was unusual for arts faculty at the
+time. Cohen began developing a machine-generated drawing system that he would
+christen *AARON.* Early outputs resembled randomized lines and shapes that
+nonetheless appeared hand-drawn. (He would fill and shade some prints manually
+with dyes or colored pencils.) Later, Cohen instructed his program to portray
+figurative forms, particularly humans and plants, while hewing to his
+characteristic freehand aesthetic.
 
-Cohen progressed through a number of programming languages: at first FORTRAN,
-then C, and eventually LISP. He used plotters to realize works on paper, and
-invented assorted hardware devices, such as a mechanical 'turtle' that could
+Cohen progressed through a number of programming languages: at first Fortran,
+then C, and eventually Lisp. He used plotters to realize works on paper, and
+invented assorted hardware devices, including a mechanical 'turtle' that could
 steer itself around a paper surface, and even a prototype painting machine that
 could apply color with brushes directly. Cohen also executed large oil paintings
 based on AARON's outputs by photographing his computer screen and projecting the
-slide film onto canvas.
+developed film slides onto canvas in order to copy them.
 
 [^gazelli]: [Gazelli Art
     House](https://gazelliarthouse.com/artists/harold-cohen/overview/), which
