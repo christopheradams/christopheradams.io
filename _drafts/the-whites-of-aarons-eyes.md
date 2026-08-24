@@ -71,5 +71,5 @@ In 2001, Kurzweil CyberArt Technologies released a Windows PC program
 [^cohen1988]: Cohen, Harold (1988). *[How to Draw Three People in a Botanical
     Garden](https://aaronshome.com/aaron/publications/how2draw3people.pdf).*
 
-[^kurzweil]: [A Message from Ray Kurzweil about
+[^kurzweil]: Kurzweil, Ray (2001). [A Message from Ray Kurzweil about
     AARON](https://www.kurzweilcyberart.com/aaron/message.html).
