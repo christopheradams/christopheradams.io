@@ -34,15 +34,28 @@ with dyes or colored pencils.) Later, Cohen instructed his program to portray
 figurative forms, particularly humans and plants, while hewing to his
 characteristic freehand aesthetic.
 
-Cohen progressed through a number of programming languages: at first Fortran,
+Cohen progressed through a series of programming languages: at first Fortran,
 then C, and eventually Lisp. He used plotters to realize works on paper, and
 invented assorted hardware devices, including a mechanical 'turtle' that could
 steer itself around a paper surface, and even a prototype painting machine that
-could apply color with brushes directly. Cohen also executed large oil paintings
-based on AARON's outputs by photographing his computer screen and projecting the
-developed film slides onto canvas in order to copy them.
+could apply color with brushes directly.[^cohen2002] Cohen also executed large
+oil paintings based on AARON's outputs by photographing his computer screen and
+projecting the developed slides onto canvas in order to copy them.[^cohen1994]
+
+[TK - AARON's reception and Cohen's success as an artist]
+
+At the turn of the millennium, Cohen participated in what he would call "the
+most important cultural experiment" of his three decades as an artist up to that
+point in time.[^cohen2002] In 2001, Kurzweil CyberArt Technologies released a
+Windows PC program
 
 [^gazelli]: [Gazelli Art
     House](https://gazelliarthouse.com/artists/harold-cohen/overview/), which
     represents Harold Cohen's estate, has an excellent presentation of the
     artist's work from different stages of his career.
+
+[^cohen1994]: Cohen, Harold (1994). *[The Further Exploits of Aaron,
+    Painter](https://aaronshome.com/aaron/publications/furtherexploits.pdf)*.
+
+[^cohen2002]: Cohen, Harold (2002). *[Making Art for a Changing
+    World](https://aaronshome.com/aaron/publications/changingworld.doc).*
