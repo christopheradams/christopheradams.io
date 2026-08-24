@@ -46,8 +46,12 @@ projecting the developed slides onto canvas in order to copy them.[^cohen1994]
 
 At the turn of the millennium, Cohen participated in what he would call "the
 most important cultural experiment" of his three decades as an artist up to that
-point in time.[^cohen2002] In 2001, Kurzweil CyberArt Technologies released a
-Windows PC program
+point in time.[^cohen2002] As early as 1988, the computer scientist and
+entrepreneur Ray Kurzweil had funded Cohen's work on AARON.[^cohen1988]
+
+exclusive license[^kurzweil]
+
+In 2001, Kurzweil CyberArt Technologies released a Windows PC program
 
 [^gazelli]: [Gazelli Art
     House](https://gazelliarthouse.com/artists/harold-cohen/overview/), which
@@ -59,3 +63,9 @@ Windows PC program
 
 [^cohen2002]: Cohen, Harold (2002). *[Making Art for a Changing
     World](https://aaronshome.com/aaron/publications/changingworld.doc).*
+
+[^cohen1988]: Cohen, Harold (1988). *[How to Draw Three People in a Botanical
+    Garden](https://aaronshome.com/aaron/publications/how2draw3people.pdf).*
+
+[^kurzweil]: [A Message from Ray Kurzweil about
+    AARON](https://www.kurzweilcyberart.com/aaron/message.html).
