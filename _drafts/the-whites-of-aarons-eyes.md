@@ -1,7 +1,7 @@
 ---
 layout: lead
 title: The Whites of AARON's Eyes
-description: Examining Harold Cohen's Life's Work
+description: A Closer Look at Harold Cohen's Life's Work
 date: 2026-08-24 09:52 +0800
 location: Taipei
 category: Writing
@@ -17,22 +17,22 @@ designing a computer art program that would outlive its creator. There are
 enduring details in AARON that deserve closer examination.
 
 Harold Cohen was born in London in 1928, and studied fine art at university. By
-the 1960s, Cohen had become a celebrated abstract painter. He represented
+the 1960s, Cohen had become a celebrated abstract painter: he represented
 Britain at Documenta and at the Venice Biennale, and mounted numerous solo shows
-in the UK, the US, and Canada. His early acrylic paintings demonstrate
-innovative, noisy textures and colors. Others works depict strange, primitive,
+in the UK, the US, and Canada. Early acrylic paintings demonstrate innovative,
+noisy textures and colors; while other works depict strange, primitive,
 life-like abstract shapes.[^gazelli] [TK -- a hook or bridge sentence]
 
 In 1968, Cohen moved to California to teach and research visual arts. There he
-learned computer programming, unusual for arts faculty at the time, and began to
-develop a machine-generated painting system that he would christen *AARON.*
+learned computer programming, unusual for arts faculty at the time, and began
+work on a machine-generated painting system that he would christen *AARON.*
 Early outputs were randomized lines and shapes that nonetheless looked
-hand-drawn. (Cohen would fill or shade some works manually with colored
+hand-drawn. (Cohen would fill or shade some prints manually with colored
 pencils.) Later, he would evolve the system to portray figurative forms,
-including humans and plants, while maintaining the freehand aesthetic.
+including humans and plants, while hewing to his freehand aesthetic.
 
 Cohen progressed through a number of programming languages: at first FORTRAN,
-then C, and eventually LISP. He used variety of hardware devices, such as
+then C, and eventually LISP. He used a variety of hardware devices, such as
 plotter machines, a mechanical 'turtle' that could steer itself around a paper
 surface, and even a prototype painting machine that could apply color
 itself. Cohen also made large oil paintings based on AARON's outputs by
