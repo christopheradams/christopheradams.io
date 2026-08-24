@@ -40,7 +40,7 @@ visit to Hong Kong after the pandemic. The Buddhist goddess of compassion and
 Chinese deities of fortune and prosperity were sequestered in an alley niche,
 while not far away a storied name in fashion peeked out over a former prison.
 
-{% picture assets/images/20240327-2004_HongKong_Central_L1001148-0.jpg --img class="" %}
+{% picture assets/images/20240327-2052_HongKong_TaiPingShan_L1001148-0.jpg --img class="" %}
 
 *Guanyin & Sanxing* (2024)
 {: .caption}
