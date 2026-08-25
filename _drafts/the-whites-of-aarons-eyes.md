@@ -29,26 +29,28 @@ figure-ground compositions depict uncanny, primitive, and at times life-like
 forms.[^gazelli] These latter works marked the first traces of Cohen's
 functional model of artistic perception.
 
-In 1968, Cohen moved to California to teach and research visual art. There he
-learned computer programming, which was unusual for arts faculty at the
+In 1968, Cohen moved to California for teaching and research. There he learned
+computer programming, which was unusual for visual arts faculty at the
 time. Cohen began developing a machine-generated drawing system that he would
 christen *AARON.* The initial outputs resembled randomized lines and shapes that
-nonetheless appeared hand-drawn. (He would fill and shade some prints manually
+nonetheless appeared hand-drawn. (He would fill and shade many prints manually
 with dyes or colored pencils.) Iterating on this conceptual breakthrough, Cohen
-programmed instructions for figurative painting, particularly the representation
+programmed instructions for figurative drawing, particularly the representation
 of humans and plants, while hewing to his characteristic computer-driven
-freehand aesthetic.
+freehand aesthetic. He eventually taught AARON how to color.
 
 Cohen progressed through a series of lower- to higher-level programming
-languages: first Fortran, then C, and eventually Lisp.[^mccorduck] He used
-plotters to realize works on paper, and built assorted hardware devices,
-including a mechanical 'turtle' that could steer itself around a paper surface,
-and, most ambitious of all, a prototype painting machine that could apply color
-with brushes directly.[^cohen2002] Cohen also executed large oil paintings based
-on AARON's outputs by photographing his computer screen and projecting the
+languages: first Fortran, then C, and finally Lisp.[^mccorduck] He used plotters
+to realize works on paper, and built assorted output devices, including a
+mechanical 'turtle' that could steer itself around a paper surface, and, most
+ambitious of all, a prototype painting machine that could apply color with
+brushes directly.[^cohen2002] Cohen also executed large oil paintings based on
+AARON's outputs by photographing his computer screen and projecting the
 developed slides onto canvas in order to copy them.[^cohen1994]
 
 [TK - AARON's reception and Cohen's success as an artist]
+
+"exhibit the program producing art rather than exhibiting only the things it produced."[^cohen2001]
 
 At the turn of the millennium, Cohen participated in what he would call "the
 most important cultural experiment" of his three decades as an artist up to that
@@ -79,11 +81,16 @@ TK: does this mark the last chapter of AARON, or the next?
 [^cohen1994]: Cohen, Harold (1994). *[The Further Exploits of Aaron,
     Painter](https://aaronshome.com/aaron/publications/furtherexploits.pdf)*.
 
+[^cohen2001]: Cohen, Harold (2001). *[Decoupling Art and
+    Affluence](https://www.aaronshome.com/aaron/publications/decoupling.doc)*. aaronshome.com.
+
 [^cohen2002]: Cohen, Harold (2002). *[Making Art for a Changing
     World](https://aaronshome.com/aaron/publications/changingworld.doc).*
+    aaronshome.com.
 
 [^cohen1988]: Cohen, Harold (1988). *[How to Draw Three People in a Botanical
     Garden](https://aaronshome.com/aaron/publications/how2draw3people.pdf).*
+    aaronshome.com.
 
 [^kurzweil]: Kurzweil, Ray (2001). [A Message from Ray Kurzweil about
-    AARON](https://www.kurzweilcyberart.com/aaron/message.html).
+    AARON](https://www.kurzweilcyberart.com/aaron/message.html). kurzweilcyberart.com.
