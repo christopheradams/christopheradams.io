@@ -54,27 +54,27 @@ developed slides onto canvas in order to copy them.[^cohen1994]
 Cohen was interested in much more than AARON's final results. He became attuned
 to letting the viewer experience his creation *create,* and installed printers
 and plotters so as "to exhibit the program producing art rather than exhibiting
-only the things it produced."[^cohen2001] However, Cohen relinquished his
-'home-made' hardware after large-format printers and especially digital
-projectors become viable for museum and gallery shows. His audience's reaction
-to watching a large projection of AARON making images as live software prompted
-the realization that screens could be the superior medium. At the turn of the
-millennium, Cohen participated in what he would call "the most important
-cultural experiment" of his three decades as an artist up to that
-moment.[^cohen2002]
+only the things it produced."[^cohen2001] However, Cohen discovered alternatives
+to his 'home-made' hardware when large-format printers and (most important)
+digital projectors became viable for museum and gallery shows. One time when
+Cohen was delivering a lecture, the audience's reaction to an auditorium-sized
+projection of AARON making images suggested that a live performance on screen
+was the superior medium. At the turn of the millennium, Cohen participated in
+what he would call "the most important cultural experiment" of his three decades
+as an artist up to that moment.[^cohen2002]
 
 ## AARON KCAT
 
 As early as 1988, the computer scientist and entrepreneur Ray Kurzweil had
-funded Cohen's work on AARON.[^cohen1988] Kurzweil boasted about having Cohen's
-software running on a large screen in his office, and negotiated an exclusive
-license with the artist to develop a commercial product.[^kurzweil-message] In
-2001, Kurzweil CyberArt Technologies released a version of AARON as a Windows PC
+funded Cohen's work on AARON.[^cohen1988] Kurzweil boasted of running Cohen's
+software on a large screen in his office, and negotiated an exclusive license
+with the artist to develop a commercial product.[^kurzweil-message] In 2001,
+Kurzweil CyberArt Technologies released a version of AARON as a Windows PC
 program and screensaver, built using Allegro Common Lisp.[^kurzweil-history] The
-software was offered as shareware with a purchase price of $19.95, although it
-had no built-in trial period.[^kurzweil-support] This remains the only version
-of AARON ever released to the public.[^withdrawn] This software is now
-credited in art conservation contexts as *AARON KCAT.*[^whitney]
+software was offered as a free shareware download to try out, while a
+registration key could be ordered for $19.95.[^kurzweil-support] It remains the
+only version of AARON ever released to the public.[^withdrawn] This software is
+now credited in art conservation contexts as *AARON KCAT.*[^whitney]
 
 TK: there is abstract art represented in KCAT
 
@@ -125,4 +125,4 @@ TK: does this mark the last chapter of AARON, or the next?
     2024](https://whitney.org/exhibitions/harold-cohen-aaron/art?section=2). Also,
     note in the video [Discussing the Earliest Artificial Intelligence Program
     for Artmaking](https://youtu.be/xkrJwURBEfg?si=lA04OcX4_H_gWDRx&t=605) when
-    curator David Lisbon pronounces KCAT as "Kay Cat".
+    curator David Lisbon pronounces KCAT as "kay cat".
