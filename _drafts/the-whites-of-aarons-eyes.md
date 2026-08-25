@@ -56,7 +56,7 @@ developed slides onto canvas in order to copy them.[^cohen1994]
 Cohen was interested in much more than AARON's outputs. He became attuned to the
 wonder of experiencing his creation *create,* and installed printers and
 plotters so as "to exhibit the program producing art rather than exhibiting only
-the things it produced."[^cohen2001] In the 1990s, Cohen discovered commercial
+the things it produced."[^cohen2001] In the 1990s, Cohen discovered economical
 alternatives to his 'home-made' hardware when large-format printers and (most
 important) digital projectors became viable for museum and gallery shows. One
 time, as Cohen delivered a lecture, the audience's reaction to an
