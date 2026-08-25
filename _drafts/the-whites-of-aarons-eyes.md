@@ -49,8 +49,8 @@ using brushes.[^cohen2002] Cohen was able to execute large oil paintings based
 on AARON's outputs by photographing his computer screen and projecting the
 developed slides onto canvas in order to copy them.[^cohen1994]
 
-Cohen was interested in more than AARON's results. He became attuned to letting
-the viewer experience his creation create. He installed his printers and
+Cohen was interested in much more than AARON's final results. He became attuned
+to letting the viewer experience his creation create, and installed printers and
 plotters so as "to exhibit the program producing art rather than exhibiting only
 the things it produced."[^cohen2001] However, Cohen abandoned his 'home-made'
 hardware after large-format printers and especially digital projectors become
