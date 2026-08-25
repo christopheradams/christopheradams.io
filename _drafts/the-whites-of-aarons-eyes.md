@@ -23,11 +23,11 @@ AARON that deserve closer examination.
 By the late 1960s, Harold Cohen was a celebrated abstract painter. The
 London-born artist had represented Britain at both Documenta and the Venice
 Biennale, among varied international contemporary art exhibitions, and mounted
-numerous solo shows in the UK, the US, and Canada. Among his early acrylic
-paintings are color fields of innovative, noisy textures and imbricated
-patterns. His figure-ground compositions, on the other hand, depict uncanny,
-primitive, and at times life-like forms.[^gazelli] These latter works mark the
-first traces of Cohen's functional model of artistic perception.
+numerous solo shows in the UK, the US, and Canada. Among his innovative early
+acrylic paintings are mazes of noisy textures and imbricated patterns. His
+figure-ground compositions, on the other hand, depict uncanny, primitive, and at
+times life-like forms.[^gazelli] These latter works mark the first traces of
+Cohen's functional model of artistic perception.
 
 In 1968, Cohen moved to California for teaching and research purposes. There he
 learned computer programming, which was unusual for visual arts faculty at the
@@ -51,15 +51,14 @@ developed slides onto canvas in order to copy them.[^cohen1994]
 
 Cohen was interested in more than AARON's results. He became attuned to letting
 the viewer experience his creation create. He installed his printers and
-plotters in order "to exhibit the program producing art rather than exhibiting
-only the things it produced."[^cohen2001] However, Cohen abandoned his
-'home-made' hardware after large-format printers and especially digital
-projectors had improved enough to take their place in museums and art
-galleries. His audience's reaction to watching AARON make images as live
-software prompted the realization that screens could be a superior medium. At
-the turn of the millennium, Cohen participated in what he would call "the most
-important cultural experiment" of his three decades as an artist up to that
-moment.[^cohen2002]
+plotters so as "to exhibit the program producing art rather than exhibiting only
+the things it produced."[^cohen2001] However, Cohen abandoned his 'home-made'
+hardware after large-format printers and especially digital projectors become
+viable for museum and gallery shows. His audience's reaction to watching AARON
+make images as live software prompted the realization that screens could be a
+superior medium. At the turn of the millennium, Cohen participated in what he
+would call "the most important cultural experiment" of his three decades as an
+artist up to that moment.[^cohen2002]
 
 As early as 1988, the computer scientist and entrepreneur Ray Kurzweil had
 funded Cohen's work on AARON.[^cohen1988]
