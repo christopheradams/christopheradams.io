@@ -629,8 +629,4 @@ header .navbar-nav .nav-link {
     font-size: larger;
     line-height: 1;
   }
-
-  sup + sup::before {
-    content: ",\2009"; // comma followed by thin space
-  }
 }
