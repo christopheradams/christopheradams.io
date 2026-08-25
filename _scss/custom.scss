@@ -623,6 +623,14 @@ header .navbar-nav .nav-link {
       border-bottom: 2px solid $red;
       box-shadow: none;
     }
+
+    /* There will be one reverse footnote link for every duplication of
+       a footnote reference. However, subsequent reverse footnote links
+       get a numbered superscript (starting at 2). I don't see any point
+       in displaying this, so just hide it. */
+    sup {
+      display: none;
+    }
   }
 
   p a.reversefootnote {
