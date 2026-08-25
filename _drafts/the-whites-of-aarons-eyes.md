@@ -14,29 +14,30 @@ tags:
 
 <!-- Part I: Printing and Saving AARON -->
 
-AARON was Harold Cohen's life's work. The pioneering artist succeeded in
-developing a computer painting program to outlive its creator. His software
+AARON was Harold Cohen's life's work. The pioneering visual artist succeeded in
+designing a computer painting program to outlive its creator. His software
 encoded complex procedures and elaborate rulesets, but it also left many factors
 to chance, and others out of the picture entirely. There are enduring details in
 AARON that deserve closer examination.
 
-Harold Cohen was born in London in 1928. He studied fine art at university, and
-by the mid-1960s had become a celebrated abstract painter. Cohen represented
-Britain at both Documenta and at the Venice Biennale, among other international
-contemporary art exhibitions, and mounted numerous solo shows in the UK, the US,
-and Canada. Some of his early acrylic paintings demonstrate innovative, noisy
-textures with overlapping patterns and colors. Others depict strange, primitive,
-and often life-like forms.[^gazelli] These latter works marked the first traces
-for Cohen's functional model of artistic perception.
+By the 1960s, Cohen was already a celebrated abstract painter. The London-born
+artist represented Britain at both Documenta and at the Venice Biennale, among
+varied international contemporary art exhibitions, and mounted numerous solo
+shows in the UK, the US, and Canada. Among his early acrylic paintings there are
+color fields of innovative, noisy textures and imbricated patterns. Other
+figure-ground compositions depict uncanny, primitive, and at times life-like
+forms.[^gazelli] These latter works marked the first traces of Cohen's
+functional model of artistic perception.
 
-In 1968, Cohen moved to California to teach and research the visual arts. There
-he learned computer programming, which was unusual for arts faculty at the
+In 1968, Cohen moved to California to teach and research visual art. There he
+learned computer programming, which was unusual for arts faculty at the
 time. Cohen began developing a machine-generated drawing system that he would
-christen *AARON.* Early outputs resembled randomized lines and shapes that
+christen *AARON.* The initial outputs resembled randomized lines and shapes that
 nonetheless appeared hand-drawn. (He would fill and shade some prints manually
-with dyes or colored pencils.) Later, Cohen instructed his program to portray
-figurative forms, particularly humans and plants, while hewing to his
-characteristic freehand aesthetic.
+with dyes or colored pencils.) Iterating on this conceptual breakthrough, Cohen
+programmed instructions for figurative painting, particularly the representation
+of humans and plants, while hewing to his characteristic computer-driven
+freehand aesthetic.
 
 Cohen progressed through a series of lower- to higher-level programming
 languages: first Fortran, then C, and eventually Lisp.[^mccorduck] He used
@@ -57,6 +58,8 @@ entrepreneur Ray Kurzweil had funded Cohen's work on AARON.[^cohen1988]
 exclusive license[^kurzweil]
 
 In 2001, Kurzweil CyberArt Technologies released a Windows PC program
+
+TK: there is abstract art represented in KCAT
 
 TK: the gray background is *not* a decision by AARON, or even encoded in its
 model of the painting.
