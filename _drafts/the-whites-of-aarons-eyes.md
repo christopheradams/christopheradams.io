@@ -61,11 +61,14 @@ would call "the most important cultural experiment" of his three decades as an
 artist up to that moment.[^cohen2002]
 
 As early as 1988, the computer scientist and entrepreneur Ray Kurzweil had
-funded Cohen's work on AARON.[^cohen1988]
-
-exclusive license[^kurzweil]
-
-In 2001, Kurzweil CyberArt Technologies released a Windows PC program
+funded Cohen's work on AARON.[^cohen1988] Kurzweil boasted about having AARON
+running on a large screen in his office, and negotiated an exclusive license
+with Cohen to turn the art software system into a commercial
+product.[^kurzweil-message] In 2001, Kurzweil CyberArt Technologies released a
+version of AARON as a Windows PC program and screensaver. The software was
+offered as shareware with a purchase price of $19.95,[^kurzweil-support] and is
+the only version of AARON ever released to the public.[^withdrawn] This software
+is now credited in art conservation contexts as *AARON KCAT.*[^whitney]
 
 TK: there is abstract art represented in KCAT
 
@@ -98,5 +101,20 @@ TK: does this mark the last chapter of AARON, or the next?
     Garden](https://aaronshome.com/aaron/publications/how2draw3people.pdf).*
     aaronshome.com.
 
-[^kurzweil]: Kurzweil, Ray (2001). [A Message from Ray Kurzweil about
+[^kurzweil-message]: [A Message from Ray Kurzweil about
     AARON](https://www.kurzweilcyberart.com/aaron/message.html). kurzweilcyberart.com.
+
+[^kurzweil-support]: [Get Help downloading and using
+    AARON](https://www.kurzweilcyberart.com/aaron/support.html). kurzweilcyberart.com.
+
+[^withdrawn]: The product was seemingly withdrawn in 2008, when the website
+    states it is no longer available for download.
+
+[^whitney]: See the Whitney Museum's retrospective exhibition [Harold Cohen:
+    AARON Feb 3–May 19,
+    2024](https://whitney.org/exhibitions/harold-cohen-aaron/art?section=2). See
+    also the video[Discussing the Earliest Artificial Intelligence Program for
+    Artmaking](https://youtu.be/xkrJwURBEfg?si=lA04OcX4_H_gWDRx&t=605) where
+    curator David Lisbon pronounces KCAT as "Kay Cat".
+    
+    Also 
