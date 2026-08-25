@@ -12,9 +12,13 @@ tags:
 - Featured
 ---
 
-AARON was Harold Cohen's life's work. The British-born artist succeeded in
-designing a computer art program to outlive its creator. [TK bridge] There are
-enduring details in AARON that deserve closer examination.
+<!-- Part I: Printing and Saving AARON -->
+
+AARON was Harold Cohen's life's work. The pioneering artist succeeded in
+developing a computer painting program to outlive its creator. His software
+encoded complex procedures and elaborate rulesets, but it also left many factors
+to chance, and others out of the picture entirely. There are enduring details in
+AARON that deserve closer examination.
 
 Harold Cohen was born in London in 1928. He studied fine art at university, and
 by the mid-1960s had become a celebrated abstract painter. Cohen represented
@@ -22,8 +26,8 @@ Britain at both Documenta and at the Venice Biennale, among other international
 contemporary art exhibitions, and mounted numerous solo shows in the UK, the US,
 and Canada. Some of his early acrylic paintings demonstrate innovative, noisy
 textures with overlapping patterns and colors. Others depict strange, primitive,
-and often life-like forms.[^gazelli] These latter works would provide the
-building blocks for Cohen's functional model of artistic perception.
+and often life-like forms.[^gazelli] These latter works marked the first traces
+for Cohen's functional model of artistic perception.
 
 In 1968, Cohen moved to California to teach and research the visual arts. There
 he learned computer programming, which was unusual for arts faculty at the
@@ -34,14 +38,14 @@ with dyes or colored pencils.) Later, Cohen instructed his program to portray
 figurative forms, particularly humans and plants, while hewing to his
 characteristic freehand aesthetic.
 
-Cohen progressed through a series of programming languages: first Fortran, then
-C, and eventually Lisp.[^mccorduck] He used plotters to realize works on paper,
-and invented assorted hardware devices, including a mechanical 'turtle' that
-could steer itself around a paper surface, and even a prototype painting machine
-that could apply color with brushes directly.[^cohen2002] Cohen also executed
-large oil paintings based on AARON's outputs by photographing his computer
-screen and projecting the developed slides onto canvas in order to copy
-them.[^cohen1994]
+Cohen progressed through a series of lower- to higher-level programming
+languages: first Fortran, then C, and eventually Lisp.[^mccorduck] He used
+plotters to realize works on paper, and built assorted hardware devices,
+including a mechanical 'turtle' that could steer itself around a paper surface,
+and, most ambitious of all, a prototype painting machine that could apply color
+with brushes directly.[^cohen2002] Cohen also executed large oil paintings based
+on AARON's outputs by photographing his computer screen and projecting the
+developed slides onto canvas in order to copy them.[^cohen1994]
 
 [TK - AARON's reception and Cohen's success as an artist]
 
@@ -53,6 +57,13 @@ entrepreneur Ray Kurzweil had funded Cohen's work on AARON.[^cohen1988]
 exclusive license[^kurzweil]
 
 In 2001, Kurzweil CyberArt Technologies released a Windows PC program
+
+TK: the gray background is *not* a decision by AARON, or even encoded in its
+model of the painting.
+
+TK: AARON cannot improve itself. Cohen wrestled with this fact
+
+TK: does this mark the last chapter of AARON, or the next?
 
 [^gazelli]: [Gazelli Art
     House](https://gazelliarthouse.com/artists/harold-cohen/overview/), which
