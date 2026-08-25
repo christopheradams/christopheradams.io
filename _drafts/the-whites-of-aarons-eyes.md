@@ -15,16 +15,16 @@ tags:
 <!-- Part I: Printing and Saving AARON -->
 
 AARON was Harold Cohen's life's work. The pioneering visual artist succeeded in
-designing a computer art program to outlive its creator. His software encoded
+engineering a computer art program to outlive its creator. His software encoded
 complex procedures and elaborate rulesets, but it also left many factors to
 chance, and others out of the picture entirely. There are enduring details in
 AARON that deserve closer examination.
 
 By the late 1960s, Harold Cohen was a celebrated abstract painter. The
-London-born artist had represented Britain at both Documenta and the Venice
-Biennale, among varied international contemporary art exhibitions, and mounted
-numerous solo shows in the UK, the US, and Canada. Some of his early acrylic
-paintings are mazes of noisy textures and imbricated patterns, while other
+London-born artist represented Britain at prominent international contemporary
+art exhibitions such as Documenta and the Venice Biennale, and mounted numerous
+solo shows in the UK, the US, and Canada. His early acrylic paintings
+incorporate mazes of noisy textures and imbricated patterns, while his
 figure--ground compositions depict uncanny, primitive, and at times life-like
 forms.[^gazelli] These latter works mark the first traces of Cohen's functional
 model of artistic perception.
@@ -33,35 +33,37 @@ model of artistic perception.
 
 In 1968, Cohen moved to California to pursue further teaching and research
 opportunities. There he learned computer programming, an unusual step for visual
-arts faculty at the time. Cohen began developing an automated painting system
-that he would christen *AARON.* The initial outputs resembled randomized lines
-and shapes that nonetheless appeared hand-drawn rather than machine-made. (He
-would fill and shade many prints manually with dyes or colored pencils.)
-Iterating on this conceptual breakthrough, Cohen programmed instructions for
-figurative drawing, particularly the representation of humans and plants, while
-hewing to his characteristic computer-driven freehand aesthetic. He ultimately
-taught AARON how to color these pictures itself.
+arts faculty at the time. The flow of data and control of algorithms cracked
+open Cohen's perspectives on art. He wielded his newfound skills to develop an
+automated painting system that he would christen *AARON.* The initial outputs
+resembled randomized lines and shapes that nonetheless appeared hand-drawn
+rather than machine-made. (He would fill and shade many prints manually with
+dyes or colored pencils.)  Iterating on this conceptual breakthrough, Cohen
+programmed instructions for figurative drawings, particularly the representation
+of humans and plants, while hewing to his characteristic computer-driven
+freehand aesthetic. He ultimately taught AARON how to color these pictures
+itself.
 
 Cohen progressed through a series of lower- to higher-level programming
 languages: first Fortran, then C, and finally Lisp.[^mccorduck] He used plotters
-to realize works on paper, and built assorted output devices, including a
+to realize works on paper, and custom built his own output devices, including a
 mechanical 'turtle' that could steer itself across a paper surface, and, most
 ambitious of all, a prototype painting machine that could apply color directly
 using brushes.[^cohen2002] Cohen was able to execute large oil paintings based
 on AARON's outputs by photographing his computer screen and projecting the
 developed slides onto canvas in order to copy them.[^cohen1994]
 
-Cohen was interested in much more than AARON's final results. He became attuned
-to letting the viewer experience his creation *create,* and installed printers
-and plotters so as "to exhibit the program producing art rather than exhibiting
-only the things it produced."[^cohen2001] However, Cohen discovered alternatives
-to his 'home-made' hardware when large-format printers and (most important)
-digital projectors became viable for museum and gallery shows. One time when
-Cohen was delivering a lecture, the audience's reaction to an auditorium-sized
-projection of AARON making images suggested that a live performance on screen
-was the superior medium. At the turn of the millennium, Cohen participated in
-what he would call "the most important cultural experiment" of his three decades
-as an artist up to that moment.[^cohen2002]
+Cohen was interested in much more than AARON's outputs. He became attuned to the
+wonder of experiencing his creation *create,* and installed printers and
+plotters so as "to exhibit the program producing art rather than exhibiting only
+the things it produced."[^cohen2001] In the 1990s, Cohen discovered commercial
+alternatives to his 'home-made' hardware when large-format printers and (most
+important) digital projectors became viable for museum and gallery shows. One
+time, as Cohen delivered a lecture, the audience's reaction to an
+auditorium-sized projection of AARON making images suggested that a live
+performance on screen was the superior medium. At the turn of the millennium,
+Cohen participated in what he would call "the most important cultural
+experiment" of his three decades as an artist up to that moment.[^cohen2002]
 
 ## AARON KCAT
 
@@ -123,6 +125,6 @@ TK: does this mark the last chapter of AARON, or the next?
 [^whitney]: See the Whitney Museum's retrospective exhibition [Harold Cohen:
     AARON Feb 3–May 19,
     2024](https://whitney.org/exhibitions/harold-cohen-aaron/art?section=2). Also,
-    note in the video [Discussing the Earliest Artificial Intelligence Program
-    for Artmaking](https://youtu.be/xkrJwURBEfg?si=lA04OcX4_H_gWDRx&t=605) when
+    note in the video, [Discussing the Earliest Artificial Intelligence Program
+    for Artmaking](https://youtu.be/xkrJwURBEfg?si=lA04OcX4_H_gWDRx&t=605), that
     curator David Lisbon pronounces KCAT as "kay cat".
