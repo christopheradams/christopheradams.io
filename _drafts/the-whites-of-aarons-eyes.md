@@ -15,7 +15,7 @@ tags:
 <!-- Part I: Printing and Saving AARON -->
 
 AARON was Harold Cohen's life's work. The pioneering visual artist succeeded in
-engineering a computer art program to outlive its creator. His software encoded
+engineering a computer art program that could outlive its creator. His software encoded
 complex procedures and elaborate rulesets, but it also left many factors to
 chance, and others out of the picture entirely. There are enduring details in
 AARON that deserve closer examination.
