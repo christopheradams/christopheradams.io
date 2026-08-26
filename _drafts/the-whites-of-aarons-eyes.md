@@ -57,7 +57,7 @@ using brushes.[^cohen2002] Cohen was able to execute large oil paintings based
 on AARON's outputs by photographing his computer screen and projecting the
 developed slides onto canvas in order to copy them.[^cohen1994]
 
-Cohen was interested in much more than AARON's outputs. He became attuned to the
+Cohen had artistic intentions beyond AARON's finished works. He became attuned to the
 wonder of experiencing his creation *create,* and installed printers and
 plotters so as "to exhibit the program producing art rather than exhibiting only
 the things it produced."[^cohen2001] In the 1990s, Cohen discovered economical
