@@ -77,8 +77,8 @@ funded Cohen's work on AARON.[^cohen1988] Kurzweil boasted of running Cohen's
 software on a large screen in his office, and negotiated an exclusive license
 with the artist to develop a commercial product.[^kurzweil-message] In 2001,
 Kurzweil CyberArt Technologies (KCAT) published a version of AARON as a Windows
-PC program and screensaver, built using Allegro Common Lisp,[^kurzweil-history]
-and offered as a free shareware download with a limited trial period (a
+PC program (built using Allegro Common Lisp,[^kurzweil-history])
+and offered it as a free shareware download with a limited trial period (a
 registration key cost $19.95).[^kurzweil-support] It remains the only version of
 AARON ever released to the public.[^withdrawn] This software is now credited in
 art conservation contexts as *AARON KCAT.*[^whitney]
