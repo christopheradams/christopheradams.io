@@ -16,9 +16,9 @@ tags:
 
 AARON was Harold Cohen's life's work. The pioneering visual artist succeeded in
 engineering a computer art program that would outlive its creator. He invented
-an automated painting system made of object-oriented code, declarative knowledge
-structures, and custom-built hardware. He taught it the rules of how to draw a
-limb for figure, a branch for a tree, a wall for a room. But he also left many
+an autonomous system made of code, data, and hardware that could generate
+original, unique artworks. He taught it the rules of how to paint a limb for
+figure, a branch for a tree, and a wall for a room. But he also left many
 factors to chance, and others out of the picture entirely. There are enduring
 details in AARON that deserve closer examination.
 
