@@ -15,10 +15,14 @@ tags:
 <!-- Part I: Printing and Saving AARON -->
 
 AARON was Harold Cohen's life's work. The pioneering visual artist succeeded in
-engineering a computer art program that could outlive its creator. His software encoded
-complex procedures and elaborate rulesets, but it also left many factors to
-chance, and others out of the picture entirely. There are enduring details in
-AARON that deserve closer examination.
+engineering a computer art program that would outlive its creator. He invented
+an automated painting system made of object-oriented code, declarative knowledge
+structures, and custom-built hardware. He taught it the rules of how to draw a
+limb for figure, a branch for tree, a wall for a room. But he also left many
+factors to chance, and others out of the picture entirely. There are enduring
+details in AARON that deserve closer examination.
+
+<!-- Painting -->
 
 By the late 1960s, Harold Cohen was a celebrated abstract painter. The
 London-born artist represented Britain at prominent international contemporary
@@ -29,7 +33,7 @@ figure--ground compositions depict uncanny, primitive, and at times life-like
 forms.[^gazelli] These latter works mark the first traces of Cohen's functional
 model of artistic perception.
 
-## AARON
+<!-- Coding -->
 
 In 1968, Cohen moved to California to pursue further teaching and research
 opportunities. There he learned computer programming, an unusual step for visual
@@ -65,7 +69,7 @@ performance on screen was the superior medium. At the turn of the millennium,
 Cohen participated in what he would call "the most important cultural
 experiment" of his three decades as an artist up to that moment.[^cohen2002]
 
-## AARON KCAT
+<!-- Screening -->
 
 As early as 1988, the computer scientist and entrepreneur Ray Kurzweil had
 funded Cohen's work on AARON.[^cohen1988] Kurzweil boasted of running Cohen's
@@ -79,6 +83,8 @@ only version of AARON ever released to the public.[^withdrawn] This software is
 now credited in art conservation contexts as *AARON KCAT.*[^whitney]
 
 TK: there is abstract art represented in KCAT
+
+<!-- Printing -->
 
 TK: the gray background is *not* a decision by AARON, or even encoded in its
 model of the painting.
@@ -119,8 +125,8 @@ TK: does this mark the last chapter of AARON, or the next?
     AARON](https://www.kurzweilcyberart.com/aaron/support.html). kurzweilcyberart.com.
 
 [^withdrawn]: The product was withdrawn in 2008, when the Kurzweil CyberArt
-    website announced it was no longer available for download (according to
-    Wayback Machine records).
+    website announced AARON was no longer available for download (according to
+    records from the Wayback Machine).
 
 [^whitney]: See the Whitney Museum's retrospective exhibition [Harold Cohen:
     AARON Feb 3–May 19,
