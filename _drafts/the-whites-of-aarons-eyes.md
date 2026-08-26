@@ -76,7 +76,7 @@ As early as 1988, the computer scientist and entrepreneur Ray Kurzweil had
 funded Cohen's work on AARON.[^cohen1988] Kurzweil boasted of running Cohen's
 software on a large screen in his office, and negotiated an exclusive license
 with the artist to develop a commercial product.[^kurzweil-message] In 2001,
-Kurzweil CyberArt Technologies (KCAT) released a version of AARON as a Windows
+Kurzweil CyberArt Technologies (KCAT) published a version of AARON as a Windows
 PC program and screensaver, built using Allegro Common Lisp,[^kurzweil-history]
 and offered as a free shareware download with a limited trial period (a
 registration key cost $19.95).[^kurzweil-support] It remains the only version of
