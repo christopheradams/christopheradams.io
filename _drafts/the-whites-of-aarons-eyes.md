@@ -17,21 +17,21 @@ tags:
 AARON was Harold Cohen's life's work. The pioneering visual artist succeeded in
 engineering a computer art program that would outlive its creator. He invented
 an autonomous system made of code, data, and hardware that could generate
-original, unique artworks. He taught it the rules of how to paint a limb for
-figure, a branch for a tree, and a wall for a room. But he also left many
-factors to chance, and others out of the picture entirely. There are enduring
-details in AARON that deserve closer examination.
+original and unique artworks. He taught it the rules of how to paint the limbs
+of a figure, the branches of a tree, the walls of a room. He also left many
+factors to chance, while others were out of the picture entirely. There are
+enduring details in AARON that deserve closer examination.
 
 <!-- Painting -->
 
 By the late 1960s, Harold Cohen was a celebrated abstract painter. The
-London-born artist represented Britain at prominent international contemporary
-art exhibitions such as Documenta and the Venice Biennale, and mounted numerous
-solo shows in the UK, the US, and Canada. His early acrylic paintings
-incorporate mazes of noisy textures and imbricated patterns, while his
-figure--ground compositions depict uncanny, primitive, and at times life-like
-forms.[^gazelli] These latter works mark the first traces of Cohen's functional
-model of artistic perception.
+London-born artist had mounted solo shows across the UK, the US, and Canada, and
+represented Britain at prominent international contemporary art exhibitions such
+as Documenta and the Venice Biennale. His early acrylic paintings incorporate
+mazes of noisy textures and imbricated patterns, while his figure--ground
+compositions depict uncanny, primitive, and at times life-like forms.[^gazelli]
+These latter works mark the first traces of Cohen's functional model of artistic
+perception.
 
 <!-- Coding -->
 
@@ -53,21 +53,22 @@ languages: first Fortran, then C, and finally Lisp.[^mccorduck] He used plotters
 to realize works on paper, and constructed his own output devices, including a
 mechanical 'turtle' that could steer itself across a paper surface, and, most
 ambitious of all, a prototype painting machine that could apply color directly
-using brushes.[^cohen2002] Cohen was able to execute large oil paintings based
-on AARON's outputs by photographing his computer screen and projecting the
-developed slides onto canvas in order to copy them.[^cohen1994]
+using brushes.[^cohen2002] Cohen executed large oil paintings based on AARON's
+outputs by photographing his computer screen and projecting the developed slides
+onto canvas in order to replicate them.[^cohen1994]
 
-Cohen had artistic intentions beyond AARON's finished works. He became attuned to the
-wonder of experiencing his creation *create,* and installed printers and
-plotters so as "to exhibit the program producing art rather than exhibiting only
-the things it produced."[^cohen2001] In the 1990s, Cohen discovered economical
-alternatives to his 'home-made' hardware when large-format printers and (most
-important) digital projectors became viable for museum and gallery shows. One
-time, as Cohen delivered a lecture, the audience's reaction to an
-auditorium-sized projection of AARON making images suggested that a live
-performance on screen was the superior medium. At the turn of the millennium,
-Cohen participated in what he would call "the most important cultural
-experiment" of his three decades as an artist up to that moment.[^cohen2002]
+Cohen had artistic ambitions far beyond AARON's finished works. He became
+attuned to the wonder of experiencing his creation *create,* and installed his
+printers and plotters so as "to exhibit the program producing art rather than
+exhibiting only the things it produced."[^cohen2001] In the 1990s, Cohen
+discovered economical alternatives to his 'home-made' hardware when large-format
+printers and (most important) digital projectors became viable for museum and
+gallery shows. One time, as Cohen was delivering a lecture, his audience's
+reaction to an auditorium-sized projection of AARON making images suggested that
+a live performance on screen was the superior medium. At the turn of the
+millennium, Cohen participated in what he would call "the most important
+cultural experiment" of his three decades as an artist up to that
+moment.[^cohen2002]
 
 <!-- Screening -->
 
@@ -75,12 +76,12 @@ As early as 1988, the computer scientist and entrepreneur Ray Kurzweil had
 funded Cohen's work on AARON.[^cohen1988] Kurzweil boasted of running Cohen's
 software on a large screen in his office, and negotiated an exclusive license
 with the artist to develop a commercial product.[^kurzweil-message] In 2001,
-Kurzweil CyberArt Technologies released a version of AARON as a Windows PC
-program and screensaver, built using Allegro Common Lisp.[^kurzweil-history] The
-software was offered as a free shareware download to try out, while a
-registration key could be ordered for $19.95.[^kurzweil-support] It remains the
-only version of AARON ever released to the public.[^withdrawn] This software is
-now credited in art conservation contexts as *AARON KCAT.*[^whitney]
+Kurzweil CyberArt Technologies (KCAT) released a version of AARON as a Windows
+PC program and screensaver, built using Allegro Common Lisp,[^kurzweil-history]
+and offered as a free shareware download with a limited trial period (a
+registration key cost $19.95).[^kurzweil-support] It remains the only version of
+AARON ever released to the public.[^withdrawn] This software is now credited in
+art conservation contexts as *AARON KCAT.*[^whitney]
 
 TK: there is abstract art represented in KCAT
 
