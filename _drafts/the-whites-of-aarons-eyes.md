@@ -19,12 +19,12 @@ engineering a computer art program that would outlive its creator. He invented
 an autonomous system made of code, data, and hardware that could generate
 original and unique artworks. He taught it the rules of how to paint the limbs
 of a figure, the branches of a tree, the walls of a room. He also left many
-factors to chance, while others were out of the picture entirely. There are
-enduring details in AARON that deserve closer examination.
+factors to chance, while other considerations were out of the picture
+entirely. There are enduring details in AARON that deserve closer examination.
 
 <!-- Painting -->
 
-By the late 1960s, Harold Cohen was a celebrated abstract painter. The
+Harold Cohen was already a celebrated abstract painter by the 1960s. The
 London-born artist had mounted solo shows across the UK, the US, and Canada, and
 represented Britain at prominent international contemporary art exhibitions such
 as Documenta and the Venice Biennale. His early acrylic paintings incorporate
@@ -37,16 +37,16 @@ perception.
 
 In 1968, Cohen moved to California to pursue further teaching and research
 opportunities. There he learned computer programming, an unusual step for visual
-arts faculty at the time. The flow of data and control of algorithms cracked
-open Cohen's perspectives on art. He wielded his newfound skills to develop an
-automated painting system that he would christen *AARON.* The initial outputs
-resembled randomized lines and shapes that nonetheless appeared hand-drawn
-rather than machine-made. (He would fill and shade many prints manually with
-dyes or colored pencils.)  Iterating on this conceptual breakthrough, Cohen
-programmed instructions for figurative drawings, particularly the representation
-of humans and plants, while hewing to his characteristic computer-driven
-freehand aesthetic. He ultimately taught AARON how to color these pictures
-itself.
+arts faculty at the time. Using algorithms to determine composition and form
+appealed to Cohen's sensibilities and perspectives on art. He wielded his
+newfound skills to develop an automated painting system that he would christen
+*AARON.* The initial outputs resembled randomized lines and shapes that
+nonetheless appeared hand-drawn rather than machine-made. (He would fill and
+shade many prints manually with dyes or colored pencils.)  Iterating on this
+conceptual breakthrough, Cohen programmed instructions for figurative drawings,
+particularly the representation of humans and plants, while hewing to his
+characteristic computer-driven freehand aesthetic. He ultimately taught AARON
+how to color these pictures itself.
 
 Cohen progressed through a series of lower- to higher-level programming
 languages: first Fortran, then C, and finally Lisp.[^mccorduck] He used plotters
@@ -57,18 +57,17 @@ using brushes.[^cohen2002] Cohen executed large oil paintings based on AARON's
 outputs by photographing his computer screen and projecting the developed slides
 onto canvas in order to replicate them.[^cohen1994]
 
-Cohen had artistic ambitions far beyond AARON's finished works. He became
-attuned to the wonder of experiencing his creation *create,* and installed his
-printers and plotters so as "to exhibit the program producing art rather than
-exhibiting only the things it produced."[^cohen2001] In the 1990s, Cohen
-discovered economical alternatives to his 'home-made' hardware when large-format
-printers and (most important) digital projectors became viable for museum and
-gallery shows. One time, as Cohen was delivering a lecture, his audience's
-reaction to an auditorium-sized projection of AARON making images suggested that
-a live performance on screen was the superior medium. At the turn of the
-millennium, Cohen participated in what he would call "the most important
-cultural experiment" of his three decades as an artist up to that
-moment.[^cohen2002]
+Cohen had artistic ambitions far beyond AARON's finished works, however. He
+became attuned to the wonder of experiencing his creation *create,* and
+installed his printers and plotters so as "to exhibit the program producing art
+rather than exhibiting only the things it produced."[^cohen2001] Cohen found
+economical alternatives to his 'home-made' hardware when large-format printers
+and (most important) digital projectors became viable for museum and gallery
+shows. One time, as Cohen was delivering a lecture, his audience's reaction to
+an auditorium-sized projection of AARON making images suggested that a live
+performance on screen was the superior medium. At the turn of the millennium,
+Cohen participated in what he would call "the most important cultural
+experiment" of his three decades as an artist up to that moment.[^cohen2002]
 
 <!-- Screening -->
 
