@@ -22,8 +22,6 @@ of a figure, the branches of a tree, the walls of a room. He also left many
 factors to chance, while other considerations were out of the picture
 entirely. There are enduring details in AARON that deserve closer examination.
 
-<!-- Painting -->
-
 Harold Cohen was already a celebrated abstract painter by the 1960s. The
 London-born artist had mounted solo shows across the UK, the US, and Canada, and
 represented Britain at prominent international contemporary art exhibitions such
@@ -33,7 +31,7 @@ compositions depict uncanny, primitive, and at times life-like forms.[^gazelli]
 These latter works mark the first traces of Cohen's functional model of artistic
 perception.
 
-<!-- Coding -->
+## Paint to Code
 
 In 1968, Cohen moved to California to pursue further teaching and research
 opportunities. There he learned computer programming, an unusual step for visual
@@ -69,7 +67,7 @@ performance on screen was the superior medium. At the turn of the millennium,
 Cohen participated in what he would call "the most important cultural
 experiment" of his three decades as an artist up to that moment.[^cohen2002]
 
-<!-- Screening -->
+## Screen to Print
 
 The computer scientist and entrepreneur Ray Kurzweil had supported Cohen's work
 on AARON starting in the 1980s.[^cohen1988] Kurzweil boasted of running Cohen's
@@ -81,9 +79,14 @@ cost $19.95).[^kurzweil2001] It remains the only version of AARON ever released
 to the public.[^withdrawn] Works produced by this software are credited in art
 conservation contexts as: Harold Cohen, *AARON KCAT,* 2001.[^whitney]
 
-TK: there is abstract art represented in KCAT
+AARON KCAT offers a basic Windows menu interface. The primary commands paint
+'one painting', or paint 'multiple paintings'. In the latter case, AARON
+continues to paint until the user selects the 'stop' command. AARON saves up to
+16 images on disk, after which it will begin to overwrite the oldest files. Each
+file is in a plain text format that defines the drawing and coloring
+instructions. These files can later be loaded and re-painted to the screen.
 
-<!-- Printing -->
+TK: there is abstract art represented in KCAT
 
 TK: the gray background is *not* a decision by AARON, or even encoded in its
 model of the painting.
