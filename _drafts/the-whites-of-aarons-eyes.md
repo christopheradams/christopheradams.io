@@ -72,16 +72,16 @@ moment.[^cohen2002]
 
 <!-- Screening -->
 
-The computer scientist and entrepreneur Ray Kurzweil had started supporting
-Cohen's work on AARON in the 1980s.[^cohen1988] Kurzweil boasted of running
-Cohen's software on a large screen in his office, and negotiated an exclusive
-license with the artist to develop a commercial product.[^kurzweil-message] In
-2001, Kurzweil CyberArt Technologies (KCAT) published AARON as a Windows PC
-program.  It was built using Allegro Common Lisp,[^kurzweil-history] and offered
-for download as shareware (a registration key cost $19.95).[^kurzweil-support]
-It remains the only version of AARON ever released to the public.[^withdrawn]
-Works produced by this software are credited in art conservation contexts as:
-Harold Cohen, *AARON KCAT,* 2001.[^whitney]
+The computer scientist and entrepreneur Ray Kurzweil had supported Cohen's work
+on AARON starting in the 1980s.[^cohen1988] Kurzweil boasted of running Cohen's
+software on a large screen in his office, and negotiated an exclusive license
+with the artist to develop a commercial product.[^kurzweil-message] In 2001,
+Kurzweil CyberArt Technologies (KCAT) published AARON as a Windows PC program.
+It was built using Allegro Common Lisp,[^kurzweil-history] and offered for
+download as shareware (a registration key cost $19.95).[^kurzweil-support] It
+remains the only version of AARON ever released to the public.[^withdrawn] Works
+produced by this software are credited in art conservation contexts as: Harold
+Cohen, *AARON KCAT,* 2001.[^whitney]
 
 TK: there is abstract art represented in KCAT
 
