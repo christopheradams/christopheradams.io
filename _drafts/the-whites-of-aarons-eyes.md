@@ -1,7 +1,7 @@
 ---
 layout: lead
 title: The Whites of AARON's Eyes
-description: Harold Cohen's most important cultural experiment
+description: A closer look at Harold Cohen's most important cultural experiment
 date: 2026-08-24 09:52 +0800
 location: Taipei
 category: Writing
