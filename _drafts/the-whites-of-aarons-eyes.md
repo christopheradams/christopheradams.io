@@ -72,16 +72,16 @@ moment.[^cohen2002]
 
 <!-- Screening -->
 
-As early as 1988, the computer scientist and entrepreneur Ray Kurzweil had
-funded Cohen's work on AARON.[^cohen1988] Kurzweil boasted of running Cohen's
-software on a large screen in his office, and negotiated an exclusive license
-with the artist to develop a commercial product.[^kurzweil-message] In 2001,
-Kurzweil CyberArt Technologies (KCAT) published a version of AARON as a Windows
-PC program (built using Allegro Common Lisp[^kurzweil-history])
-and offered it as a free shareware download with a limited trial period (a
-registration key cost $19.95).[^kurzweil-support] It remains the only version of
-AARON ever released to the public.[^withdrawn] This software is now credited in
-art conservation contexts as *AARON KCAT.*[^whitney]
+The computer scientist and entrepreneur Ray Kurzweil had started supporting
+Cohen's work on AARON in the 1980s.[^cohen1988] Kurzweil boasted of running
+Cohen's software on a large screen in his office, and negotiated an exclusive
+license with the artist to develop a commercial product.[^kurzweil-message] In
+2001, Kurzweil CyberArt Technologies (KCAT) published AARON as a Windows PC
+program.  It was built using Allegro Common Lisp,[^kurzweil-history] and offered
+for download as shareware (a registration key cost $19.95).[^kurzweil-support]
+It remains the only version of AARON ever released to the public.[^withdrawn]
+Works produced by this software are credited in art conservation contexts as:
+Harold Cohen, *AARON KCAT,* 2001.[^whitney]
 
 TK: there is abstract art represented in KCAT
 
@@ -125,9 +125,9 @@ TK: does this mark the last chapter of AARON, or the next?
 [^kurzweil-support]: [Get Help downloading and using
     AARON](https://www.kurzweilcyberart.com/aaron/support.html). kurzweilcyberart.com.
 
-[^withdrawn]: The product was withdrawn in 2008, when the Kurzweil CyberArt
-    website announced AARON was no longer available for download (according to
-    records from the Wayback Machine).
+[^withdrawn]: The product was withdrawn in 2008, when the KCAT website announced
+    AARON was no longer available for download (according to records from the
+    Wayback Machine).
 
 [^whitney]: See the Whitney Museum's retrospective exhibition [Harold Cohen:
     AARON Feb 3–May 19,
