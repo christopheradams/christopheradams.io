@@ -74,13 +74,12 @@ experiment" of his three decades as an artist up to that moment.[^cohen2002]
 The computer scientist and entrepreneur Ray Kurzweil had supported Cohen's work
 on AARON starting in the 1980s.[^cohen1988] Kurzweil boasted of running Cohen's
 software on a large screen in his office, and negotiated an exclusive license
-with the artist to develop a commercial product.[^kurzweil-message] In 2001,
-Kurzweil CyberArt Technologies (KCAT) published AARON as a Windows PC program.
-It was built using Allegro Common Lisp,[^kurzweil-history] and offered for
-download as shareware (a registration key cost $19.95).[^kurzweil-support] It
-remains the only version of AARON ever released to the public.[^withdrawn] Works
-produced by this software are credited in art conservation contexts as: Harold
-Cohen, *AARON KCAT,* 2001.[^whitney]
+with the artist to develop a commercial product. In 2001, Kurzweil CyberArt
+Technologies (KCAT) published AARON as a Windows PC program.  It was built using
+Allegro Common Lisp, and offered for download as shareware (a registration key
+cost $19.95).[^kurzweil2001] It remains the only version of AARON ever released
+to the public.[^withdrawn] Works produced by this software are credited in art
+conservation contexts as: Harold Cohen, *AARON KCAT,* 2001.[^whitney]
 
 TK: there is abstract art represented in KCAT
 
@@ -115,14 +114,14 @@ TK: does this mark the last chapter of AARON, or the next?
     Garden](https://aaronshome.com/aaron/publications/how2draw3people.pdf).*
     aaronshome.com.
 
-[^kurzweil-message]: [A Message from Ray Kurzweil about
-    AARON](https://www.kurzweilcyberart.com/aaron/message.html). kurzweilcyberart.com.
+[^kurzweil2001]: See [A Message from Ray Kurzweil about
+    AARON](https://www.kurzweilcyberart.com/aaron/message.html), and AARON
+    KCAT's [history](https://www.kurzweilcyberart.com/aaron/history.html) and
+    [support](https://www.kurzweilcyberart.com/aaron/support.html) pages.
 
-[^kurzweil-history]: [Learn about AARON's
-    history](https://www.kurzweilcyberart.com/aaron/history.html). kurzweilcyberart.com.
+[^kurzweil-history]: [Learn about AARON's history](https://www.kurzweilcyberart.com/aaron/history.html). kurzweilcyberart.com.
 
-[^kurzweil-support]: [Get Help downloading and using
-    AARON](https://www.kurzweilcyberart.com/aaron/support.html). kurzweilcyberart.com.
+[^kurzweil-support]: [Get Help downloading and using AARON](https://www.kurzweilcyberart.com/aaron/support.html). kurzweilcyberart.com.
 
 [^withdrawn]: The product was withdrawn in 2008, when the KCAT website announced
     AARON was no longer available for download (according to records from the
