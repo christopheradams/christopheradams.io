@@ -70,7 +70,7 @@ experiment" of his three decades as an artist up to that moment.[^cohen2002]
 ## A Medium for the Public
 
 The computer scientist and entrepreneur Ray Kurzweil helped fund Cohen's work
-on AARON in the 1980s.[^cohen1988] Kurzweil boasted of running Cohen's
+on AARON back in the 1980s.[^cohen1988] Kurzweil boasted of running Cohen's
 software on a large screen in his office, and negotiated an exclusive license
 with the artist to develop a commercial product. In 2001, Kurzweil CyberArt
 Technologies (KCAT) published AARON as a Windows PC program. It was built using
