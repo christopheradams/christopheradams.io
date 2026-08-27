@@ -31,7 +31,7 @@ compositions depict uncanny, primitive, and at times life-like forms.[^gazelli]
 These latter works mark the first traces of Cohen's functional model of artistic
 perception.
 
-## Paint to Code
+## From Paint to Code
 
 In 1968, Cohen moved to California to pursue further teaching and research
 opportunities. There he learned computer programming, an unusual step for visual
@@ -67,24 +67,43 @@ performance on screen was the superior medium. At the turn of the millennium,
 Cohen participated in what he would call "the most important cultural
 experiment" of his three decades as an artist up to that moment.[^cohen2002]
 
-## Screen to Print
+## A Medium for the Public
 
 The computer scientist and entrepreneur Ray Kurzweil had supported Cohen's work
 on AARON starting in the 1980s.[^cohen1988] Kurzweil boasted of running Cohen's
 software on a large screen in his office, and negotiated an exclusive license
 with the artist to develop a commercial product. In 2001, Kurzweil CyberArt
-Technologies (KCAT) published AARON as a Windows PC program.  It was built using
+Technologies (KCAT) published AARON as a Windows PC program. It was built using
 Allegro Common Lisp, and offered for download as shareware (a registration key
 cost $19.95).[^kurzweil2001] It remains the only version of AARON ever released
 to the public.[^withdrawn] Works produced by this software are credited in art
 conservation contexts as: Harold Cohen, *AARON KCAT,* 2001.[^whitney]
 
-AARON KCAT offers a basic Windows menu interface. The primary commands paint
-'one painting', or paint 'multiple paintings'. In the latter case, AARON
-continues to paint until the user selects the 'stop' command. AARON saves up to
-16 images on disk, after which it will begin to overwrite the oldest files. Each
-file is in a plain text format that defines the drawing and coloring
-instructions. These files can later be loaded and re-painted to the screen.
+Cohen called this "a new public phase" and "a new life on the web" for AARON,
+and was amazed that the software was receiving hundreds of downloads per
+day.[^cohen2001] He was keenly aware of how the Internet had become a new public
+medium for artists.
+
+Cohen shared that "the web version [was] taken directly from the one I used on
+the painting machine."[^cohen2002] The motifs painted by AARON KCAT are few, but
+the outputs are infinite. The images can feature one, two, or three figures; or
+none at all. The figures can be shown full-body, from the waist up, or in
+close-up. They are usually standing but sometimes sitting. There can be plants
+of various sizes in pots of various sizes, usually on the floor but sometimes
+raised on plinths. The pots can also appear empty. The back wall is always
+visible. Somtimes the floor is visible. Sometimes two side walls are shown as
+well. Sometimes an abstract painting (so, a painting within a painting) graces
+the back wall.
+
+## From Screen to Print
+
+AARON KCAT offers a basic Windows menu interface. The primary commands generate
+'one' or 'multiple' paintings. In the latter case, AARON continues to make
+images until the user selects the 'stop' command (the software can behave like a
+screensaver in this mode). AARON saves up to 16 images on disk, after which it
+will begin to overwrite the oldest files. Each file is in a plain text format
+that defines the drawing and coloring instructions. The user can later load and
+re-paint these images to the screen.
 
 TK: there is abstract art represented in KCAT
 
