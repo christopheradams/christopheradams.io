@@ -69,8 +69,8 @@ experiment" of his three decades as an artist up to that moment.[^cohen2002]
 
 ## A Medium for the Public
 
-The computer scientist and entrepreneur Ray Kurzweil helped fund Cohen's work
-on AARON back in the 1980s.[^cohen1988] Kurzweil boasted of running Cohen's
+The computer scientist and entrepreneur Ray Kurzweil was funding Cohen's work on
+AARON as early as the 1980s.[^cohen1988] Kurzweil boasted of running Cohen's
 software on a large screen in his office, and negotiated an exclusive license
 with the artist to develop a commercial product. In 2001, Kurzweil CyberArt
 Technologies (KCAT) published AARON as a Windows PC program. It was built using
@@ -86,14 +86,13 @@ medium for artists.
 
 Cohen shared that "the web version [was] taken directly from the one I used on
 the painting machine."[^cohen2002] The motifs painted by AARON KCAT are few, but
-the outputs are infinite. The images can feature one, two, or three figures; or
-none at all. The figures can be shown full-body, from the waist up, or in
-close-up. They are usually standing but sometimes sitting. There can be plants
-of various sizes in pots of various sizes, usually on the floor but sometimes
-raised on plinths. The pots can also appear empty. The back wall is always
-visible. Somtimes the floor is visible. Sometimes two side walls are shown as
-well. Sometimes an abstract painting (so, a painting within a painting) graces
-the back wall.
+the compositions are infinite. The images can feature one, two, or three
+figures; or none at all. The figures can be standing or sitting, and shown
+full-body, from the waist up, or in close-up. Potted plants can sit on the floor
+or stand on plinths; sometimes the pots are empty. The back wall is always
+visible, and often the floor is too. Occasionally, two side walls and even the
+ceiling are shown. Now and again, an abstract painting (so, a painting within a
+painting) graces the back wall.
 
 ## From Screen to Print
 
