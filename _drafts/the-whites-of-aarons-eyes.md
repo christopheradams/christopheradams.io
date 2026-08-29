@@ -75,16 +75,17 @@ software on a large screen in his office, and negotiated an exclusive license
 with the artist to develop a commercial product. In 2001, Kurzweil CyberArt
 Technologies (KCAT) published AARON as a Windows PC program. It was built using
 Allegro Common Lisp, and offered for download as shareware (a registration key
-cost $19.95).[^kurzweil2001] It remains the only version of AARON ever released
-to the public.[^withdrawn] Works produced by this software are credited in art
-conservation contexts as: Harold Cohen, *AARON KCAT,* 2001.[^whitney]
-
+cost $19.95).[^kurzweil2001] 
+The web version was adapted "directly" from the one Cohen wrote for his painting
+machine,[^cohen2002] and it remains the only version of AARON ever released
+to the public.[^withdrawn]
 Cohen called this "a new public phase" and "a new life on the web" for AARON,
 as it was receiving hundreds of downloads per day.[^cohen2001] He was keenly 
 aware of how the Internet had become a new public medium for artists.
+Works produced by this software are credited in art
+conservation contexts as: Harold Cohen, *AARON KCAT,* 2001.[^whitney]
 
-Cohen shared that "the web version [was] taken directly from the one I used on
-the painting machine."[^cohen2002] The motifs painted by AARON KCAT are few, but
+The motifs painted by AARON KCAT are few, but
 the compositions are infinite. The images can feature one, two, or three
 figures; or none at all. The figures can be standing or sitting, and shown
 full-body, from the waist up, or in close-up. Potted plants can sit on the floor
