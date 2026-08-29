@@ -80,9 +80,8 @@ to the public.[^withdrawn] Works produced by this software are credited in art
 conservation contexts as: Harold Cohen, *AARON KCAT,* 2001.[^whitney]
 
 Cohen called this "a new public phase" and "a new life on the web" for AARON,
-anas it was receiving hundreds of downloads per
-day.[^cohen2001] He was keenly aware of how the Internet had become a new public
-medium for artists.
+as it was receiving hundreds of downloads per day.[^cohen2001] He was keenly 
+aware of how the Internet had become a new public medium for artists.
 
 Cohen shared that "the web version [was] taken directly from the one I used on
 the painting machine."[^cohen2002] The motifs painted by AARON KCAT are few, but
