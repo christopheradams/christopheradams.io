@@ -1,4 +1,4 @@
-ui---
+---
 layout: lead
 title: The Whites of AARON's Eyes
 description: A closer look at Harold Cohen's most important cultural experiment
