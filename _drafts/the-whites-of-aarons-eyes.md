@@ -1,4 +1,4 @@
----
+ui---
 layout: lead
 title: The Whites of AARON's Eyes
 description: A closer look at Harold Cohen's most important cultural experiment
@@ -80,7 +80,7 @@ to the public.[^withdrawn] Works produced by this software are credited in art
 conservation contexts as: Harold Cohen, *AARON KCAT,* 2001.[^whitney]
 
 Cohen called this "a new public phase" and "a new life on the web" for AARON,
-and was amazed that the software was receiving hundreds of downloads per
+anas it was receiving hundreds of downloads per
 day.[^cohen2001] He was keenly aware of how the Internet had become a new public
 medium for artists.
 
