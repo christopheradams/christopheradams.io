@@ -17,10 +17,10 @@ tags:
 AARON was Harold Cohen's life's work. The pioneering visual artist succeeded in
 engineering a computer art program that would outlive its creator. He invented
 an autonomous system made of code, data, and hardware that could generate
-original and unique artworks. He taught it rules for painting the limbs
-of a figure, the branches of a tree, the walls of a room. He also left many
-factors to chance, while other considerations were out of the picture
-entirely. There are enduring details in AARON that deserve closer examination.
+original and unique artworks. He taught it rules for painting the limbs of a
+figure, the branches of a tree, the walls of a room. He also left many factors
+to chance, while other considerations were out of the picture entirely. There
+are enduring details in AARON that deserve closer examination.
 
 Harold Cohen was already a celebrated abstract painter by the 1960s. The
 London-born artist had mounted solo shows across the UK, the US, and Canada, and
@@ -29,7 +29,8 @@ as Documenta and the Venice Biennale. His early acrylic paintings incorporate
 mazes of noisy textures and imbricated patterns, while his figure--ground
 compositions depict uncanny, primitive, and at times life-like forms.[^gazelli]
 These latter works mark the first traces of Cohen's functional model of artistic
-perception.
+perception. His academic exposure to cybernetics and systems thinking prepared
+him for the moment when computers would enter the picture.[^mason2024]
 
 ## From Paint to Code
 
@@ -61,11 +62,12 @@ installed his printers and plotters so as "to exhibit the program producing art
 rather than exhibiting only the things it produced."[^cohen2001] Cohen found
 economical alternatives to his 'home-made' hardware when large-format printers
 and (most important) digital projectors became viable for museum and gallery
-shows. One time, as Cohen was delivering a lecture, his audience's reaction to
-an auditorium-sized projection of AARON making images suggested that a live
-performance on screen was the superior medium. At the turn of the millennium,
-Cohen participated in what he would call "the most important cultural
-experiment" of his three decades as an artist up to that moment.[^cohen2002]
+environments. One time, as Cohen was delivering a lecture, his audience's
+reaction to an auditorium-sized projection of AARON making images suggested that
+a live performance on screen was the superior medium. At the turn of the
+millennium, Cohen participated in what he would call "the most important
+cultural experiment" of his three decades as an artist up to that
+moment.[^cohen2002]
 
 ## A Medium for the Public
 
@@ -75,24 +77,22 @@ software on a large screen in his office, and negotiated an exclusive license
 with the artist to develop a commercial product. In 2001, Kurzweil CyberArt
 Technologies (KCAT) published AARON as a Windows PC program. It was built using
 Allegro Common Lisp, and offered for download as shareware (a registration key
-cost $19.95).[^kurzweil2001] 
-The web version was adapted "directly" from the one Cohen wrote for his painting
-machine,[^cohen2002] and it remains the only version of AARON ever released
-to the public.[^withdrawn]
-Cohen called this "a new public phase" and "a new life on the web" for AARON,
-as it was receiving hundreds of downloads per day.[^cohen2001] He was keenly 
-aware of how the Internet had become a new public medium for artists.
-Works produced by this software are credited in art
-conservation contexts as: Harold Cohen, *AARON KCAT,* 2001.[^whitney]
+cost $19.95).[^kurzweil2001] This "web version" was adapted "directly" from the
+one Cohen wrote for his painting machine,[^cohen2002] and it remains the only
+copy of AARON ever released to the public.[^withdrawn] Cohen called this "a new
+public phase" and "a new life on the web" for AARON, as it was receiving
+hundreds of downloads per day.[^cohen2001] He was keenly aware of how the
+Internet had become a new public medium for artists.  Works produced by this
+software are credited in art conservation contexts as: Harold Cohen, *AARON
+KCAT,* 2001.[^whitney]
 
-The motifs painted by AARON KCAT are few, but
-the compositions are infinite. The images can feature one, two, or three
-figures; or none at all. The figures can be standing or sitting, and shown
-full-body, from the waist up, or in close-up. Potted plants can sit on the floor
-or stand on plinths; sometimes the pots are empty. The back wall is always
-visible, and often the floor is too. Occasionally, two side walls and even the
-ceiling are shown. Now and again, an abstract painting (so, a painting within a
-painting) graces the back wall.
+The motifs painted by AARON KCAT are selective, but the compositions are
+infinite. The images can feature one, two, or three figures; or none at all. The
+figures can be standing or sitting, and shown full-body, from the waist up, or
+in close-up. Potted plants can sit on the floor or stand on plinths; sometimes
+the pots are empty. The back wall is always visible, and often the floor is
+too. Occasionally, two side walls and even the ceiling are shown. Now and again,
+an abstract painting (so, a painting within a painting) graces the back wall.
 
 ## From Screen to Print
 
@@ -118,31 +118,32 @@ TK: does this mark the last chapter of AARON, or the next?
     represents Harold Cohen's estate, has an excellent presentation of the
     artist's work from different stages of his career.
 
+[^mason2024]: Mason, Catherine (2024). ["Infinite Variety: Harold Cohen and
+    Cybernetics in the
+    1960s"](https://www.studiointernational.com/index.php/infinite-variety-harold-cohen-and-cybernetics-in-the-1960s-refactoring-gazelli-art-house-london). *Studio
+    International.*
+
 [^mccorduck]: McCorduck, Pamela (1990). *AARON's Code: Meta-Art, Artificial
     Intelligence, and the Work of Harold Cohen.* pp. 23, 120.
 
-[^cohen1994]: Cohen, Harold (1994). *[The Further Exploits of Aaron,
-    Painter](https://aaronshome.com/aaron/publications/furtherexploits.pdf)*.
+[^cohen1994]: Cohen, Harold (1994). ["The Further Exploits of Aaron,
+    Painter"](https://aaronshome.com/aaron/publications/furtherexploits.pdf). *aaronshome.com*.
 
-[^cohen2001]: Cohen, Harold (2001). *[Decoupling Art and
-    Affluence](https://www.aaronshome.com/aaron/publications/decoupling.doc)*. aaronshome.com.
+[^cohen2001]: Cohen, Harold (2001). ["Decoupling Art and
+    Affluence"](https://www.aaronshome.com/aaron/publications/decoupling.doc). *aaronshome.com.*
 
-[^cohen2002]: Cohen, Harold (2002). *[Making Art for a Changing
-    World](https://aaronshome.com/aaron/publications/changingworld.doc).*
-    aaronshome.com.
+[^cohen2002]: Cohen, Harold (2002). ["Making Art for a Changing
+    World"](https://aaronshome.com/aaron/publications/changingworld.doc).
+    *aaronshome.com.*
 
-[^cohen1988]: Cohen, Harold (1988). *[How to Draw Three People in a Botanical
-    Garden](https://aaronshome.com/aaron/publications/how2draw3people.pdf).*
-    aaronshome.com.
+[^cohen1988]: Cohen, Harold (1988). ["How to Draw Three People in a Botanical
+    Garden"](https://aaronshome.com/aaron/publications/how2draw3people.pdf).
+    *aaronshome.com.*
 
-[^kurzweil2001]: See [A Message from Ray Kurzweil about
-    AARON](https://www.kurzweilcyberart.com/aaron/message.html), and AARON
+[^kurzweil2001]: See ["A Message from Ray Kurzweil about
+    AARON"](https://www.kurzweilcyberart.com/aaron/message.html), and AARON
     KCAT's [history](https://www.kurzweilcyberart.com/aaron/history.html) and
     [support](https://www.kurzweilcyberart.com/aaron/support.html) pages.
-
-[^kurzweil-history]: [Learn about AARON's history](https://www.kurzweilcyberart.com/aaron/history.html). kurzweilcyberart.com.
-
-[^kurzweil-support]: [Get Help downloading and using AARON](https://www.kurzweilcyberart.com/aaron/support.html). kurzweilcyberart.com.
 
 [^withdrawn]: The product was withdrawn in 2008, when the KCAT website announced
     AARON was no longer available for download (according to records from the
