@@ -88,23 +88,32 @@ KCAT,* 2001.[^whitney]
 
 The motifs painted by AARON KCAT are selective, but the compositions are
 infinite. The images can feature one, two, or three figures; or none at all. The
-figures can be standing or sitting, and shown full-body, from the waist up, or
-in close-up. Potted plants can sit on the floor or stand on plinths; sometimes
-the pots are empty. The back wall is always visible, and often the floor is
-too. Occasionally, two side walls and even the ceiling are shown. Now and again,
-an abstract painting (so, a painting within a painting) graces the back wall.
+figures can be standing or sitting, and rendered full-body, from the waist up,
+or in close-up. Potted plants can sit on the floor or stand on plinths;
+sometimes the pots are empty. The back wall is always visible, and often the
+floor is too. Occasionally, two side walls and even the ceiling are shown. Now
+and again, an abstract painting (so, a painting within a painting) graces the
+back wall.
 
 ## From Screen to Print
 
 AARON KCAT offers a basic Windows menu interface. The primary commands generate
 'one' or 'multiple' paintings. In the latter case, AARON continues to make
 images until the user selects the 'stop' command (the software can behave like a
-screensaver in this mode). AARON saves up to 16 images on disk, after which it
-will begin to overwrite the oldest files. Each file is in a plain text format
-that defines the drawing and coloring instructions. The user can later load and
-re-paint these images to the screen.
+screensaver in this mode). It begins by drawing the outlines of the figures,
+plants, and surfaces, and then coloring everything in. AARON saves up to 16
+images on disk, after which it will begin to overwrite the oldest files. Each
+file is in a plain text format that defines the drawing and coloring
+instructions. The user can later load and re-paint these images to the screen.
 
-TK: there is abstract art represented in KCAT
+AARON KCAT also features a "print" command.
+
+"any user with access to a color printer who wants physical output can have
+AARON make some for him."  "I have no way of knowing how many people have used
+AARON to make their own prints" (cohen 2002),
+
+"You agree to print paintings for personal use only and to not sell any
+printouts of paintings by AARON." (LICENSE)
 
 TK: the gray background is *not* a decision by AARON, or even encoded in its
 model of the painting.
