@@ -27,9 +27,10 @@ represented Britain at prominent international contemporary art exhibitions such
 as Documenta and the Venice Biennale. His early acrylic paintings incorporate
 mazes of noisy textures and imbricated patterns, while his figure--ground
 compositions depict uncanny, primitive, and at times life-like forms.[^gazelli]
-These latter works mark the first traces of Cohen's functional model of artistic
-perception. His academic exposure to cybernetics and systems thinking prepared
-him for the moment when computers would enter the picture.[^mason2024]
+These works mark the first traces of Cohen's functional model of artistic
+perception and rules-based mode of production. His academic exposure to
+cybernetics and complex systems prepared him for the moment when computers would
+enter the picture.[^mason2024]
 
 ## From Paint to Code
 
@@ -79,9 +80,9 @@ Allegro Common Lisp, and offered for download as shareware (a registration key
 cost $19.95).[^kurzweil2001] This "web version" was adapted "directly" from the
 one Cohen wrote for his painting machine,[^cohen2002] and it remains the only
 copy of AARON ever released to the public.[^withdrawn] Cohen called this "a new
-public phase" and "a new life on the web" for AARON, as it was receiving
+public phase" and "a new life on the web" for AARON, and marveled as it received
 hundreds of downloads per day.[^cohen2001] He was keenly aware of how the
-Internet had become a new public medium for artists.  Works produced by this
+Internet had become a new public medium for artists. Works produced by this
 software are credited in art conservation contexts as: Harold Cohen, *AARON
 KCAT,* 2001.[^whitney]
 
@@ -98,21 +99,20 @@ back wall.
 
 AARON KCAT offers a basic Windows menu interface. The primary commands generate
 'one' or 'multiple' paintings. In the latter case, AARON continues to make
-images until the user selects the 'stop' command (the software can behave like a
+images until the user selects the 'stop' command (the software behaves like a
 screensaver in this mode). It begins by drawing the outlines of the figures,
 plants, and surfaces, and then coloring everything in. AARON saves up to 16
 images on disk, after which it will begin to overwrite the oldest files. Each
 file is in a plain text format that defines the drawing and coloring
 instructions. The user can later load and re-paint these images to the screen.
 
-AARON KCAT also features a "print" command.
-
-"any user with access to a color printer who wants physical output can have
-AARON make some for him."  "I have no way of knowing how many people have used
-AARON to make their own prints" (cohen 2002),
-
-"You agree to print paintings for personal use only and to not sell any
-printouts of paintings by AARON." (LICENSE)
+AARON KCAT also, tantalizingly, features a "print" command. This was an
+important, intentional function of the sofware. Cohen wrote that "any user with
+access to a color printer who wants physical output can have AARON make some"
+and admitted, "I have no way of knowing how many people have used AARON to make
+their own prints." The license spells out the restrictions: "You agree to print
+paintings for personal use only and to not sell any printouts of paintings by
+AARON."[^cohen2002
 
 TK: the gray background is *not* a decision by AARON, or even encoded in its
 model of the painting.
