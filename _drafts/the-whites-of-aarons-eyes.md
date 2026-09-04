@@ -1,7 +1,7 @@
 ---
 layout: lead
 title: The Whites of AARON's Eyes
-description: A closer look at Harold Cohen's most important cultural experiment
+description: A glaring detail from Harold Cohen's most important cultural experiment
 date: 2026-08-24 09:52 +0800
 location: Taipei
 category: Writing
@@ -14,13 +14,13 @@ tags:
 
 <!-- Part I: Printing and Saving AARON -->
 
-AARON was Harold Cohen's life's work. The pioneering visual artist succeeded in
-engineering a computer art program that would outlive its creator. He invented
-an autonomous system made of code, data, and hardware that could generate
-original and unique artworks. He taught it rules for painting the limbs of a
-figure, the branches of a tree, the walls of a room. He also left many factors
-to chance, while other considerations were out of the picture entirely. There
-are enduring details in AARON that deserve closer examination.
+AARON was Harold Cohen's life's work. The pioneering visual artist contrived a
+computer art program that would outlive its creator. Cohen invented an
+autonomous system of code, data, and hardware that could generate original and
+unique artworks. He taught it rules for painting the limbs of a figure, the
+branches of a tree, the walls of a room. He also left many factors to chance,
+and there's a glaring detail that remains, from AARON's perspective, out of the
+picture entirely.
 
 Harold Cohen was already a celebrated abstract painter by the 1960s. The
 London-born artist had mounted solo shows across the UK, the US, and Canada, and
