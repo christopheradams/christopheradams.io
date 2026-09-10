@@ -58,15 +58,14 @@ onto canvas in order to replicate them.[^cohen1994]
 However, Cohen had artistic ambitions far beyond AARON's finished works. He
 became attuned to the wonder of experiencing his creation *create,* and
 installed his machines so as "to exhibit the program producing art rather than
-exhibiting only the things it produced."[^cohen2001] Cohen found economical
+exhibiting only the things it produced."[^cohen2001] He later found economical
 alternatives to his 'home-made' hardware when large-format printers and (most
 important) digital projectors became viable for museum and gallery
-environments. One time, as Cohen was delivering a lecture, his audience's
-reaction to an auditorium-sized projection of AARON making images validated a
-live performance on screen as the superior medium. At the turn of the
-millennium, Cohen participated in what he would call "the most important
-cultural experiment" of his three decades as an artist up to that
-moment.[^cohen2002]
+environments. During one of Cohen's lectures, the audience's favorable reception
+to an auditorium-sized projection of AARON making images validated live
+performance on screen as a superlative medium. What came next, at the turn of
+the millenium, was "the most important cultural experiment" of Cohen's first
+three decades of computer art.[^cohen2002]
 
 ## A Medium for the Public
 
