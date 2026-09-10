@@ -16,10 +16,11 @@ tags:
 
 AARON was Harold Cohen's life's work. The pioneering visual artist contrived a
 computer art program that would outlive its creator. Cohen invented an
-autonomous system that could generate original and unique artworks. He taught it
-rules for painting the limbs of a figure, the branches of a tree, the walls of a
-room. He also left many factors to chance, and there's a glaring detail that
-remains, from AARON's perspective, out of the picture entirely.
+autonomous amalgam of code, data, and hardware that could generate original and
+unique artworks. He taught it rules for painting the limbs of a figure, the
+branches of a tree, the walls of a room. He also left many factors to chance,
+and there's a glaring detail that remains, from AARON's own perspective, out of
+the picture entirely.
 
 Harold Cohen was already a celebrated abstract painter by the 1960s. The
 London-born artist had mounted solo shows across the UK, the US, and Canada, and
@@ -28,9 +29,9 @@ as Documenta and the Venice Biennale. His early acrylic paintings incorporate
 mazes of noisy textures and imbricated patterns, while his figure--ground
 compositions depict uncanny, primitive, and at times life-like forms.[^gazelli]
 These works mark the first traces of Cohen's functional model of artistic
-perception and rules-based mode of production. His academic exposure to
-cybernetics and complex systems prepared him for the moment when computers would
-enter the picture.[^mason2024]
+perception and rule-based mode of production.[^cohen2010] Academic exposure to
+cybernetics and complex systems prepared Cohen for the moment when computers
+would capture his attention.[^mason2024]
 
 ## From Paint to Code
 
@@ -56,14 +57,14 @@ using brushes.[^cohen2002] Cohen executed large oil paintings based on AARON's
 outputs by photographing his computer screen and projecting the developed slides
 onto canvas in order to replicate them.[^cohen1994]
 
-Cohen had artistic ambitions far beyond AARON's finished works, however. He
+However, Cohen had artistic ambitions far beyond AARON's finished works. He
 became attuned to the wonder of experiencing his creation *create,* and
 installed his printers and plotters so as "to exhibit the program producing art
 rather than exhibiting only the things it produced."[^cohen2001] Cohen found
 economical alternatives to his 'home-made' hardware when large-format printers
 and (most important) digital projectors became viable for museum and gallery
 environments. One time, as Cohen was delivering a lecture, his audience's
-reaction to an auditorium-sized projection of AARON making images suggested that
+reaction to an auditorium-sized projection of AARON making images validated that
 a live performance on screen was the superior medium. At the turn of the
 millennium, Cohen participated in what he would call "the most important
 cultural experiment" of his three decades as an artist up to that
@@ -107,12 +108,11 @@ file is in a plain text format that defines the drawing and coloring
 instructions. The user can later load and re-paint these images to the screen.
 
 AARON KCAT also, tantalizingly, features a "print" command. This was an
-important, intentional function of the sofware. Cohen wrote that "any user with
-access to a color printer who wants physical output can have AARON make some"
-and admitted, "I have no way of knowing how many people have used AARON to make
-their own prints." The license spells out the restrictions: "You agree to print
-paintings for personal use only and to not sell any printouts of paintings by
-AARON."[^cohen2002
+important function of the sofware. Cohen wrote that "any user with access to a
+color printer who wants physical output can have AARON make some" and wondered
+"how many people have used AARON to make their own prints." The license spells
+out the terms of use: "You agree to print paintings for personal use only and to
+not sell any printouts of paintings by AARON."[^cohen2002]
 
 TK: the gray background is *not* a decision by AARON, or even encoded in its
 model of the painting.
@@ -125,6 +125,9 @@ TK: does this mark the last chapter of AARON, or the next?
     House](https://gazelliarthouse.com/artists/harold-cohen/overview/), which
     represents Harold Cohen's estate, has an excellent presentation of the
     artist's work from different stages of his career.
+
+[^cohen2010]: Harold Cohen (2010). ["Driving the Creative
+    Machine"](https://aaronshome.com/aaron/publications/orcastalk2s.pdf). *aaronshome.com*.
 
 [^mason2024]: Mason, Catherine (2024). ["Infinite Variety: Harold Cohen and
     Cybernetics in the
