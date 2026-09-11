@@ -20,8 +20,6 @@ limbs of a figure, the branches of a tree, the walls of a room. While Cohen gave
 AARON a *blank* canvas, this otherwise neutral background simply hides the
 artist's soul in plain sight.
 
-<!-- (it's really about the choice of the medium) -->
-
 Harold Cohen was already a celebrated abstract painter by the 1960s. The
 London-born artist had mounted solo shows across the UK, the US, and Canada, and
 represented Britain at prominent international contemporary art exhibitions such
@@ -113,12 +111,14 @@ color printer who wants physical output can have AARON make some" and wondered
 out the terms of use: "You agree to print paintings for personal use only and to
 not sell any printouts of paintings by AARON."[^cohen2002]
 
-TK: the gray background is *not* a decision by AARON, or even encoded in its
-model of the painting.
+<!-- the gray background is *not* a decision by AARON, or even encoded in its -->
+<!-- model of the painting. -->
 
-TK: AARON cannot improve itself. Cohen wrestled with this fact
+<!-- AARON cannot improve itself. Cohen wrestled with this fact -->
 
-TK: does this mark the last chapter of AARON, or the next?
+<!-- (it's really about the choice of the medium) -->
+
+<!-- does this mark the last chapter of AARON, or the next? -->
 
 [^gazelli]: [Gazelli Art
     House](https://gazelliarthouse.com/artists/harold-cohen/overview/), which
