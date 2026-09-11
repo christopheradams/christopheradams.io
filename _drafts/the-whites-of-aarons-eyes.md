@@ -14,12 +14,13 @@ tags:
 
 AARON was Harold Cohen's life's work. The pioneering visual artist contrived a
 computer art program that would outlive its creator. Cohen invented an
-autonomous amalgam of code, data, and hardware that could generate original and
-unique artworks. He formulated rules for painting the limbs of a figure, the
-branches of a tree, and the walls of a room. While Cohen gave his creation a
-blank canvas, its otherwise neutral background reveals a window to the artist's
-soul.
+autonomous amalgam of code, data, and hardware that was capable of generating
+original and unique artworks. He formulated elaborate rules for painting the
+limbs of a figure, the branches of a tree, the walls of a room. While Cohen gave
+AARON a blank canvas, this otherwise neutral background managed to hide the
+artist's soul in plain sight.
 
+<!-- the most elementary but necessary subjects -->
 <!-- (it's really about the choice of the medium) -->
 
 Harold Cohen was already a celebrated abstract painter by the 1960s. The
