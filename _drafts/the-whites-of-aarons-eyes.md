@@ -30,9 +30,9 @@ as Documenta and the Venice Biennale. His early acrylic paintings incorporate
 mazes of noisy textures and imbricated patterns, while his figure--ground
 compositions depict uncanny, primitive, and at times life-like forms.[^gazelli]
 These works mark the first traces of Cohen's functional model of artistic
-perception and rule-based mode of creative production.[^cohen2010] Academic
-exposure to cybernetics and complex systems prepared Cohen for the moment when
-computers would capture his attention.[^mason2024]
+perception and rule-based mode of creative production.[^cohen2010] Timely
+academic exposure to concepts from cybernetics and complex systems prepared
+Cohen for the moment when computers would capture his imagination.[^mason2024]
 
 ## From Paint to Code
 
