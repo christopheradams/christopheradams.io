@@ -20,7 +20,6 @@ limbs of a figure, the branches of a tree, the walls of a room. While Cohen gave
 AARON a *blank* canvas, this otherwise neutral background simply hides the
 artist's soul in plain sight.
 
-<!-- the most elementary but necessary subjects -->
 <!-- (it's really about the choice of the medium) -->
 
 Harold Cohen was already a celebrated abstract painter by the 1960s. The
@@ -67,7 +66,7 @@ important) digital projectors became viable for museum and gallery
 environments. During one of Cohen's lectures, the audience's favorable reception
 to an auditorium-sized projection of AARON making images validated live
 performance on screen as a superlative medium. What came next, at the turn of
-the millenium, was "the most important cultural experiment" of Cohen's first
+the millennium, was "the most important cultural experiment" of Cohen's first
 three decades of computer art.[^cohen2002]
 
 ## A Medium for the Public
@@ -108,7 +107,7 @@ file is in a plain text format that defines the drawing and coloring
 instructions. The user can later load and re-paint these images to the screen.
 
 AARON KCAT also, tantalizingly, features a "print" command. This was an
-important function of the sofware. Cohen wrote that "any user with access to a
+important function of the software. Cohen wrote that "any user with access to a
 color printer who wants physical output can have AARON make some" and wondered
 "how many people have used AARON to make their own prints." The license spells
 out the terms of use: "You agree to print paintings for personal use only and to
