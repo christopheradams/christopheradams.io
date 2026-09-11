@@ -17,7 +17,7 @@ computer art program that would outlive its creator. Cohen invented an
 autonomous amalgam of code, data, and hardware that was capable of generating
 original and unique artworks. He formulated elaborate rules for painting the
 limbs of a figure, the branches of a tree, the walls of a room. While Cohen gave
-AARON a blank canvas, this otherwise neutral background managed to hide the
+AARON a *blank* canvas, this otherwise neutral background simply hides the
 artist's soul in plain sight.
 
 <!-- the most elementary but necessary subjects -->
