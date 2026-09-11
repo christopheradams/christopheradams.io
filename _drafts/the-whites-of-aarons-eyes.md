@@ -49,7 +49,7 @@ characteristic computer-driven freehand aesthetic. He ultimately taught AARON
 how to color these pictures itself.
 
 Cohen progressed through a series of lower- to higher-level programming
-languages: first Fortran, then C, and ultimately Lisp.[^mccorduck] He used
+languages: first Fortran, then C, and ultimately Lisp.[^mccorduck1990] He used
 plotters to realize works on paper, and constructed his own output devices,
 including a mechanical 'turtle' that could steer itself across a paper surface,
 and, most ambitious of all, a prototype painting machine that could apply color
@@ -77,14 +77,14 @@ software on a large screen in his office, and negotiated an exclusive license
 with the artist to develop a commercial product. In 2001, Kurzweil CyberArt
 Technologies (KCAT) published AARON as a Windows PC program. It was built using
 Allegro Common Lisp, and offered for download as shareware (a registration key
-cost $19.95).[^kurzweil2001] This "web version" was adapted "directly" from the
-one Cohen wrote for his painting machine,[^cohen2002] and it remains the only
-copy of AARON ever released to the public.[^withdrawn] Cohen called this "a new
-public phase" and "a new life on the web" for AARON, and marveled as it received
-hundreds of downloads per day.[^cohen2001] He was keenly aware of how the
-Internet had become a new public medium for artists. Works produced by this
-software are credited in art conservation contexts as: Harold Cohen, *AARON
-KCAT,* 2001.[^whitney]
+cost $19.95).[^kurzweil2001] This piece of software was adapted "directly" from
+the version Cohen had written for his painting machine,[^cohen2002] and it
+remains the only copy of AARON ever released to the public.[^withdrawn2008]
+Cohen called this "a new public phase" and "a new life on the web" for AARON,
+and marveled as it received hundreds of downloads per day.[^cohen2001] He was
+keenly aware of how the Internet had become a new public medium for
+artists. Works produced by this software are credited in art conservation
+contexts as: Harold Cohen, *AARON KCAT,* 2001.[^whitney2024]
 
 The motifs painted by AARON KCAT are selective, but the compositions are
 infinite. The images can feature one, two, or three figures; or none at all. The
@@ -95,7 +95,7 @@ floor is too. Occasionally, two side walls and even the ceiling are shown. Now
 and again, an abstract painting (so, a painting within a painting) graces the
 back wall.
 
-## From Screen to Print
+## Print Screen
 
 AARON KCAT offers a basic Windows menu interface. The primary commands generate
 'one' or 'multiple' paintings. In the latter case, AARON continues to make
@@ -133,7 +133,7 @@ TK: does this mark the last chapter of AARON, or the next?
     1960s"](https://www.studiointernational.com/index.php/infinite-variety-harold-cohen-and-cybernetics-in-the-1960s-refactoring-gazelli-art-house-london). *Studio
     International.*
 
-[^mccorduck]: McCorduck, Pamela (1990). *AARON's Code: Meta-Art, Artificial
+[^mccorduck1990]: McCorduck, Pamela (1990). *AARON's Code: Meta-Art, Artificial
     Intelligence, and the Work of Harold Cohen.* pp. 23, 120.
 
 [^cohen1994]: Cohen, Harold (1994). ["The Further Exploits of Aaron,
@@ -155,13 +155,14 @@ TK: does this mark the last chapter of AARON, or the next?
     KCAT's [history](https://www.kurzweilcyberart.com/aaron/history.html) and
     [support](https://www.kurzweilcyberart.com/aaron/support.html) pages.
 
-[^withdrawn]: The product was withdrawn in 2008, when the KCAT website announced
-    AARON was no longer available for download (according to records from the
-    Wayback Machine).
+[^withdrawn2008]: The product was withdrawn in 2008, when the KCAT website announced
+    AARON was no longer available for download (according to records I gleaned
+    from the Wayback Machine).
 
-[^whitney]: See the Whitney Museum's retrospective exhibition [Harold Cohen:
-    AARON Feb 3–May 19,
-    2024](https://whitney.org/exhibitions/harold-cohen-aaron/art?section=2). Also,
-    note in the video, [Discussing the Earliest Artificial Intelligence Program
-    for Artmaking](https://youtu.be/xkrJwURBEfg?si=lA04OcX4_H_gWDRx&t=605), that
-    curator David Lisbon pronounces KCAT as "kay cat".
+[^whitney2024]: See the Whitney Museum's 2024 retrospective exhibition [Harold
+    Cohen:
+    AARON](https://whitney.org/exhibitions/harold-cohen-aaron/art?section=2).
+    In the accompanying video, [Discussing the Earliest Artificial Intelligence
+    Program for
+    Artmaking](https://youtu.be/xkrJwURBEfg?si=lA04OcX4_H_gWDRx&t=605), note
+    that curator David Lisbon pronounces KCAT as "kay cat".
